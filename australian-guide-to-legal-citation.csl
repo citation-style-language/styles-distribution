@@ -28,7 +28,7 @@
     <category citation-format="note"/>
     <category field="law"/>
     <summary>A modification of the Bluebook legal citation style for Australian conditions.</summary>
-    <updated>2014-01-07T04:33:25+00:00</updated>
+    <updated>2014-02-13T21:36:38+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale>
@@ -219,7 +219,7 @@
   </macro>
   <macro name="date-parenthesis">
     <choose>
-      <if type="legal_case article-journal article-magazine">
+      <if type="legal_case article-journal article-magazine" match="any">
         <choose>
           <if variable="volume">
             <text macro="issued-year" prefix="(" suffix=")"/>
@@ -359,7 +359,7 @@
   </macro>
   <macro name="article-case-info">
     <choose>
-      <if type="article-journal article-magazine article-newspaper legal_case">
+      <if type="article-journal article-magazine article-newspaper legal_case" match="any">
         <group delimiter=" ">
           <text variable="volume"/>
           <choose>
