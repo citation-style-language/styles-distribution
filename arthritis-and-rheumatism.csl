@@ -15,7 +15,7 @@
     <category field="medicine"/>
     <issn>0004-3591</issn>
     <eissn>1529-0131</eissn>
-    <updated>2013-08-29T04:18:55+00:00</updated>
+    <updated>2014-02-18T13:30:22+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <macro name="editor">
@@ -118,7 +118,7 @@
     <sort>
       <key variable="citation-number"/>
     </sort>
-    <layout delimiter="," vertical-align="sup">
+    <layout delimiter="," prefix=" (" suffix=")">
       <text variable="citation-number"/>
       <group prefix="(" suffix=")">
         <label variable="locator" form="short" strip-periods="true"/>
