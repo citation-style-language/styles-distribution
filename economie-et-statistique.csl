@@ -15,7 +15,7 @@
     <category field="sociology"/>
     <issn>0336-1454</issn>
     <summary>Le style de la revue de l'INSEE Économie et Statistique.</summary>
-    <updated>2013-11-02T01:11:01+00:00</updated>
+    <updated>2014-02-20T11:33:00+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="fr">
@@ -200,6 +200,11 @@
             <text variable="publisher-place"/>
             <text variable="publisher"/>
             <text variable="collection-title"/>
+            <text variable="medium"/>
+            <group delimiter=" ">
+              <text term="version"/>
+              <text variable="version"/>
+            </group>
             <text macro="number-of-pages"/>
           </group>
         </else-if>
@@ -231,8 +236,8 @@
               <text variable="publisher-place"/>
               <text variable="publisher"/>
               <text variable="collection-title"/>
-              <text macro="page"/>
             </group>
+            <text macro="page"/>
           </group>
         </else-if>
         <else-if type="speech">
