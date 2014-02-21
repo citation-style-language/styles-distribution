@@ -2,10 +2,10 @@
 <style class="in-text" version="1.0" and="text" demote-non-dropping-particle="never" default-locale="es-ES" xmlns="http://purl.org/net/xbiblio/csl">
 <!-- This style was edited with the Visual CSL Editor (http://editor.citationstyles.org/visualEditor/) -->
   <info>
-    <title>Harvard/APA - Pontificia Universidad Católica del Ecuador</title>
-    <title-short>Harvard/APA PUCE</title-short>
-    <id>http://www.zotero.org/styles/harvard-apa-pontificia-universidad-catolica-del-ecuador</id>
-    <link rel="self" href="http://www.zotero.org/styles/harvard-apa-pontificia-universidad-catolica-del-ecuador"/>
+    <title>Harvard - Pontificia Universidad Católica del Ecuador</title>
+    <title-short>Harvard PUCE</title-short>
+    <id>http://www.zotero.org/styles/harvard-pontificia-universidad-catolica-del-ecuador</id>
+    <link rel="self" href="http://www.zotero.org/styles/harvard-pontificia-universidad-catolica-del-ecuador"/>
     <link rel="documentation" href="http://www.puce.edu.ec/economia/docs/2012/Normas_Harvard_-_APA_ejemplos.pdf"/>
     <link rel="template" href="http://www.zotero.org/styles/apa"/>
     <author>
@@ -15,7 +15,7 @@
     <category citation-format="author-date"/>
     <category field="generic-base"/>
     <summary>Adaptación de la norma APA 6a ed. para la Pontificia Universidad Católica del Ecuador (PUCE)</summary>
-    <updated>2014-02-21T14:22:14+00:00</updated>
+    <updated>2014-02-21T14:23:30+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="es">
