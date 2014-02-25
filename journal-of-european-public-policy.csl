@@ -15,7 +15,7 @@
     <issn>1350-1763</issn>
     <eissn>1466-4429</eissn>
     <summary>Style for the T&amp;F "Journal of European Public Policy"</summary>
-    <updated>2014-02-24T18:44:54+00:00</updated>
+    <updated>2014-02-25T01:42:01+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="en-GB">
@@ -172,7 +172,7 @@
       </group>
     </layout>
   </citation>
-  <bibliography hanging-indent="true"  et-al-min="6" et-al-use-first="1">
+  <bibliography hanging-indent="true" et-al-min="6" et-al-use-first="1">
     <sort>
       <key macro="author"/>
       <key macro="year-date"/>
