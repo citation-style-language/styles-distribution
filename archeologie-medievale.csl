@@ -14,7 +14,7 @@
     <category field="anthropology"/>
     <issn>0153-9337</issn>
     <summary>Style auteur-date en note pour Archéologie médiévale. NB: les sources éditées doivent être considérées comme des livres ayant un auteur (médiéval) et un éditeur (contemporain). Pour les sources éditées ne disposant pas d'auteur (médiéval), il est nécessaire de transformer le (dir.) en (éd.).</summary>
-    <updated>2014-02-27T20:49:24+00:00</updated>
+    <updated>2014-02-28T14:41:23+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="fr">
@@ -194,9 +194,6 @@
             <text macro="author" suffix=", "/>
             <text macro="title" suffix=", "/>
             <text macro="editor-text"/>
-            <group>
-              <text variable="number-of-pages" prefix=", " suffix="&#160;p."/>
-            </group>
           </group>
         </if>
         <else>
@@ -212,9 +209,6 @@
                   <text variable="genre"/>
                   <text variable="publisher"/>
                   <text variable="publisher-place"/>
-                  <group>
-                    <text variable="number-of-pages" suffix="&#160;p."/>
-                  </group>
                 </group>
               </if>
               <else-if type="webpage">
@@ -236,18 +230,17 @@
                 <group suffix=".">
                   <text macro="title" suffix=", "/>
                   <text macro="publisher"/>
-                  <group>
-                    <text variable="number-of-pages" prefix=", " suffix="&#160;p."/>
-                  </group>
                 </group>
               </else-if>
               <else-if type="chapter paper-conference" match="any">
                 <text macro="title" quotes="true" suffix=", "/>
-                <group>
-                  <text term="in" suffix=" "/>
-                  <text macro="editor" suffix=", "/>
+                <group delimiter=", ">
+                  <group delimiter=" ">
+                    <text term="in"/>
+                    <text macro="editor"/>
+                  </group>
                   <text variable="container-title" font-style="italic"/>
-                  <text macro="publisher" prefix=", "/>
+                  <text macro="publisher"/>
                   <text macro="pages" prefix=", " suffix="."/>
                 </group>
               </else-if>
