@@ -16,7 +16,7 @@
     <category citation-format="note"/>
     <category field="generic-base"/>
     <summary>MHRA format with full notes and bibliography</summary>
-    <updated>2013-09-08T00:04:27+00:00</updated>
+    <updated>2014-02-28T22:17:32+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="en">
@@ -374,7 +374,7 @@
     </group>
     <choose>
       <if variable="DOI">
-        <text variable="DOI" prefix=" &lt;doi:" suffix="&gt;"/>
+        <text variable="DOI" prefix=" &lt;http://dx.doi.org/" suffix="&gt;"/>
       </if>
       <else>
         <choose>
