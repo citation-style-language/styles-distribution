@@ -24,7 +24,7 @@
     <category citation-format="note"/>
     <category field="generic-base"/>
     <summary>Chicago format with full notes and bibliography</summary>
-    <updated>2014-03-03T06:03:29+00:00</updated>
+    <updated>2014-03-03T06:17:41+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="en">
@@ -786,9 +786,9 @@
         <choose>
           <if type="article-newspaper" match="none">
             <choose>
-	      <if type="article-journal" match="none">
-		<text macro="issue-note"/>
-	      </if>
+              <if type="article-journal" match="none">
+                <text macro="issue-note"/>
+              </if>
               <else-if variable="issue volume" match="any">
                 <text macro="issue-note"/>
               </else-if>
