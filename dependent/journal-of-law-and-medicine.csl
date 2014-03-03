@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<style xmlns="http://purl.org/net/xbiblio/csl" version="1.0" default-locale="en-US">
+<style xmlns="http://purl.org/net/xbiblio/csl" version="1.0">
   <!-- Thomson-Reuters Law Australia - Generated with https://github.com/citation-style-language/utilities/tree/master/generate_dependent_styles -->
   <info>
     <title>Journal of Law and Medicine</title>
@@ -10,7 +10,7 @@
     <category citation-format="note"/>
     <category field="law"/>
     <issn>1320-159X</issn>
-    <updated>2014-03-03T05:55:09+00:00</updated>
+    <updated>2014-03-03T19:45:14+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
 </style>
