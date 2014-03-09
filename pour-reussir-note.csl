@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <style xmlns="http://purl.org/net/xbiblio/csl" class="note" default-locale="fr-CA" version="1.0" page-range-format="expanded">
   <info>
-    <title>Pour réussir (notes)</title>
-    <id>http://www.zotero.org/styles/pour-reussir-notes</id>
-	<link href="http://www.zotero.org/styles/pour-reussir-notes" rel="self"/>
+    <title>Pour réussir (note, French - Canada)</title>
+    <id>http://www.zotero.org/styles/pour-reussir-note</id>
+	<link href="http://www.zotero.org/styles/pour-reussir-note" rel="self"/>
 	<link href="http://www.zotero.org/styles/le-tapuscrit-note" rel="template"/>
 	<link href="http://www.cheneliere.ca/7901-livre-pour-reussir-6e-edition.html" rel="documentation"/>
     <author>
-      <name>Dany Thibault based on the work of Franziska Heimburger and Bernard Dionne</name>
+      <name>Dany Thibault</name>
       <email>dany@danythibault.com</email>
     </author>
     <category citation-format="note"/>
     <category field="social_science"/>
     <category field="generic-base"/>
-    <updated>2014-03-07T19:40:41+00:00</updated>
+    <updated>2014-03-09T18:24:00+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="fr">
