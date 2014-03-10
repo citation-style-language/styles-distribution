@@ -15,7 +15,7 @@
     <issn>0963-6897</issn>
     <eissn>1555-3892</eissn>
     <summary>Style for Cell Transplantation.</summary>
-    <updated>2013-08-29T02:46:15+00:00</updated>
+    <updated>2014-03-10T19:48:44+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <macro name="author">
@@ -100,7 +100,7 @@
           <else>
             <text variable="title" suffix=". "/>
             <text variable="container-title" form="short" suffix=". "/>
-            <group delimiter=": ">
+            <group delimiter=":">
               <text variable="volume"/>
               <text variable="page" suffix="; "/>
             </group>
