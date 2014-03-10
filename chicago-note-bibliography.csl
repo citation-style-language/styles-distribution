@@ -24,7 +24,7 @@
     <category citation-format="note"/>
     <category field="generic-base"/>
     <summary>Chicago format with short notes and bibliography</summary>
-    <updated>2014-03-03T06:17:41+00:00</updated>
+    <updated>2014-03-10T23:30:36+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="en">
@@ -479,7 +479,7 @@
         <text macro="locators"/>
       </if>
       <else-if type="article-journal">
-        <choose> 
+        <choose>
           <if variable="volume" match="none">
             <text macro="locators"/>
           </if>
@@ -745,7 +745,6 @@
       </if>
     </choose>
   </macro>
-
   <macro name="archive-note">
     <choose>
       <if type="thesis">
@@ -830,7 +829,7 @@
             <text macro="issued"/>
           </else>
         </choose>
-      </else-if> 
+      </else-if>
       <else-if type="article-newspaper">
         <text macro="issued"/>
       </else-if>

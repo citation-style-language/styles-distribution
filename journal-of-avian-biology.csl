@@ -10,7 +10,7 @@
     <category field="biology"/>
     <issn>0908-8857</issn>
     <eissn>1600-048X</eissn>
-    <updated>2014-03-05T17:07:32+00:00</updated>
+    <updated>2014-03-10T23:30:36+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <macro name="editor-translator">
@@ -177,4 +177,3 @@
     </layout>
   </bibliography>
 </style>
-

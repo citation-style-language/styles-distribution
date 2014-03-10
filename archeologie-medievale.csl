@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <style xmlns="http://purl.org/net/xbiblio/csl" version="1.0" class="note" demote-non-dropping-particle="display-and-sort" default-locale="fr-FR" page-range-format="expanded">
   <info>
     <title>Archéologie médiévale (French)</title>
@@ -14,7 +14,7 @@
     <category field="anthropology"/>
     <issn>0153-9337</issn>
     <summary>Style auteur-date en note pour Archéologie médiévale. NB: les sources éditées doivent être considérées comme des livres ayant un auteur (médiéval) et un éditeur (contemporain). Pour les sources éditées ne disposant pas d'auteur (médiéval), il est nécessaire de transformer le (dir.) en (éd.). Pour les archives (type=manuscrit), le "lieu" correspond au dépôt d'archives, l' "archive" au fonds, la "loc. dans l'archive" à la cote.</summary>
-    <updated>2014-03-03T08:20:54+00:00</updated>
+    <updated>2014-03-10T23:30:36+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="fr">
@@ -75,14 +75,14 @@
     </group>
   </macro>
   <macro name="access">
-      <group prefix=" [" suffix="]">
-        <text term="accessed" suffix=" "/>
-        <date variable="accessed">
-          <date-part name="day" suffix=" "/>
-          <date-part name="month" suffix=" "/>
-          <date-part name="year"/>
-        </date>
-      </group>
+    <group prefix=" [" suffix="]">
+      <text term="accessed" suffix=" "/>
+      <date variable="accessed">
+        <date-part name="day" suffix=" "/>
+        <date-part name="month" suffix=" "/>
+        <date-part name="year"/>
+      </date>
+    </group>
   </macro>
   <macro name="editor-text">
     <group>

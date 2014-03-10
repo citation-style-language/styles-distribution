@@ -8,7 +8,7 @@
     <category citation-format="numeric"/>
     <issn>0181-5512</issn>
     <summary>Elsevier Vancouver with period between chapter title and publisher</summary>
-    <updated>2014-03-05T02:39:23+00:00</updated>
+    <updated>2014-03-10T23:30:36+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <macro name="author">
@@ -86,7 +86,7 @@
               <text macro="editor"/>
             </group>
             <group delimiter=", ">
-              <text variable="container-title" />
+              <text variable="container-title"/>
               <text variable="volume" prefix="vol. "/>
             </group>
             <text macro="edition"/>
