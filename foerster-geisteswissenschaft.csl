@@ -10,7 +10,7 @@ INFORMATIONEN ZUM ZITIERSTIL
     <title-short>zoteroSF</title-short>
     <id>http://www.zotero.org/styles/foerster-geisteswissenschaft</id>
     <link href="http://www.zotero.org/styles/foerster-geisteswissenschaft" rel="self"/>
-    <link href="http://www.zotero.org/styles/geistes-und-kulturwissenschaften-teilmann" rel="template"/>
+    <link href="http://www.zotero.org/styles/geistes-und-kulturwissenschaften-heilmann" rel="template"/>
     <link href="http://www.saschafoerster.de/2012/05/zoterosf-zitierstil-fur-die-geisteswissenschaften-dokumentation/" rel="documentation"/>
     <author>
       <name>Sascha Foerster</name>
@@ -27,7 +27,7 @@ INFORMATIONEN ZUM ZITIERSTIL
     <category field="generic-base"/>
     <summary>German generic-base style for humanities. Citations in notes; full bibliography.</summary>
     <published>2012-05-28T14:00:00+00:00</published>
-    <updated>2013-09-27T22:18:36+00:00</updated>
+    <updated>2014-03-13T08:01:22+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <!--
