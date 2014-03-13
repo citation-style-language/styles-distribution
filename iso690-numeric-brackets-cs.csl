@@ -17,13 +17,12 @@
     <category citation-format="numeric"/>
     <category field="generic-base"/>
     <summary>Style based on ČSN ISO 690:2011</summary>
-    <updated>2014-02-10T13:57:53+00:00</updated>
+    <updated>2014-03-13T02:23:25+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
-  <locale xml:lang="cs">
+  <locale>
     <terms>
       <term name="from">z</term>
-      <term name="et-al">a kol.</term>
     </terms>
   </locale>
   <macro name="author">
