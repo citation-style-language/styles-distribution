@@ -4,7 +4,6 @@
     <title>Journal of Child and Adolescent Psychopharmacology</title>
     <id>http://www.zotero.org/styles/journal-of-child-and-adolescent-psychopharmacology</id>
     <link href="http://www.zotero.org/styles/journal-of-child-and-adolescent-psychopharmacology" rel="self"/>
-    <link href="http://www.zotero.org/styles/cortex" rel="template"/>
     <link href="http://www.liebertpub.com/manuscript/cap" rel="documentation"/>
     <author>
       <name>Sebastian Karcher</name>
@@ -13,7 +12,7 @@
     <category field="medicine"/>
     <issn>1044-5463</issn>
     <eissn>1557-8992</eissn>
-    <updated>2013-11-02T01:11:01+00:00</updated>
+    <updated>2014-03-17T15:01:29+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <macro name="author">
