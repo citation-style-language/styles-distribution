@@ -16,12 +16,12 @@
     <category citation-format="numeric"/>
     <category field="engineering"/>
     <summary>A style for the ASME's 23 journals</summary>
-    <updated>2013-08-29T05:27:03+00:00</updated>
+    <updated>2014-03-27T03:58:41+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <macro name="author">
     <names variable="author">
-      <name sort-separator=" " initialize-with=". " delimiter=", " and="text" name-as-sort-order="all" delimiter-precedes-last="always"/>
+      <name sort-separator=", " initialize-with=". " delimiter=", " and="text" name-as-sort-order="all" delimiter-precedes-last="always"/>
       <label form="short" prefix=", "/>
       <substitute>
         <names variable="editor"/>
