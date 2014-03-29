@@ -12,7 +12,7 @@
     </author>
     <category citation-format="note"/>
     <category field="law"/>
-    <updated>2014-03-10T20:06:02+00:00</updated>
+    <updated>2014-03-29T23:07:46+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
     <!-- GENERAL COMMENTS
 			All comments below are in DUTCH since this is a Dutch reference-style. The comments are for further development of this style. 
@@ -213,7 +213,7 @@
       <else>
         <text value="."/>
       </else>
-    </choose>    
+    </choose>
   </macro>
   <!-- BLOK IV: LITERATUURLIJST -->
   <!-- korte verwijzing -->
@@ -362,7 +362,7 @@
             <text variable="container-title" suffix=" " font-style="italic"/>
             <text macro="legislation-issued-short" suffix=", "/>
             <text variable="page" suffix="."/>
-          </else>        
+          </else>
         </choose>
       </else-if>
     </choose>
@@ -409,7 +409,7 @@
             <text macro="date-accessed" prefix=" geraadpleegd op "/>
           </group>
         </group>
-       </else-if>
+      </else-if>
     </choose>
   </macro>
   <!-- BLOK VI: BIBLIOGRRAFIE DEEL 3: JURISPRUDENTIE -->
@@ -495,7 +495,7 @@
         <text macro="remains-long"/>
       </else>
     </choose>
-    <text value=" "/>  
+    <text value=" "/>
   </macro>
   <!-- biblografie: de korte vermelding -->
   <macro name="bibliography-reference-title">

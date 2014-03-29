@@ -10,7 +10,7 @@
     <category field="medicine"/>
     <issn>0954-6820</issn>
     <eissn>1365-2796</eissn>
-    <updated>2014-03-26T21:21:24+00:00</updated>
+    <updated>2014-03-29T23:07:46+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <macro name="editor">
@@ -125,7 +125,7 @@
             <text variable="collection-title" prefix=" " suffix="."/>
             <group suffix=".">
               <text macro="publisher" prefix=" "/>
-              <group  prefix=". ">
+              <group prefix=". ">
                 <date variable="issued">
                   <date-part name="year"/>
                 </date>
@@ -188,4 +188,3 @@
     </layout>
   </bibliography>
 </style>
-
