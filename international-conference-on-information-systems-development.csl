@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <style xmlns="http://purl.org/net/xbiblio/csl" class="in-text" version="1.0" demote-non-dropping-particle="sort-only" default-locale="en-US">
   <info>
-    <title>International Conference on Information Systems Development</title>
+    <title>Information Systems Development Conference</title>
     <title-short>ISD Conference</title-short>
     <id>http://www.zotero.org/styles/international-conference-on-information-systems-development</id>
     <link href="http://www.zotero.org/styles/international-conference-on-information-systems-development" rel="self"/>
@@ -17,7 +17,7 @@
     </contributor>
     <category citation-format="numeric"/>
     <category field="engineering"/>
-    <updated>2014-03-31T04:02:36+00:00</updated>
+    <updated>2014-03-31T03:32:30+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <macro name="author">
