@@ -10,10 +10,10 @@
     </author>
     <category citation-format="numeric"/>
     <category field="medicine"/>
-    <category field="psychology"/>  
+    <category field="psychology"/>
     <issn>1075-2730</issn>
     <eissn>1557-9700</eissn>
-    <updated>2014-04-06T21:30:29+00:00</updated>
+    <updated>2014-04-12T01:20:52+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <macro name="author">

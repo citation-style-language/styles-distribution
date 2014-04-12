@@ -5,15 +5,15 @@
     <title-short>CHI Extended Abstract Format</title-short>
     <id>http://www.zotero.org/styles/acm-sigchi-proceedings-extended-abstract-format</id>
     <link href="http://www.zotero.org/styles/acm-sigchi-proceedings-extended-abstract-format" rel="self"/>
-    <link href="http://chi2014.acm.org/authors/format#extendedformat" rel="documentation"/>
     <link href="http://www.zotero.org/styles/acm-sigchi-proceedings" rel="template"/>
+    <link href="http://chi2014.acm.org/authors/format#extendedformat" rel="documentation"/>
     <author>
       <name>Jo Vermeulen</name>
       <email>jo.vermeulen@gmail.com</email>
     </author>
     <category citation-format="numeric"/>
     <category field="engineering"/>
-    <updated>2014-04-10T08:23:04+00:00</updated>
+    <updated>2014-04-12T01:20:52+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <macro name="author">

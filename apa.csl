@@ -28,7 +28,7 @@
     <category citation-format="author-date"/>
     <category field="psychology"/>
     <category field="generic-base"/>
-    <updated>2014-04-03T21:36:47+00:00</updated>
+    <updated>2014-04-12T01:20:52+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="en">
@@ -94,7 +94,7 @@
             <text variable="title" form="short" font-style="italic"/>
           </if>
           <else-if type="legal_case">
-            <text variable="title"  font-style="italic"/>
+            <text variable="title" font-style="italic"/>
           </else-if>
           <else-if type="bill book graphic legislation motion_picture song" match="any">
             <text variable="title" form="short" font-style="italic"/>

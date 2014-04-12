@@ -14,7 +14,7 @@
     <issn>0075-4358</issn>
     <eissn>1753-528X</eissn>
     <summary>Style for the Cambridge Journal International Organization</summary>
-    <updated>2014-04-03T17:37:15+00:00</updated>
+    <updated>2014-04-12T01:20:52+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale>
@@ -78,7 +78,7 @@
   <macro name="editor">
     <names variable="editor">
       <name name-as-sort-order="first" and="text" sort-separator=", " delimiter=", " delimiter-precedes-last="always" initialize-with=". "/>
-      <label form="short" prefix=" (" suffix=")" />
+      <label form="short" prefix=" (" suffix=")"/>
     </names>
   </macro>
   <macro name="translator">
