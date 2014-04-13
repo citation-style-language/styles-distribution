@@ -4,7 +4,7 @@
     <title>Harvard - London South Bank University</title>
     <title-short>harvard-lsbu</title-short>
     <id>http://www.zotero.org/styles/harvard-london-south-bank-university</id>
-    <link href="https://www.zotero.org/styles/harvard-london-south-bank-university" rel="self">Harvard - London South Bank University</link>
+    <link href="https://www.zotero.org/styles/harvard-london-south-bank-university" rel="self"/>
     <link href="https://www.zotero.org/styles/apa" rel="template"/>
     <link href="https://my.lsbu.ac.uk/assets/documents/library/h2g-library-30.pdf" rel="documentation"/>
     <author>
@@ -21,7 +21,7 @@
     </contributor>
     <category citation-format="author-date"/>
     <category field="generic-base"/>
-    <updated>2014-04-10T15:22:31+00:00</updated>
+    <updated>2014-04-13T16:15:50+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="en">
