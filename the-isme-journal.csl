@@ -14,7 +14,7 @@
     <issn>1751-7362</issn>
     <eissn>1751-7370</eissn>
     <summary>The ISME Journal style, which is not the same as for Nature</summary>
-    <updated>2014-03-19T23:21:28+00:00</updated>
+    <updated>2014-04-18T23:41:56+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <macro name="editor">
@@ -167,9 +167,9 @@
           <group delimiter=" ">
             <text macro="title" prefix=" " suffix="."/>
             <group prefix="In:" delimiter=", " suffix=".">
-              <text variable="container-title"/>
+              <text variable="container-title" font-style="italic"/>
               <group delimiter=" ">
-                <text macro="editor" prefix=" " suffix=" (ed)."/>
+                <text macro="editor" prefix=" "/>
                 <text variable="collection-title"/>
                 <text variable="volume" prefix="Vol. "/>
                 <text macro="series-editor"/>
@@ -185,7 +185,7 @@
             <text macro="editor" prefix=" "/>
           </group>
           <group prefix=" " suffix="." delimiter=" ">
-            <text variable="container-title" form="short"/>
+            <text variable="container-title" form="short" strip-periods="true" font-style="italic"/>
             <group delimiter=":">
               <text variable="volume" font-weight="bold"/>
               <text variable="page"/>
