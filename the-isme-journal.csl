@@ -14,7 +14,7 @@
     <issn>1751-7362</issn>
     <eissn>1751-7370</eissn>
     <summary>The ISME Journal style, which is not the same as for Nature</summary>
-    <updated>2014-04-18T23:41:56+00:00</updated>
+    <updated>2014-04-27T18:53:05+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <macro name="editor">
@@ -118,10 +118,8 @@
   <citation et-al-min="3" et-al-use-first="1" disambiguate-add-year-suffix="true" disambiguate-add-names="true" disambiguate-add-givenname="true" collapse="year">
     <layout prefix="(" suffix=")" delimiter="; ">
       <group delimiter=", ">
-        <group delimiter=" ">
-          <text macro="author-short"/>
-          <text macro="year-date"/>
-        </group>
+        <text macro="author-short"/>
+        <text macro="year-date"/>
         <text variable="locator"/>
       </group>
     </layout>
