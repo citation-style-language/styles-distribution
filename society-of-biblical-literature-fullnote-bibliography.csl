@@ -24,7 +24,7 @@
     <category citation-format="note"/>
     <category field="theology"/>
     <summary>Society of Biblical Literature format with full notes and bibliography</summary>
-    <updated>2013-09-08T00:04:27+00:00</updated>
+    <updated>2014-05-03T22:14:43+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="en-US">
@@ -348,9 +348,15 @@
     <choose>
       <if type="chapter paper-conference" match="any">
         <text term="in" suffix=" "/>
+        <text variable="container-title" font-style="italic" text-case="title"/>
       </if>
+      <else-if type="article-journal">
+        <text variable="container-title" font-style="italic" form="short" text-case="title"/>
+      </else-if>
+      <else>
+        <text variable="container-title" font-style="italic" text-case="title"/>
+      </else>
     </choose>
-    <text variable="container-title" font-style="italic" form="short" text-case="title"/>
   </macro>
   <macro name="collection-title">
     <text variable="collection-title"/>
