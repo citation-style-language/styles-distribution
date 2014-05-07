@@ -18,7 +18,7 @@
     <category field="zoology"/>
     <issn>0305-1838</issn>
     <eissn>1365-2907</eissn>
-    <updated>2013-08-29T05:27:03+00:00</updated>
+    <updated>2014-05-07T05:26:07+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="en">
@@ -135,7 +135,7 @@
           <text macro="title" prefix=" "/>
           <group prefix=".">
             <names variable="editor translator">
-              <name prefix=" In: " name-as-sort-order="first" suffix=" " sort-separator="" initialize-with="" delimiter=", " delimiter-precedes-et-al="never"/>
+              <name prefix=" In: " name-as-sort-order="all" suffix=" " sort-separator=" " initialize-with="" delimiter=", " delimiter-precedes-et-al="never"/>
               <label form="short" prefix="(" suffix=")" strip-periods="true"/>
             </names>
           </group>
