@@ -13,7 +13,7 @@
     <category field="biology"/>
     <issn>1077-8306</issn>
     <eissn>1744-7410</eissn>
-    <updated>2014-04-20T19:05:58+00:00</updated>
+    <updated>2014-05-12T02:00:39+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <macro name="editor-translator">
@@ -86,7 +86,7 @@
             <text macro="title" prefix=" "/>
             <text macro="editor-translator" prefix=" "/>
           </group>
-          <text prefix=" "  macro="publisher"/>
+          <text prefix=" " macro="publisher"/>
           <text variable="number-of-pages" prefix=". " suffix=" pp"/>
         </if>
         <else-if type="chapter paper-conference" match="any">

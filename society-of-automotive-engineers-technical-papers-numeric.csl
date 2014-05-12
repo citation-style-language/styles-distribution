@@ -13,7 +13,7 @@
     <category citation-format="numeric"/>
     <category field="engineering"/>
     <summary>Numeric style for SAE technical papers</summary>
-    <updated>2014-04-18T21:49:49+00:00</updated>
+    <updated>2014-05-12T02:00:39+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <macro name="author">
@@ -110,7 +110,7 @@
           </if>
           <else-if type="chapter paper-conference" match="any">
             <group>
-              <text term="in"  suffix=": "/>
+              <text term="in" suffix=": "/>
               <text macro="editor"/>
             </group>
             <text variable="container-title" font-style="italic"/>
@@ -131,7 +131,7 @@
           <else>
             <group delimiter=", ">
               <group delimiter=" ">
-                <text variable="container-title" form="short" text-case="title" font-style="italic"  prefix=" "/>
+                <text variable="container-title" form="short" text-case="title" font-style="italic" prefix=" "/>
                 <group delimiter=":">
                   <group>
                     <text variable="volume"/>

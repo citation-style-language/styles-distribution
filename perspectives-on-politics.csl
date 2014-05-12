@@ -4,8 +4,8 @@
     <title>Perspectives on Politics</title>
     <id>http://www.zotero.org/styles/perspectives-on-politics</id>
     <link href="http://www.zotero.org/styles/perspectives-on-politics" rel="self"/>
+    <link href="http://www.zotero.org/styles/world-politcs" rel="template"/>
     <link href="http://journals.cambridge.org/action/displayJournal?jid=PPS" rel="documentation"/>
-    <link href="http://www.zotero.org/styles/world-politcs" rel="template"/>   
     <author>
       <name>Sebastian Karcher</name>
     </author>
@@ -14,7 +14,7 @@
     <issn>1537-5927</issn>
     <eissn>1541-0986</eissn>
     <summary>Style based on published papers. Closely related to CMoS author/date</summary>
-    <updated>2014-04-21T18:55:46+00:00</updated>
+    <updated>2014-05-12T02:00:39+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale>
@@ -302,7 +302,7 @@
             </if>
           </choose>
           <text variable="container-title" text-case="title" font-style="italic"/>
-        </group>      
+        </group>
       </if>
     </choose>
   </macro>

@@ -11,7 +11,7 @@
     </author>
     <category citation-format="note"/>
     <category field="generic-base"/>
-    <updated>2014-05-05T03:22:42+00:00</updated>
+    <updated>2014-05-12T02:00:39+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="en">
@@ -366,7 +366,7 @@
               <label variable="locator" form="short"/>
             </if>
           </choose>
-          <text variable="locator"/>    
+          <text variable="locator"/>
         </if>
         <else>
           <text variable="page"/>

@@ -13,7 +13,7 @@
     <category citation-format="note"/>
     <category field="social_science"/>
     <category field="generic-base"/>
-    <updated>2014-04-30T22:11:19+00:00</updated>
+    <updated>2014-05-12T02:00:39+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="fr">
@@ -401,21 +401,21 @@
         <else-if position="subsequent">
           <group delimiter=", ">
             <text macro="author-ibid"/>
-              <choose>
-                <if disambiguate="true">
-                  <text macro="title"/>
-                </if>
-              </choose>
-              <choose>
-                <if type="bill book graphic legal_case motion_picture report song thesis manuscript" match="any">
-                  <text variable="title" form="short" font-style="italic"/>
-                  <text term="cited" font-style="italic" suffix="."/>
-                </if>
-                <else>
-                  <text variable="title" text-case="capitalize-first" form="short" quotes="true"/>
-                  <text value="loc. cit." font-style="italic"/>
-                </else>
-              </choose>
+            <choose>
+              <if disambiguate="true">
+                <text macro="title"/>
+              </if>
+            </choose>
+            <choose>
+              <if type="bill book graphic legal_case motion_picture report song thesis manuscript" match="any">
+                <text variable="title" form="short" font-style="italic"/>
+                <text term="cited" font-style="italic" suffix="."/>
+              </if>
+              <else>
+                <text variable="title" text-case="capitalize-first" form="short" quotes="true"/>
+                <text value="loc. cit." font-style="italic"/>
+              </else>
+            </choose>
             <text variable="locator" prefix="p.&#160;"/>
           </group>
         </else-if>

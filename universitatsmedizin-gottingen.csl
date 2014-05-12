@@ -13,7 +13,7 @@
     <category citation-format="author-date"/>
     <category field="medicine"/>
     <summary>Zitierstil für die Universitätsmedizin Göttingen</summary>
-    <updated>2014-05-08T14:25:32+00:00</updated>
+    <updated>2014-05-12T02:00:39+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="de">
@@ -116,7 +116,7 @@
           <group prefix=": " delimiter="; ">
             <text variable="title"/>
             <group delimiter=", ">
-              <group  delimiter=" ">
+              <group delimiter=" ">
                 <text term="in" suffix=":"/>
                 <text variable="container-title"/>
               </group>
