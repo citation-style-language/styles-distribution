@@ -13,7 +13,7 @@
     <category citation-format="author-date"/>
     <category field="medicine"/>
     <summary>Zitierstil für die Universitätsmedizin Göttingen</summary>
-    <updated>2014-05-12T15:56:35+00:00</updated>
+    <updated>2014-05-13T16:43:43+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="de">
@@ -83,6 +83,16 @@
       </group>
       <text macro="year"/>
     </group>
+  </macro>
+  <macro name="access">
+    <choose>
+      <if variable="URL">
+        <group delimiter=" ">
+          <text variable="URL"/>
+          <date variable="accessed" form="numeric" prefix="[" suffix="]"/>
+        </group>
+      </if>
+    </choose>
   </macro>
   <citation et-al-min="3" et-al-use-first="1" disambiguate-add-year-suffix="true">
     <sort>
@@ -157,7 +167,6 @@
             <text variable="title"/>
             <text variable="container-title"/>
             <text macro="year"/>
-            <text variable="URL"/>
           </group>
         </else-if>
         <else-if type="thesis">
@@ -198,6 +207,7 @@
           </group>
         </else>
       </choose>
+      <text macro="access" prefix=", "/>
     </layout>
   </bibliography>
 </style>
