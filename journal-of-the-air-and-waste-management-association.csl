@@ -8,15 +8,14 @@
     <link href="http://www.zotero.org/styles/chicago-author-date" rel="template"/> 
     <link href="http://www.awma.org/publications/journal/submit-a-manuscript" rel="documentation"/>
     <author>
-      <name>Matthew Johnson</name>
-      <email>Matthew_Johnson@carleton.ca</email>
+      <name>Sebastian Karcher</name>
     </author>
     <category citation-format="author-date"/>
     <category field="engineering"/>
     <issn>1096-2247</issn>
     <eissn>2162-2906</eissn>
     <summary>Journal of the Air &amp; Waste Management Association (JAWMA), now follows Chicago Manual (author-date), but with initials, abbreviated journal titles, full page ranges, and no author substitutes</summary>
-    <updated>2014-05-23T03:45:51+00:00</updated>
+    <updated>2014-05-23T03:51:53+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale>
