@@ -20,10 +20,10 @@
     <category citation-format="author-date"/>
     <category field="generic-base"/>
     <summary>The author-date variant of the Chicago style</summary>
-    <updated>2014-04-12T09:11:21+00:00</updated>
+    <updated>2014-05-23T03:53:32+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
-  <locale>
+  <locale xml:lang="en">
     <terms>
       <term name="editor" form="verb-short">ed.</term>
       <term name="container-author" form="verb">by</term>
