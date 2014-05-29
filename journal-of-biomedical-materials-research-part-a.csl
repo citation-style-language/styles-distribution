@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<style xmlns="http://purl.org/net/xbiblio/csl" class="in-text" version="1.0" demote-non-dropping-particle="sort-only" page-range-format="minimal">
+<style xmlns="http://purl.org/net/xbiblio/csl" class="in-text" version="1.0" demote-non-dropping-particle="sort-only" page-range-format="minimal" default-locale="en-US">
   <info>
     <title>Journal of Biomedical Materials Research Part A</title>
     <title-short>J Biomed Mater Res A</title-short>
@@ -16,7 +16,7 @@
     <issn>1549-3296</issn>
     <eissn>1552-4965</eissn>
     <summary>Vancouver Style parenthetical superscripts no et al.</summary>
-    <updated>2013-08-04T21:53:55+00:00</updated>
+    <updated>2014-05-29T23:47:59+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="en">

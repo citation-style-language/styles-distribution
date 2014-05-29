@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <style xmlns="http://purl.org/net/xbiblio/csl" class="note" version="1.0" demote-non-dropping-particle="sort-only">
-  <!-- No "default-locale"; used both with Spanish and Catalan
+  <!-- Polyglot; used both with Catalan and Spanish
        http://forums.zotero.org/discussion/23798/created-new-style-teologia-catalunya/?Focus=128763#Comment_128763 -->
   <info>
     <title>Teologia Catalunya</title>
@@ -18,7 +18,7 @@
     <category citation-format="note"/>
     <category field="theology"/>
     <summary>Llibre d'estil per a la redaccio d'escrits de teologia i filosofia. Facultat de Teologia de Catalunya. Facultat de Filosofia de Catalunya (URL). Associació Bíblica de Catalunya</summary>
-    <updated>2013-09-25T04:19:09+00:00</updated>
+    <updated>2014-05-29T23:47:59+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="es">
