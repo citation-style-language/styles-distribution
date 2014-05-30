@@ -4,7 +4,7 @@
     <title>World Mycotoxin Journal</title>
     <id>http://www.zotero.org/styles/world-mycotoxin-journal</id>
     <link href="http://www.zotero.org/styles/world-mycotoxin-journal" rel="self"/>
-    <link href="http://www.zotero.org/styles/quaternary-research" rel="template"/>
+    <link href="http://www.zotero.org/styles/elsevier-harvard" rel="template"/>
     <link href="http://www.wageningenacademic.com/default.asp?pageid=92" rel="documentation"/>
     <author>
       <name>Sebastian Karcher</name>
@@ -13,7 +13,7 @@
     <category field="medicine"/>
     <issn>1875-0710</issn>
     <eissn>1875-0796</eissn>
-    <updated>2014-05-30T00:36:38+00:00</updated>
+    <updated>2014-05-30T23:42:40+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <macro name="author">
