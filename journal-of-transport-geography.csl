@@ -5,10 +5,11 @@
     <id>http://www.zotero.org/styles/journal-of-transport-geography</id>
     <link href="http://www.zotero.org/styles/journal-of-transport-geography" rel="self"/>
     <link href="http://www.zotero.org/styles/elsevier-harvard2" rel="template"/>
+    <link href="https://forums.zotero.org/discussion/30621/" rel="documentation"/>
     <category citation-format="author-date"/>
     <category field="geography"/>
     <issn>0966-6923</issn>
-    <updated>2014-03-10T23:30:36+00:00</updated>
+    <updated>2014-05-30T00:36:38+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <macro name="container">

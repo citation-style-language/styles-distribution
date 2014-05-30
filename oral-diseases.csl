@@ -14,7 +14,7 @@
     <issn>1354-523X</issn>
     <eissn>1601-0825</eissn>
     <summary>style for "Oral Diseases" - details based on published articles.</summary>
-    <updated>2014-05-18T20:59:05+00:00</updated>
+    <updated>2014-05-30T00:36:38+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale>
@@ -139,10 +139,9 @@
                 <name name-as-sort-order="all" sort-separator=" " initialize-with="" delimiter=", " delimiter-precedes-last="always" prefix=" "/>
                 <label form="short" prefix=", "/>
               </names>
-
-              <group delimiter=". " prefix=" " >
+              <group delimiter=". " prefix=" ">
                 <text variable="container-title" font-style="italic"/>
-                <text macro="edition"/> 
+                <text macro="edition"/>
                 <group suffix=".">
                   <text macro="publisher" prefix=" "/>
                   <label variable="page" form="short" prefix=", " suffix=" "/>
