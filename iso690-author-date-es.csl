@@ -14,7 +14,7 @@
     <category citation-format="author-date"/>
     <category field="generic-base"/>
     <summary>Style based on UNE-ISO 690:2013 standard and iso690-author-date-en.csl and iso690-author-date-fr-no-abstract.csl styles</summary>
-    <updated>2014-05-30T00:36:38+00:00</updated>
+    <updated>2014-06-13T18:07:21+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale>
@@ -406,9 +406,10 @@
             <text macro="title" suffix=". "/>
             <text macro="genre" suffix=". "/>
             <text macro="publisher-place" suffix=": "/>
-            <text macro="publisher" suffix=". "/>
+            <text macro="publisher" suffix=", "/>
             <text macro="page" suffix=". "/>
             <text macro="accessed" suffix=". "/>
+            <text macro="isbn" suffix=". "/>
             <text macro="url" suffix=". "/>
           </group>
         </else-if>
