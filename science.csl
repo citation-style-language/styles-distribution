@@ -20,7 +20,7 @@
     <issn>0036-8075</issn>
     <eissn>1095-9203</eissn>
     <summary>The Science journal style.</summary>
-    <updated>2014-01-02T17:13:57+00:00</updated>
+    <updated>2014-06-17T05:31:29+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <macro name="editor">
@@ -151,7 +151,7 @@
             <text macro="editor" prefix=" "/>
           </group>
           <group prefix=" ">
-            <text macro="title" suffix=", "/>
+            <text macro="title" suffix=". "/>
             <text form="short" variable="container-title" font-style="italic" suffix=" "/>
             <text variable="volume" font-weight="bold"/>
             <text variable="page" prefix=", "/>
