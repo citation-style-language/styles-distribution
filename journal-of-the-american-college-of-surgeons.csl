@@ -15,7 +15,7 @@
     <category field="medicine"/>
     <issn>1072-7515</issn>
     <summary>Journal of the American College of surgeons</summary>
-    <updated>2014-06-12T13:01:06+00:00</updated>
+    <updated>2014-06-22T03:45:28+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <macro name="editor">
@@ -65,26 +65,25 @@
       </if>
     </choose>
   </macro>
-<macro name="title">
-  <choose>
-    <if type="article-journal article-magazine article-newspaper book" match="any">
-      <text variable="title" suffix=". "/>
-      <choose>
-        <if variable="URL">
-          <text term="internet" prefix=" [" suffix="]" text-case="capitalize-first"/>
-        </if>
-      </choose>
-      <text macro="edition" prefix=". "/>
-    </if>
-    <else-if type="chapter">
-      <text variable="title" suffix=", "/>
-    </else-if>
-  </choose>
-</macro>
+  <macro name="title">
+    <choose>
+      <if type="article-journal article-magazine article-newspaper book" match="any">
+        <text variable="title" suffix=". "/>
+        <choose>
+          <if variable="URL">
+            <text term="internet" prefix=" [" suffix="]" text-case="capitalize-first"/>
+          </if>
+        </choose>
+        <text macro="edition" prefix=". "/>
+      </if>
+      <else-if type="chapter">
+        <text variable="title" suffix=", "/>
+      </else-if>
+    </choose>
+  </macro>
   <macro name="container-title">
     <choose>
-      <if type="article-journal article-magazine chapter paper-conference article-newspaper"
-        match="any">
+      <if type="article-journal article-magazine chapter paper-conference article-newspaper" match="any">
         <group suffix="" delimiter=" ">
           <text variable="container-title" form="short"/>
           <choose>

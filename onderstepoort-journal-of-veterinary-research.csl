@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<style class="in-text" version="1.0" demote-non-dropping-particle="sort-only" default-locale="en-GB" xmlns="http://purl.org/net/xbiblio/csl">
+<style xmlns="http://purl.org/net/xbiblio/csl" class="in-text" version="1.0" demote-non-dropping-particle="sort-only" default-locale="en-GB">
   <info>
     <title>Onderstepoort Journal of Veterinary Research</title>
     <id>http://www.zotero.org/styles/onderstepoort-journal-of-veterinary-research</id>
@@ -17,7 +17,7 @@
     <eissn>2219-0635</eissn>
     <issnl>0030-2465</issnl>
     <summary>This is the style for the Onderstepoort Journal of Veterinary Research, based on Harvard Style</summary>
-    <updated>2014-06-09T06:53:19+00:00</updated>
+    <updated>2014-06-22T03:45:28+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <macro name="editor">

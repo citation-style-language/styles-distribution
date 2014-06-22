@@ -15,7 +15,7 @@
     <category citation-format="numeric"/>
     <category field="science"/>
     <issn>1042-7201</issn>
-    <updated>2014-06-15T15:56:45+00:00</updated>
+    <updated>2014-06-22T03:45:28+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <macro name="author">
@@ -36,7 +36,7 @@
       </choose>
       <names variable="editor">
         <name sort-separator=" " initialize-with="" name-as-sort-order="all" delimiter=", " delimiter-precedes-last="always"/>
-        <label form="short"  prefix=" (" suffix=")" strip-periods="true" text-case="capitalize-first"/>
+        <label form="short" prefix=" (" suffix=")" strip-periods="true" text-case="capitalize-first"/>
       </names>
     </group>
   </macro>
@@ -202,7 +202,7 @@
         <text macro="title"/>
       </group>
       <group delimiter="; ">
-        <group delimiter=": " >
+        <group delimiter=": ">
           <text macro="editor"/>
           <group delimiter=" ">
             <text macro="container-title" font-style="italic"/>
