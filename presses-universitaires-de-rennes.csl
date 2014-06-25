@@ -12,7 +12,7 @@
     <category citation-format="note"/>
     <category field="social_science"/>
     <category field="generic-base"/>
-    <updated>2013-08-29T04:18:55+00:00</updated>
+    <updated>2014-06-25T08:08:33+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="fr">
@@ -79,7 +79,7 @@
       </else-if>
       <else-if type="thesis" match="any">
         <group>
-          <text variable="title" text-case="capitalize-first" font-style="italic" suffix=","/>
+          <text variable="title" text-case="capitalize-first" font-style="italic" suffix=", "/>
           <text variable="genre" suffix=", " prefix=" "/>
           <text variable="publisher"/>
         </group>
