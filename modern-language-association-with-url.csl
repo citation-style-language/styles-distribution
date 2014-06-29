@@ -33,7 +33,7 @@
     <category citation-format="author"/>
     <category field="generic-base"/>
     <summary>The 2009 MLA Style for purposes where the URL is still required</summary>
-    <updated>2013-12-14T20:05:10+00:00</updated>
+    <updated>2014-06-28T23:18:35+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="en">
@@ -277,7 +277,7 @@
         <text variable="publisher"/>
       </if>
       <else>
-        <text value="N. p."/>
+        <text value="N.p."/>
       </else>
     </choose>
   </macro>
