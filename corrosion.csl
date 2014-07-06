@@ -12,7 +12,7 @@
     <category citation-format="numeric"/>
     <category field="engineering"/>
     <summary>Style following NACE style manual, ommitting titles for journals as specified for the Corrosion journal</summary>
-    <updated>2014-06-29T16:18:34+00:00</updated>
+    <updated>2014-07-06T15:22:58+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <macro name="author">
@@ -41,7 +41,7 @@
   <macro name="editor">
     <names variable="editor">
       <label form="short" suffix=" "/>
-      <name initialize-with="." delimiter=", "  and="text" delimiter-precedes-last="always"/>
+      <name initialize-with="." delimiter=", " and="text" delimiter-precedes-last="always"/>
     </names>
   </macro>
   <macro name="year-date">
@@ -147,7 +147,7 @@
           </group>
         </else-if>
         <else>
-          <group delimiter=" ">          
+          <group delimiter=" ">
             <group delimiter=", ">
               <text macro="title"/>
               <text variable="container-title"/>

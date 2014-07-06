@@ -15,7 +15,7 @@
     <issn>1934-7375</issn>
     <eissn>1934-7383</eissn>
     <published>2012-11-14T11:18:12+00:00</published>
-    <updated>2014-06-29T22:33:08+00:00</updated>
+    <updated>2014-07-06T15:22:58+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <citation>
@@ -125,7 +125,7 @@
           <names variable="author" suffix=" ">
             <name delimiter="," and="text" initialize-with=". " name-as-sort-order="all"/>
           </names>
-          <group delimiter=". "  suffix=",  ">
+          <group delimiter=". " suffix=",  ">
             <text variable="title" text-case="title"/>
             <text variable="genre"/>
           </group>
