@@ -15,7 +15,7 @@
     <category field="medicine"/>
     <issn>0315-162X</issn>
     <eissn>1499-2752</eissn>
-    <updated>2014-07-09T08:27:38+00:00</updated>
+    <updated>2014-07-09T10:05:47+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="en">
@@ -27,6 +27,7 @@
     <terms>
       <term name="presented at">presented at</term>
       <term name="retrieved">available</term>
+      <term name="page-range-delimiter">-</term>
       <term name="section" form="short">sect.</term>
     </terms>
   </locale>
