@@ -14,7 +14,7 @@
     <category citation-format="numeric"/>
     <category field="medicine"/>
     <summary>Adaptation en français de la norme Vancouver, basée sur le guide des Bibliothèques de l'Université de Montréal.</summary>
-    <updated>2014-07-04T02:12:22+00:00</updated>
+    <updated>2014-07-08T18:18:29+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale>
@@ -245,14 +245,6 @@
       </group>
     </group>
   </macro>
-  <macro name="pmcid">
-    <text variable="PMCID" prefix="PMCID: "/>
-    <choose>
-      <if variable="PMCID" match="none">
-        <text variable="PMID" prefix="PMID: "/>
-      </if>
-    </choose>
-  </macro>
   <citation collapse="citation-number">
     <sort>
       <key variable="citation-number"/>
@@ -291,7 +283,6 @@
 		  <text macro="report-details" suffix=". "/>
         </else>
       </choose>
-      <text macro="pmcid" suffix=". "/>
       <text macro="access"/>
     </layout>
   </bibliography>
