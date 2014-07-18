@@ -16,7 +16,7 @@
     <category field="botany"/>
     <issn>0032-7786</issn>
     <summary>Preslia is a peer-reviewed scientific journal publishing original research papers on plant systematics, morphology, phytogeography, ecology and vegetation science, with a geographical focus on central Europe. The journal was founded in 1914 and named in honour of brothers Jan Svatopluk Presl (1791&#8211;1849) and Karel Bořivoj Presl (1794&#8211;1852), outstanding Bohemian botanists. It is published quarterly by the Czech Botanical Society.</summary>
-    <updated>2013-12-06T02:44:59+00:00</updated>
+    <updated>2014-07-18T06:56:32+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <macro name="editor-translator">
@@ -24,6 +24,11 @@
       <name and="symbol" initialize-with=". " delimiter=", "/>
       <label form="short" prefix=", " text-case="capitalize-first"/>
     </names>
+  </macro>
+  <macro name="issued-year">
+    <date variable="issued">
+      <date-part name="year"/>
+    </date>
   </macro>
   <macro name="author">
     <names variable="author">
@@ -83,12 +88,12 @@
       <text variable="publisher-place"/>
     </group>
   </macro>
-  <citation et-al-min="3" et-al-use-first="1" disambiguate-add-year-suffix="true" disambiguate-add-names="true">
+  <citation et-al-min="3" et-al-use-first="1" disambiguate-add-year-suffix="true" disambiguate-add-names="true" collapse="year">
     <sort>
       <key variable="issued"/>
       <key variable="author"/>
     </sort>
-    <layout prefix="(" suffix=")" delimiter="; ">
+    <layout prefix="(" suffix=")" delimiter=", ">
       <group delimiter=" ">
         <text macro="author-short"/>
         <date date-parts="year" form="numeric" variable="issued">
@@ -104,6 +109,7 @@
   <bibliography hanging-indent="true">
     <sort>
       <key macro="author-short"/>
+      <key macro="issued-year"/>
       <key macro="title"/>
     </sort>
     <layout>
