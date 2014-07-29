@@ -15,7 +15,7 @@
     <category field="medicine"/>
     <issn>0315-162X</issn>
     <eissn>1499-2752</eissn>
-    <updated>2014-07-09T10:05:47+00:00</updated>
+    <updated>2014-07-28T23:53:51+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="en">
@@ -172,9 +172,9 @@
     <choose>
       <if type="article-journal article-magazine article-newspaper" match="any">
         <group suffix=";" delimiter=" ">
-            <date variable="issued">
-              <date-part name="year"/>
-            </date>
+          <date variable="issued">
+            <date-part name="year"/>
+          </date>
           <text macro="accessed-date"/>
         </group>
       </if>

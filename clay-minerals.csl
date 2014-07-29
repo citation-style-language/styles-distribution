@@ -10,9 +10,10 @@
       <name>Sebastian Karcher</name>
     </author>
     <category citation-format="author-date"/>
-    <category field="geology"/>    <issn>0009-8558</issn>
+    <category field="geology"/>
+    <issn>0009-8558</issn>
     <summary>Style for Clay Minerals, published by the Mineralogical Society (Great Britain)</summary>
-    <updated>2014-07-17T22:42:02+00:00</updated>
+    <updated>2014-07-28T23:53:51+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <macro name="container-contributors">
@@ -20,7 +21,7 @@
       <if type="chapter paper-conference" match="any">
         <names variable="editor translator" delimiter=", ">
           <name and="symbol" initialize-with="." delimiter=", " delimiter-precedes-last="never"/>
-          <label  prefix=", "/>
+          <label prefix=", "/>
         </names>
       </if>
     </choose>
@@ -146,7 +147,7 @@
   <macro name="locators">
     <choose>
       <if type="article-journal article-magazine article-newspaper" match="any">
-        <group delimiter=", "  prefix=". ">
+        <group delimiter=", " prefix=". ">
           <text variable="container-title" font-style="italic"/>
           <text variable="volume" font-weight="bold"/>
           <text variable="page"/>

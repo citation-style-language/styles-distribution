@@ -26,7 +26,7 @@
     <category field="law"/>
     <summary>This style may require use of specific fields in the reference manager. More infos: http://f-mb.github.io/cslegal/
       Ce style peut demander un usage particulier des champs du logiciel de gestion bibliographique. Plus d'infos: http://f-mb.github.io/cslegal/</summary>
-    <updated>2014-07-08T18:12:29+00:00</updated>
+    <updated>2014-07-28T23:53:51+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="fr">
@@ -947,12 +947,12 @@
                   <if type="legal_case">
                     <choose>
                       <if variable="author">
-                    	<text variable="authority"/>
-                    	<text macro="issued"/>
+                        <text variable="authority"/>
+                        <text macro="issued"/>
                       </if>
                       <else-if variable="title" match="none">
-                    	<text variable="authority"/>
-                    	<text macro="issued"/>
+                        <text variable="authority"/>
+                        <text macro="issued"/>
                       </else-if>
                     </choose>
                   </if>

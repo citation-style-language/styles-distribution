@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<style class="in-text" version="1.0" delimiter-precedes-et-al="never" delimiter-precedes-last="never" demote-non-dropping-particle="sort-only" default-locale="en-US" xmlns="http://purl.org/net/xbiblio/csl">
-<!-- This style was edited with the Visual CSL Editor (http://editor.citationstyles.org/visualEditor/) -->
+<style xmlns="http://purl.org/net/xbiblio/csl" class="in-text" version="1.0" delimiter-precedes-et-al="never" delimiter-precedes-last="never" demote-non-dropping-particle="sort-only" default-locale="en-US">
+  <!-- This style was edited with the Visual CSL Editor (http://editor.citationstyles.org/visualEditor/) -->
   <info>
     <title>Journal of Aerosol Medicine and Pulmonary Drug Delivery</title>
     <title-short>JAMP </title-short>
@@ -12,14 +12,14 @@
       <name>Rui Carlos Sá</name>
       <email>rui.carlos.sa@gmail.com</email>
       <uri>http://www.ruicarlossa.eu</uri>
-	</author>
+    </author>
     <category citation-format="numeric"/>
     <category field="medicine"/>
     <issn>1941-2711</issn>
     <eissn>1941-2703</eissn>
     <issnl>1941-2711</issnl>
     <summary>Adapted from JAMA style</summary>
-    <updated>2014-07-07T17:07:59+00:00</updated>
+    <updated>2014-07-28T23:53:51+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="en">
