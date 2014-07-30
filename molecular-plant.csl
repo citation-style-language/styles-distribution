@@ -15,7 +15,7 @@
     <issn>1674-2052</issn>
     <eissn>1752-9867</eissn>
     <summary>Molecular Plant (Oxford Journals) style</summary>
-    <updated>2013-08-29T04:18:55+00:00</updated>
+    <updated>2014-07-30T02:56:08+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <macro name="editor">
@@ -129,7 +129,7 @@
       <key variable="title"/>
     </sort>
     <layout suffix=".">
-      <text macro="author"/>
+      <text macro="author" font-weight="bold"/>
       <date variable="issued" prefix=" (" suffix=").">
         <date-part name="year" font-weight="normal"/>
       </date>
