@@ -9,12 +9,12 @@
     <!--  useful things: non breaking space: &#160;   -->
     <author>
       <name>Karl Peböck</name>
-      <email>peboeck.karl@ph-vorarlberg.ac.at</email>
+      <email>karl.peboeck@ph-vorarlberg.ac.at</email>
     </author>
     <category citation-format="author-date"/>
     <category field="generic-base"/>
     <summary>Citation Style of the Paedagogische Hochschule Vorarlberg, mostly german</summary>
-    <updated>2014-07-28T23:53:51+00:00</updated>
+    <updated>2014-08-04T06:47:09+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <macro name="author">
@@ -235,7 +235,7 @@
         <text variable="container-title" font-style="normal" suffix=".&#160;"/>
       </if>
       <else-if type="article-journal article-newspaper article-magazine" match="any">
-        <text variable="container-title" font-style="normal" suffix=",&#160;"/>
+        <text variable="container-title" font-style="normal" suffix="&#160;"/>
       </else-if>
       <else-if type="webpage">
         <text variable="container-title" font-style="normal" suffix=".&#160;"/>
