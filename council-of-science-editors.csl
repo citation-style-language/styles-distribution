@@ -14,7 +14,7 @@
     <category citation-format="numeric"/>
     <category field="science"/>
     <summary>The Council of Science Editors style, Citation-Sequence system: numbers in text, sorted by order of appearance in text.</summary>
-    <updated>2014-07-13T19:09:46+00:00</updated>
+    <updated>2014-08-04T19:00:58+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <macro name="editor">
@@ -111,7 +111,7 @@
     </group>
   </macro>
   <macro name="pages">
-    <label variable="page" form="short" suffix=" "/>
+    <label variable="page" form="short" suffix=" " plural="never"/>
     <text variable="page"/>
   </macro>
   <macro name="edition">
