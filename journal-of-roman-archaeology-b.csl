@@ -14,7 +14,7 @@
     <category field="anthropology"/>
     <issn>1047-7594</issn>
     <summary>Citation style edited for Journal of Roman Archaeology - system B (mainly used for reviews). Known issues: impossible to use 'id.' for author in subsequent position. Encyclopedias and dictionnaries which articles are cited: title-short item need to be the short title of the encyclopedia/dictionnary</summary>
-    <updated>2014-08-13T11:51:17+00:00</updated>
+    <updated>2013-09-25T04:19:09+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale>
@@ -157,22 +157,6 @@
       </else>
     </choose>
   </macro>
-    <macro name="locator">
-    <choose>
-      <if locator="page">
-        <text variable="locator"/>
-      </if>
-      <else-if locator="paragraph">
-        <text variable="locator" prefix="§"/>
-      </else-if>
-      <else>
-        <group>
-          <label variable="locator" form="short" suffix=".&#160;"/>
-          <text variable="locator"/>
-        </group>
-      </else>
-    </choose>
-  </macro>
   <citation>
     <layout delimiter="; ">
       <choose>
@@ -182,7 +166,7 @@
         <else-if position="ibid-with-locator">
           <group delimiter=" ">
             <text term="ibid" suffix="."/>
-            <text macro="locator" prefix=" in partic.&#160;"/>
+            <text variable="locator" prefix="in partic. "/>
           </group>
         </else-if>
         <else-if position="ibid">
@@ -192,7 +176,7 @@
           <group delimiter=" ">
             <text macro="author-short"/>
             <text term="cited" prefix="(" suffix=")"/>
-            <text macro="locator"/>
+            <text variable="locator"/>
           </group>
         </else-if>
         <else>
@@ -200,7 +184,7 @@
           <text macro="title" suffix=" "/>
           <text macro="year-place"/>
           <text variable="page" prefix=" "/>
-          <text macro="locator" prefix=" in partic.&#160;"/>
+          <text variable="locator" prefix=" in partic. "/>
         </else>
       </choose>
     </layout>
