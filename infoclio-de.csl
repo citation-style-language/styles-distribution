@@ -6,7 +6,6 @@
     <link href="http://www.zotero.org/styles/infoclio-de" rel="self"/>
     <link href="http://www.zotero.org/styles/infoclio-fr-smallcaps" rel="template"/>
     <link href="https://github.com/citation-style-language/styles/pull/234" rel="documentation"/>
-    <link href="http://www.infoclio.ch/de/node/133932" rel="documentation"/>
     <author>
       <name>Nicolas Chachereau</name>
       <email>nicolas.chachereau@unil.ch</email>
@@ -26,7 +25,7 @@
     <category citation-format="note"/>
     <category field="history"/>
     <category field="social_science"/>
-    <updated>2014-08-11T06:53:03+00:00</updated>
+    <updated>2013-11-11T08:48:45+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="de">
