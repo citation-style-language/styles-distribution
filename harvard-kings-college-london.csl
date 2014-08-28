@@ -11,7 +11,7 @@
     <category citation-format="author-date"/>
     <category field="humanities"/>
     <summary>Harvard author-date style created for King's College London</summary>
-    <updated>2014-08-28T01:36:46+00:00</updated>
+    <updated>2013-09-25T04:19:09+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <!-- format EDITOR entry -->
@@ -26,6 +26,16 @@
     <text term="anonymous" form="short" text-case="capitalize-first" strip-periods="true"/>
   </macro>
   <!-- format AUTHOR entry -->
+  <macro name="_author">
+    <names variable="author">
+      <name and="symbol" name-as-sort-order="all" sort-separator=", " initialize-with="." delimiter-precedes-last="never" delimiter=", "/>
+      <label form="short" prefix=" " suffix="." strip-periods="true"/>
+      <substitute>
+        <text macro="editor"/>
+        <text macro="anon"/>
+      </substitute>
+    </names>
+  </macro>
   <macro name="author">
     <names variable="author">
       <!-- set text-case="capitalize-first" to "uppercase" if names required  in CAPS -->

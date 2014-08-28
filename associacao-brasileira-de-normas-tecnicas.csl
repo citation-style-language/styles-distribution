@@ -39,7 +39,7 @@
     <category citation-format="author-date"/>
     <category field="generic-base"/>
     <summary>The Brazilian Standard Style in accordance with ABNT-NBR 10520.2002 and ABNT-NBR 6023.2002</summary>
-    <updated>2014-08-28T01:36:46+00:00</updated>
+    <updated>2013-12-15T06:40:26+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="pt-BR">
@@ -336,6 +336,9 @@ em caixa alta. Utiliza-se antes do nome da conferencia a expressao "In". Segundo
     </choose>
   </macro>
   <!--Resumo-->
+  <macro name="abstract">
+    <text variable="abstract"/>
+  </macro>
   <!--Mostra a ISBN-->
   <macro name="ISBN">
     <group>

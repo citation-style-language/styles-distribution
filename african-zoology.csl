@@ -12,7 +12,7 @@
     <category field="zoology"/>
     <issn>1562-7020</issn>
     <eissn>2224-073X</eissn>
-    <updated>2014-08-28T01:36:46+00:00</updated>
+    <updated>2013-04-02T02:07:39+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <macro name="container-contributors">
@@ -65,6 +65,27 @@
         </choose>
       </substitute>
     </names>
+  </macro>
+  <macro name="access">
+    <choose>
+      <if variable="DOI">
+        <text variable="DOI" prefix="doi: "/>
+      </if>
+      <else>
+        <group>
+          <text term="retrieved" text-case="capitalize-first" suffix=" "/>
+          <date variable="accessed" suffix=", ">
+            <date-part name="month" suffix=" "/>
+            <date-part name="day" suffix=", "/>
+            <date-part name="year"/>
+          </date>
+          <group>
+            <text term="from" suffix=" "/>
+            <text variable="URL"/>
+          </group>
+        </group>
+      </else>
+    </choose>
   </macro>
   <macro name="publisher">
     <text variable="genre" suffix=", "/>

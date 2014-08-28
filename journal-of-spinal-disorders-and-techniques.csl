@@ -16,7 +16,7 @@
     <issn>1536-0652</issn>
     <eissn>1539-2465</eissn>
     <summary>Based on the American Medical Association style as used in JAMA, without the DOI, and with et al after three authors</summary>
-    <updated>2014-08-28T01:36:46+00:00</updated>
+    <updated>2013-12-06T02:44:59+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <macro name="editor">
@@ -36,6 +36,15 @@
         </substitute>
       </names>
     </group>
+  </macro>
+  <macro name="author-short">
+    <names variable="author">
+      <name form="short" and="symbol" delimiter=", " initialize-with="."/>
+      <substitute>
+        <names variable="editor"/>
+        <names variable="translator"/>
+      </substitute>
+    </names>
   </macro>
   <macro name="title">
     <choose>

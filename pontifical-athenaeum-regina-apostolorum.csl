@@ -13,7 +13,7 @@
     <category citation-format="note"/>
     <category field="theology"/>
     <summary>The Pontifical Athenaeum Regina Apostolorum style</summary>
-    <updated>2014-08-28T01:36:46+00:00</updated>
+    <updated>2014-05-29T23:47:59+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale>
@@ -247,6 +247,11 @@
         </choose>
       </if>
     </choose>
+  </macro>
+  <macro name="publisher-place">
+    <group delimiter=", ">
+      <text variable="publisher-place"/>
+    </group>
   </macro>
   <macro name="edition-note">
     <choose>

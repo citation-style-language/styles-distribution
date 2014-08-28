@@ -12,7 +12,7 @@
     <category citation-format="note"/>
     <category field="humanities"/>
     <category field="literature"/>
-    <updated>2014-08-28T01:36:46+00:00</updated>
+    <updated>2013-08-29T04:18:55+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="fr">
@@ -91,6 +91,14 @@
       <label form="short" suffix=". "/>
       <name form="long" and="text" delimiter=", " delimiter-precedes-last="never">
         <name-part name="family" text-case="capitalize-first"/>
+      </name>
+    </names>
+  </macro>
+  <macro name="editor-note">
+    <names variable="editor" delimiter=", ">
+      <label form="verb-short" suffix=" "/>
+      <name sort-separator=" " initialize-with=". " and="text" delimiter=", " delimiter-precedes-last="never">
+        <name-part name="family" text-case="uppercase"/>
       </name>
     </names>
   </macro>

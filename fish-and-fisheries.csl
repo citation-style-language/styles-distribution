@@ -15,7 +15,7 @@
     <issn>1467-2960</issn>
     <eissn>1467-2979</eissn>
     <summary>Style for the journal Fish and Fisheries</summary>
-    <updated>2014-08-28T01:36:46+00:00</updated>
+    <updated>2013-08-29T03:14:21+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale>
@@ -37,6 +37,12 @@
     <names variable="editor">
       <label form="short" suffix=" "/>
       <name and="text" sort-separator=" " initialize-with="." delimiter=", " delimiter-precedes-last="never"/>
+    </names>
+  </macro>
+  <macro name="editor-after">
+    <names variable="editor">
+      <name and="text" sort-separator=" " initialize-with="." delimiter=", " delimiter-precedes-last="never"/>
+      <label form="short" prefix=", "/>
     </names>
   </macro>
   <macro name="author">

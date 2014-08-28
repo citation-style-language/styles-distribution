@@ -13,7 +13,7 @@
     <category citation-format="author-date"/>
     <category field="engineering"/>
     <summary>A style for American Society of Civil Engineers publications</summary>
-    <updated>2014-08-28T01:36:46+00:00</updated>
+    <updated>2013-08-29T05:27:03+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <macro name="container-contributors">
@@ -80,6 +80,10 @@
       <text variable="publisher"/>
       <text variable="publisher-place"/>
     </group>
+  </macro>
+  <macro name="event">
+    <text variable="event"/>
+    <text variable="event-place" prefix=", "/>
   </macro>
   <macro name="issued">
     <choose>

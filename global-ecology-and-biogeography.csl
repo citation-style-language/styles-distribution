@@ -15,7 +15,7 @@
     <issn>1466-822X</issn>
     <eissn>1466-8238</eissn>
     <summary>The Global Ecology and Biogeography style</summary>
-    <updated>2014-08-28T01:36:46+00:00</updated>
+    <updated>2014-06-30T19:30:13+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale>
@@ -51,6 +51,22 @@
         <text variable="title"/>
       </substitute>
     </names>
+  </macro>
+  <macro name="access">
+    <choose>
+      <if variable="URL">
+        <text value="Available at:" suffix=" "/>
+        <text variable="URL"/>
+        <group prefix=" [" suffix="]">
+          <text term="accessed" text-case="capitalize-first" suffix=" "/>
+          <date variable="accessed">
+            <date-part name="month" suffix=" "/>
+            <date-part name="day" suffix=", "/>
+            <date-part name="year"/>
+          </date>
+        </group>
+      </if>
+    </choose>
   </macro>
   <macro name="title">
     <text variable="title"/>

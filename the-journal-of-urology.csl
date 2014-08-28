@@ -17,7 +17,7 @@
     <issn>0022-5347</issn>
     <eissn>1527-3792</eissn>
     <summary>The Journal of Urology Style</summary>
-    <updated>2014-08-28T01:36:46+00:00</updated>
+    <updated>2013-09-08T00:04:27+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="en">
@@ -45,6 +45,16 @@
         </substitute>
       </names>
     </group>
+  </macro>
+  <macro name="author-short">
+    <names variable="author">
+      <name form="short" and="symbol" delimiter=", " initialize-with="."/>
+      <substitute>
+        <names variable="editor"/>
+        <names variable="translator"/>
+        <text macro="anon"/>
+      </substitute>
+    </names>
   </macro>
   <macro name="access">
     <choose>

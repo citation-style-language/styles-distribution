@@ -52,7 +52,7 @@
       tab: &#009;
 
     -->
-    <updated>2014-08-28T01:36:46+00:00</updated>
+    <updated>2013-12-05T11:58:24+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="de">
@@ -177,6 +177,12 @@
         </group>
       </if>
     </choose>
+  </macro>
+  <macro name="publisher">
+    <group delimiter=": ">
+      <text variable="publisher-place"/>
+      <text variable="publisher"/>
+    </group>
   </macro>
   <macro name="volumes">
     <group delimiter=" ">

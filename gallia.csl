@@ -15,7 +15,7 @@
     <issn>0016-4119</issn>
     <eissn>2109-9588</eissn>
     <summary>Author-date style for Gallia - Archéologie de la France antique</summary>
-    <updated>2014-08-28T01:36:46+00:00</updated>
+    <updated>2014-08-13T10:57:44+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="fr">
@@ -50,6 +50,9 @@
     <group>
       <text variable="page" prefix="p.&#160;"/>
     </group>
+  </macro>
+  <macro name="anon">
+    <text term="anonymous" form="short" text-case="capitalize-first" strip-periods="true"/>
   </macro>
   <macro name="author-short">
     <names variable="author">

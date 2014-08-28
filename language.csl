@@ -13,7 +13,7 @@
     <issn>0097-8507</issn>
     <eissn>1535-0665</eissn>
     <summary>Style for the journal Language (LSA). Loosely based on the Chicago style by Julian Onions.</summary>
-    <updated>2014-08-28T01:36:46+00:00</updated>
+    <updated>2014-03-29T23:07:46+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale>
@@ -250,6 +250,9 @@
       </choose>
       <text variable="locator"/>
     </group>
+  </macro>
+  <macro name="container-prefix">
+    <text term="in" text-case="capitalize-first"/>
   </macro>
   <macro name="container-title">
     <text variable="container-title" font-style="italic"/>

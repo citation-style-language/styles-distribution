@@ -18,7 +18,7 @@
     <category citation-format="author-date"/>
     <category field="generic-base"/>
     <summary>Style CSL UQAM (développé à partir du CSL Chicago Manual of Style auteur-date) adapté pour correspondre au guide Bouthat (ISBN 2892761190)</summary>
-    <updated>2014-08-28T01:36:46+00:00</updated>
+    <updated>2013-09-27T22:50:37+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="fr">
@@ -160,6 +160,13 @@
       <label form="verb" prefix=" " text-case="capitalize-first" suffix=" "/>
       <name and="text" delimiter=", "/>
     </names>
+  </macro>
+  <macro name="archive">
+    <group delimiter=". ">
+      <text variable="archive_location" text-case="capitalize-first"/>
+      <text variable="archive"/>
+      <text variable="archive-place"/>
+    </group>
   </macro>
   <macro name="access">
     <choose>

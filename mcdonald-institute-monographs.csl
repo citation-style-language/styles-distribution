@@ -14,7 +14,7 @@
     <category field="anthropology"/>
     <issn>1363-1349</issn>
     <summary>Harvard author-date style edited for McDonald Institute Monographs, published by the McDonald Institute for Archaeological Research</summary>
-    <updated>2014-08-28T01:36:46+00:00</updated>
+    <updated>2014-08-28T00:49:57+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <macro name="editor">
@@ -28,6 +28,9 @@
       <label form="short" prefix=" " text-case="lowercase" suffix=". " strip-periods="true"/>
       <name initialize-with="." and="symbol" sort-separator=", " delimiter=", " delimiter-precedes-last="never"/>
     </names>
+  </macro>
+  <macro name="anon">
+    <text term="anonymous" form="short" text-case="capitalize-first" strip-periods="true"/>
   </macro>
   <macro name="author">
     <names variable="author">

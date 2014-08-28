@@ -15,7 +15,7 @@
     <category field="medicine"/>
     <issn>1048-2911</issn>
     <eissn>1541-3772</eissn>
-    <updated>2014-08-28T01:36:46+00:00</updated>
+    <updated>2013-11-02T03:09:48+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <!-- Macros -->
@@ -100,6 +100,28 @@
           <text variable="publisher-place"/>
         </group>
       </else>
+    </choose>
+  </macro>
+  <macro name="event">
+    <choose>
+      <if type="paper-conference">
+        <choose>
+          <!-- Published Conference Paper -->
+          <if variable="container-title">
+            <group delimiter=", ">
+              <text variable="container-title" prefix="in " font-style="italic"/>
+              <text variable="event-place"/>
+            </group>
+          </if>
+          <!-- Unpublished Conference Paper -->
+          <else>
+            <group delimiter=", ">
+              <text variable="event" prefix="presented at the "/>
+              <text variable="event-place"/>
+            </group>
+          </else>
+        </choose>
+      </if>
     </choose>
   </macro>
   <macro name="access">

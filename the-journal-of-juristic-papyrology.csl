@@ -11,7 +11,7 @@
     <category citation-format="note"/>
     <category field="humanities"/>
     <issn>0075-4277</issn>
-    <updated>2014-08-28T01:36:46+00:00</updated>
+    <updated>2013-09-08T00:04:27+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="en">
@@ -106,6 +106,22 @@
     </group>
   </macro>
   <macro name="locators-note">
+    <choose>
+      <if type="article-journal">
+        <text variable="volume"/>
+      </if>
+      <else-if type="bill book chapter graphic legal_case legislation motion_picture paper-conference report song" match="any">
+        <group delimiter=", ">
+          <text macro="edition-note"/>
+          <group>
+            <number variable="number-of-volumes" form="numeric"/>
+            <text term="volume" form="short" prefix=" " plural="true"/>
+          </group>
+        </group>
+      </else-if>
+    </choose>
+  </macro>
+  <macro name="volume">
     <choose>
       <if type="article-journal">
         <text variable="volume"/>

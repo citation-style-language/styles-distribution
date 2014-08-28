@@ -24,7 +24,7 @@
     <category field="biology"/>
     <issn>0962-8452</issn>
     <eissn>1471-2954</eissn>
-    <updated>2014-08-28T01:36:46+00:00</updated>
+    <updated>2014-01-21T06:58:48+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale>
@@ -52,6 +52,12 @@
     <text variable="publisher" suffix="."/>
     <group suffix=". ">
       <text macro="accessed-date" prefix=" "/>
+    </group>
+  </macro>
+  <macro name="access">
+    <group>
+      <text value="Available from: "/>
+      <text variable="URL"/>
     </group>
   </macro>
   <macro name="accessed-date">

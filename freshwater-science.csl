@@ -13,7 +13,7 @@
     <category field="biology"/>
     <issn>2161-9549</issn>
     <eissn>2161-9565</eissn>
-    <updated>2014-08-28T01:36:46+00:00</updated>
+    <updated>2013-11-17T18:47:23+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <macro name="container-contributors">
@@ -82,6 +82,10 @@
         </if>
       </choose>
     </group>
+  </macro>
+  <macro name="event">
+    <text variable="event"/>
+    <text variable="event-place" prefix=", "/>
   </macro>
   <macro name="issued">
     <choose>

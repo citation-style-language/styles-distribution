@@ -15,7 +15,7 @@
     <category citation-format="numeric"/>
     <category field="physics"/>
     <summary>Common style use by OSA publications.</summary>
-    <updated>2014-08-28T01:36:46+00:00</updated>
+    <updated>2013-09-08T00:04:27+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <macro name="author">
@@ -86,6 +86,11 @@
     <group delimiter=" ">
       <text variable="collection-title" text-case="title"/>
       <text variable="collection-number" prefix="No. "/>
+    </group>
+  </macro>
+  <macro name="access">
+    <group>
+      <text variable="URL"/>
     </group>
   </macro>
   <macro name="personal-communication">

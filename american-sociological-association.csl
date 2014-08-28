@@ -13,12 +13,18 @@
     <category citation-format="author-date"/>
     <category field="sociology"/>
     <summary>The ASA style.</summary>
-    <updated>2014-08-28T01:36:46+00:00</updated>
+    <updated>2014-07-13T05:11:08+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <macro name="editor">
     <names variable="editor">
       <label form="verb" suffix=" "/>
+      <name and="text" delimiter=", "/>
+    </names>
+  </macro>
+  <macro name="series-editor">
+    <names variable="original-author">
+      <label form="short" text-case="capitalize-first" suffix=" "/>
       <name and="text" delimiter=", "/>
     </names>
   </macro>

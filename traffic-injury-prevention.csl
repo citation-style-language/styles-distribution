@@ -15,7 +15,7 @@
     <issn>1538-9588</issn>
     <eissn>1538-957X</eissn>
     <summary>Style for the Taylor and Francis Journal "Traffic Injury Prevention" AMA with author-date citations</summary>
-    <updated>2014-08-28T01:36:46+00:00</updated>
+    <updated>2013-08-29T04:18:55+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <macro name="editor">
@@ -23,6 +23,9 @@
       <name name-as-sort-order="all" sort-separator=" " initialize-with="" delimiter=", " delimiter-precedes-last="always"/>
       <label form="short" prefix=", "/>
     </names>
+  </macro>
+  <macro name="anon">
+    <text term="anonymous" form="short" text-case="capitalize-first" strip-periods="true"/>
   </macro>
   <macro name="author">
     <group suffix=".">

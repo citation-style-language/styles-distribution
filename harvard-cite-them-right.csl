@@ -12,7 +12,7 @@
     <category citation-format="author-date"/>
     <category field="generic-base"/>
     <summary>Harvard according to Cite Them Right</summary>
-    <updated>2014-08-28T01:36:46+00:00</updated>
+    <updated>2014-01-24T00:19:05+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="en-GB">
@@ -28,6 +28,9 @@
       <name and="text" initialize-with=". " delimiter=", " sort-separator=", " name-as-sort-order="all"/>
       <label form="short" prefix=" (" text-case="lowercase" suffix=")"/>
     </names>
+  </macro>
+  <macro name="anon">
+    <text term="anonymous" form="short" text-case="capitalize-first" strip-periods="true"/>
   </macro>
   <macro name="author">
     <names variable="author">

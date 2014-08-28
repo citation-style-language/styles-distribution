@@ -17,7 +17,7 @@
       Ce style peut demander un usage particulier des champs du logiciel de gestion bibliographique. Plus d'infos: http://f-mb.github.io/cslegal/
       This style is for citations in LexisNexis Canada's Québec french publications : full notes, no ibid, based on the 7th edition of the Guide Lluelles, and on the lluelles.csl.
       This style may require use of specific fields in the reference manager. More infos: http://f-mb.github.io/cslegal/</summary>
-    <updated>2014-08-28T01:36:46+00:00</updated>
+    <updated>2014-07-08T18:14:24+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="fr">
@@ -59,6 +59,26 @@
         </names>
         <names variable="container-author">
           <name initialize-with=". " name-as-sort-order="first" and="text" delimiter=", " delimiter-precedes-last="never">
+            <name-part name="family" font-variant="small-caps"/>
+          </name>
+        </names>
+      </substitute>
+    </names>
+  </macro>
+  <macro name="contributors-short">
+    <names variable="author">
+      <name initialize-with=". " and="text" delimiter=", " delimiter-precedes-last="never">
+        <name-part name="family" font-variant="small-caps"/>
+      </name>
+      <substitute>
+        <names variable="editor">
+          <name initialize-with=". " and="text" delimiter=", " delimiter-precedes-last="never">
+            <name-part name="family" font-variant="small-caps"/>
+          </name>
+          <label form="short" prefix=" (" suffix=")"/>
+        </names>
+        <names variable="container-author">
+          <name initialize-with=". " and="text" delimiter=", " delimiter-precedes-last="never">
             <name-part name="family" font-variant="small-caps"/>
           </name>
         </names>

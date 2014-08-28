@@ -10,7 +10,7 @@
       <email>auvigne@ekipaj.com</email>
     </author>
     <category citation-format="author-date"/>
-    <updated>2014-08-28T01:36:46+00:00</updated>
+    <updated>2013-08-29T04:18:55+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="en">
@@ -69,6 +69,16 @@
           </date>
         </group>
       </if>
+    </choose>
+  </macro>
+  <macro name="title">
+    <choose>
+      <if type="bill book graphic legal_case legislation motion_picture report song thesis" match="any">
+        <text variable="title" font-style="normal"/>
+      </if>
+      <else>
+        <text variable="title"/>
+      </else>
     </choose>
   </macro>
   <macro name="publisher">

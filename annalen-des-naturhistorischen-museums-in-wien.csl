@@ -15,7 +15,7 @@
     <category citation-format="author-date"/>
     <category field="biology"/>
     <summary>Style for Annalen des Naturhistorischen Museums in Wien</summary>
-    <updated>2014-08-28T01:36:46+00:00</updated>
+    <updated>2013-08-29T04:18:55+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="en">
@@ -113,6 +113,9 @@
         <text variable="publisher" prefix=" (" suffix=")"/>
       </if>
     </choose>
+  </macro>
+  <macro name="event">
+    <text variable="event"/>
   </macro>
   <macro name="issued">
     <choose>

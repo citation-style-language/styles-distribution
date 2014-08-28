@@ -14,7 +14,7 @@
     <category field="theology"/>
     <issn>1842-8010</issn>
     <summary>INTER: Romanian Review for Theological and Religious Studies format with full notes and bibliography</summary>
-    <updated>2014-08-28T01:36:46+00:00</updated>
+    <updated>2014-05-29T23:47:59+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <macro name="editor">
@@ -97,6 +97,12 @@
       <text variable="collection-title"/>
       <text variable="collection-number"/>
     </group>
+  </macro>
+  <macro name="interviewer">
+    <names variable="interviewer" delimiter=", ">
+      <label form="verb" prefix=" " text-case="lowercase" suffix=" "/>
+      <name and="text" delimiter=", "/>
+    </names>
   </macro>
   <macro name="access">
     <choose>

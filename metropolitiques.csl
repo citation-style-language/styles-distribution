@@ -13,7 +13,7 @@
     <category citation-format="author-date"/>
     <category field="social_science"/>
     <eissn>2114-5350</eissn>
-    <updated>2014-08-28T01:36:46+00:00</updated>
+    <updated>2013-08-29T04:18:55+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="fr">
@@ -77,6 +77,13 @@
       <name form="short" and="text" delimiter-precedes-last="never" sort-separator=" " font-style="normal">
             </name>
       <label form="short" prefix="&#160;(" suffix=".)"/>
+    </names>
+  </macro>
+  <macro name="translator">
+    <names variable="translator">
+      <name form="long" and="text" delimiter-precedes-last="never" sort-separator=" " font-style="normal" prefix=" traduit par ">
+        <name-part name="family" font-variant="small-caps"/>
+      </name>
     </names>
   </macro>
   <macro name="title">

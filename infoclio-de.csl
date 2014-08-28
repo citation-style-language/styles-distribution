@@ -26,7 +26,7 @@
     <category citation-format="note"/>
     <category field="history"/>
     <category field="social_science"/>
-    <updated>2014-08-28T01:36:46+00:00</updated>
+    <updated>2014-08-11T06:53:03+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="de">
@@ -53,6 +53,18 @@
       <name sort-separator=", " delimiter="; "/>
       <label form="short" prefix="&#160;(" suffix=")"/>
     </names>
+  </macro>
+  <macro name="editor-or-book-author">
+    <choose>
+      <if variable="editor">
+        <text macro="editor"/>
+      </if>
+      <else-if variable="container-author">
+        <names variable="container-author">
+          <name sort-separator=", " delimiter="; "/>
+        </names>
+      </else-if>
+    </choose>
   </macro>
   <macro name="title">
     <choose>

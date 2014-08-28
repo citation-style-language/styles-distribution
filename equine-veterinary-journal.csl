@@ -13,7 +13,7 @@
     <category field="biology"/>
     <issn>0425-1644</issn>
     <eissn>2042-3306</eissn>
-    <updated>2014-08-28T01:36:46+00:00</updated>
+    <updated>2014-04-29T14:36:01+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <macro name="author">
@@ -80,6 +80,18 @@
       </if>
       <else>
         <text variable="edition" suffix="."/>
+      </else>
+    </choose>
+  </macro>
+  <macro name="date-reference">
+    <choose>
+      <if variable="issued">
+        <date variable="issued">
+          <date-part name="year"/>
+        </date>
+      </if>
+      <else>
+        <text term="no date" form="short"/>
       </else>
     </choose>
   </macro>

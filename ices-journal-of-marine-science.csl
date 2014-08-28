@@ -14,7 +14,7 @@
     <category field="biology"/>
     <issn>1054-3139</issn>
     <eissn>1095-9289</eissn>
-    <updated>2014-08-28T01:36:46+00:00</updated>
+    <updated>2013-09-08T00:04:27+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale>
@@ -51,6 +51,16 @@
         </if>
       </choose>
     </group>
+  </macro>
+  <macro name="secondary-contributors">
+    <choose>
+      <if type="chapter paper-conference" match="none">
+        <names variable="editor translator" delimiter=", " prefix=" (" suffix=")">
+          <name and="text" initialize-with=". " delimiter=", "/>
+          <label form="short" prefix=", " text-case="capitalize-first"/>
+        </names>
+      </if>
+    </choose>
   </macro>
   <macro name="author">
     <names variable="author">

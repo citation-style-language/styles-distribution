@@ -16,7 +16,7 @@
     <category field="sociology"/>
     <issn>0035-2969</issn>
     <summary>Le style utilisé depuis 2013 par la Revue française de sociologie.</summary>
-    <updated>2014-08-28T01:36:46+00:00</updated>
+    <updated>2014-02-20T11:34:52+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="fr">
@@ -75,6 +75,20 @@
         <names variable="translator"/>
       </substitute>
     </names>
+  </macro>
+  <macro name="access">
+    <group delimiter=" ">
+      <text value="Adresse :"/>
+      <text variable="URL"/>
+      <group prefix="[" suffix="]">
+        <text term="accessed" text-case="capitalize-first" suffix=": "/>
+        <date variable="accessed">
+          <date-part name="day" suffix=" "/>
+          <date-part name="month" suffix=" "/>
+          <date-part name="year"/>
+        </date>
+      </group>
+    </group>
   </macro>
   <macro name="publisher-collection">
     <group delimiter=", ">

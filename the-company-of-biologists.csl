@@ -22,7 +22,7 @@
     <category citation-format="author-date"/>
     <category field="biology"/>
     <summary>Style used by the journals published by The Company of Biologists.</summary>
-    <updated>2014-08-28T01:36:46+00:00</updated>
+    <updated>2013-09-26T05:16:23+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <macro name="editor">
@@ -50,6 +50,22 @@
         <text variable="title"/>
       </substitute>
     </names>
+  </macro>
+  <macro name="access">
+    <choose>
+      <if variable="URL">
+        <text value="Available at:" suffix=" "/>
+        <text variable="URL"/>
+        <group prefix=" [" suffix="]">
+          <text term="accessed" text-case="capitalize-first" suffix=" "/>
+          <date variable="accessed">
+            <date-part name="month" suffix=" "/>
+            <date-part name="day" suffix=", "/>
+            <date-part name="year"/>
+          </date>
+        </group>
+      </if>
+    </choose>
   </macro>
   <macro name="title">
     <text variable="title"/>

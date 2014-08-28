@@ -13,7 +13,7 @@
     <category citation-format="author-date"/>
     <category field="political_science"/>
     <summary>Bibliography style for use in ECLAC/CEPAL publications. Spanish version.</summary>
-    <updated>2014-08-28T01:36:46+00:00</updated>
+    <updated>2013-08-29T05:27:03+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale>
@@ -261,6 +261,19 @@
             <text term="no date" form="short"/>
           </else>
         </choose>
+      </else>
+    </choose>
+  </macro>
+  <macro name="edition">
+    <choose>
+      <if is-numeric="edition">
+        <group delimiter=" ">
+          <number variable="edition" form="ordinal"/>
+          <text term="edition" form="short"/>
+        </group>
+      </if>
+      <else>
+        <text variable="edition" suffix="."/>
       </else>
     </choose>
   </macro>

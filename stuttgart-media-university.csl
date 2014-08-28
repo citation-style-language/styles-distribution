@@ -14,7 +14,7 @@
     </author>
     <category citation-format="note"/>
     <category field="social_science"/>
-    <updated>2014-08-28T01:36:46+00:00</updated>
+    <updated>2013-08-29T05:27:03+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="de">
@@ -132,6 +132,10 @@
   <macro name="pages">
     <label variable="locator" form="short" prefix=", " suffix=".&#160;" strip-periods="true"/>
     <text variable="page"/>
+  </macro>
+  <macro name="point-locators">
+    <label variable="locator" form="short" prefix=", " suffix=" "/>
+    <text variable="locator"/>
   </macro>
   <macro name="point-locators-subsequent">
     <group>

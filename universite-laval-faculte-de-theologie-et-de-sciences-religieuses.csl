@@ -32,7 +32,7 @@
     <category field="theology"/>
     <summary>Exigences ftsr.ulaval.ca based on Chicago format with full notes and bibliography</summary>
     <published>2013-01-13T10:18:20+00:00</published>
-    <updated>2014-08-28T01:36:46+00:00</updated>
+    <updated>2013-09-27T22:50:37+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="fr">
@@ -619,6 +619,17 @@
           <else>
             <text variable="locator"/>
           </else>
+        </choose>
+      </if>
+    </choose>
+  </macro>
+  <macro name="point-locators-join-with-colon">
+    <choose>
+      <if type="article-journal article" match="any">
+        <choose>
+          <if variable="locator page" match="any">
+            <text macro="point-locators"/>
+          </if>
         </choose>
       </if>
     </choose>

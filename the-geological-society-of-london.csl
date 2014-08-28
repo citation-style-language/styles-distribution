@@ -12,7 +12,7 @@
     <category citation-format="author-date"/>
     <category field="geography"/>
     <summary>Parent style for the Journals published by The Geological Society (London)</summary>
-    <updated>2014-08-28T01:36:46+00:00</updated>
+    <updated>2013-12-06T01:48:46+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="en-GB">
@@ -123,6 +123,12 @@
         <text variable="edition" suffix="."/>
       </else>
     </choose>
+  </macro>
+  <macro name="pages">
+    <group>
+      <label variable="page" form="short" suffix=" "/>
+      <text variable="page"/>
+    </group>
   </macro>
   <macro name="container-collection-event-volume">
     <choose>

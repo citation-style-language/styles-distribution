@@ -40,7 +40,7 @@
     <issn>1010-2760</issn>
     <eissn>2071-0054</eissn>
     <summary>Style based on ISO 690:2010(F), V1, derived from Giraud version.</summary>
-    <updated>2014-08-28T01:36:46+00:00</updated>
+    <updated>2014-05-30T00:36:38+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale>
@@ -141,6 +141,26 @@
         <name-part name="given"/>
       </name>
     </names>
+  </macro>
+  <macro name="container-responsability">
+    <choose>
+      <if variable="container-author editor translator" match="any">
+        <choose>
+          <if variable="container-author">
+            <text macro="container-author"/>
+          </if>
+          <else-if variable="editor">
+            <text macro="editor"/>
+          </else-if>
+          <else>
+            <text macro="translator"/>
+          </else>
+        </choose>
+      </if>
+      <else>
+        <text term="anonymous" text-case="uppercase"/>
+      </else>
+    </choose>
   </macro>
   <macro name="year-date">
     <choose>

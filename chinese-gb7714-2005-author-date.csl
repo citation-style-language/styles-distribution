@@ -17,7 +17,7 @@
     <category citation-format="author-date"/>
     <category field="generic-base"/>
     <summary>This style just partly implemented what the Chinese GB/T 7714-2005 requires.</summary>
-    <updated>2014-08-28T01:36:46+00:00</updated>
+    <updated>2014-03-29T22:57:35+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <macro name="author">
@@ -176,6 +176,12 @@
         <text variable="URL"/>
       </else-if>
     </choose>
+  </macro>
+  <macro name="page">
+    <group>
+      <label variable="page" form="short" suffix=" "/>
+      <text variable="page"/>
+    </group>
   </macro>
   <citation collapse="citation-number">
     <sort>
