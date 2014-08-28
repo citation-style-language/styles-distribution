@@ -14,7 +14,7 @@
     <category field="anthropology"/>
     <issn>0153-9337</issn>
     <summary>Style auteur-date en note pour Archéologie médiévale. NB: les sources éditées doivent être considérées comme des livres ayant un auteur (médiéval) et un éditeur (contemporain). Pour les sources éditées ne disposant pas d'auteur (médiéval), il est nécessaire de transformer le (dir.) en (éd.). Pour les archives (type=manuscrit), le "lieu" correspond au dépôt d'archives, l' "archive" au fonds, la "loc. dans l'archive" à la cote.</summary>
-    <updated>2014-08-17T17:01:51+00:00</updated>
+    <updated>2014-08-28T00:49:57+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="fr">
@@ -167,8 +167,8 @@
         <text variable="locator" prefix=",&#160;fol.&#160;"/>
       </else-if>
       <else>
-        <group prefix=", ">
-          <label variable="locator" form="short" suffix=". "/>
+        <group prefix=",&#160;">
+          <label variable="locator" form="short" suffix=".&#160;"/>
           <text variable="locator"/>
         </group>
       </else>

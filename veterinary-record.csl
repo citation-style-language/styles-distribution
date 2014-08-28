@@ -8,12 +8,12 @@
     <link href="http://veterinaryrecord.bmj.com/" rel="documentation"/>
     <author>
       <name>Sebastian Karcher</name>
-    </author>    
+    </author>
     <category citation-format="numeric"/>
     <category field="medicine"/>
     <issn>2042-7670</issn>
     <summary>Style for the BMJ Veterinary Record journals</summary>
-    <updated>2014-08-17T03:58:20+00:00</updated>
+    <updated>2014-08-28T00:49:57+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <macro name="editor">

@@ -14,7 +14,7 @@
     <issn>0099-5355</issn>
     <eissn>1474-547X</eissn>
     <summary>Vancouver style adapted for The Lancet</summary>
-    <updated>2014-08-12T14:29:42+00:00</updated>
+    <updated>2014-08-28T00:49:57+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale>
@@ -79,7 +79,6 @@
             <group prefix=" (" suffix=")." delimiter=" ">
               <text term="accessed"/>
               <date variable="accessed" form="text"/>
-
             </group>
           </else-if>
         </choose>
