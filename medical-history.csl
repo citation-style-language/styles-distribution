@@ -16,7 +16,7 @@
     <issn>0025-7273</issn>
     <eissn>2048-8343</eissn>
     <summary>This style is for the journal Medical History.</summary>
-    <updated>2013-09-08T00:04:27+00:00</updated>
+    <updated>2014-08-28T01:36:46+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="en-GB">
@@ -99,12 +99,6 @@
         </substitute>
       </names>
     </group>
-  </macro>
-  <macro name="container-author">
-    <names variable="container-author">
-      <name and="text"/>
-      <label form="short" prefix=" "/>
-    </names>
   </macro>
   <macro name="container-contributors">
     <choose>

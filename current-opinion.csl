@@ -11,7 +11,7 @@
     </author>
     <category citation-format="numeric"/>
     <category field="generic-base"/>
-    <updated>2013-09-08T00:04:27+00:00</updated>
+    <updated>2014-08-28T01:36:46+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="en">
@@ -59,22 +59,6 @@
         <text term="no date" prefix="[" suffix="]"/>
       </else>
     </choose>
-  </macro>
-  <macro name="access">
-    <group delimiter=" ">
-      <group prefix="[" suffix="]" delimiter=" ">
-        <text term="cited"/>
-        <date variable="accessed" suffix=" ">
-          <date-part name="year"/>
-          <date-part name="month" prefix=" " form="short" strip-periods="true"/>
-          <date-part name="day" prefix=" "/>
-        </date>
-      </group>
-      <group>
-        <text value="Available from: "/>
-        <text variable="URL"/>
-      </group>
-    </group>
   </macro>
   <macro name="title">
     <group delimiter=" ">

@@ -14,7 +14,7 @@
     <category citation-format="author-date"/>
     <category field="generic-base"/>
     <summary>The Harvard author-date style - adapted for the University of Birmingham. See usage notes at http://www.oak-wood.co.uk/oss/birmingham-harvard-csl</summary>
-    <updated>2013-09-08T00:04:27+00:00</updated>
+    <updated>2014-08-28T01:36:46+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale>
@@ -36,11 +36,6 @@
     </names>
   </macro>
   <!-- for sorting - as editor but with no label -->
-  <macro name="editor-sort">
-    <names variable="editor" delimiter=", ">
-      <name name-as-sort-order="all" and="text" sort-separator=", " initialize-with="." delimiter-precedes-last="never" delimiter=", "/>
-    </names>
-  </macro>
   <macro name="bookauthor">
     <names variable="container-author">
       <name name-as-sort-order="all" and="text" sort-separator=", " initialize-with="." delimiter-precedes-last="never" delimiter=", "/>

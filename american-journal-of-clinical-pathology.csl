@@ -14,7 +14,7 @@
     <issn>0002-9173</issn>
     <eissn>1943-7722</eissn>
     <summary>Style used for the ASCP flagship journal American Journal of Clinical Pathology</summary>
-    <updated>2014-05-31T00:45:28+00:00</updated>
+    <updated>2014-08-28T01:36:46+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="en">
@@ -42,16 +42,6 @@
         </substitute>
       </names>
     </group>
-  </macro>
-  <macro name="author-short">
-    <names variable="author">
-      <name form="short" and="symbol" delimiter=", " initialize-with="."/>
-      <substitute>
-        <names variable="editor"/>
-        <names variable="translator"/>
-        <text macro="anon"/>
-      </substitute>
-    </names>
   </macro>
   <macro name="access">
     <choose>

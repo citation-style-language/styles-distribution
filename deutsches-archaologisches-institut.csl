@@ -14,7 +14,7 @@
     <category citation-format="author-date"/>
     <category field="anthropology"/>
     <summary>New author-date style meant to meet citation specifications provided by DAI</summary>
-    <updated>2014-01-24T00:19:05+00:00</updated>
+    <updated>2014-08-28T01:36:46+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <macro name="secondary-contributors">
@@ -34,31 +34,6 @@
               <names variable="translator">
                 <label form="verb" text-case="capitalize-first" suffix=" "/>
                 <name and="text" delimiter=", "/>
-              </names>
-            </if>
-          </choose>
-        </group>
-      </if>
-    </choose>
-  </macro>
-  <macro name="container-contributors">
-    <choose>
-      <if type="chapter paper-conference" match="any">
-        <group>
-          <choose>
-            <if variable="author">
-              <text value="in" prefix=" " suffix=": "/>
-              <names variable="editor">
-                <name delimiter=" &#8211; " initialize-with=". "/>
-                <label form="short" prefix=" (" text-case="lowercase" suffix="), " strip-periods="false"/>
-              </names>
-            </if>
-          </choose>
-          <choose>
-            <if variable="author editor" match="any">
-              <names variable="translator">
-                <name delimiter=" &#8211; " initialize-with=". "/>
-                <label form="short" prefix=" (" text-case="lowercase" suffix="), " strip-periods="false"/>
               </names>
             </if>
           </choose>

@@ -21,7 +21,7 @@
     <category citation-format="author-date"/>
     <category field="social_science"/>
     <summary>Bibliography style for use in UNCTAD, English version. CSL v1.0. This bibliographic style has been developed in the Division of Technology and Logistics and endorsed by the Documents Management Section, Division of Intergovernmental Support Services of UNCTAD.</summary>
-    <updated>2013-08-29T04:18:55+00:00</updated>
+    <updated>2014-08-28T01:36:46+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="en">
@@ -178,16 +178,6 @@
             <text term="no date" form="short"/>
           </else>
         </choose>
-      </else>
-    </choose>
-  </macro>
-  <macro name="edition">
-    <choose>
-      <if is-numeric="edition">
-        <number variable="edition" prefix=" " form="long-ordinal"/>
-      </if>
-      <else>
-        <text variable="edition" suffix="."/>
       </else>
     </choose>
   </macro>

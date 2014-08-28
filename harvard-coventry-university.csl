@@ -17,7 +17,7 @@
     <category citation-format="author-date"/>
     <category field="generic-base"/>
     <summary>The Harvard author-date style - adapted for use at Coventry University. See usage notes at http://www.oak-wood.co.uk/oss/coventry-harvard-csl</summary>
-    <updated>2013-12-08T13:30:15+00:00</updated>
+    <updated>2014-08-28T01:36:46+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale>
@@ -57,11 +57,6 @@
   <macro name="cite-editor">
     <names variable="editor" delimiter=", ">
       <name form="short" and="text" delimiter=", " initialize-with=". "/>
-    </names>
-  </macro>
-  <macro name="editor-sort">
-    <names variable="editor" delimiter=", ">
-      <name name-as-sort-order="all" and="text" sort-separator=", " initialize-with="." delimiter=", "/>
     </names>
   </macro>
   <macro name="bookauthor">

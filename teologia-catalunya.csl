@@ -18,7 +18,7 @@
     <category citation-format="note"/>
     <category field="theology"/>
     <summary>Llibre d'estil per a la redaccio d'escrits de teologia i filosofia. Facultat de Teologia de Catalunya. Facultat de Filosofia de Catalunya (URL). Associació Bíblica de Catalunya</summary>
-    <updated>2014-05-29T23:47:59+00:00</updated>
+    <updated>2014-08-28T01:36:46+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="es">
@@ -137,12 +137,6 @@
   </macro>
   <macro name="recipient">
     <names variable="recipient" delimiter=", ">
-      <label form="verb" prefix=" " text-case="lowercase" suffix=" "/>
-      <name and="text" delimiter=", "/>
-    </names>
-  </macro>
-  <macro name="interviewer">
-    <names variable="interviewer" delimiter=", ">
       <label form="verb" prefix=" " text-case="lowercase" suffix=" "/>
       <name and="text" delimiter=", "/>
     </names>

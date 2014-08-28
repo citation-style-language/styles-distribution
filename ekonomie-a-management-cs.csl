@@ -18,7 +18,7 @@
     <category field="science"/>
     <issn>1212-3609</issn>
     <summary>Style based on ČSN ISO 690:2011</summary>
-    <updated>2014-05-12T02:00:39+00:00</updated>
+    <updated>2014-08-28T01:36:46+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <macro name="author">
@@ -50,15 +50,6 @@
   <macro name="illustrator">
     <text term="translator" form="short" text-case="capitalize-first" suffix=" "/>
     <names variable="illustrator">
-      <name and="text" name-as-sort-order="all" sort-separator=", " delimiter=", " initialize-with="." delimiter-precedes-last="never">
-        <name-part name="family" text-case="uppercase"/>
-        <name-part name="given"/>
-      </name>
-    </names>
-  </macro>
-  <macro name="interviewer">
-    <text term="interviewer" form="verb" text-case="capitalize-first" suffix=" "/>
-    <names variable="interviewer">
       <name and="text" name-as-sort-order="all" sort-separator=", " delimiter=", " initialize-with="." delimiter-precedes-last="never">
         <name-part name="family" text-case="uppercase"/>
         <name-part name="given"/>

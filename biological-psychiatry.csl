@@ -28,7 +28,7 @@
     <category field="medicine"/>
     <issn>0006-3223</issn>
     <eissn>1873-2402</eissn>
-    <updated>2013-08-29T05:27:03+00:00</updated>
+    <updated>2014-08-28T01:36:46+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <macro name="container-contributors">
@@ -63,23 +63,6 @@
         <names variable="editor"/>
         <names variable="translator"/>
         <text macro="title"/>
-      </substitute>
-    </names>
-  </macro>
-  <macro name="author-short">
-    <names variable="author">
-      <name form="short" and="symbol" delimiter=", " initialize-with=""/>
-      <substitute>
-        <names variable="editor"/>
-        <names variable="translator"/>
-        <choose>
-          <if type="bill book graphic legal_case legislation motion_picture report song" match="any">
-            <text variable="title" form="short" font-style="italic"/>
-          </if>
-          <else>
-            <text variable="title" form="short" quotes="true"/>
-          </else>
-        </choose>
       </substitute>
     </names>
   </macro>

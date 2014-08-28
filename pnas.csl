@@ -19,7 +19,7 @@
     <issn>0027-8424</issn>
     <eissn>1091-6490</eissn>
     <summary>The Proceedings of the National Academy of Sciences Journal style.</summary>
-    <updated>2013-11-15T01:14:57+00:00</updated>
+    <updated>2014-08-28T01:36:46+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <macro name="editor">
@@ -59,11 +59,6 @@
       <text variable="publisher"/>
       <text variable="publisher-place"/>
     </group>
-  </macro>
-  <macro name="year-date">
-    <date variable="issued">
-      <date-part name="year"/>
-    </date>
   </macro>
   <macro name="edition">
     <choose>

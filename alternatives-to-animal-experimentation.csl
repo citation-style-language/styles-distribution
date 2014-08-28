@@ -19,7 +19,7 @@
     <category field="medicine"/>
     <issn>0946-7785</issn>
     <summary>Alternatives to Animal Experimentation (ALTEX)</summary>
-    <updated>2013-08-29T05:27:03+00:00</updated>
+    <updated>2014-08-28T01:36:46+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <macro name="editor">
@@ -105,12 +105,6 @@
         <text variable="edition" suffix="."/>
       </else>
     </choose>
-  </macro>
-  <macro name="pages">
-    <group>
-      <label variable="page" form="short" suffix=" "/>
-      <text variable="page"/>
-    </group>
   </macro>
   <citation et-al-min="3" et-al-use-first="1" disambiguate-add-year-suffix="true" disambiguate-add-names="true" collapse="year-suffix">
     <sort>
