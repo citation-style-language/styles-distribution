@@ -17,7 +17,7 @@
     <category citation-format="numeric"/>
     <category field="medicine"/>
     <summary>The American Medical Association style as used in JAMA, without the URL.</summary>
-    <updated>2014-06-10T05:40:17+00:00</updated>
+    <updated>2014-08-28T01:36:46+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="en">
@@ -42,15 +42,6 @@
         </substitute>
       </names>
     </group>
-  </macro>
-  <macro name="author-short">
-    <names variable="author">
-      <name form="short" and="symbol" delimiter=", " initialize-with="."/>
-      <substitute>
-        <names variable="editor"/>
-        <names variable="translator"/>
-      </substitute>
-    </names>
   </macro>
   <macro name="title">
     <choose>

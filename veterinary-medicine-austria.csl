@@ -15,7 +15,7 @@
     <category field="medicine"/>
     <issn>0043-535X</issn>
     <summary>Style for the Veterinary Medicine Austria Journal</summary>
-    <updated>2014-03-01T22:20:33+00:00</updated>
+    <updated>2014-08-28T01:36:46+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <macro name="editor">
@@ -50,20 +50,6 @@
         <text macro="anon"/>
       </substitute>
     </names>
-  </macro>
-  <macro name="access">
-    <group>
-      <text value="Available at:" suffix=" "/>
-      <text variable="URL"/>
-      <group prefix=" [" suffix="]">
-        <text term="accessed" text-case="capitalize-first" suffix=" "/>
-        <date variable="accessed">
-          <date-part name="month" suffix=" "/>
-          <date-part name="day" suffix=", "/>
-          <date-part name="year"/>
-        </date>
-      </group>
-    </group>
   </macro>
   <macro name="title">
     <choose>

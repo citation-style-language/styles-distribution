@@ -13,7 +13,7 @@
     <category citation-format="note"/>
     <category field="generic-base"/>
     <summary>Style based on ISO 690:2010(F), with notes and bibliography, derived from Mellifluo, Grolimund, Hardegger and Giraud author-date version.</summary>
-    <updated>2014-08-28T00:49:57+00:00</updated>
+    <updated>2014-08-28T01:36:46+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale>
@@ -544,9 +544,6 @@ Uncomment to mention the number of pages of books and monographs
       </choose>
       <text macro="archive"/>
     </group>
-  </macro>
-  <macro name="abstract">
-    <text variable="abstract"/>
   </macro>
   <macro name="note">
     <text variable="note" text-case="capitalize-first"/>

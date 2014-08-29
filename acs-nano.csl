@@ -12,7 +12,7 @@
     <issn>1936-0851</issn>
     <eissn>1936-086X</eissn>
     <summary>ACS style with et al in italics</summary>
-    <updated>2014-02-13T01:40:34+00:00</updated>
+    <updated>2014-08-28T01:36:46+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <macro name="editor">
@@ -28,9 +28,6 @@
       <et-al font-style="italic"/>
       <label form="short" prefix=", " text-case="capitalize-first"/>
     </names>
-  </macro>
-  <macro name="access">
-    <text variable="URL"/>
   </macro>
   <macro name="publisher">
     <group delimiter=": ">

@@ -13,7 +13,7 @@
     <category citation-format="numeric"/>
     <category field="engineering"/>
     <issn>0361-1981</issn>
-    <updated>2014-01-07T07:36:16+00:00</updated>
+    <updated>2014-08-28T01:36:46+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <!-- Macros -->
@@ -71,23 +71,6 @@
       <name initialize-with=". " delimiter=", " and="text"/>
       <label form="short" prefix=", "/>
     </names>
-  </macro>
-  <macro name="locators">
-    <group delimiter=", ">
-      <text macro="edition"/>
-      <group delimiter=" ">
-        <text term="volume" form="short"/>
-        <number variable="volume" form="numeric"/>
-      </group>
-      <group delimiter=" ">
-        <number variable="number-of-volumes" form="numeric"/>
-        <text term="volume" form="short" plural="true"/>
-      </group>
-      <group delimiter=" ">
-        <text term="issue" form="short"/>
-        <number variable="issue" form="numeric"/>
-      </group>
-    </group>
   </macro>
   <macro name="title">
     <choose>

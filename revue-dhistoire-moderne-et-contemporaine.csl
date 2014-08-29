@@ -13,7 +13,7 @@
     <category field="social_science"/>
     <issn>0048-8003</issn>
     <eissn>1776-3045</eissn>
-    <updated>2013-08-29T04:18:55+00:00</updated>
+    <updated>2014-08-28T01:36:46+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="fr">
@@ -316,17 +316,6 @@
       <text variable="volume"/>
       <text variable="issue"/>
     </group>
-  </macro>
-  <macro name="volume">
-    <choose>
-      <if is-numeric="volume">
-        <text term="volume" form="short" suffix=".&#160;"/>
-        <text variable="volume"/>
-      </if>
-      <else>
-        <text variable="volume"/>
-      </else>
-    </choose>
   </macro>
   <macro name="issue">
     <choose>

@@ -15,7 +15,7 @@
     <issn>0022-3530</issn>
     <eissn>1460-2415</eissn>
     <summary>Following published papers where they diverge from styleguide: publisher place, no italics for chapter titles</summary>
-    <updated>2014-06-22T21:52:09+00:00</updated>
+    <updated>2014-08-28T01:36:46+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale>
@@ -59,20 +59,6 @@
           <label form="short" prefix=" (" suffix=")"/>
         </names>
       </if>
-    </choose>
-  </macro>
-  <macro name="access">
-    <choose>
-      <if variable="page"/>
-      <else-if variable="DOI">
-        <text variable="DOI" prefix="doi:"/>
-      </else-if>
-      <else-if variable="URL">
-        <group>
-          <text value="Available at" suffix=": "/>
-          <text variable="URL"/>
-        </group>
-      </else-if>
     </choose>
   </macro>
   <macro name="title">

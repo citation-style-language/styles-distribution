@@ -14,7 +14,7 @@
     <category citation-format="note"/>
     <category field="law"/>
     <summary>A still incomplete style (handles only secondary sources) for the OSCOLA standards</summary>
-    <updated>2013-09-08T00:04:27+00:00</updated>
+    <updated>2014-08-28T01:36:46+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="en-GB">
@@ -416,30 +416,6 @@
         <text variable="volume" prefix=" "/>
       </if>
     </choose>
-  </macro>
-  <macro name="access-note">
-    <group delimiter=", ">
-      <choose>
-        <if type="graphic report" match="any">
-          <text macro="archive-note"/>
-        </if>
-        <else-if type="book thesis chapter article-journal article-newspaper article-magazine" match="none">
-          <text macro="archive-note"/>
-        </else-if>
-      </choose>
-      <choose>
-        <if type="legal_case" match="none">
-          <group>
-            <text variable="URL" prefix="&lt;" suffix="&gt;"/>
-            <date variable="accessed">
-              <date-part name="day" prefix=" accessed " suffix=" "/>
-              <date-part name="month" suffix=" "/>
-              <date-part name="year"/>
-            </date>
-          </group>
-        </if>
-      </choose>
-    </group>
   </macro>
   <!-- Bibliography only macros -->
   <macro name="editor">

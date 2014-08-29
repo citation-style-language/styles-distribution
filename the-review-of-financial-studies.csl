@@ -20,7 +20,7 @@
     <issn>0893-9454</issn>
     <eissn>1465-7368</eissn>
     <summary>RFS style based on Chicago - the instructions say to follow Chicago's latest edition, but that's not what the journal does.</summary>
-    <updated>2013-09-08T00:04:27+00:00</updated>
+    <updated>2014-08-28T01:36:46+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale>
@@ -157,24 +157,6 @@
       <text variable="archive_location" text-case="capitalize-first"/>
       <text variable="archive"/>
       <text variable="archive-place"/>
-    </group>
-  </macro>
-  <macro name="access">
-    <group delimiter=". ">
-      <choose>
-        <if type="graphic report" match="any">
-          <text macro="archive"/>
-        </if>
-        <else-if type="book thesis chapter article-journal article-newspaper article-magazine" match="none">
-          <text macro="archive"/>
-        </else-if>
-      </choose>
-      <text variable="DOI" prefix="doi:"/>
-      <choose>
-        <if type="legal_case" match="none">
-          <text variable="URL"/>
-        </if>
-      </choose>
     </group>
   </macro>
   <macro name="title">

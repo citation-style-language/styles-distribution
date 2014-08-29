@@ -18,7 +18,7 @@
     <eissn>1469-185X</eissn>
     <issnl>0006-3231</issnl>
     <summary>Style for Biological Reviews, aka Biological reviews of the Cambridge Philosophical Society</summary>
-    <updated>2013-09-08T00:04:27+00:00</updated>
+    <updated>2014-08-28T01:36:46+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="en">
@@ -106,10 +106,6 @@
       <text variable="publisher"/>
       <text variable="publisher-place"/>
     </group>
-  </macro>
-  <macro name="event">
-    <text variable="event"/>
-    <text variable="event-place" prefix=", "/>
   </macro>
   <macro name="issued">
     <choose>

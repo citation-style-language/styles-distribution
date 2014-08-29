@@ -16,7 +16,7 @@
     <category citation-format="numeric"/>
     <category field="generic-base"/>
     <summary>Springer Vancouver style - like the author-date style, but numeric</summary>
-    <updated>2013-12-22T02:33:59+00:00</updated>
+    <updated>2014-08-28T01:36:46+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="en">
@@ -24,15 +24,6 @@
       <term name="et-al">et al</term>
     </terms>
   </locale>
-  <macro name="author-short">
-    <names variable="author">
-      <name form="short" and="text"/>
-      <substitute>
-        <names variable="editor"/>
-        <names variable="translator"/>
-      </substitute>
-    </names>
-  </macro>
   <macro name="author">
     <names variable="author">
       <name sort-separator=" " initialize-with="" name-as-sort-order="all" delimiter=", " delimiter-precedes-last="always"/>

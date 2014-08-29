@@ -15,7 +15,7 @@
     <category field="philosophy"/>
     <issn>0014-1704</issn>
     <eissn>1539-297X</eissn>
-    <updated>2013-09-08T00:04:27+00:00</updated>
+    <updated>2014-08-28T01:36:46+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="en">
@@ -65,22 +65,6 @@
     <choose>
       <if type="chapter paper-conference" match="any">
         <text macro="editor-translator"/>
-      </if>
-    </choose>
-  </macro>
-  <macro name="secondary-contributors">
-    <choose>
-      <if type="chapter paper-conference" match="none">
-        <group delimiter=". ">
-          <choose>
-            <if variable="author">
-              <names variable="editor translator" delimiter=". ">
-                <label form="verb" text-case="capitalize-first" suffix=" "/>
-                <name and="text" delimiter=", "/>
-              </names>
-            </if>
-          </choose>
-        </group>
       </if>
     </choose>
   </macro>

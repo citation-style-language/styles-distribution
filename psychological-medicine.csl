@@ -31,7 +31,7 @@ KNOWN CHALLENGES
     <issn>0033-2917</issn>
     <eissn>1469-8978</eissn>
     <summary>Psychological Medicine - based on the May 2011 version of the style guide titled The Harvard Author&#8211;Date Referencing System</summary>
-    <updated>2013-09-08T00:04:27+00:00</updated>
+    <updated>2014-08-28T01:36:46+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="en">
@@ -102,18 +102,6 @@ KNOWN CHALLENGES
         <text macro="noauthor_title"/>
       </substitute>
     </names>
-  </macro>
-  <macro name="access">
-    <choose>
-      <if variable="URL accessed" match="all">
-        <date variable="accessed" prefix="viewed ">
-          <date-part name="day" form="numeric" suffix=" "/>
-          <date-part name="month" form="long" suffix=" "/>
-          <date-part name="year" form="long"/>
-        </date>
-        <text variable="URL" prefix=", &lt;" suffix="&gt;"/>
-      </if>
-    </choose>
   </macro>
   <macro name="title">
     <choose>

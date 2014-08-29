@@ -14,19 +14,9 @@
     <category field="science"/>
     <issn>1862-832X</issn>
     <eissn>1862-8338</eissn>
-    <updated>2014-06-03T22:15:58+00:00</updated>
+    <updated>2014-08-28T01:36:46+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
-  <macro name="title">
-    <choose>
-      <if type="bill book graphic legal_case legislation motion_picture report song" match="any">
-        <text variable="title" font-style="italic"/>
-      </if>
-      <else>
-        <text variable="title"/>
-      </else>
-    </choose>
-  </macro>
   <macro name="author">
     <names variable="author">
       <name sort-separator=", " initialize-with=". " delimiter-precedes-last="never"/>

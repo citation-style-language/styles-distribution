@@ -12,7 +12,7 @@
     <category citation-format="author-date"/>
     <category field="generic-base"/>
     <summary>Diplo Reference Style</summary>
-    <updated>2013-08-29T03:14:21+00:00</updated>
+    <updated>2014-08-28T01:36:46+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="en">
@@ -87,9 +87,6 @@
       <name name-as-sort-order="all" and="text" sort-separator=" " initialize-with="" delimiter-precedes-last="never" delimiter=", "/>
       <label form="short" prefix=" " strip-periods="true"/>
     </names>
-  </macro>
-  <macro name="anon">
-    <text term="anonymous" form="short" strip-periods="true"/>
   </macro>
   <macro name="author">
     <names variable="author">

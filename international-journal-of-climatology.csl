@@ -16,7 +16,7 @@
     <issn>0899-8418</issn>
     <eissn>1097-0088</eissn>
     <summary>The International Journal of Climatology citation style.</summary>
-    <updated>2014-08-28T00:49:57+00:00</updated>
+    <updated>2014-08-28T01:36:46+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <macro name="author">
@@ -57,16 +57,6 @@
           <name and="text" initialize-with="" delimiter=", " sort-separator=" " name-as-sort-order="all" delimiter-precedes-last="never"/>
           <label form="short" prefix=" (" suffix=")" strip-periods="true"/>
         </names>
-      </if>
-    </choose>
-  </macro>
-  <macro name="access">
-    <choose>
-      <if variable="URL">
-        <group>
-          <text value="Available at" suffix=": "/>
-          <text variable="URL"/>
-        </group>
       </if>
     </choose>
   </macro>

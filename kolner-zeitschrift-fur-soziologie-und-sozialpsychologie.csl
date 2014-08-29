@@ -22,7 +22,7 @@
     <issn>0023-2653</issn>
     <eissn>1861-891X</eissn>
     <summary>The KZfSS style</summary>
-    <updated>2013-08-29T05:27:03+00:00</updated>
+    <updated>2014-08-28T01:36:46+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="de">
@@ -32,12 +32,6 @@
   </locale>
   <macro name="editor">
     <names variable="editor">
-      <label form="short" text-case="capitalize-first" suffix=" "/>
-      <name and="text" delimiter=", "/>
-    </names>
-  </macro>
-  <macro name="series-editor">
-    <names variable="original-author">
       <label form="short" text-case="capitalize-first" suffix=" "/>
       <name and="text" delimiter=", "/>
     </names>
