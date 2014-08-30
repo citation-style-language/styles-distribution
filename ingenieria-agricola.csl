@@ -40,7 +40,7 @@
     <issn>2306-1545</issn>
     <eissn>2227-8761</eissn>
     <summary>Style based on ISO 690:2010(F), V1, derived from Giraud version.</summary>
-    <updated>2014-08-28T01:36:46+00:00</updated>
+    <updated>2014-08-30T16:59:28+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale>
@@ -144,21 +144,6 @@
         <text term="no date"/>
       </else>
     </choose>
-  </macro>
-  <macro name="year-date-responsability">
-    <choose>
-      <if variable="issued">
-        <date variable="issued">
-          <date-part name="year" form="long" font-style="italic"/>
-        </date>
-      </if>
-      <else>
-        <text term="no date"/>
-      </else>
-    </choose>
-  </macro>
-  <macro name="event">
-    <text variable="event"/>
   </macro>
   <macro name="title">
     <text variable="title"/>
@@ -275,9 +260,6 @@
         <text value="[en línea] "/>
       </if>
     </choose>
-  </macro>
-  <macro name="abstract">
-    <text variable="abstract"/>
   </macro>
   <macro name="note">
     <text variable="note"/>

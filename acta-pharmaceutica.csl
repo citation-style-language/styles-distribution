@@ -16,7 +16,7 @@
     <category field="biology"/>
     <issn>1330-0075</issn>
     <eissn>1846-9558</eissn>
-    <updated>2014-08-28T01:36:46+00:00</updated>
+    <updated>2014-08-30T16:59:28+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <macro name="container-contributors">
@@ -219,20 +219,6 @@
       </if>
     </choose>
   </macro>
-  <macro name="issued-year">
-    <choose>
-      <if variable="issued">
-        <date variable="issued">
-          <date-part name="year"/>
-        </date>
-        <text variable="year-suffix"/>
-      </if>
-      <else>
-        <text term="no date" form="short"/>
-        <text variable="year-suffix" prefix="-"/>
-      </else>
-    </choose>
-  </macro>
   <macro name="edition">
     <choose>
       <if is-numeric="edition">
@@ -294,12 +280,6 @@
         </date>
       </else-if>
     </choose>
-  </macro>
-  <macro name="citation-locator">
-    <group>
-      <label variable="locator" form="short"/>
-      <text variable="locator" prefix=" "/>
-    </group>
   </macro>
   <macro name="container">
     <choose>

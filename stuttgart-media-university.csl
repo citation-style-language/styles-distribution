@@ -14,7 +14,7 @@
     </author>
     <category citation-format="note"/>
     <category field="social_science"/>
-    <updated>2014-08-28T01:36:46+00:00</updated>
+    <updated>2014-08-30T16:59:28+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="de">
@@ -161,16 +161,6 @@
       <label variable="locator" form="short" suffix=" "/>
       <text variable="locator"/>
     </group>
-  </macro>
-  <macro name="hasUrl">
-    <choose>
-      <if variable="URL" match="any">
-        <text value="yes"/>
-      </if>
-      <else>
-        <text value="no"/>
-      </else>
-    </choose>
   </macro>
   <citation et-al-min="3" et-al-use-first="1" disambiguate-add-year-suffix="true">
     <layout delimiter="; ">

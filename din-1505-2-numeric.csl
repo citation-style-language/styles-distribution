@@ -40,7 +40,7 @@
       tab: &#009;
       
     -->
-    <updated>2014-08-28T01:36:46+00:00</updated>
+    <updated>2014-08-30T16:59:28+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="de">
@@ -145,12 +145,6 @@
       </if>
     </choose>
   </macro>
-  <macro name="publisher">
-    <group delimiter=": ">
-      <text variable="publisher-place"/>
-      <text variable="publisher"/>
-    </group>
-  </macro>
   <macro name="volumes">
     <group delimiter=" ">
       <text term="volume" form="short" plural="false"/>
@@ -202,36 +196,6 @@
       </if>
     </choose>
     <text macro="recipient" prefix=", "/>
-  </macro>
-  <macro name="cite-year">
-    <group>
-      <choose>
-        <if type="bill legislation" match="any">
-          <date variable="issued" prefix=" (" suffix=")">
-            <date-part name="year" prefix="idF. v. "/>
-          </date>
-        </if>
-        <else>
-          <date variable="issued" prefix=", ">
-            <date-part name="year"/>
-          </date>
-          <text variable="year-suffix"/>
-        </else>
-      </choose>
-    </group>
-  </macro>
-  <macro name="locator">
-    <group>
-      <choose>
-        <if type="bill legislation" match="any">
-          <text variable="locator" prefix=" "/>
-        </if>
-        <else>
-          <label variable="locator" form="short" prefix=", "/>
-          <text variable="locator" prefix=" "/>
-        </else>
-      </choose>
-    </group>
   </macro>
   <!-- This citytion style only differs from its original DIN 1505 style in the in-text citation which begins here -->
   <citation collapse="citation-number">

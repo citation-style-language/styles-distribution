@@ -16,7 +16,7 @@
     <category citation-format="numeric"/>
     <category field="generic-base"/>
     <summary>Springer Vancouver style - like the author-date style, but numeric</summary>
-    <updated>2014-08-28T01:36:46+00:00</updated>
+    <updated>2014-08-30T16:59:28+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="en">
@@ -53,11 +53,6 @@
         <text variable="edition"/>
       </else>
     </choose>
-  </macro>
-  <macro name="year">
-    <date variable="issued">
-      <date-part name="year"/>
-    </date>
   </macro>
   <macro name="title">
     <choose>

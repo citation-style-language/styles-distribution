@@ -21,7 +21,7 @@
     <category field="political_science"/>
     <category field="social_science"/>
     <summary>A Harvard author-date style variant as used for Political Science and others, mostly german. The in-text citation style is changed to [author year: page], avoiding the abbreviation for pages (S.) and changing the delimiters. Based on harvard 7 de style by Julian Onions and Sven Rothe.</summary>
-    <updated>2014-08-28T01:36:46+00:00</updated>
+    <updated>2014-08-30T16:59:28+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="de">
@@ -178,9 +178,6 @@
         <text term="in" text-case="capitalize-first" suffix=":"/>
       </if>
     </choose>
-  </macro>
-  <macro name="isbn">
-    <text variable="ISBN" prefix="ISBN: "/>
   </macro>
   <citation et-al-min="3" et-al-use-first="1" et-al-subsequent-min="3" et-al-subsequent-use-first="1" disambiguate-add-year-suffix="true" collapse="year">
     <sort>
