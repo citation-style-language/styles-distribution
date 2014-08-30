@@ -13,7 +13,7 @@
     <category citation-format="numeric"/>
     <category field="engineering"/>
     <issn>0361-1981</issn>
-    <updated>2014-08-30T16:59:28+00:00</updated>
+    <updated>2014-08-28T01:36:46+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <!-- Macros -->
@@ -93,6 +93,30 @@
       <label variable="page" form="short"/>
       <text variable="page"/>
     </group>
+  </macro>
+  <macro name="access">
+    <choose>
+      <if type="webpage book" match="any">
+        <group delimiter=" ">
+          <text term="retrieved" text-case="capitalize-first" suffix=" "/>
+          <group>
+            <date variable="accessed" suffix=", ">
+              <date-part name="month" suffix=" "/>
+              <date-part name="day" suffix=", "/>
+              <date-part name="year"/>
+            </date>
+          </group>
+          <text term="from"/>
+        </group>
+      </if>
+      <else>
+        <group>
+          <text term="retrieved" text-case="capitalize-first" suffix=" "/>
+          <text term="from" suffix=" "/>
+          <text variable="URL"/>
+        </group>
+      </else>
+    </choose>
   </macro>
   <!-- Citation -->
   <citation collapse="citation-number">

@@ -18,7 +18,7 @@
     <category citation-format="author-date"/>
     <issn>1047-7047</issn>
     <eissn>1526-5536</eissn>
-    <updated>2014-08-30T16:59:28+00:00</updated>
+    <updated>2014-08-28T01:36:46+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <macro name="container-contributors">
@@ -92,6 +92,27 @@
       </else-if>
       <else>
         <text variable="title" form="long" quotes="false" suffix="."/>
+      </else>
+    </choose>
+  </macro>
+  <macro name="publisher">
+    <choose>
+      <if type="report thesis" match="any">
+        <group delimiter=", " suffix=".">
+          <text variable="publisher" form="long"/>
+          <text variable="publisher-place"/>
+        </group>
+      </if>
+      <else>
+        <choose>
+          <if variable="event" match="none">
+            <text variable="genre" suffix=", "/>
+          </if>
+        </choose>
+        <group delimiter=": ">
+          <text variable="publisher-place"/>
+          <text variable="publisher"/>
+        </group>
       </else>
     </choose>
   </macro>
@@ -187,6 +208,14 @@
       <label variable="locator" form="short"/>
       <text variable="locator" prefix=" "/>
     </group>
+  </macro>
+  <macro name="page">
+    <choose>
+      <if match="any" variable="page">
+        <label variable="page" form="short" prefix=", " suffix=" "/>
+        <text variable="page" form="long"/>
+      </if>
+    </choose>
   </macro>
   <citation et-al-min="3" et-al-use-first="1" disambiguate-add-year-suffix="true" disambiguate-add-names="true" disambiguate-add-givenname="true" givenname-disambiguation-rule="by-cite" collapse="year">
     <sort>

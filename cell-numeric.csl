@@ -15,7 +15,7 @@
     <category citation-format="numeric"/>
     <category field="biology"/>
     <summary>The style for Cell Journals using numerical citations, such as Current Biology</summary>
-    <updated>2014-08-30T16:59:28+00:00</updated>
+    <updated>2014-08-28T01:36:46+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <macro name="editor">
@@ -58,6 +58,11 @@
       <text variable="publisher-place"/>
       <text variable="publisher"/>
     </group>
+  </macro>
+  <macro name="year-date">
+    <date variable="issued">
+      <date-part name="year"/>
+    </date>
   </macro>
   <macro name="edition">
     <choose>

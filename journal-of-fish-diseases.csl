@@ -15,7 +15,7 @@
     <issn>0140-7775</issn>
     <eissn>1365-2761</eissn>
     <summary>Style for the Journal of Fish Diseases</summary>
-    <updated>2014-08-30T16:59:28+00:00</updated>
+    <updated>2014-08-28T01:36:46+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale>
@@ -68,6 +68,12 @@
     <date variable="issued">
       <date-part name="year"/>
     </date>
+  </macro>
+  <macro name="locator">
+    <group>
+      <label variable="locator" form="short"/>
+      <text variable="locator" prefix=" "/>
+    </group>
   </macro>
   <macro name="edition">
     <choose>

@@ -19,7 +19,7 @@
     <eissn>1941-2703</eissn>
     <issnl>1941-2711</issnl>
     <summary>Adapted from JAMA style</summary>
-    <updated>2014-08-30T16:59:28+00:00</updated>
+    <updated>2014-08-28T01:36:46+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="en">
@@ -85,6 +85,20 @@
     <group delimiter=": ">
       <text variable="publisher-place"/>
       <text variable="publisher"/>
+    </group>
+  </macro>
+  <macro name="year-date">
+    <group prefix=" ">
+      <choose>
+        <if variable="issued">
+          <date variable="issued">
+            <date-part name="year"/>
+          </date>
+        </if>
+        <else>
+          <text term="no date" form="short"/>
+        </else>
+      </choose>
     </group>
   </macro>
   <macro name="edition">

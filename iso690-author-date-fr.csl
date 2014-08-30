@@ -24,7 +24,7 @@
     <category citation-format="author-date"/>
     <category field="generic-base"/>
     <summary>Style based on ISO 690:2010(F), V1.1</summary>
-    <updated>2014-08-30T16:59:28+00:00</updated>
+    <updated>2014-08-28T01:36:46+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale>
@@ -212,6 +212,9 @@
   </macro>
   <macro name="medium">
     <text variable="medium" prefix=" [" suffix="]"/>
+  </macro>
+  <macro name="version">
+    <text variable="version"/>
   </macro>
   <macro name="genre">
     <choose>

@@ -16,7 +16,7 @@
     <category field="geology"/>
     <issn>0024-3590</issn>
     <eissn>1939-5590</eissn>
-    <updated>2014-08-30T16:59:28+00:00</updated>
+    <updated>2014-08-28T01:36:46+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <macro name="editor">
@@ -46,6 +46,13 @@
         <names variable="translator"/>
       </substitute>
     </names>
+  </macro>
+  <macro name="access">
+    <choose>
+      <if variable="DOI">
+        <text variable="DOI" prefix=", doi:"/>
+      </if>
+    </choose>
   </macro>
   <macro name="title">
     <text variable="title"/>
