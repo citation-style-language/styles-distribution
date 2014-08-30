@@ -14,7 +14,7 @@
     <issn>0378-8660</issn>
     <eissn>1810-536X</eissn>
     <summary>Bibliographic style for Jahrbuch der Österreichischen Byzantinischen Gesellschaft</summary>
-    <updated>2014-08-28T01:36:46+00:00</updated>
+    <updated>2014-08-30T16:59:28+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="en">
@@ -171,21 +171,11 @@
       </else>
     </choose>
   </macro>
-  <macro name="page_first">
-    <label variable="locator" form="short" suffix=" "/>
-    <text variable="locator"/>
-  </macro>
   <!--other-->
   <macro name="issued1">
     <date variable="issued">
       <date-part name="year" suffix=""/>
     </date>
-  </macro>
-  <macro name="issued-place">
-    <date variable="issued">
-      <date-part name="year"/>
-    </date>
-    <text variable="publisher-place"/>
   </macro>
   <!--Citation-->
   <citation et-al-min="4" et-al-use-first="1" et-al-subsequent-min="4" et-al-subsequent-use-first="1" disambiguate-add-names="true" disambiguate-add-givenname="true">

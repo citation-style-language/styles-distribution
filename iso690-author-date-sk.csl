@@ -13,7 +13,7 @@
     <category citation-format="author-date"/>
     <category field="generic-base"/>
     <summary>Style based on STN ISO 690:2012</summary>
-    <updated>2014-08-28T01:36:46+00:00</updated>
+    <updated>2014-08-30T16:59:28+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale>
@@ -446,30 +446,6 @@
         </group>
       </else-if>
     </choose>
-  </macro>
-  <macro name="archive">
-    <text variable="archive"/>
-    <choose>
-      <if variable="archive_location">
-        <text value=": "/>
-      </if>
-    </choose>
-  </macro>
-  <macro name="archive_location">
-    <choose>
-      <if variable="archive_location">
-        <text variable="archive_location"/>
-      </if>
-      <else>
-        <text variable="call-number"/>
-      </else>
-    </choose>
-  </macro>
-  <macro name="abstract">
-    <text variable="abstract"/>
-  </macro>
-  <macro name="note">
-    <text variable="note"/>
   </macro>
   <citation disambiguate-add-year-suffix="true" collapse="year" year-suffix-delimiter=", " after-collapse-delimiter="; " et-al-min="3" et-al-use-first="1" and="text">
     <layout prefix="(" suffix=")" delimiter="; ">

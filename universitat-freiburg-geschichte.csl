@@ -11,7 +11,7 @@
     </author>
     <category citation-format="note"/>
     <category field="history"/>
-    <updated>2014-08-28T01:36:46+00:00</updated>
+    <updated>2014-08-30T16:59:28+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="de">
@@ -118,16 +118,6 @@
   <macro name="point-locators">
     <label variable="locator" form="short" prefix=", " suffix=" "/>
     <text variable="locator"/>
-  </macro>
-  <macro name="hasUrl">
-    <choose>
-      <if variable="URL" match="any">
-        <text value="yes"/>
-      </if>
-      <else>
-        <text value="no"/>
-      </else>
-    </choose>
   </macro>
   <!-- FUNDSTELLE (bei Nachweisen) -->
   <macro name="citation-locator">

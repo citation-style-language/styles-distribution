@@ -10,7 +10,7 @@
       <email>auvigne@ekipaj.com</email>
     </author>
     <category citation-format="author-date"/>
-    <updated>2014-08-28T01:36:46+00:00</updated>
+    <updated>2014-08-30T16:59:28+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="en">
@@ -101,12 +101,6 @@
         <text variable="edition" suffix="."/>
       </else>
     </choose>
-  </macro>
-  <macro name="pages">
-    <group>
-      <label variable="page" form="short" suffix=" "/>
-      <text variable="page"/>
-    </group>
   </macro>
   <citation et-al-min="2" et-al-use-first="1" et-al-subsequent-min="3" et-al-subsequent-use-first="1" disambiguate-add-year-suffix="true" disambiguate-add-names="true" disambiguate-add-givenname="true">
     <layout prefix="(" suffix=")" delimiter="; ">

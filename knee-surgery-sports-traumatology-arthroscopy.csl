@@ -15,7 +15,7 @@
     <issn>0942-2056</issn>
     <eissn>1433-7347</eissn>
     <summary>Official journal of the European Society of Sports Traumatology, Knee Surgery and Arthroscopy (ESSKA).</summary>
-    <updated>2014-08-28T01:36:46+00:00</updated>
+    <updated>2014-08-30T16:59:28+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <macro name="author">
@@ -69,10 +69,6 @@
       <text variable="publisher"/>
       <text variable="publisher-place"/>
     </group>
-  </macro>
-  <macro name="event">
-    <text variable="event"/>
-    <text variable="event-place" prefix=", "/>
   </macro>
   <macro name="locators">
     <choose>

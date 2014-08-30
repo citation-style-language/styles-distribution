@@ -14,7 +14,7 @@
     <category citation-format="note"/>
     <category field="law"/>
     <summary>A still incomplete style (handles only secondary sources) for the OSCOLA standards</summary>
-    <updated>2014-08-28T01:36:46+00:00</updated>
+    <updated>2014-08-30T22:48:16+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="en-GB">
@@ -350,13 +350,6 @@
         </group>
       </else>
     </choose>
-  </macro>
-  <macro name="archive-note">
-    <group delimiter=", ">
-      <text variable="archive_location"/>
-      <text variable="archive"/>
-      <text variable="archive-place"/>
-    </group>
   </macro>
   <macro name="book-volume-note">
     <choose>

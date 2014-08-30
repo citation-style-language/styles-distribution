@@ -16,7 +16,7 @@
     <category field="sociology"/>
     <issn>0340-918X</issn>
     <eissn>1862-2550</eissn>
-    <updated>2014-08-28T01:36:46+00:00</updated>
+    <updated>2014-08-30T16:59:28+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="de">
@@ -223,9 +223,6 @@
         <text variable="year-suffix" prefix="-"/>
       </else>
     </choose>
-  </macro>
-  <macro name="edition">
-    <text value=""/>
   </macro>
   <macro name="locators">
     <choose>
