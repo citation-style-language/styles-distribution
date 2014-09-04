@@ -13,7 +13,7 @@
     <category field="medicine"/>
     <issn>0090-3493</issn>
     <eissn>1530-0293</eissn>
-    <updated>2013-09-08T00:04:27+00:00</updated>
+    <updated>2014-09-04T06:22:51+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <macro name="author">
@@ -34,20 +34,24 @@
     </date>
   </macro>
   <macro name="access">
-    <group delimiter=" ">
-      <group prefix="[" suffix="]" delimiter=" ">
-        <text term="cited"/>
-        <date variable="accessed">
-          <date-part name="year"/>
-          <date-part name="month" prefix=" " form="short" strip-periods="true"/>
-          <date-part name="day" prefix=" "/>
-        </date>
-      </group>
-      <group>
-        <text value="Available from: "/>
-        <text variable="URL"/>
-      </group>
-    </group>
+    <choose>
+      <if variable="URL">
+        <group delimiter=" ">
+          <group prefix="[" suffix="]" delimiter=" ">
+            <text term="cited"/>
+            <date variable="accessed">
+              <date-part name="year"/>
+              <date-part name="month" prefix=" " form="short" strip-periods="true"/>
+              <date-part name="day" prefix=" "/>
+            </date>
+          </group>
+          <group>
+            <text value="Available from: "/>
+            <text variable="URL"/>
+          </group>
+        </group>
+      </if>
+    </choose>
   </macro>
   <macro name="title">
     <group delimiter=" ">
@@ -100,7 +104,7 @@
           <text variable="page" prefix=" p. " suffix="."/>
         </else-if>
         <else>
-          <text variable="container-title" suffix=" " form="short" font-style="italic"/>
+          <text variable="container-title" suffix=" " form="short" font-style="italic" strip-periods="true"/>
           <date variable="issued" suffix="; ">
             <date-part name="year"/>
           </date>
