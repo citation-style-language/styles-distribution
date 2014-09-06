@@ -14,7 +14,7 @@
     <issn>0034-6861</issn>
     <eissn>1539-0756</eissn>
     <summary>The long version of the Rev. Mod. Phys. style</summary>
-    <updated>2014-08-30T16:59:28+00:00</updated>
+    <updated>2014-09-06T21:14:27+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale>
@@ -345,7 +345,7 @@
     </choose>
     <choose>
       <if variable="title" match="none"/>
-      <else-if type="thesis personal_communication"/>
+      <else-if type="thesis personal_communication" match="any"/>
       <else>
         <group delimiter=" " prefix=". ">
           <text variable="genre" text-case="capitalize-first"/>
