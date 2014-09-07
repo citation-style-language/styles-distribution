@@ -15,7 +15,7 @@
     <category citation-format="author-date"/>
     <category field="anthropology"/>
     <summary>A style commonly used by Archaeologists in Europe</summary>
-    <updated>2013-08-29T04:18:55+00:00</updated>
+    <updated>2014-09-06T22:02:33+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="en">
@@ -38,7 +38,7 @@
   <macro name="author">
     <names variable="author">
       <name name-as-sort-order="all" and="symbol" sort-separator=", " initialize-with="." delimiter-precedes-last="always" delimiter=", "/>
-      <label form="short" prefix=" " suffix="." strip-periods="true"/>
+      <label form="short" prefix=" "/>
       <substitute>
         <names variable="editor"/>
         <text macro="anon"/>
@@ -182,7 +182,7 @@
               <text variable="issue" prefix="(" suffix=")"/>
             </group>
             <group prefix=": ">
-              <label variable="locator" suffix="." form="short" strip-periods="true"/>
+              <label variable="locator" form="short"/>
               <text variable="page"/>
             </group>
           </group>

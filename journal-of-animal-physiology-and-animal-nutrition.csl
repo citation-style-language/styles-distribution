@@ -14,7 +14,7 @@
     <category field="science"/>
     <issn>0931-2439</issn>
     <eissn>1439-0396</eissn>
-    <updated>2014-08-28T01:36:46+00:00</updated>
+    <updated>2014-09-06T22:02:33+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="en">
@@ -59,7 +59,7 @@
   <macro name="author">
     <names variable="author">
       <name delimiter="; " delimiter-precedes-et-al="never" delimiter-precedes-last="never" initialize-with=". " name-as-sort-order="all"/>
-      <label form="short" prefix=" (" suffix=".)" text-case="capitalize-first" strip-periods="true"/>
+      <label form="short" prefix=" (" suffix=")" text-case="capitalize-first"/>
       <substitute>
         <names variable="editor"/>
         <names variable="translator"/>

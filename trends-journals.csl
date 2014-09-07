@@ -34,7 +34,7 @@
     <category field="biology"/>
     <category field="medicine"/>
     <summary>Style for the "Trends" journals by Cell Press</summary>
-    <updated>2014-04-19T17:26:21+00:00</updated>
+    <updated>2014-09-06T22:02:33+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <!-- Macros -->
@@ -101,7 +101,7 @@
       </group>
       <group delimiter=" ">
         <number variable="number-of-volumes" form="numeric"/>
-        <text term="volume" form="short" suffix="." plural="true" strip-periods="true"/>
+        <text term="volume" form="short" plural="true"/>
       </group>
     </group>
   </macro>

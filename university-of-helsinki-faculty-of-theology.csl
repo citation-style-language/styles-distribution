@@ -13,7 +13,7 @@
     <category citation-format="author-date"/>
     <category field="theology"/>
     <summary>Helsinki University, the Faculty of Theology. Modified from Currents in Biblical Research Style. Incomplete.</summary>
-    <updated>2014-09-04T19:06:56+00:00</updated>
+    <updated>2014-09-07T13:35:57+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale>
@@ -113,7 +113,7 @@
   <macro name="contributors">
     <names variable="author">
       <name delimiter=" " and="symbol" delimiter-precedes-last="always" initialize="false" name-as-sort-order="all"/>
-      <label form="verb-short" strip-periods="true" prefix=", " suffix="."/>
+      <label form="verb-short" prefix=", "/>
       <substitute>
         <names variable="editor"/>
         <names variable="translator"/>
@@ -290,7 +290,7 @@
           </group>
           <group suffix="; ">
             <number variable="number-of-volumes" form="numeric" suffix=" "/>
-            <text term="volume" form="short" prefix=" " suffix=". " plural="true" strip-periods="true"/>
+            <text term="volume" form="short" prefix=" " suffix=" " plural="true"/>
           </group>
         </group>
       </if>
@@ -301,7 +301,7 @@
         </group>
         <group suffix="; ">
           <number variable="number-of-volumes" form="numeric" suffix=" "/>
-          <text term="volume" form="short" prefix=" " suffix=". " plural="true" strip-periods="true"/>
+          <text term="volume" form="short" prefix=" " suffix=" " plural="true"/>
         </group>
         <choose>
           <if variable="page" match="none">

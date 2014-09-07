@@ -17,7 +17,7 @@
     <category citation-format="numeric"/>
     <category field="chemistry"/>
     <summary>The Royal Society of Chemistry journal style.</summary>
-    <updated>2014-08-30T16:59:28+00:00</updated>
+    <updated>2014-09-06T22:02:33+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <macro name="editor">
@@ -29,7 +29,7 @@
   <macro name="author">
     <names variable="author">
       <name initialize-with=". " and="text" delimiter=", "/>
-      <label form="short" prefix=", " suffix="." text-case="capitalize-first" strip-periods="true"/>
+      <label form="short" prefix=", " text-case="capitalize-first"/>
       <substitute>
         <names variable="editor"/>
       </substitute>

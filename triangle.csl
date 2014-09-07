@@ -16,7 +16,7 @@
     <category field="social_science"/>
     <summary>Derived from Style EHESS-histoire, available at http://www.boiteaoutils.info/2011/06/styles-francais-de-citation-sous-zotero.html
 		First version online in november 2012</summary>
-    <updated>2013-08-29T04:18:55+00:00</updated>
+    <updated>2014-09-06T22:02:33+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="fr">
@@ -126,9 +126,9 @@
           <text variable="title" text-case="capitalize-first" font-style="italic" suffix=","/>
           <!-- pour le jour où il y aura un champ 'directeur' dans la fiche thèse de zotero...-->
           <!--
-										<text term="editor" form="verb" prefix="&#160;" />
-										<text variable="editor" suffix=",&#160;" />   
-										<text variable="genre" /> 
+										<text term="editor" form="verb" prefix="&#160;"/>
+										<text variable="editor" suffix=",&#160;"/>   
+										<text variable="genre"/> 
 										-->
         </group>
       </else-if>

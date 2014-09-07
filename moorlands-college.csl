@@ -13,7 +13,7 @@
     <category citation-format="note"/>
     <category field="generic-base"/>
     <summary>Chicago format with full notes and bibliography</summary>
-    <updated>2013-09-08T00:04:27+00:00</updated>
+    <updated>2014-09-06T22:02:33+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="en">
@@ -858,7 +858,7 @@
     </choose>
   </macro>
   <macro name="access-note">
-    <group delimiter="  ">
+    <group delimiter=" ">
       <choose>
         <if type="graphic report" match="any">
           <text macro="archive-note"/>

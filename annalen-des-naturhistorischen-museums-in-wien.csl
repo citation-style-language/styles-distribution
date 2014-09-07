@@ -15,7 +15,7 @@
     <category citation-format="author-date"/>
     <category field="biology"/>
     <summary>Style for Annalen des Naturhistorischen Museums in Wien</summary>
-    <updated>2014-08-28T01:36:46+00:00</updated>
+    <updated>2014-09-06T22:02:33+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="en">
@@ -196,7 +196,7 @@
           <text term="in" suffix=": " text-case="capitalize-first"/>
           <text macro="container-contributors" prefix=" " suffix=": "/>
           <text macro="container-title" suffix="."/>
-          <label variable="page" form="short" suffix=". " prefix="  &#8211; "/>
+          <label variable="page" form="short" suffix=". " prefix=" &#8211; "/>
           <text variable="page" suffix=","/>
         </group>
       </else-if>

@@ -15,7 +15,7 @@
     <category field="science"/>
     <issn>0002-9092</issn>
     <eissn>1467-8276</eissn>
-    <updated>2013-08-29T03:14:21+00:00</updated>
+    <updated>2014-09-06T22:02:33+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <macro name="editor">
@@ -30,7 +30,7 @@
   <macro name="author">
     <names variable="author">
       <name sort-separator=", " and="text" delimiter-precedes-last="always" initialize-with="." name-as-sort-order="first"/>
-      <label form="short" prefix=" " suffix="." strip-periods="true"/>
+      <label form="short" prefix=" "/>
       <substitute>
         <names variable="editor"/>
         <text macro="anon"/>
@@ -118,7 +118,7 @@
           <text macro="year-date"/>
         </group>
         <group>
-          <label variable="locator" suffix="." form="short" strip-periods="true"/>
+          <label variable="locator" form="short"/>
           <text variable="locator"/>
         </group>
       </group>

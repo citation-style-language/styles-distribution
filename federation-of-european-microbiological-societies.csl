@@ -17,7 +17,7 @@
     <category citation-format="author-date"/>
     <category field="biology"/>
     <summary>FEMS journal styles</summary>
-    <updated>2013-08-29T05:27:03+00:00</updated>
+    <updated>2014-09-06T22:02:33+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <macro name="editor">
@@ -38,7 +38,7 @@
   <macro name="author">
     <names variable="author">
       <name and="symbol" name-as-sort-order="all" sort-separator=" " delimiter=", " delimiter-precedes-last="never" initialize-with=""/>
-      <label form="short" prefix=", " suffix="." strip-periods="true"/>
+      <label form="short" prefix=", "/>
       <substitute>
         <names variable="editor"/>
         <names variable="translator"/>
@@ -100,7 +100,7 @@
     </date>
   </macro>
   <macro name="page">
-    <label variable="page" suffix=". " form="short" strip-periods="true"/>
+    <label variable="page" suffix=" " form="short"/>
     <text variable="page"/>
   </macro>
   <macro name="edition">

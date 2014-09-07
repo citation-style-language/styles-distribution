@@ -16,7 +16,7 @@
     <issn>0022-3751</issn>
     <eissn>1469-7793</eissn>
     <summary>Style for The Journal of Physiology</summary>
-    <updated>2014-08-28T01:36:46+00:00</updated>
+    <updated>2014-09-06T22:02:33+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <!--
@@ -42,7 +42,7 @@
   <macro name="author-bib">
     <names variable="author">
       <name and="symbol" name-as-sort-order="all" sort-separator=" " initialize-with="" delimiter=", " delimiter-precedes-last="never"/>
-      <label form="short" prefix=" " suffix="." strip-periods="true"/>
+      <label form="short" prefix=" "/>
       <substitute>
         <names variable="editor"/>
         <text macro="anon"/>
