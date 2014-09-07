@@ -17,7 +17,7 @@
     <category citation-format="author-date"/>
     <category field="generic-base"/>
     <summary>The Brazilian standard style as used in the Universidade Federal do Paraná</summary>
-    <updated>2014-09-06T22:02:33+00:00</updated>
+    <updated>2014-08-28T01:36:46+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <macro name="container-contributors">
@@ -47,7 +47,7 @@
         <name-part name="family" text-case="uppercase"/>
         <name-part name="given" text-case="uppercase"/>
       </name>
-      <label form="short" prefix=" (" suffix=")" text-case="uppercase"/>
+      <label form="short" prefix=" (" suffix=".)" text-case="uppercase" strip-periods="true"/>
       <substitute>
         <names variable="editor"/>
         <names variable="translator"/>
@@ -117,7 +117,7 @@
         <if type="article-journal bill book chapter graphic legal_case legislation motion_picture paper-conference report song" match="none">
           <date variable="issued">
             <date-part prefix=" " suffix="." name="day"/>
-            <date-part prefix=" " suffix=" " name="month" form="short"/>
+            <date-part prefix=" " suffix=". " name="month" form="short" strip-periods="true"/>
           </date>
         </if>
       </choose>

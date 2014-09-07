@@ -13,7 +13,7 @@
     <category citation-format="author-date"/>
     <category field="science"/>
     <summary>The Council of Science Editors style.</summary>
-    <updated>2014-09-06T22:02:33+00:00</updated>
+    <updated>2014-08-28T01:36:46+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <macro name="editor-translator">
@@ -104,7 +104,7 @@
     </choose>
   </macro>
   <macro name="pages">
-    <label plural="never" suffix=" " variable="page" form="short"/>
+    <label plural="never" strip-periods="true" suffix=". " variable="page" form="short"/>
     <text variable="page"/>
   </macro>
   <macro name="year-date">

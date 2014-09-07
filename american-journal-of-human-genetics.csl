@@ -15,7 +15,7 @@
     <issn>0002-9297</issn>
     <eissn>1537-6605</eissn>
     <summary>The AJHG journal style. Adapted from the Cell and Vancouver superscript styles by Jessica Chong.</summary>
-    <updated>2014-09-06T22:02:33+00:00</updated>
+    <updated>2014-08-28T01:36:46+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <macro name="author">
@@ -69,7 +69,7 @@
             <text variable="container-title" prefix="In " suffix="," text-case="title"/>
             <text macro="editor"/>
             <text macro="publisher" suffix=","/>
-            <label variable="page" form="short"/>
+            <label variable="page" suffix="." form="short" strip-periods="true"/>
             <text variable="page"/>
           </else-if>
           <else-if type="thesis">

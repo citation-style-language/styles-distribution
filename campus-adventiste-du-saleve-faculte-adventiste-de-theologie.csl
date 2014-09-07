@@ -24,7 +24,7 @@
     <category field="theology"/>
     <category field="humanities"/>
     <summary>Le style de la Faculté Adventiste de Théologie de Collonges-sous-Salève a été conçu à partir du Guide méthodologique de Gabriel MONET, ISBN 978-2-911358-18-0. Il découle du style InVisu.</summary>
-    <updated>2014-09-06T22:02:33+00:00</updated>
+    <updated>2014-05-30T00:36:38+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="fr">
@@ -225,7 +225,7 @@
           <if is-numeric="edition">
             <group delimiter=" " prefix=", ">
               <number variable="edition" form="ordinal"/>
-              <text term="edition" form="short"/>
+              <text term="edition" form="short" suffix="." strip-periods="true"/>
             </group>
           </if>
           <else>

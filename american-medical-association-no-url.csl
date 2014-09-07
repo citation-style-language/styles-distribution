@@ -17,7 +17,7 @@
     <category citation-format="numeric"/>
     <category field="medicine"/>
     <summary>The American Medical Association style as used in JAMA, without the URL.</summary>
-    <updated>2014-09-06T22:02:33+00:00</updated>
+    <updated>2014-08-30T16:59:28+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="en">
@@ -178,7 +178,7 @@
         <else>
           <text macro="editor" prefix=" " suffix="."/>
           <group prefix=" " suffix=".">
-            <text variable="container-title" font-style="italic" form="short"/>
+            <text variable="container-title" font-style="italic" strip-periods="true" form="short" suffix="."/>
             <group delimiter=";" prefix=" ">
               <date variable="issued">
                 <date-part name="year"/>

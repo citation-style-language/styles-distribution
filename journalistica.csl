@@ -17,7 +17,7 @@
     <category field="communications"/>
     <issn>1904-7967</issn>
     <summary>The Journalistica style</summary>
-    <updated>2014-09-06T22:02:33+00:00</updated>
+    <updated>2014-08-28T01:36:46+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="da-DK">
@@ -67,7 +67,7 @@
   <macro name="author">
     <names variable="author">
       <name and="symbol" name-as-sort-order="first" sort-separator=", " delimiter=", " delimiter-precedes-last="never"/>
-      <label form="short" prefix=", " text-case="lowercase"/>
+      <label form="short" prefix=", " suffix="." text-case="lowercase" strip-periods="true"/>
       <substitute>
         <names variable="editor"/>
         <names variable="translator"/>
@@ -138,7 +138,7 @@
     </date>
   </macro>
   <macro name="pages">
-    <label variable="page" form="short" suffix=" " text-case="lowercase"/>
+    <label variable="page" form="short" suffix=". " text-case="lowercase" strip-periods="true"/>
     <text variable="page"/>
   </macro>
   <macro name="edition">

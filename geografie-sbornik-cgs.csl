@@ -14,7 +14,7 @@
     <category field="geography"/>
     <issn>1212-0014</issn>
     <summary>Style for Geografie Sborník ČGS</summary>
-    <updated>2014-09-06T22:02:33+00:00</updated>
+    <updated>2013-07-12T12:36:15+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale>
@@ -31,7 +31,7 @@
             <name-part name="family" text-case="uppercase"/>
             <name-part name="given"/>
           </name>
-          <label form="short" prefix=" " text-case="lowercase"/>
+          <label form="short" prefix=" " suffix="." text-case="lowercase" strip-periods="true"/>
           <substitute>
             <names variable="editor"/>
             <names variable="translator"/>

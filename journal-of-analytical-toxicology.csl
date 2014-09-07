@@ -13,7 +13,7 @@
     <category field="chemistry"/>
     <issn>0146-4760</issn>
     <eissn>1945-2403</eissn>
-    <updated>2014-09-06T22:02:33+00:00</updated>
+    <updated>2014-07-06T15:22:58+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <macro name="editor">
@@ -112,7 +112,7 @@
           <group delimiter=", ">
             <text macro="publisher" prefix=" "/>
             <group>
-              <label variable="page" suffix=" " form="short"/>
+              <label variable="page" suffix=". " form="short" strip-periods="true"/>
               <text variable="page"/>
             </group>
           </group>

@@ -14,7 +14,7 @@
     <issn>0002-9114</issn>
     <eissn>1939-828X</eissn>
     <summary>The American Journal of Archaeology style</summary>
-    <updated>2014-09-06T22:02:33+00:00</updated>
+    <updated>2014-04-03T01:09:40+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale>
@@ -111,7 +111,7 @@
   <macro name="contributors">
     <names variable="author">
       <name and="text" name-as-sort-order="first" sort-separator=", " delimiter=", " delimiter-precedes-last="always" initialize-with="."/>
-      <label form="verb-short" prefix=", "/>
+      <label form="verb-short" prefix=", " suffix="." strip-periods="true"/>
       <substitute>
         <text macro="editor"/>
         <text macro="translator"/>
@@ -205,7 +205,7 @@
           </group>
           <group>
             <number variable="number-of-volumes" form="numeric"/>
-            <text term="volume" form="short" prefix=" " plural="true"/>
+            <text term="volume" form="short" prefix=" " suffix="." plural="true" strip-periods="true"/>
           </group>
         </group>
       </else-if>

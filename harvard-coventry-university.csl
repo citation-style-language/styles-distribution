@@ -17,7 +17,7 @@
     <category citation-format="author-date"/>
     <category field="generic-base"/>
     <summary>The Harvard author-date style - adapted for use at Coventry University. See usage notes at http://www.oak-wood.co.uk/oss/coventry-harvard-csl</summary>
-    <updated>2014-09-06T22:02:33+00:00</updated>
+    <updated>2014-08-30T16:59:28+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale>
@@ -68,7 +68,7 @@
     </names>
   </macro>
   <macro name="anon">
-    <text term="anonymous" form="short" text-case="capitalize-first"/>
+    <text term="anonymous" form="short" text-case="capitalize-first" strip-periods="true" suffix="."/>
   </macro>
   <macro name="author">
     <choose>

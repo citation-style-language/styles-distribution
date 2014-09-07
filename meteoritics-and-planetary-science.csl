@@ -14,7 +14,7 @@
     <issn>1086-9379</issn>
     <eissn>1945-5100</eissn>
     <summary>The Meteoritics &amp; Planetary Science Journal style</summary>
-    <updated>2014-09-06T22:02:33+00:00</updated>
+    <updated>2013-08-29T03:14:21+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <macro name="editor">
@@ -26,7 +26,7 @@
   <macro name="author">
     <names variable="author">
       <name and="text" name-as-sort-order="all" sort-separator=" " delimiter=", " delimiter-precedes-last="always" initialize-with=". "/>
-      <label form="short" prefix=", "/>
+      <label form="short" prefix=", " suffix="." strip-periods="true"/>
       <substitute>
         <names variable="editor"/>
         <names variable="translator"/>
@@ -88,12 +88,12 @@
     </date>
   </macro>
   <macro name="page">
-    <label variable="page" suffix=" " form="short"/>
+    <label variable="page" suffix=". " form="short" strip-periods="true"/>
     <text variable="page"/>
   </macro>
   <macro name="pagecount">
     <text variable="page"/>
-    <label variable="page" prefix=" " form="short"/>
+    <label variable="page" prefix=" " suffix="." form="short" strip-periods="true"/>
   </macro>
   <macro name="edition">
     <choose>

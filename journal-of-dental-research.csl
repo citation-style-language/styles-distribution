@@ -23,7 +23,7 @@
     <issn>0022-0345</issn>
     <eissn>1544-0591</eissn>
     <summary>The Journal of Dental Research</summary>
-    <updated>2014-09-06T22:02:33+00:00</updated>
+    <updated>2013-08-29T04:18:55+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <macro name="editor">
@@ -126,7 +126,7 @@
           <text macro="year-date"/>
         </group>
         <group>
-          <label variable="locator" form="short"/>
+          <label variable="locator" suffix="." form="short" strip-periods="true"/>
           <text variable="locator"/>
         </group>
       </group>

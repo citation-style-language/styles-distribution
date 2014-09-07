@@ -14,7 +14,7 @@
     <category citation-format="author-date"/>
     <category field="generic-base"/>
     <summary>Russian GOST-2008 style.</summary>
-    <updated>2014-09-06T22:02:33+00:00</updated>
+    <updated>2014-08-30T16:59:28+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <macro name="editor">
@@ -25,7 +25,7 @@
   <macro name="author">
     <names variable="author">
       <name name-as-sort-order="all" sort-separator=" " initialize-with="." delimiter=", " delimiter-precedes-last="always"/>
-      <label form="short" prefix=" " text-case="lowercase"/>
+      <label form="short" prefix=" " suffix="." text-case="lowercase" strip-periods="true"/>
     </names>
   </macro>
   <macro name="author_short">

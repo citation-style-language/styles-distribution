@@ -14,7 +14,7 @@
     <issn>0147-5185</issn>
     <eissn>1532-0979</eissn>
     <summary>AMA version without issue no. and only 4/3 et-al settings</summary>
-    <updated>2014-09-06T22:02:33+00:00</updated>
+    <updated>2014-08-30T16:59:28+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <macro name="editor">
@@ -195,7 +195,7 @@
         <else>
           <text macro="editor" prefix=" " suffix="."/>
           <group prefix=" " suffix=".">
-            <text variable="container-title" font-style="italic" form="short" text-case="title"/>
+            <text variable="container-title" font-style="italic" strip-periods="true" form="short" suffix="." text-case="title"/>
             <group delimiter=";" prefix=" ">
               <date variable="issued">
                 <date-part name="year"/>

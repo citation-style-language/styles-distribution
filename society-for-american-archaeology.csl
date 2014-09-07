@@ -15,7 +15,7 @@
     </contributor>
     <category citation-format="author-date"/>
     <category field="anthropology"/>
-    <updated>2014-09-07T05:27:27+00:00</updated>
+    <updated>2014-08-28T01:36:46+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale>
@@ -104,7 +104,7 @@
   <macro name="contributors">
     <names variable="author">
       <name and="text" name-as-sort-order="first" sort-separator=", " delimiter=", " delimiter-precedes-last="always"/>
-      <label form="verb-short" prefix=", "/>
+      <label form="verb-short" prefix=", " suffix="." strip-periods="true"/>
       <substitute>
         <text macro="editor"/>
         <text macro="translator"/>
@@ -196,7 +196,7 @@
           </group>
           <group>
             <number variable="number-of-volumes" form="numeric"/>
-            <text term="volume" form="short" prefix=" " plural="true"/>
+            <text term="volume" form="short" prefix=" " suffix="." plural="true" strip-periods="true"/>
           </group>
         </group>
       </else-if>

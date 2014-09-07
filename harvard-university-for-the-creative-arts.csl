@@ -15,7 +15,7 @@
     <category citation-format="author-date"/>
     <category field="generic-base"/>
     <summary>University for the Creative Arts Harvard style</summary>
-    <updated>2014-09-06T22:02:33+00:00</updated>
+    <updated>2014-08-28T01:36:46+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <macro name="cite-author">
@@ -32,7 +32,7 @@
       <else>
         <names variable="author" font-style="normal" font-weight="normal">
           <name font-style="normal" and="text" delimiter-precedes-last="never" et-al-min="3" et-al-use-first="1" et-al-subsequent-min="3" et-al-subsequent-use-first="1" initialize-with="." name-as-sort-order="all"/>
-          <label form="short" prefix=" "/>
+          <label form="short" prefix=" " suffix="." strip-periods="true"/>
           <et-al font-style="italic"/>
           <substitute>
             <text macro="editor-detail"/>
@@ -44,7 +44,7 @@
   <macro name="editor-detail">
     <names variable="editor">
       <name and="text" delimiter-precedes-last="never" initialize-with="." name-as-sort-order="all"/>
-      <label form="short" text-case="lowercase" prefix=" (" suffix=")"/>
+      <label form="short" text-case="lowercase" strip-periods="true" prefix=" (" suffix=".)"/>
     </names>
   </macro>
   <macro name="year-date">
@@ -131,7 +131,7 @@
   <macro name="edition-no">
     <group delimiter=" " prefix="(" suffix=")">
       <number variable="edition" form="ordinal"/>
-      <text term="edition" form="short"/>
+      <text term="edition" form="short" strip-periods="true" suffix="."/>
     </group>
   </macro>
   <macro name="translator">
@@ -190,7 +190,7 @@
                 <if is-numeric="edition">
                   <group delimiter=" " prefix=" (" suffix=")">
                     <number variable="edition" form="ordinal"/>
-                    <text term="edition" form="short"/>
+                    <text term="edition" form="short" suffix="." strip-periods="true"/>
                   </group>
                 </if>
                 <else>
@@ -214,7 +214,7 @@
         <text variable="medium" prefix="[" suffix="]"/>
         <names variable="author">
           <name and="text" sort-separator=", " initialize-with="." delimiter-precedes-last="never" delimiter=", " prefix=" Directed by " suffix="."/>
-          <label form="short" prefix=" "/>
+          <label form="short" prefix=" " suffix="." strip-periods="true"/>
         </names>
       </else-if>
       <else>

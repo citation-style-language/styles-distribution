@@ -23,7 +23,7 @@
         - Nutzen Sie den Typ 'Bericht' - als Abhilfe, da es keinen Typ 'Standard' gibt.
         - als Autor die Kurzbezeichnung inkl. Nummer und Jahr eingeben (z.B. VDI 2222-1997), Vorname leer, Jahr leer
         - als Titel den ausführlichen Titel bei Bedarf (z.B. VDI Richtlinie 2222 Blatt 1 - Konstruktionsmethodik - Methodisches Entwickeln von Lösungsprinzipien)</summary>
-    <updated>2014-09-06T22:02:33+00:00</updated>
+    <updated>2014-08-28T01:36:46+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="de">
@@ -290,8 +290,8 @@
         <else-if type="webpage post post-weblog " match="any">
           <text macro="title" font-style="normal" prefix=" " suffix=", "/>
           <text variable="URL" prefix="URL "/>
-          <text macro="access" prefix=" "/>
-          <text variable="container-title" font-style="italic" prefix=" "/>
+          <text macro="access" prefix="  "/>
+          <text variable="container-title" font-style="italic" prefix="  "/>
           <text prefix=". &#8212; " variable="note"/>
         </else-if>
         <else-if type="article article-journal article-magazine article-newspaper" match="any">

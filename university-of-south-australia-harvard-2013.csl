@@ -38,7 +38,7 @@ TO DO
     <category citation-format="author-date"/>
     <category field="generic-base"/>
     <summary>University of South Australia citation style based on the May 2013 version of the style guide titled Harvard referencing guide UniSA</summary>
-    <updated>2014-09-06T22:02:33+00:00</updated>
+    <updated>2013-09-08T00:04:27+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="en">
@@ -292,7 +292,7 @@ TO DO
           <text macro="year-date"/>
         </group>
         <group>
-          <label variable="locator" suffix=" " form="short"/>
+          <label variable="locator" suffix=". " form="short" strip-periods="true"/>
           <text variable="locator"/>
         </group>
       </group>

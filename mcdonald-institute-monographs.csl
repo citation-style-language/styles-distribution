@@ -14,25 +14,25 @@
     <category field="anthropology"/>
     <issn>1363-1349</issn>
     <summary>Harvard author-date style edited for McDonald Institute Monographs, published by the McDonald Institute for Archaeological Research</summary>
-    <updated>2014-09-06T22:02:33+00:00</updated>
+    <updated>2014-08-28T01:36:46+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <macro name="editor">
     <names variable="editor" delimiter=", ">
-      <label form="short" prefix=" (" text-case="lowercase" suffix=")"/>
+      <label form="short" prefix=" (" text-case="lowercase" suffix=".)" strip-periods="true"/>
       <name and="symbol" name-as-sort-order="first" sort-separator=", " initialize-with="." delimiter=", " delimiter-precedes-last="never"/>
     </names>
   </macro>
   <macro name="editor-bib">
     <names variable="editor" delimiter=", ">
-      <label form="short" prefix=" " text-case="lowercase" suffix=" "/>
+      <label form="short" prefix=" " text-case="lowercase" suffix=". " strip-periods="true"/>
       <name initialize-with="." and="symbol" sort-separator=", " delimiter=", " delimiter-precedes-last="never"/>
     </names>
   </macro>
   <macro name="author">
     <names variable="author">
       <name and="symbol" name-as-sort-order="first" sort-separator=", " initialize-with="." delimiter=", " delimiter-precedes-last="never"/>
-      <label form="short" prefix=" " text-case="lowercase"/>
+      <label form="short" prefix=" " suffix="." text-case="lowercase" strip-periods="true"/>
       <substitute>
         <text macro="editor"/>
       </substitute>

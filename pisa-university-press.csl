@@ -27,7 +27,7 @@
     </contributor>
     <category citation-format="note"/>
     <summary>Style for Pisa University Press Book Series. Based on Australian Legal, which explains a bit of the messiness.</summary>
-    <updated>2014-09-06T22:02:33+00:00</updated>
+    <updated>2014-08-28T01:36:46+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale>
@@ -144,7 +144,7 @@
         </date>
         <!--	  </if>
 	    <else>
-	    <text variable="title"/>
+	    <text variable="title" />
    	    <date variable="issued">
             <date-part name="year" prefix=" "/>
             </date>

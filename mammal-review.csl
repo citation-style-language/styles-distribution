@@ -18,7 +18,7 @@
     <category field="zoology"/>
     <issn>0305-1838</issn>
     <eissn>1365-2907</eissn>
-    <updated>2014-09-06T22:02:33+00:00</updated>
+    <updated>2014-05-07T05:26:07+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="en">
@@ -107,7 +107,7 @@
           <date-part name="year"/>
         </date>
         <group>
-          <label variable="locator" form="short"/>
+          <label variable="locator" suffix="." form="short" strip-periods="true"/>
           <text variable="locator" prefix=" "/>
         </group>
       </group>

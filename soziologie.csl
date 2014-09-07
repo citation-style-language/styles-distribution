@@ -16,7 +16,7 @@
     <category field="sociology"/>
     <issn>0340-918X</issn>
     <eissn>1862-2550</eissn>
-    <updated>2014-09-06T22:02:33+00:00</updated>
+    <updated>2014-08-30T16:59:28+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="de">
@@ -58,7 +58,7 @@
   <macro name="author">
     <names variable="author">
       <name and="text" delimiter-precedes-last="never" initialize-with="." name-as-sort-order="first"/>
-      <label form="short" prefix=" (" suffix=")" text-case="capitalize-first"/>
+      <label form="short" prefix=" (" suffix=".)" text-case="capitalize-first" strip-periods="true"/>
       <substitute>
         <names variable="editor"/>
         <names variable="translator"/>

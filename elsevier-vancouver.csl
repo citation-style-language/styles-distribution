@@ -4,7 +4,7 @@
     <title>Elsevier Vancouver</title>
     <id>http://www.zotero.org/styles/elsevier-vancouver</id>
     <link href="http://www.zotero.org/styles/elsevier-vancouver" rel="self"/>
-    <link href="http://www.elsevier.com/journals/energy/0360-5442/guide-for-authors#68000" rel="documentation"/>
+    <link href="http://www.elsevier.com/journals/progress-in-materials-science/0079-6425/guide-for-authors#Refs" rel="documentation"/>
     <author>
       <name>Richard Karnesky</name>
       <email>karnesky+zotero@gmail.com</email>
@@ -13,7 +13,7 @@
     <category citation-format="numeric"/>
     <category field="generic-base"/>
     <summary>A style for some Elsevier journals, resembles Vancouver style</summary>
-    <updated>2014-08-29T01:38:54+00:00</updated>
+    <updated>2014-05-30T01:46:20+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <macro name="author">
@@ -60,24 +60,6 @@
       <else>
         <text variable="edition"/>
       </else>
-    </choose>
-  </macro>
-  <macro name="access">
-    <choose>
-      <if variable="DOI">
-        <text variable="DOI" prefix="doi:"/>
-      </if>
-      <else-if type="webpage post-weblog" match="any">
-        <choose>
-          <if variable="URL">
-            <text variable="URL"/>
-            <group prefix=" (" suffix=")" delimiter=" ">
-              <text term="accessed"/>
-              <date variable="accessed" form="text"/>
-            </group>
-          </if>
-        </choose>
-      </else-if>
     </choose>
   </macro>
   <citation collapse="citation-number">
@@ -157,7 +139,6 @@
           </group>
         </else>
       </choose>
-      <text macro="access" prefix=". "/>
     </layout>
   </bibliography>
 </style>

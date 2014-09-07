@@ -16,7 +16,7 @@
     <category field="linguistics"/>
     <category field="philosophy"/>
     <summary>University of Bologna, Liberal Arts College citation style - Stile di citazione dell'Universita' di Bologna, Facolta' di Lettere e Filosofia</summary>
-    <updated>2014-09-06T22:02:33+00:00</updated>
+    <updated>2013-08-29T05:27:03+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="it-IT">
@@ -309,7 +309,7 @@
             <if variable="locator" match="none">
               <group>
                 <number variable="number-of-volumes" form="numeric"/>
-                <text term="volume" form="short" prefix=" " plural="true"/>
+                <text term="volume" form="short" prefix=" " suffix="." plural="true" strip-periods="true"/>
               </group>
             </if>
           </choose>

@@ -40,7 +40,7 @@
     <issn>1010-2760</issn>
     <eissn>2071-0054</eissn>
     <summary>Style based on ISO 690:2010(F), V1, derived from Giraud version.</summary>
-    <updated>2014-09-06T22:02:33+00:00</updated>
+    <updated>2014-08-30T16:59:28+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale>
@@ -190,7 +190,7 @@
   </macro>
   <macro name="edition">
     <number variable="edition" form="ordinal" suffix=" "/>
-    <text term="edition" form="short" suffix=" "/>
+    <text term="edition" form="short" strip-periods="true" suffix=". "/>
   </macro>
   <macro name="publisher-place">
     <text variable="publisher-place"/>

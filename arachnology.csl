@@ -14,7 +14,7 @@
     <issn>2050-9928</issn>
     <eissn>2050-9936</eissn>
     <summary>Citation Style of the journal of the British Arachnological Society</summary>
-    <updated>2014-09-06T22:02:33+00:00</updated>
+    <updated>2014-03-05T20:38:15+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="en-US">
@@ -39,7 +39,7 @@
         <name-part name="family" text-case="uppercase"/>
       </name>
       <et-al font-style="italic"/>
-      <label form="short" prefix=" "/>
+      <label form="short" strip-periods="true" prefix=" " suffix="."/>
       <substitute>
         <names variable="editor"/>
         <text macro="anon"/>

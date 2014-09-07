@@ -19,7 +19,7 @@
     <issn>0027-8424</issn>
     <eissn>1091-6490</eissn>
     <summary>The Proceedings of the National Academy of Sciences Journal style.</summary>
-    <updated>2014-09-06T22:02:33+00:00</updated>
+    <updated>2014-08-28T01:36:46+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <macro name="editor">
@@ -31,7 +31,7 @@
   <macro name="author">
     <names variable="author" prefix=" ">
       <name name-as-sort-order="all" sort-separator=" " initialize-with="" delimiter=", " delimiter-precedes-last="always"/>
-      <label form="short" prefix=" "/>
+      <label form="short" prefix=" " suffix="." strip-periods="true"/>
       <substitute>
         <names variable="editor"/>
         <text variable="title"/>

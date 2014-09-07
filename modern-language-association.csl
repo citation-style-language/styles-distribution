@@ -33,7 +33,7 @@
     <category citation-format="author"/>
     <category field="generic-base"/>
     <summary>This style adheres to the MLA 7th edition handbook and contains modifications to these types of sources: e-mail, forum posts, interviews, manuscripts, maps, presentations, TV broadcasts, and web pages.</summary>
-    <updated>2014-08-28T02:16:44+00:00</updated>
+    <updated>2014-08-07T01:52:42+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="en">
@@ -157,11 +157,9 @@
       <else>
         <choose>
           <if variable="URL DOI" match="any">
-            <text variable="source" prefix=" " suffix="." font-style="italic"/>
-            <group>
-              <text value="Web." prefix=" "/>
-            </group>
-            <text prefix=" " suffix="." macro="access"/>
+            <text variable="source" prefix=" " suffix=". " font-style="italic"/>
+            <text value="Web" prefix=" "/>
+            <text prefix=". " suffix="." macro="access"/>
           </if>
           <else>
             <text value="Print" prefix=" "/>
