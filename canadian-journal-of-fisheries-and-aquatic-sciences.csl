@@ -16,7 +16,7 @@
     <category field="biology"/>
     <issn>0706-652X</issn>
     <eissn>1205-7533</eissn>
-    <updated>2014-08-28T01:36:46+00:00</updated>
+    <updated>2014-09-06T22:02:33+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <macro name="container-contributors">
@@ -81,7 +81,7 @@
           </group>
           <group prefix=" [" suffix="]">
             <text term="accessed" suffix=" "/>
-            <date variable="accessed" delimiter="  ">
+            <date variable="accessed" delimiter=" ">
               <date-part name="day"/>
               <date-part name="month"/>
               <date-part name="year"/>

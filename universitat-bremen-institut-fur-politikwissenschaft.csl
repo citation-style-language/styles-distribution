@@ -16,7 +16,7 @@
     <category field="political_science"/>
     <category field="social_science"/>
     <summary>Universität Bremen - Institut für Politikwissenschaft (German) - A Harvard author-date style variant as used for Political Science at University of Bremen, Germany. The in-text citation style is changed to [author year: page], avoiding the abbreviation for pages (S.) and changing the delimiters. Based on Harvard - Institut fuer Praxisforschung (Bahr &amp; Frackmann) style by Jonas Bahr and Malte Frackmann.</summary>
-    <updated>2014-08-30T16:59:28+00:00</updated>
+    <updated>2014-09-06T22:02:33+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="de">
@@ -31,13 +31,13 @@
       <if type="chapter article-journal" match="any">
         <names variable="editor" delimiter="/" suffix=",">
           <name name-as-sort-order="all" sort-separator=", " delimiter="/" delimiter-precedes-last="always" form="long"/>
-          <label form="short" prefix=" (" suffix=".)" strip-periods="true"/>
+          <label form="short" prefix=" (" suffix=")"/>
         </names>
       </if>
       <else>
         <names variable="editor" delimiter="/">
           <name name-as-sort-order="all" sort-separator=", " delimiter="/" delimiter-precedes-last="always" form="long"/>
-          <label form="short" prefix=" (" suffix=".)" strip-periods="true"/>
+          <label form="short" prefix=" (" suffix=")"/>
         </names>
       </else>
     </choose>
@@ -48,7 +48,7 @@
   <macro name="author">
     <names variable="author" delimiter="/">
       <name delimiter="/" delimiter-precedes-last="always" name-as-sort-order="all"/>
-      <label form="short" prefix=" (" suffix=".)" strip-periods="true"/>
+      <label form="short" prefix=" (" suffix=")"/>
       <substitute>
         <text macro="editor"/>
         <text macro="anon"/>
@@ -157,7 +157,7 @@
       <if is-numeric="edition">
         <group>
           <number variable="edition" form="numeric" suffix=". "/>
-          <text term="edition" form="short" suffix="." strip-periods="true"/>
+          <text term="edition" form="short"/>
         </group>
       </if>
       <else>

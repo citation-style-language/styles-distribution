@@ -14,7 +14,7 @@
     <issn>0022-3085</issn>
     <eissn>1933-0693</eissn>
     <summary>The Journal of Neurosurgery, Journal of Neurosurgery: Spine, Journal of Neurosurgery: Pediatrics, and Neurosurgical Focus.</summary>
-    <updated>2013-12-22T02:33:59+00:00</updated>
+    <updated>2014-09-06T22:02:33+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <macro name="editor">
@@ -95,7 +95,7 @@
   </macro>
   <macro name="volume">
     <group delimiter=" ">
-      <text term="volume" form="short" suffix="." text-case="capitalize-first" strip-periods="true"/>
+      <text term="volume" form="short" text-case="capitalize-first"/>
       <text variable="volume"/>
     </group>
   </macro>

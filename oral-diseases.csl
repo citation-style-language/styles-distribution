@@ -14,7 +14,7 @@
     <issn>1354-523X</issn>
     <eissn>1601-0825</eissn>
     <summary>style for "Oral Diseases" - details based on published articles.</summary>
-    <updated>2014-05-30T00:36:38+00:00</updated>
+    <updated>2014-09-06T22:02:33+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale>
@@ -99,7 +99,7 @@
           <date-part name="year"/>
         </date>
         <group>
-          <label variable="locator" suffix="." form="short" strip-periods="true"/>
+          <label variable="locator" form="short"/>
           <text variable="locator" prefix=" "/>
         </group>
       </group>

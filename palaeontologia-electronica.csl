@@ -13,7 +13,7 @@
     <category field="biology"/>
     <issn>1094-8074</issn>
     <eissn>1935-3952</eissn>
-    <updated>2013-09-25T04:19:09+00:00</updated>
+    <updated>2014-09-06T22:02:33+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <macro name="container-contributors">
@@ -46,7 +46,7 @@
   <macro name="author">
     <names variable="author">
       <name name-as-sort-order="all" and="text" sort-separator=", " initialize-with="." delimiter=", " delimiter-precedes-last="never"/>
-      <label form="short" prefix=" (" suffix=".)" text-case="capitalize-first" strip-periods="true"/>
+      <label form="short" prefix=" (" suffix=")" text-case="capitalize-first"/>
       <substitute>
         <names variable="editor"/>
         <names variable="translator"/>

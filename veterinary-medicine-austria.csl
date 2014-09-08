@@ -15,7 +15,7 @@
     <category field="medicine"/>
     <issn>0043-535X</issn>
     <summary>Style for the Veterinary Medicine Austria Journal</summary>
-    <updated>2014-08-28T01:36:46+00:00</updated>
+    <updated>2014-09-06T22:02:33+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <macro name="editor">
@@ -32,7 +32,7 @@
       <name name-as-sort-order="all" and="symbol" sort-separator=", " initialize-with="." delimiter-precedes-last="never" delimiter=", ">
         <name-part name="family" text-case="uppercase"/>
       </name>
-      <label form="short" prefix=" " suffix="." strip-periods="true"/>
+      <label form="short" prefix=" "/>
       <substitute>
         <names variable="editor"/>
         <text macro="anon"/>
@@ -110,7 +110,7 @@
           <text macro="year-date"/>
         </group>
         <group>
-          <label variable="locator" suffix="." form="short" strip-periods="true"/>
+          <label variable="locator" form="short"/>
           <text variable="locator"/>
         </group>
       </group>

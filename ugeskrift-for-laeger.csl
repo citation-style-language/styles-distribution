@@ -14,7 +14,7 @@
     <category field="medicine"/>
     <issn>0041-5782</issn>
     <eissn>1603-6824</eissn>
-    <updated>2014-08-27T08:02:18+00:00</updated>
+    <updated>2014-09-06T22:02:33+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="en">
@@ -149,7 +149,7 @@
         </group>
       </if>
       <else>
-        <text variable="edition" form="long" strip-periods="true" suffix="."/>
+        <text variable="edition" form="long"/>
       </else>
     </choose>
   </macro>

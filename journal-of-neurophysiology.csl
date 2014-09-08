@@ -16,7 +16,7 @@
     <issn>0022-3077</issn>
     <eissn>1522-1598</eissn>
     <summary>The Journal of Neurophysiology style</summary>
-    <updated>2014-07-30T00:25:28+00:00</updated>
+    <updated>2014-09-06T22:02:33+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="en">
@@ -91,7 +91,7 @@
               <group prefix="[" suffix="]" delimiter=" ">
                 <date variable="accessed">
                   <date-part name="day"/>
-                  <date-part name="month" prefix=" " suffix=". " form="short" strip-periods="true"/>
+                  <date-part name="month" prefix=" " suffix=" " form="short"/>
                   <date-part name="year"/>
                 </date>
               </group>

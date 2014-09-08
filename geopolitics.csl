@@ -24,7 +24,7 @@
     <category field="social_science"/>
     <issn>1465-0045</issn>
     <eissn>1557-3028</eissn>
-    <updated>2014-08-30T22:48:16+00:00</updated>
+    <updated>2014-09-06T22:02:33+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale>
@@ -225,7 +225,7 @@
             <if variable="locator" match="none">
               <group>
                 <number variable="number-of-volumes" form="numeric"/>
-                <text term="volume" form="short" prefix=" " suffix="." plural="true" strip-periods="true"/>
+                <text term="volume" form="short" prefix=" " plural="true"/>
               </group>
             </if>
           </choose>

@@ -18,7 +18,7 @@
     <issn>0007-1315</issn>
     <eissn>1468-4446</eissn>
     <summary>The BJS style.</summary>
-    <updated>2014-08-28T01:36:46+00:00</updated>
+    <updated>2014-09-06T22:02:33+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="en">
@@ -178,7 +178,7 @@
               <text variable="issue" prefix="(" suffix=")"/>
             </group>
             <group prefix=": ">
-              <label variable="locator" suffix="." form="short" strip-periods="true"/>
+              <label variable="locator" form="short"/>
               <text variable="page"/>
             </group>
           </group>

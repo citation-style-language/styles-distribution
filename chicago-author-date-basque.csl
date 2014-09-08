@@ -13,7 +13,7 @@
     <category citation-format="author-date"/>
     <category field="generic-base"/>
     <summary>Modification for Basque language of the Chicago Manual</summary>
-    <updated>2013-09-25T04:19:09+00:00</updated>
+    <updated>2014-09-06T22:02:33+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale>
@@ -406,7 +406,7 @@
   <macro name="contributors">
     <names variable="author">
       <name and="symbol" name-as-sort-order="all" sort-separator=", " delimiter="; " delimiter-precedes-last="never"/>
-      <label form="verb-short" prefix=", " suffix="." text-case="lowercase" strip-periods="true"/>
+      <label form="verb-short" prefix=", " text-case="lowercase"/>
       <substitute>
         <text macro="editor"/>
         <text macro="translator"/>
@@ -509,7 +509,7 @@
           </group>
           <group>
             <number variable="number-of-volumes" form="numeric"/>
-            <text term="volume" form="short" prefix=" " suffix="." plural="true" strip-periods="true"/>
+            <text term="volume" form="short" prefix=" " plural="true"/>
           </group>
         </group>
       </else-if>

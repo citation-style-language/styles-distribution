@@ -15,7 +15,7 @@
     <category citation-format="author-date"/>
     <category field="anthropology"/>
     <summary>SHA style</summary>
-    <updated>2013-08-29T05:27:03+00:00</updated>
+    <updated>2014-09-07T05:27:27+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <macro name="secondary-contributors">
@@ -191,7 +191,7 @@
           </group>
           <group>
             <number variable="number-of-volumes" form="numeric"/>
-            <text term="volume" form="short" prefix=" " suffix="." plural="true" strip-periods="true"/>
+            <text term="volume" form="short" prefix=" " plural="true"/>
           </group>
         </group>
       </else-if>
