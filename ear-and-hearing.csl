@@ -13,7 +13,7 @@
     <issn>0196-0202</issn>
     <eissn>1538-4667</eissn>
     <summary>Style for Ear and Hearing, based on the Harvard author-date style, but with abbreviated journal names..</summary>
-    <updated>2014-09-06T22:02:33+00:00</updated>
+    <updated>2014-09-10T06:18:55+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="en">
@@ -123,7 +123,7 @@
       <text variable="page"/>
     </group>
   </macro>
-  <citation et-al-min="3" et-al-use-first="1" et-al-subsequent-min="3" et-al-subsequent-use-first="1" disambiguate-add-year-suffix="true" disambiguate-add-names="false" disambiguate-add-givenname="false">
+  <citation et-al-min="3" et-al-use-first="1" disambiguate-add-year-suffix="true" disambiguate-add-names="false" disambiguate-add-givenname="false">
     <layout prefix="(" suffix=")" delimiter="; ">
       <group delimiter=" ">
         <group delimiter=" ">

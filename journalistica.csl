@@ -17,7 +17,7 @@
     <category field="communications"/>
     <issn>1904-7967</issn>
     <summary>The Journalistica style</summary>
-    <updated>2014-09-06T22:02:33+00:00</updated>
+    <updated>2014-09-10T06:18:55+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="da-DK">
@@ -154,7 +154,7 @@
       </else>
     </choose>
   </macro>
-  <citation et-al-min="3" et-al-use-first="1" et-al-subsequent-min="3" et-al-subsequent-use-first="1" disambiguate-add-year-suffix="true" disambiguate-add-names="false" collapse="year">
+  <citation et-al-min="3" et-al-use-first="1" disambiguate-add-year-suffix="true" disambiguate-add-names="false" collapse="year">
     <layout prefix="(" suffix=")" delimiter="; ">
       <group delimiter=": ">
         <group delimiter=" ">
