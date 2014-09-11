@@ -17,7 +17,7 @@
     <category citation-format="author-date"/>
     <category field="psychology"/>
     <category field="generic-base"/>
-    <updated>2014-09-06T05:31:41+00:00</updated>
+    <updated>2014-09-11T02:57:16+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="en">
@@ -129,7 +129,7 @@
               <group delimiter=" ">
                 <text term="accessed" text-case="capitalize-first"/>
                 <date variable="accessed" form="text"/>
-              </group>                
+              </group>
             </group>
           </else>
         </choose>

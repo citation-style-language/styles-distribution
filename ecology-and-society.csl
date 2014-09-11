@@ -12,7 +12,7 @@
     <category citation-format="author-date"/>
     <category field="biology"/>
     <issn>1195-5449</issn>
-    <updated>2014-09-06T20:49:48+00:00</updated>
+    <updated>2014-09-11T02:57:16+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <macro name="container-contributors">
@@ -57,16 +57,16 @@
       </substitute>
     </names>
   </macro>
-<macro name="title">
-<choose>
-<if type="book report" match="any">
-<text variable="title" font-style="italic"/>
-</if>
-<else>
-<text variable="title"/>
-</else>
-</choose>
-</macro>
+  <macro name="title">
+    <choose>
+      <if type="book report" match="any">
+        <text variable="title" font-style="italic"/>
+      </if>
+      <else>
+        <text variable="title"/>
+      </else>
+    </choose>
+  </macro>
   <macro name="access">
     <choose>
       <if type="webpage">
@@ -139,7 +139,7 @@
       <if type="article-journal article-magazine article-newspaper" match="any">
         <text variable="container-title" prefix=". " font-style="italic"/>
         <text variable="volume" prefix=" "/>
-<text variable="issue" prefix="(" suffix=")"/>
+        <text variable="issue" prefix="(" suffix=")"/>
         <text variable="page" prefix=":"/>
       </if>
       <else-if type="bill book chapter graphic legal_case legislation motion_picture paper-conference report song" match="any">

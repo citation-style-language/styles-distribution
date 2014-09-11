@@ -14,7 +14,7 @@
     <issn>0006-3363</issn>
     <eissn>1529-7268</eissn>
     <summary>A style for the journal Biology of Reproduction of the Society for the Study of Reproduction</summary>
-    <updated>2014-09-06T22:43:47+00:00</updated>
+    <updated>2014-09-11T02:57:16+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <macro name="author">
@@ -124,7 +124,7 @@
             <group delimiter="; ">
               <text variable="title"/>
               <date variable="issued" form="text" date-parts="year"/>
-            </group>            
+            </group>
             <text variable="URL"/>
             <group delimiter=" ">
               <text term="accessed" text-case="capitalize-first"/>
