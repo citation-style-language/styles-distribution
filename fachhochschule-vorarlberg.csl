@@ -17,7 +17,7 @@
     <category citation-format="author-date"/>
     <category field="generic-base"/>
     <summary>Citation Style of the University of Applied Sciences Vorarlberg, based on A Harvard author-date style variant, mostly german</summary>
-    <updated>2014-04-12T01:37:30+00:00</updated>
+    <updated>2014-09-13T16:21:07+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
     <!--  useful things: non breaking space: &#160;   -->
   </info>
@@ -230,7 +230,7 @@
     </choose>
   </macro>
   <!-- Hier beginnt die Formatierung für das Kurzzitat im Text - this is where the citation starts -->
-  <citation et-al-min="4" et-al-use-first="1" et-al-subsequent-min="4" et-al-subsequent-use-first="1" disambiguate-add-year-suffix="true" disambiguate-add-names="true" disambiguate-add-givenname="true" collapse="year">
+  <citation et-al-min="4" et-al-use-first="1" disambiguate-add-year-suffix="true" disambiguate-add-names="true" disambiguate-add-givenname="true" collapse="year">
     <layout prefix="(" suffix=")" delimiter="; ">
       <text macro="author-short"/>
       <text macro="year-date"/>
