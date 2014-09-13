@@ -27,7 +27,7 @@ INFORMATIONEN ZUM ZITIERSTIL
     <category field="generic-base"/>
     <summary>German generic-base style for humanities. Citations in notes; full bibliography.</summary>
     <published>2012-05-28T14:00:00+00:00</published>
-    <updated>2014-03-13T08:01:22+00:00</updated>
+    <updated>2014-09-13T22:01:31+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <!--
@@ -841,7 +841,7 @@ REGELN FÜR DIE SORTIERUNG IM LITERATURVERZEICHNIS
 ================================================================================
 ERSTELLUNG DER FUßNOTEN
 ================================================================================-->
-  <citation et-al-min="4" et-al-use-first="1" et-al-subsequent-min="4" et-al-subsequent-use-first="1" disambiguate-add-names="true">
+  <citation et-al-min="4" et-al-use-first="1" disambiguate-add-names="true">
     <layout suffix="." delimiter="; ">
       <choose>
         <!-- "Ebd." (bei unmittelbar aufeinanderfolgenden Nachweisen) -->

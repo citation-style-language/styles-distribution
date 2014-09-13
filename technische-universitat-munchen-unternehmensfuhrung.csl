@@ -14,7 +14,7 @@
     </author>
     <category citation-format="note"/>
     <category field="science"/>
-    <updated>2014-08-30T16:59:28+00:00</updated>
+    <updated>2014-09-13T22:01:31+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="de">
@@ -39,7 +39,7 @@
   </locale>
   <macro name="author">
     <names variable="author">
-      <name and="symbol" delimiter-precedes-last="never" et-al-subsequent-min="10000" initialize-with=". " name-as-sort-order="all"/>
+      <name and="symbol" delimiter-precedes-last="never" initialize-with=". " name-as-sort-order="all"/>
     </names>
   </macro>
   <macro name="author-short">
