@@ -38,7 +38,7 @@ TO DO
     <category citation-format="author-date"/>
     <category field="generic-base"/>
     <summary>University of South Australia citation style based on the May 2013 version of the style guide titled Harvard referencing guide UniSA</summary>
-    <updated>2014-09-06T22:02:33+00:00</updated>
+    <updated>2014-09-14T13:59:27+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="en">
@@ -280,7 +280,7 @@ TO DO
       </if>
     </choose>
   </macro>
-  <citation et-al-min="4" et-al-use-first="1" et-al-subsequent-min="4" et-al-subsequent-use-first="1" disambiguate-add-givenname="true" disambiguate-add-year-suffix="true" collapse="year">
+  <citation et-al-min="4" et-al-use-first="1" disambiguate-add-givenname="true" disambiguate-add-year-suffix="true" collapse="year">
     <sort>
       <key macro="author-short"/>
       <key macro="year-date"/>

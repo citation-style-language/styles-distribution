@@ -14,7 +14,7 @@
     <category citation-format="author-date"/>
     <category field="generic-base"/>
     <summary>The Harvard author-date style - adapted for the University of Birmingham. See usage notes at http://www.oak-wood.co.uk/oss/birmingham-harvard-csl</summary>
-    <updated>2014-09-10T06:18:55+00:00</updated>
+    <updated>2014-09-14T13:59:27+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale>
@@ -263,7 +263,7 @@
       </group>
     </layout>
   </citation>
-  <bibliography hanging-indent="false" et-al-min="3" et-al-use-first="3" et-al-subsequent-min="3" et-al-subsequent-use-first="3">
+  <bibliography hanging-indent="false" et-al-min="3" et-al-use-first="3">
     <sort>
       <key macro="author"/>
       <key macro="year-date" sort="ascending"/>
