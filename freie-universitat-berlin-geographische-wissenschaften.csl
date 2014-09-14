@@ -12,7 +12,7 @@
     <category citation-format="author-date"/>
     <category field="geography"/>
     <summary>Zitierstil des Instituts für geographische Wissenschaften, Freie Universität Berlin, nach: "Empfehlungen zur Anfertigung von Referaten und Hausarbeiten am Institut für Geographische Wissenschaften der Freien Universität Berlin" ("Möller-Script")</summary>
-    <updated>2014-05-12T02:00:39+00:00</updated>
+    <updated>2014-09-14T14:25:43+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="de">
@@ -72,7 +72,7 @@
   </macro>
   <macro name="author-short">
     <names variable="author">
-      <name form="short" and="symbol" delimiter-precedes-last="never" et-al-min="3" et-al-use-first="1">
+      <name form="short" and="symbol" delimiter-precedes-last="never">
         <name-part name="family" text-case="uppercase"/>
       </name>
       <label form="short"/>
@@ -178,9 +178,9 @@
   </citation>
   <bibliography and="symbol">
     <sort>
-      <key macro="author-short"/>
-      <key macro="author-count" names-min="3" names-use-first="3"/>
-      <key macro="author" names-min="3" names-use-first="1"/>
+      <key macro="author" names-min="1" names-use-first="1"/>
+      <key macro="author-count" names-min="2" names-use-first="2"/>
+      <key macro="author"/>
       <key macro="year-date"/>
     </sort>
     <layout>
