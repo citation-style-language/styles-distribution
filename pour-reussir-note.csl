@@ -13,7 +13,7 @@
     <category citation-format="note"/>
     <category field="social_science"/>
     <category field="generic-base"/>
-    <updated>2014-09-19T14:19:35+00:00</updated>
+    <updated>2014-09-19T15:46:51+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="fr">
@@ -394,7 +394,7 @@
       <choose>
         <if position="ibid-with-locator">
           <group delimiter="&#160;">
-            <text term="ibid" text-case="capitalize-first" font-style="italic" suffix=".,"/>
+            <text term="ibid" text-case="capitalize-first" font-style="italic" suffix=","/>
             <label variable="locator" form="short"/>
             <text variable="locator"/>
           </group>
