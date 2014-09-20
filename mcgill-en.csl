@@ -19,7 +19,7 @@
     </contributor>
     <category citation-format="note"/>
     <category field="law"/>
-    <updated>2014-07-18T02:06:16+00:00</updated>
+    <updated>2014-09-20T12:11:27+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="en">
@@ -374,7 +374,7 @@ Not implemented: "cited to" for cases, construct short casenames, adding ref to 
                     <else-if type="thesis">
                       <text macro="render-thesis"/>
                     </else-if>
-                    <else-if type="article-newspaper">
+                    <else-if type="article-newspaper article-magazine" match="any">
                       <text macro="render-article-newspaper"/>
                     </else-if>
                     <else-if type="webpage post-weblog" match="any">
@@ -437,7 +437,7 @@ Not implemented: "cited to" for cases, construct short casenames, adding ref to 
               <else-if type="thesis">
                 <text macro="render-thesis"/>
               </else-if>
-              <else-if type="article-newspaper">
+              <else-if type="article-newspaper article-magazine" match="any">
                 <text macro="render-article-newspaper"/>
               </else-if>
               <else-if type="book">
