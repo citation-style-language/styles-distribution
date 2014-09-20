@@ -12,7 +12,7 @@
     <category citation-format="author-date"/>
     <category field="generic-base"/>
     <summary>Harvard according to Cite Them Right</summary>
-    <updated>2014-09-01T20:26:25+00:00</updated>
+    <updated>2014-09-20T05:02:39+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="en-GB">
@@ -21,6 +21,7 @@
         <single>ed.</single>
         <multiple>eds</multiple>
       </term>
+      <term name="edition" form="short">edn.</term>
     </terms>
   </locale>
   <macro name="editor">
