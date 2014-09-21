@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <style xmlns="http://purl.org/net/xbiblio/csl" class="in-text" version="1.0" demote-non-dropping-particle="never" default-locale="en-US">
-<!-- This style was edited with the Visual CSL Editor (http://editor.citationstyles.org/visualEditor/) -->
+  <!-- This style was edited with the Visual CSL Editor (http://editor.citationstyles.org/visualEditor/) -->
   <info>
     <title>Journal of Institutional and Theoretical Economics</title>
     <title-short>JITE</title-short>
@@ -20,7 +20,7 @@
     <issn>0932-4569</issn>
     <eissn>1614-0559</eissn>
     <summary>The style for the Journal of Institutional and Theoretical Economics (JITE), which is published by Mohr Siebeck, previously named Zeitschrift für die gesamte Staatswissenschaft.</summary>
-    <updated>2014-09-17T13:12:00+00:00</updated>
+    <updated>2014-09-21T00:36:47+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <macro name="author">
