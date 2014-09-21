@@ -17,7 +17,7 @@
       Ce style peut demander un usage particulier des champs du logiciel de gestion bibliographique. Plus d'infos: http://f-mb.github.io/cslegal/
       This style is for citations in LexisNexis Canada's Québec french publications : full notes, no ibid, based on the 7th edition of the Guide Lluelles, and on the lluelles.csl.
       This style may require use of specific fields in the reference manager. More infos: http://f-mb.github.io/cslegal/</summary>
-    <updated>2014-08-28T01:36:46+00:00</updated>
+    <updated>2014-09-21T00:39:49+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="fr">
@@ -579,7 +579,7 @@
       <text variable="title" font-style="italic"/>
       <group>
         <choose>
-          <if variable="volume chapter-number">
+          <if variable="volume chapter-number" match="any">
             <text variable="number" prefix="projet de loi n°"/>
           </if>
           <else>
@@ -621,7 +621,7 @@
       <text variable="title" font-style="italic"/>
       <group>
         <choose>
-          <if variable="volume chapter-number">
+          <if variable="volume chapter-number" match="any">
             <text variable="number" prefix="projet de loi n°"/>
           </if>
           <else>
@@ -780,7 +780,7 @@
   </macro>
   <macro name="sort-by-type">
     <choose>
-      <if type="bill legislation">
+      <if type="bill legislation" match="any">
         <text value="1"/>
       </if>
       <else-if type="legal_case">
@@ -818,10 +818,10 @@
         <else-if type="chapter">
           <text macro="chapter-note"/>
         </else-if>
-        <else-if type="book report">
+        <else-if type="book report" match="any">
           <text macro="book-note"/>
         </else-if>
-        <else-if type="article-newspaper webpage post post-weblog">
+        <else-if type="article-newspaper webpage post post-weblog" match="any">
           <text macro="article-newspaper-note"/>
         </else-if>
         <else-if type="article-magazine">
@@ -881,13 +881,13 @@
         <else-if type="thesis">
           <text macro="thesis-bib"/>
         </else-if>
-        <else-if type="chapter paper-conference">
+        <else-if type="chapter paper-conference" match="any">
           <text macro="chapter-bib"/>
         </else-if>
-        <else-if type="book report">
+        <else-if type="book report" match="any">
           <text macro="book-bib"/>
         </else-if>
-        <else-if type="article-newspaper webpage post post-weblog">
+        <else-if type="article-newspaper webpage post post-weblog" match="any">
           <text macro="article-newspaper-bib"/>
         </else-if>
         <else-if type="article-magazine">

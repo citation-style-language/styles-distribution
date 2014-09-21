@@ -20,7 +20,7 @@
     <category citation-format="author-date"/>
     <category field="chemistry"/>
     <summary>The American Chemical Society style with article titles</summary>
-    <updated>2014-09-06T22:02:33+00:00</updated>
+    <updated>2014-09-21T00:39:49+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <macro name="editor">
@@ -61,7 +61,7 @@
   </macro>
   <macro name="title">
     <choose>
-      <if type="bill book graphic legal_case legislation motion_picture report song">
+      <if type="bill book graphic legal_case legislation motion_picture report song" match="any">
         <text variable="title" text-case="title" font-style="italic"/>
       </if>
       <else>

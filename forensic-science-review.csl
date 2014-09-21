@@ -15,7 +15,7 @@
     <category citation-format="numeric"/>
     <category field="science"/>
     <issn>1042-7201</issn>
-    <updated>2014-06-22T03:45:28+00:00</updated>
+    <updated>2014-09-21T00:39:49+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <macro name="author">
@@ -30,7 +30,7 @@
   <macro name="editor">
     <group delimiter=" ">
       <choose>
-        <if type="chapter paper-conference">
+        <if type="chapter paper-conference" match="any">
           <text term="in" text-case="capitalize-first"/>
         </if>
       </choose>
@@ -88,7 +88,7 @@
           <text macro="edition"/>
         </group>
       </else-if>
-      <else-if type="bill legislation">
+      <else-if type="bill legislation" match="any">
         <group delimiter=", ">
           <group delimiter=".">
             <text variable="container-title" form="short"/>
@@ -141,7 +141,7 @@
           <text macro="accessed-date"/>
         </group>
       </if>
-      <else-if type="bill legislation">
+      <else-if type="bill legislation" match="any">
         <group delimiter=", ">
           <date variable="issued" delimiter=" ">
             <date-part name="month" form="short" strip-periods="true"/>

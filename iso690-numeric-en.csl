@@ -20,7 +20,7 @@
     <category citation-format="numeric"/>
     <category field="generic-base"/>
     <summary>Style based on ISO 690:2010(E), V1.1</summary>
-    <updated>2013-08-29T04:18:55+00:00</updated>
+    <updated>2014-09-21T00:39:49+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale>
@@ -278,7 +278,7 @@
   <macro name="archive">
     <text variable="archive"/>
     <choose>
-      <if variable="archive_location call-number">
+      <if variable="archive_location call-number" match="any">
         <text value=":&#160;"/>
       </if>
     </choose>

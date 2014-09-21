@@ -14,7 +14,7 @@
     </author>
     <category citation-format="note"/>
     <category field="science"/>
-    <updated>2014-08-30T16:59:28+00:00</updated>
+    <updated>2014-09-21T00:39:49+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="de">
@@ -144,7 +144,7 @@
           <text macro="date" prefix=" "/>
           <text macro="accessed" prefix=", "/>
         </else-if>
-        <else-if type="article-newspaper article-magazine article-journal">
+        <else-if type="article-newspaper article-magazine article-journal" match="any">
           <text value=", in: "/>
           <text variable="container-title" font-style="normal"/>
           <text variable="collection-title" prefix=", Reihe "/>

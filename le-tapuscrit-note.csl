@@ -13,7 +13,7 @@
     <category citation-format="note"/>
     <category field="social_science"/>
     <category field="generic-base"/>
-    <updated>2014-09-06T22:02:33+00:00</updated>
+    <updated>2014-09-21T00:39:49+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="fr">
@@ -372,7 +372,7 @@
           </else>
         </choose>
       </if>
-      <else-if type="article-journal article-magazine">
+      <else-if type="article-journal article-magazine" match="any">
         <group delimiter="" font-style="normal">
           <choose>
             <if variable="issued">

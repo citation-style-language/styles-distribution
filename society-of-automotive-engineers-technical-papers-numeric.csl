@@ -13,7 +13,7 @@
     <category citation-format="numeric"/>
     <category field="engineering"/>
     <summary>Numeric style for SAE technical papers</summary>
-    <updated>2014-05-12T02:00:39+00:00</updated>
+    <updated>2014-09-21T00:39:49+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <macro name="author">
@@ -40,7 +40,7 @@
           <date-part name="year"/>
         </date>
       </if>
-      <else-if variable="accessed" type="webpage">
+      <else-if variable="accessed" type="webpage" match="any">
         <date variable="accessed" delimiter=" ">
           <date-part name="month" form="short"/>
           <date-part name="year"/>

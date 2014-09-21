@@ -33,7 +33,7 @@
     <category citation-format="author"/>
     <category field="generic-base"/>
     <summary>This style adheres to the MLA 7th edition handbook and contains modifications to these types of sources: e-mail, forum posts, interviews, manuscripts, maps, presentations, TV broadcasts, and web pages.</summary>
-    <updated>2014-08-28T02:16:44+00:00</updated>
+    <updated>2014-09-21T00:39:49+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="en">
@@ -391,7 +391,7 @@
           </date>
           <text variable="genre" prefix=" " suffix="."/>
         </else-if>
-        <else-if type="webpage post-weblog">
+        <else-if type="webpage post-weblog" match="any">
           <text variable="genre" prefix=" " suffix="."/>
           <text variable="container-title" font-style="italic" prefix=" " suffix="."/>
           <group delimiter=", " prefix=" ">

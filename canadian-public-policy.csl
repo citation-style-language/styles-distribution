@@ -13,7 +13,7 @@
     <category citation-format="author-date"/>
     <category field="social_science"/>
     <issn>0317-0861</issn>
-    <updated>2014-09-06T22:02:33+00:00</updated>
+    <updated>2014-09-21T00:39:49+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale>
@@ -369,7 +369,7 @@
   <macro name="issue">
     <choose>
       <if type="article-journal"/>
-      <else-if type="legal_case article">
+      <else-if type="legal_case article" match="any">
         <text variable="authority" prefix=". "/>
       </else-if>
       <else-if type="speech">

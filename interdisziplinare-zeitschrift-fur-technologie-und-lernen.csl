@@ -22,7 +22,7 @@
     <category citation-format="author-date"/>
     <category field="generic-base"/>
     <summary>The german author-date variant of the Chicago style adapted for iTel-Journal</summary>
-    <updated>2014-09-06T21:14:27+00:00</updated>
+    <updated>2014-09-21T00:39:49+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <macro name="secondary-contributors">
@@ -134,7 +134,7 @@
             </if>
           </choose>
         </if>
-        <else-if type="webpage post">
+        <else-if type="webpage post" match="any">
           <date delimiter=" " variable="issued">
             <date-part name="day" suffix="."/>
             <date-part name="month"/>
@@ -376,7 +376,7 @@
   </macro>
   <macro name="issue">
     <choose>
-      <if type="article-journal post">
+      <if type="article-journal post" match="any">
         <text macro="day-month" prefix=" "/>
       </if>
       <else-if type="legal_case">
