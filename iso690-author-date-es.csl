@@ -14,7 +14,7 @@
     <category citation-format="author-date"/>
     <category field="generic-base"/>
     <summary>Style based on UNE-ISO 690:2013 standard and iso690-author-date-en.csl and iso690-author-date-fr-no-abstract.csl styles</summary>
-    <updated>2014-08-30T16:59:28+00:00</updated>
+    <updated>2014-10-02T16:54:17+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale>
@@ -201,7 +201,7 @@
   </macro>
   <macro name="issue">
     <group delimiter=", ">
-      <text variable="volume" prefix="Vol. "/>
+      <text variable="volume" prefix="vol. "/>
       <text variable="issue" prefix="no. "/>
       <text variable="page" prefix="pp. "/>
     </group>
@@ -343,7 +343,7 @@
           <group>
             <text macro="author" suffix=" "/>
             <text macro="year-date" suffix=". "/>
-            <text macro="title" suffix=". "/>
+            <text macro="title" suffix=", "/>
             <text macro="edition" suffix=". "/>
             <text macro="issue" suffix=". "/>
             <text macro="accessed" suffix=". "/>
@@ -366,7 +366,7 @@
             <text macro="url" suffix=". "/>
           </group>
         </else-if>
-        <else-if type="chapter entry entry-dictionary entry-encyclopedia" match="any">
+        <else-if type="entry entry-dictionary entry-encyclopedia" match="any">
           <group>
             <text macro="author" suffix=" "/>
             <text macro="year-date" suffix=". "/>
@@ -374,6 +374,21 @@
             <text macro="edition" suffix=". "/>
             <text macro="publisher-place" suffix=": "/>
             <text macro="publisher" suffix=". "/>
+            <text macro="collection" suffix=", "/>
+            <text macro="page" suffix=". "/>
+            <text macro="accessed" suffix=". "/>
+            <text macro="isbn" suffix=". "/>
+            <text macro="url" suffix=". "/>
+          </group>
+        </else-if>
+        <else-if type="chapter">
+          <group>
+            <text macro="author" suffix=" "/>
+            <text macro="year-date" suffix=". "/>
+            <text macro="title" suffix=". "/>
+            <text macro="edition" suffix=". "/>
+            <text macro="publisher-place" suffix=": "/>
+            <text macro="publisher" suffix=", "/>
             <text macro="collection" suffix=", "/>
             <text macro="page" suffix=". "/>
             <text macro="accessed" suffix=". "/>
