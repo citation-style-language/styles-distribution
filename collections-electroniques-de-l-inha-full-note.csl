@@ -5,6 +5,8 @@
     <id>http://www.zotero.org/styles/collections-electroniques-de-l-inha-full-note</id>
     <link href="http://www.zotero.org/styles/collections-electroniques-de-l-inha-full-note" rel="self"/>
     <link href="http://inha.revues.org/2662" rel="documentation"/>
+    <link href="http://www.zotero.org/styles/revue-archeologique" rel="template"/>
+    <link href="https://www.zotero.org/styles/journal-of-roman-archaeology-b" rel="template"/>
     <author>
       <name>Nicolas Monteix</name>
       <email>nicolas.monteix@univ-rouen.fr</email>
@@ -14,7 +16,7 @@
     <category field="humanities"/>
     <eissn>2108-6419</eissn>
     <summary>Feuille de style pour les Collections électroniques de l'INHA avec citation complète en note. Pour les livres traduits ou réédités, il faut ajouter manuellement les références de la première édition (lieu et date de publication).</summary>
-    <updated>2014-10-03T12:25:15+00:00</updated>
+    <updated>2014-10-03T17:55:35+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="fr">
