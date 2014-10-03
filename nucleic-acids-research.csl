@@ -18,18 +18,19 @@
     <issn>0305-1048</issn>
     <eissn>1362-4962</eissn>
     <summary>Nucleic Acids Research Journal style.</summary>
-    <updated>2014-09-06T22:02:33+00:00</updated>
+    <updated>2014-10-03T15:05:45+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <macro name="editor">
     <names variable="editor" delimiter=", ">
-      <name initialize-with="." name-as-sort-order="all" sort-separator=", " delimiter=", " delimiter-precedes-last="always"/>
+      <name initialize-with="." name-as-sort-order="all" sort-separator="," delimiter=", " delimiter-precedes-last="always"/>
       <label form="short" prefix=" (" suffix=")" strip-periods="true"/>
     </names>
   </macro>
   <macro name="author">
     <names variable="author">
-      <name name-as-sort-order="all" sort-separator=", " initialize-with="." delimiter=", " and="text" delimiter-precedes-last="never"/>
+      <name name-as-sort-order="all" sort-separator="," initialize-with="." delimiter=", " and="text" delimiter-precedes-last="never"/>
+      <et-al font-style="italic"/>
       <label form="short" prefix=" "/>
       <substitute>
         <names variable="editor"/>
