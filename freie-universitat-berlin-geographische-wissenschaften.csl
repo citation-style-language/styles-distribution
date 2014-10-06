@@ -12,7 +12,7 @@
     <category citation-format="author-date"/>
     <category field="geography"/>
     <summary>Zitierstil des Instituts für geographische Wissenschaften, Freie Universität Berlin, nach: "Empfehlungen zur Anfertigung von Referaten und Hausarbeiten am Institut für Geographische Wissenschaften der Freien Universität Berlin" ("Möller-Script")</summary>
-    <updated>2014-10-05T16:02:38+00:00</updated>
+    <updated>2014-10-06T17:14:48+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="de">
@@ -27,8 +27,8 @@
   <macro name="edition">
     <choose>
       <if variable="edition">
-        <group delimiter=". " suffix=" ">
-          <number variable="edition"  />
+        <group delimiter=" " suffix=" ">
+          <number variable="edition" form="ordinal" />
           <label variable="edition" form="short"/>
         </group>
       </if>
