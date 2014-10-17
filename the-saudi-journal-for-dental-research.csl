@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <style xmlns="http://purl.org/net/xbiblio/csl" page-range-format="minimal" class="in-text" version="1.0" demote-non-dropping-particle="sort-only" default-locale="en-US">
   <info>
-    <title>Chinese Journal of Aeronautics</title>
-    <title-short>CJA</title-short>
-    <id>http://www.zotero.org/styles/chinese-journal-of-aeronautics</id>
-    <link href="http://www.zotero.org/styles/chinese-journal-of-aeronautics" rel="self"/>
+    <title>The Saudi Journal for Dental Research</title>
+    <title-short>SJDR</title-short>
+    <id>http://www.zotero.org/styles/the-saudi-journal-for-dental-research</id>
+    <link href="http://www.zotero.org/styles/the-saudi-journal-for-dental-research" rel="self"/>
     <link href="http://www.zotero.org/styles/elsevier-vancouver" rel="template"/>
-    <link href="http://www.elsevier.com/journals/chinese-journal-of-aeronautics/1000-9361/guide-for-authors" rel="documentation"/>
+    <link href="http://www.elsevier.com/journals/the-saudi-journal-for-dental-research/2352-0035/guide-for-authors" rel="documentation"/>
     <author>
       <name>Ramanathan</name>
       <email>Ra.Ganapathi@elsevier.com</email>
     </author>
     <category citation-format="numeric"/>
-    <category field="engineering"/>
-    <issn>1000-9361</issn>
+    <category field="medicine"/>
+    <issn>2352-0035</issn>
     <summary>A style for some Elsevier journals, resembles Vancouver style</summary>
     <updated>2014-10-17T00:26:43+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
@@ -72,8 +72,8 @@
     </choose>
   </macro>
   <macro name="publisher">
-    <group delimiter="; ">
-      <group delimiter=": ">
+    <group delimiter=": ">
+      <group delimiter="; ">
         <text variable="publisher-place"/>
         <text variable="publisher"/>
       </group>
@@ -123,7 +123,7 @@
   <bibliography entry-spacing="0" second-field-align="flush" et-al-min="7" et-al-use-first="6">
     <layout suffix=".">
       <text variable="citation-number"/>
-      <text macro="author" prefix=" " suffix=". "/>
+      <text macro="author" suffix=". "/>
       <choose>
         <if type="bill book graphic legal_case legislation motion_picture report song" match="any">
           <group delimiter=". ">
@@ -133,7 +133,7 @@
             <text macro="publisher"/>
           </group>
         </if>
-        <else-if type="chapter" match="any">
+        <else-if type="chapter paper-conference" match="any">
           <group delimiter=". ">
             <group delimiter=". ">
               <text variable="title" form="long"/>
@@ -149,22 +149,6 @@
             </group>
             <text macro="publisher"/>
             <group delimiter=" ">
-              <label variable="page" form="short" plural="never"/>
-              <text variable="page" form="short"/>
-            </group>
-          </group>
-        </else-if>
-        <else-if type="paper-conference" match="any">
-          <group delimiter="; ">
-            <group delimiter=". ">
-              <text variable="title" form="long"/>
-              <text variable="container-title" form="short" font-style="italic"/>
-            </group>
-            <group delimiter="; ">
-              <text variable="publisher-place" text-case="title"/>
-            </group>
-            <group delimiter=". ">
-              <text macro="year-date"/>
               <label variable="page" form="short" plural="never"/>
               <text variable="page" form="short"/>
             </group>
@@ -190,7 +174,7 @@
         <else-if type="webpage">
           <group delimiter=" ">
             <text variable="title" form="long" suffix="."/>
-            <text variable="container-title" form="long" suffix="." text-case="title"/>
+            <text variable="container-title" form="long" suffix=". " text-case="title"/>
             <text macro="access"/>
             <text macro="year-date"/>
           </group>

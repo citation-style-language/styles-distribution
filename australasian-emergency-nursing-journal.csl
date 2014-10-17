@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <style xmlns="http://purl.org/net/xbiblio/csl" page-range-format="minimal" class="in-text" version="1.0" demote-non-dropping-particle="sort-only" default-locale="en-US">
   <info>
     <title>Australasian Emergency Nursing Journal</title>
@@ -16,7 +16,7 @@
     <issn>1574-6267</issn>
     <eissn>1839-2776</eissn>
     <summary>A style for some Elsevier journals, resembles Vancouver style</summary>
-    <updated>2014-09-23T09:13:36+00:00</updated>
+    <updated>2014-10-17T00:26:43+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <macro name="access">
@@ -56,7 +56,7 @@
     <choose>
       <if variable="issued">
         <date variable="issued">
-          <date-part name="year" form="long" range-delimiter="–"/>
+          <date-part name="year" form="long" range-delimiter="&#8211;"/>
         </date>
       </if>
       <else>
