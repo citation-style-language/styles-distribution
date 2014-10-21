@@ -17,23 +17,40 @@
     <category citation-format="numeric"/>
     <category field="chemistry"/>
     <summary>The Royal Society of Chemistry journal style.</summary>
-    <updated>2014-09-06T22:02:33+00:00</updated>
+    <updated>2014-10-18T18:10:51+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <macro name="editor">
     <names variable="editor">
       <label form="short" suffix=" "/>
-      <name initialize-with=". " and="text" delimiter=", "/>
+      <name initialize-with=". " and="text" delimiter=", " delimiter-precedes-last="never"/>
     </names>
   </macro>
   <macro name="author">
-    <names variable="author">
-      <name initialize-with=". " and="text" delimiter=", "/>
-      <label form="short" prefix=", " text-case="capitalize-first"/>
-      <substitute>
-        <names variable="editor"/>
-      </substitute>
-    </names>
+    <choose>
+      <if type="patent">
+        <group delimiter=", ">
+          <choose>
+            <if variable="authority">
+              <text variable="authority"/>
+            </if>
+            <else> 
+              <text variable="publisher"/>
+            </else>
+          </choose>
+          <text variable="number"/>
+        </group>
+      </if>
+      <else>
+        <names variable="author">
+          <name initialize-with=". " and="text" delimiter=", " delimiter-precedes-last="never"/>
+          <label form="short" prefix=", " text-case="capitalize-first"/>
+          <substitute>
+            <names variable="editor"/>
+          </substitute>
+        </names>
+      </else>
+    </choose>
   </macro>
   <macro name="title">
     <choose>

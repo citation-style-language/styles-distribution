@@ -4,7 +4,7 @@
     <title>Law &amp; Society Review</title>
     <id>http://www.zotero.org/styles/law-and-society-review</id>
     <link href="http://www.zotero.org/styles/law-and-society-review" rel="self"/>
-    <link href="http://www.zotero.org/styles/journal-of-marketing" rel="template"/>
+    <link href="http://www.zotero.org/styles/american-marketing-association" rel="template"/>
     <link href="http://www.lawandsociety.org/review/review_stylesheet.html" rel="documentation"/>
     <author>
       <name>Sebastian Karcher</name>
@@ -14,7 +14,7 @@
     <category field="law"/>
     <issn>0023-9216</issn>
     <eissn>1540-5893</eissn>
-    <updated>2014-08-30T16:59:28+00:00</updated>
+    <updated>2014-10-18T17:27:25+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <macro name="container-contributors">
