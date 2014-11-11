@@ -13,7 +13,7 @@
     <category citation-format="author-date"/>
     <category field="sociology"/>
     <summary>The ASA style.</summary>
-    <updated>2014-08-28T01:36:46+00:00</updated>
+    <updated>2014-11-09T21:09:20+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <macro name="editor">
@@ -27,7 +27,7 @@
   </macro>
   <macro name="author">
     <names variable="author">
-      <name and="text" name-as-sort-order="first" sort-separator=", " delimiter=", " delimiter-precedes-last="always" initialize="false" initialize-with=". "/>
+      <name and="text" name-as-sort-order="first" sort-separator=", " delimiter=", " delimiter-precedes-last="contextual" initialize="false" initialize-with=". "/>
       <label form="short" prefix=", "/>
       <substitute>
         <names variable="editor"/>
