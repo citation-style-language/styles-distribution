@@ -13,14 +13,14 @@
     <category citation-format="note"/>
     <category field="theology"/>
     <summary>The Pontifical Athenaeum Regina Apostolorum style</summary>
-    <updated>2014-09-14T13:59:27+00:00</updated>
+    <updated>2014-12-01T17:32:33+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale>
     <style-options punctuation-in-quote="false"/>
     <terms>
       <term name="et-al">et al.</term>
-      <term name="ibid">ibid</term>
+      <term name="ibid">ibid.</term>
       <term name="editor" form="short">
         <single>ed.</single>
         <multiple>edd.</multiple>
