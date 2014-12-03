@@ -18,7 +18,7 @@
     <issn>0007-0920</issn>
     <eissn>1532-1827</eissn>
     <summary>Style for the British Journal of Cancer</summary>
-    <updated>2014-03-28T18:27:21+00:00</updated>
+    <updated>2014-12-03T05:41:19+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="en-US">
@@ -108,8 +108,10 @@
             <text variable="title" suffix="."/>
             <text variable="container-title" form="short" font-style="italic" strip-periods="true"/>
             <text variable="volume" font-style="normal" font-weight="bold" suffix=":"/>
-            <text variable="page"/>
-            <text macro="DOI"/>
+            <group delimiter=", ">
+              <text variable="page"/>
+              <text macro="DOI"/>
+            </group>
           </if>
           <else-if type="chapter paper-conference" match="any">
             <text variable="title" suffix="."/>
