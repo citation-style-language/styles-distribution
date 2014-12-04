@@ -14,7 +14,7 @@
     <category citation-format="author-date"/>
     <category field="generic-base"/>
     <summary>The Harvard author-date style - adapted for Cardiff University</summary>
-    <updated>2014-11-30T17:30:00+00:00</updated>
+    <updated>2014-12-04T04:33:51+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <macro name="editor">
@@ -167,10 +167,11 @@
           </group>
         </else-if>
         <else-if type="webpage">
-          <group prefix=" " suffix=".">
-            <text macro="title" suffix=" [Online]."/>
+          <group prefix=" " delimiter=" " suffix=".">
+            <text macro="title"/>
+            <text term="online" text-case="capitalize-first" prefix="[" suffix="]"/>
             <text macro="edition"/>
-            <text prefix=" " macro="access" suffix="."/>
+            <text macro="access"/>
           </group>
         </else-if>
         <else>
