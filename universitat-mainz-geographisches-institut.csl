@@ -12,7 +12,7 @@
     <category citation-format="author-date"/>
     <category field="geography"/>
     <summary>Based on "Wissenschaftlich arbeiten. Leitfaden für Studierende der Geographie"</summary>
-    <updated>2014-11-23T16:30:30+00:00</updated>
+    <updated>2014-12-05T04:18:39+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale>
@@ -67,7 +67,7 @@
   </macro>
   <macro name="no-author">
     <text term="anonymous" form="short"/>
-  </macro>  
+  </macro>
   <macro name="year">
     <choose>
       <if variable="issued">
@@ -108,7 +108,7 @@
     </choose>
   </macro>
   <macro name="internet">
-    <choose> 
+    <choose>
       <if variable="URL">
         <group delimiter=" ">
           <text term="internet" suffix=":"/>
@@ -194,7 +194,7 @@
             <text variable="volume"/>
             <text variable="issue" prefix="(" suffix=")"/>
           </group>
-          <text variable="page" prefix=": "/>  
+          <text variable="page" prefix=": "/>
         </else-if>
         <else>
           <group prefix=". " delimiter=". ">

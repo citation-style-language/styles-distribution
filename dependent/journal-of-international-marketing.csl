@@ -5,15 +5,15 @@
     <title-short>JIM</title-short>
     <id>http://www.zotero.org/styles/journal-of-international-marketing</id>
     <link href="http://www.zotero.org/styles/journal-of-international-marketing" rel="self"/>
-    <link href="https://www.ama.org/publications/JournalOfInternationalMarketing/Pages/JIM_Accepted_Ms.aspx#references" rel="documentation"/>
     <link href="http://www.zotero.org/styles/american-marketing-association" rel="independent-parent"/>
+    <link href="https://www.ama.org/publications/JournalOfInternationalMarketing/Pages/JIM_Accepted_Ms.aspx#references" rel="documentation"/>
     <category citation-format="author-date"/>
     <category field="social_science"/>
     <category field="communications"/>
     <issn>1069-031X</issn>
     <eissn>1547-7215</eissn>
     <summary>Style for the Journal of International Marketing, published by the American Marketing Association</summary>
-    <updated>2014-10-18T17:27:25+00:00</updated>
+    <updated>2014-12-05T04:18:39+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
 </style>

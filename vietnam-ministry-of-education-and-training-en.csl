@@ -4,7 +4,7 @@
     <title>Vietnam Ministry of Education and Training (English)</title>
     <title-short>BGDDT_TA</title-short>
     <id>http://www.zotero.org/styles/vietnam-ministry-of-education-and-training-en</id>
-    <link rel="self" href="http://www.zotero.org/styles/vietnam-ministry-of-education-and-training-en"/>
+    <link href="http://www.zotero.org/styles/vietnam-ministry-of-education-and-training-en" rel="self"/>
     <link href="http://www.vdic.org.vn/en/library/guides.html" rel="documentation"/>
     <author>
       <name>Pham Thanh Tung</name>
@@ -18,7 +18,7 @@
     </contributor>
     <category citation-format="numeric"/>
     <summary>Style Bộ giáo dục đào tạo Việt Nam (Tiếng Anh)</summary>
-    <updated>2014-10-19T18:35:39+00:00</updated>
+    <updated>2014-12-05T04:18:39+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <macro name="author">
@@ -146,4 +146,3 @@
     </layout>
   </bibliography>
 </style>
-

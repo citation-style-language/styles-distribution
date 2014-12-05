@@ -12,7 +12,7 @@
     <category citation-format="author-date"/>
     <category field="generic-base"/>
     <summary>Edge Hill University Harvard style based on based on the British Standards ISO 690:2010</summary>
-    <updated>2014-11-23T16:22:37+00:00</updated>
+    <updated>2014-12-05T04:18:39+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <macro name="author">
@@ -155,7 +155,7 @@
   <macro name="container">
     <choose>
       <if type="chapter paper-conference" match="any">
-        <text term="in" text-case="capitalize-first" suffix=": "/> 
+        <text term="in" text-case="capitalize-first" suffix=": "/>
         <group delimiter=". ">
           <names variable="editor translator" delimiter=", ">
             <name sort-separator=", " initialize-with="." and="text" delimiter=", " delimiter-precedes-last="never">
@@ -192,7 +192,7 @@
         <group delimiter=" ">
           <text variable="container-title" font-style="italic"/>
           <text macro="online"/>
-        </group>      
+        </group>
       </else>
     </choose>
   </macro>
@@ -304,9 +304,9 @@
         </group>
       </if>
       <else-if type=" article-newspaper post-weblog" match="any">
-        <group delimiter=". " prefix=". ">    
+        <group delimiter=". " prefix=". ">
           <date variable="issued" delimiter=" ">
-            <date-part name="day"/>            
+            <date-part name="day"/>
             <date-part name="month"/>
           </date>
           <group delimiter=" ">
@@ -328,7 +328,7 @@
             <text macro="online"/>
           </group>
           <date variable="issued" delimiter=" ">
-            <date-part name="day"/>            
+            <date-part name="day"/>
             <date-part name="month"/>
           </date>
         </group>

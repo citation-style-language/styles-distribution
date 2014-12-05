@@ -13,7 +13,7 @@
     <category citation-format="note"/>
     <category field="generic-base"/>
     <summary>Adaptation en français de la norme "Chicago" (méthode classique), basée sur le guide des Bibliothèques de l'Université de Montréal.</summary>
-    <updated>2014-11-24T14:20:03+00:00</updated>
+    <updated>2014-12-05T04:18:39+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale>
@@ -749,7 +749,7 @@
           </if>
         </choose>
       </if>
-      <else-if type="article-journal article-magazine">
+      <else-if type="article-journal article-magazine" match="any">
         <group delimiter=" ">
           <choose>
             <if locator="page" match="none">
@@ -791,7 +791,7 @@
   </macro>
   <macro name="locators-journal-join-with-colon">
     <choose>
-      <if type="article-journal article-magazine">
+      <if type="article-journal article-magazine" match="any">
         <choose>
           <if variable="volume issue" match="any">
             <text variable="page"/>
@@ -802,7 +802,7 @@
   </macro>
   <macro name="locators-journal-join-with-comma">
     <choose>
-      <if type="article-journal article-magazine">
+      <if type="article-journal article-magazine" match="any">
         <choose>
           <if variable="volume issue" match="none">
             <text variable="page"/>
@@ -1220,7 +1220,7 @@
       </choose>
     </layout>
   </citation>
-  <bibliography hanging-indent="true" et-al-min="11" et-al-use-first="7" subsequent-author-substitute="———" entry-spacing="0">
+  <bibliography hanging-indent="true" et-al-min="11" et-al-use-first="7" subsequent-author-substitute="&#8212;&#8212;&#8212;" entry-spacing="0">
     <sort>
       <key macro="contributors-sort"/>
       <key variable="issued" sort="descending"/>

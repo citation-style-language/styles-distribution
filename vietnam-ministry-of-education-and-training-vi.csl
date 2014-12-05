@@ -4,8 +4,8 @@
     <title>Vietnam Ministry of Education and Training (Vietnamese)</title>
     <title-short>BGDDT_TV</title-short>
     <id>http://www.zotero.org/styles/vietnam-ministry-of-education-and-training-vi</id>
-    <link rel="self" href="http://www.zotero.org/styles/vietnam-ministry-of-education-and-training-vi" />
-    <link href="http://www.zotero.org/styles/acm-sigchi-proceedings" rel="template" />
+    <link href="http://www.zotero.org/styles/vietnam-ministry-of-education-and-training-vi" rel="self"/>
+    <link href="http://www.zotero.org/styles/acm-sigchi-proceedings" rel="template"/>
     <link href="http://www.vdic.org.vn/en/library/guides.html" rel="documentation"/>
     <author>
       <name>Pham Thanh Tung</name>
@@ -19,7 +19,7 @@
     </contributor>
     <category citation-format="numeric"/>
     <summary>Style Bộ giáo dục đào tạo Việt Nam (Tiếng Việt)</summary>
-    <updated>2014-10-20T15:50:56+00:00</updated>
+    <updated>2014-12-05T04:18:39+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <macro name="author">
@@ -152,4 +152,3 @@
     </terms>
   </locale>
 </style>
-
