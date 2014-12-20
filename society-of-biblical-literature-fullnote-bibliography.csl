@@ -24,7 +24,7 @@
     <category citation-format="note"/>
     <category field="theology"/>
     <summary>Society of Biblical Literature format with full notes and bibliography</summary>
-    <updated>2014-10-01T02:34:13+00:00</updated>
+    <updated>2014-10-26T17:59:40+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="en-US">
@@ -362,6 +362,10 @@
     <text variable="collection-title"/>
     <text variable="collection-number" prefix=" "/>
   </macro>
+  <macro name="collection-title-note">
+    <text variable="collection-title" form="short"/>
+    <text variable="collection-number" prefix=" "/>
+  </macro>
   <macro name="container-title">
     <choose>
       <if type="chapter paper-conference" match="any">
@@ -610,7 +614,7 @@
           <group delimiter="; " suffix="; ">
             <text macro="container-contributors-note"/>
             <text macro="locators-note"/>
-            <text macro="collection-title"/>
+            <text macro="collection-title-note"/>
           </group>
           <group delimiter=", ">
             <group delimiter=" ">
