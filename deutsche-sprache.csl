@@ -14,7 +14,7 @@
     <issn>0340-9341</issn>
     <eissn>1866-5233</eissn>
     <summary>Style for the German Journal 'Deutsche Sprache : Zeitschrift fuer Theorie Praxis Dokumentation', published by Erich Schmidt Verlag, edited by IDS Mannheim</summary>
-    <updated>2014-09-13T16:21:07+00:00</updated>
+    <updated>2014-12-27T15:46:31+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="de">
@@ -107,20 +107,30 @@
   </macro>
   <citation et-al-min="4" et-al-use-first="1" disambiguate-add-year-suffix="true" collapse="year-suffix">
     <layout delimiter="; " prefix="(" suffix=")">
-      <group delimiter=", ">
-        <choose>
-          <if match="any" position="ibid-with-locator ibid">
-            <text term="ibid" suffix="."/>
-          </if>
-          <else>
+      <choose>
+        <if  position="ibid-with-locator">
+          <group delimiter=", ">
+            
+            <text term="ibid"/>
+            <group delimiter=" ">
+              <text term="page" form="symbol"/>
+              <text variable="locator"/>
+            </group>
+          </group>
+        </if>
+        <else-if position="ibid">
+          <text term="ibid"/>
+        </else-if>
+        <else>
+          <group delimiter=", ">
             <text macro="creator-year-short"/>
-          </else>
-        </choose>
-        <group delimiter=" ">
-          <text term="page" form="symbol"/>
-          <text variable="locator"/>
-        </group>
-      </group>
+            <group delimiter=" ">
+              <text term="page" form="symbol"/>
+              <text variable="locator"/>
+            </group>
+          </group>
+        </else>
+      </choose>
     </layout>
   </citation>
   <bibliography et-al-min="4" et-al-use-first="1">
