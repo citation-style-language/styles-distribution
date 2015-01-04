@@ -5,7 +5,7 @@
     <title-short>JuS</title-short>
     <id>http://www.zotero.org/styles/juristische-schulung</id>
     <link href="http://www.zotero.org/styles/juristische-schulung" rel="self"/>
-    <link href="https://www.zotero.org/styles/juristische-zitierweise" rel="template"/>
+    <link href="https://www.zotero.org/styles/neue-juristische-wochenschrift" rel="template"/>
     <link href="http://rsw.beck.de/rsw/upload/JuS/jusautorenhinweise.pdf" rel="documentation"/>
     <author>
       <name>Reto Mantz</name>
@@ -21,7 +21,7 @@
       (see footnote ...)
     - see more details below in the comments
     </summary>
-    <updated>2014-12-20T13:53:52+00:00</updated>
+    <updated>2015-01-04T15:29:39+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   
