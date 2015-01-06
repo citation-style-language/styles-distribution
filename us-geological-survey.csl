@@ -14,7 +14,7 @@
     </contributor>
     <category citation-format="author-date"/>
     <category field="geology"/>
-    <updated>2012-10-30T02:03:08+00:00</updated>
+    <updated>2015-01-06T15:20:06+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <macro name="editor-translator">
@@ -88,9 +88,18 @@
       </group>
       <choose>
         <if type="report">
-          <text variable="title" prefix=" " suffix=":"/>
-          <text variable="publisher" prefix=" " suffix=","/>
-          <text variable="collection-title" prefix=" "/>
+           <group prefix=" " delimiter=", " suffix=".">
+            <group delimiter=" ">
+              <text variable="title" suffix=":"/>
+              <text variable="publisher"/>
+              <text variable="genre"/>
+              <text variable="number"/>
+            </group>
+            <group>
+              <label variable="page" form="short" plural="never" suffix=" "/>
+              <text variable="page"/>
+            </group>
+          </group>
         </if>
         <else-if type="bill book graphic legal_case legislation motion_picture report song" match="any">
           <group suffix=":">
