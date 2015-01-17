@@ -15,7 +15,7 @@
     <category field="medicine"/>
     <issn>0300-5577</issn>
     <eissn>1619-3997</eissn>
-    <updated>2013-09-08T00:04:27+00:00</updated>
+    <updated>2015-01-01T17:31:53+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <macro name="author">
@@ -137,8 +137,8 @@
       <choose>
         <if type="bill book graphic legal_case legislation motion_picture report song" match="any">
           <group prefix=". " delimiter=" " suffix=".">
-            <text macro="edition" suffix=" "/>
-            <text macro="publisher" prefix=" "/>
+            <text macro="edition"/>
+            <text macro="publisher"/>
           </group>
         </if>
         <else-if type="chapter paper-conference" match="any">
