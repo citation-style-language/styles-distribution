@@ -29,7 +29,7 @@
     <issn>0020-8183</issn>
     <eissn>1531-5088</eissn>
     <summary>Style for the Cambridge Journal International Organization</summary>
-    <updated>2014-08-28T01:36:46+00:00</updated>
+    <updated>2015-01-01T23:37:43+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale>
@@ -258,9 +258,9 @@
     <choose>
       <if type="article-newspaper">
         <group delimiter=", ">
-          <group>
-            <text variable="edition" suffix=" "/>
-            <text term="edition" prefix=" "/>
+          <group delimiter=" ">
+            <text variable="edition"/>
+            <text term="edition"/>
           </group>
           <group>
             <text term="section" form="short" suffix=" "/>

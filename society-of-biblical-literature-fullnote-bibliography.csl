@@ -24,7 +24,7 @@
     <category citation-format="note"/>
     <category field="theology"/>
     <summary>Society of Biblical Literature format with full notes and bibliography</summary>
-    <updated>2015-01-14T07:53:14+00:00</updated>
+    <updated>2015-01-17T06:10:05+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="en-US">
@@ -464,9 +464,9 @@
     <choose>
       <if type="article-newspaper">
         <group delimiter=", ">
-          <group>
-            <text variable="edition" suffix=" "/>
-            <text term="edition" prefix=" "/>
+          <group delimiter=" ">
+            <text variable="edition"/>
+            <text term="edition"/>
           </group>
           <group>
             <text term="section" form="short" suffix=" "/>

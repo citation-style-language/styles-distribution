@@ -15,7 +15,7 @@
     <category citation-format="note"/>
     <category field="history"/>
     <summary>Annotatie en bibliografie volgens de richtlijnen van de Universiteit Utrecht, Geschiedenis, zoals beschreven in de Onderzoeksgids Geschiedenis</summary>
-    <updated>2014-08-30T16:59:28+00:00</updated>
+    <updated>2015-01-01T23:37:43+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="nl">
@@ -190,9 +190,9 @@
     <choose>
       <if type="article-newspaper">
         <group delimiter=", ">
-          <group>
-            <text variable="edition" suffix=" "/>
-            <text term="edition" prefix=" "/>
+          <group delimiter=" ">
+            <text variable="edition"/>
+            <text term="edition"/>
           </group>
           <group>
             <text term="section" suffix=" "/>

@@ -15,7 +15,7 @@
     <issn>1096-2247</issn>
     <eissn>2162-2906</eissn>
     <summary>Journal of the Air &amp; Waste Management Association (JAWMA), now follows Chicago Manual (author-date), but with initials, abbreviated journal titles, full page ranges, and no author substitutes</summary>
-    <updated>2014-08-30T16:59:28+00:00</updated>
+    <updated>2015-01-01T23:37:43+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale>
@@ -282,9 +282,9 @@
     <choose>
       <if type="article-newspaper">
         <group prefix=", " delimiter=", ">
-          <group>
-            <text variable="edition" suffix=" "/>
-            <text term="edition" prefix=" "/>
+          <group delimiter=" ">
+            <text variable="edition"/>
+            <text term="edition"/>
           </group>
           <group>
             <text term="section" form="short" suffix=" "/>

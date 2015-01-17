@@ -12,7 +12,7 @@
     <category citation-format="note"/>
     <category field="astronomy"/>
     <issn>0021-8286</issn>
-    <updated>2014-08-30T16:59:28+00:00</updated>
+    <updated>2015-01-01T23:37:43+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale>
@@ -186,9 +186,9 @@
     <choose>
       <if type="article-newspaper">
         <group delimiter=", ">
-          <group>
-            <text variable="edition" suffix=" "/>
-            <text term="edition" prefix=" "/>
+          <group delimiter=" ">
+            <text variable="edition"/>
+            <text term="edition"/>
           </group>
           <group>
             <text term="section" suffix=" "/>

@@ -18,7 +18,7 @@
     <category citation-format="author-date"/>
     <category field="generic-base"/>
     <summary>Style CSL UQAM (développé à partir du CSL Chicago Manual of Style auteur-date) adapté pour correspondre au guide Bouthat (ISBN 2892761190)</summary>
-    <updated>2014-08-28T01:36:46+00:00</updated>
+    <updated>2015-01-01T23:37:43+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="fr">
@@ -264,9 +264,9 @@
     <choose>
       <if type="article-newspaper">
         <group prefix=", " delimiter=", ">
-          <group>
-            <text variable="edition" suffix=" "/>
-            <text term="edition" prefix=" "/>
+          <group delimiter=" ">
+            <text variable="edition"/>
+            <text term="edition"/>
           </group>
           <group>
             <text term="section" form="short" suffix=". " strip-periods="false"/>
