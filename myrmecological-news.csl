@@ -22,7 +22,7 @@
     <category field="biology"/>
     <issn>1994-4136</issn>
     <eissn>1997-3500</eissn>
-    <updated>2014-08-28T01:36:46+00:00</updated>
+    <updated>2015-01-17T12:52:16+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale>
@@ -134,10 +134,12 @@
       <key variable="title"/>
     </sort>
     <layout>
-      <text macro="author" suffix=" " font-variant="small-caps"/>
-      <date variable="issued" prefix=" " suffix=":">
-        <date-part name="year"/>
-      </date>
+      <group delimiter=" ">
+        <text macro="author" font-variant="small-caps"/>
+        <date variable="issued" suffix=":">
+          <date-part name="year"/>
+        </date>
+      </group>
       <choose>
         <if type="book">
           <group prefix=" " delimiter=" " suffix=" ">

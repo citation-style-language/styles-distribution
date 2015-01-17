@@ -14,7 +14,7 @@
     <category field="engineering"/>
     <issn>0028-1522</issn>
     <eissn>2161-4296</eissn>
-    <updated>2013-08-25T02:29:55+00:00</updated>
+    <updated>2015-01-17T13:37:43+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="en">
@@ -264,7 +264,7 @@
         </else-if>
         <else-if type="patent">
           <text macro="title" suffix=", "/>
-          <text variable="number" prefix=" "/>
+          <text variable="number"/>
           <text macro="issued"/>
         </else-if>
         <!-- Generic/Fallback Formats -->

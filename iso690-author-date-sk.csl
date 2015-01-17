@@ -13,7 +13,7 @@
     <category citation-format="author-date"/>
     <category field="generic-base"/>
     <summary>Style based on STN ISO 690:2012</summary>
-    <updated>2014-08-30T16:59:28+00:00</updated>
+    <updated>2015-01-17T13:37:43+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale>
@@ -610,7 +610,7 @@
         </else-if>
         <else-if type="motion_picture" match="any">
           <text macro="title" suffix=". "/>
-          <text macro="medium" prefix=" [" suffix="]. "/>
+          <text macro="medium" prefix="[" suffix="]. "/>
           <text macro="year-date" suffix=". "/>
           <text macro="responsability" suffix=". "/>
           <text macro="publisher-place" suffix=": "/>

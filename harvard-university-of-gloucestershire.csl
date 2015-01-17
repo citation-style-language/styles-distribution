@@ -13,7 +13,7 @@
     <category citation-format="author-date"/>
     <category field="generic-base"/>
     <category field="social_science"/>
-    <updated>2014-09-06T22:02:33+00:00</updated>
+    <updated>2015-01-17T12:52:16+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xmlns="http://purl.org/net/xbiblio/csl" xml:lang="en-GB">
@@ -134,10 +134,12 @@
       <key variable="issued"/>
     </sort>
     <layout>
-      <text macro="author" suffix=" "/>
-      <date variable="issued" prefix=" (" suffix=")">
-        <date-part name="year"/>
-      </date>
+      <group delimiter=" ">
+        <text macro="author"/>
+        <date variable="issued" prefix="(" suffix=")">
+          <date-part name="year"/>
+        </date>
+      </group>
       <choose>
         <if type="bill book graphic legal_case legislation motion_picture post-weblog report song webpage" match="any">
           <group suffix=",">

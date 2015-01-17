@@ -17,7 +17,7 @@
     <category field="physics"/>
     <category field="generic-base"/>
     <summary>This style is similar to American Physical Society (APS) and is used by a number of Springer publications.</summary>
-    <updated>2013-11-02T03:09:48+00:00</updated>
+    <updated>2015-01-17T11:30:12+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <macro name="author">
@@ -93,7 +93,7 @@
   <bibliography entry-spacing="0">
     <layout suffix=".">
       <text variable="citation-number" suffix=". "/>
-      <text macro="author" prefix=" " suffix=", "/>
+      <text macro="author" suffix=", "/>
       <choose>
         <if type="bill book graphic legal_case legislation motion_picture report song" match="any">
           <group delimiter=" ">

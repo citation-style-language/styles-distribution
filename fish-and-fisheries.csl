@@ -15,7 +15,7 @@
     <issn>1467-2960</issn>
     <eissn>1467-2979</eissn>
     <summary>Style for the journal Fish and Fisheries</summary>
-    <updated>2014-08-30T16:59:28+00:00</updated>
+    <updated>2015-01-17T11:18:39+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale>
@@ -154,7 +154,7 @@
           <text macro="title" prefix=" " suffix="." font-style="normal"/>
           <group prefix=" " suffix=" ">
             <text term="in" suffix=" "/>
-            <group delimiter=", " prefix=" " suffix=".">
+            <group delimiter=", " suffix=".">
               <text variable="container-title" font-style="italic"/>
               <text variable="volume" prefix="Vol. "/>
             </group>

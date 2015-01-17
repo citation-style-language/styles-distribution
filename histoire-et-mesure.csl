@@ -13,7 +13,7 @@
     <category field="social_science"/>
     <issn>0982-1783</issn>
     <eissn>1957-7745</eissn>
-    <updated>2013-08-29T04:18:55+00:00</updated>
+    <updated>2015-01-17T13:37:43+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="fr">
@@ -95,9 +95,9 @@
         </group>
       </else-if>
       <else-if type="thesis" match="any">
-        <group>
-          <text variable="title" text-case="capitalize-first" font-style="italic" suffix=", "/>
-          <text variable="genre" suffix=", " prefix=" "/>
+        <group delimiter=", ">
+          <text variable="title" text-case="capitalize-first" font-style="italic"/>
+          <text variable="genre"/>
           <text variable="publisher"/>
         </group>
       </else-if>

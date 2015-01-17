@@ -13,7 +13,7 @@
     <category field="engineering"/>
     <issn>0002-7820</issn>
     <eissn>1551-2916</eissn>
-    <updated>2013-12-22T02:33:59+00:00</updated>
+    <updated>2015-01-17T11:30:12+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <macro name="author">
@@ -86,7 +86,7 @@
   <bibliography second-field-align="flush" entry-spacing="0" et-al-min="9" et-al-use-first="8" line-spacing="2">
     <layout suffix=".">
       <text variable="citation-number" vertical-align="sup" suffix=" "/>
-      <text macro="author" prefix=" " suffix=", "/>
+      <text macro="author" suffix=", "/>
       <choose>
         <if type="bill book graphic legal_case legislation motion_picture report song" match="any">
           <group delimiter=". ">
