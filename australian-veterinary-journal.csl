@@ -16,7 +16,7 @@
     <issn>0005-0423</issn>
     <eissn>1751-0813</eissn>
     <summary>Vancouver style for AVJ</summary>
-    <updated>2014-09-21T17:26:10+00:00</updated>
+    <updated>2015-01-18T11:36:24+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="en">
@@ -219,7 +219,7 @@
           <text macro="pages"/>
         </group>
       </group>
-      <text macro="report-details" suffix=". "/>
+      <text macro="report-details" suffix="."/>
       <text macro="access" prefix=" "/>
     </layout>
   </bibliography>
