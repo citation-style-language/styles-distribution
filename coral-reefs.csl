@@ -14,7 +14,7 @@
     <category field="biology"/>
     <issn>0722-4028</issn>
     <eissn>1432-0975</eissn>
-    <updated>2015-01-18T11:36:24+00:00</updated>
+    <updated>2013-08-29T04:18:55+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <macro name="author">
@@ -62,11 +62,9 @@
       <text macro="title"/>
       <choose>
         <if type="thesis">
-          <group delimiter=", ">
-            <text variable="genre"/>
-            <text variable="publisher"/>
-            <text variable="page" prefix="p "/>
-          </group>
+          <text variable="genre" suffix=", "/>
+          <text variable="publisher" suffix=", "/>
+          <text variable="page" prefix=" p "/>
         </if>
         <else-if type="book">
           <text variable="publisher" suffix=", "/>
