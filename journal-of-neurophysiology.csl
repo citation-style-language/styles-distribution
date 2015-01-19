@@ -16,7 +16,7 @@
     <issn>0022-3077</issn>
     <eissn>1522-1598</eissn>
     <summary>The Journal of Neurophysiology style</summary>
-    <updated>2014-09-06T22:02:33+00:00</updated>
+    <updated>2015-01-18T11:36:24+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="en">
@@ -221,9 +221,9 @@
         <else>
           <text variable="container-title" suffix=" " form="short" font-style="italic"/>
           <text variable="volume"/>
-          <text variable="publisher" suffix="."/>
+          <text variable="publisher"/>
           <text variable="page" prefix=": " suffix=", "/>
-          <text macro="date" prefix=" " suffix="."/>
+          <text macro="date" suffix="."/>
         </else>
       </choose>
       <text macro="access"/>
