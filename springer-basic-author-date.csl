@@ -19,7 +19,7 @@
     <category citation-format="author-date"/>
     <category field="generic-base"/>
     <summary>Springer Author Date Style for the disciplines Medicine, Biomedicine, Life Sciences, Chemistry, Geosciences, Computer Science, Engineering, Economics. This style is based on Harvard style and recommendations of the Council of Biology Editors.</summary>
-    <updated>2015-01-19T08:18:10+00:00</updated>
+    <updated>2014-09-11T02:57:16+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale>
@@ -188,7 +188,7 @@
           <!--    Dissertation
                Trent JW (1975) Experimental acute renal failure. Dissertation, University of California       -->
           <group delimiter=", ">
-            <text variable="genre" text-case="capitalize-first"/>
+            <text variable="genre"/>
             <text variable="publisher"/>
           </group>
         </else-if>

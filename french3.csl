@@ -15,7 +15,7 @@
     </contributor>
     <category citation-format="numeric"/>
     <summary>Style Zotero respectant les normes bibliographiques françaises : NF Z44-005  et NF ISO 690-2</summary>
-    <updated>2015-01-18T11:36:24+00:00</updated>
+    <updated>2014-09-06T22:02:33+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <macro name="author">
@@ -208,11 +208,9 @@
       <text macro="title" suffix=". "/>
       <choose>
         <if type="thesis">
-          <group delimiter=" ">
-            <text variable="genre" suffix="."/>
-            <text macro="publisher"/>
-            <text variable="number-of-pages" suffix=" p."/>
-          </group>
+          <text variable="genre" suffix=". "/>
+          <text macro="publisher" prefix=" "/>
+          <text variable="number-of-pages" suffix=" p."/>
         </if>
         <else-if type="bill book graphic legal_case legislation motion_picture report song" match="any">
           <text macro="edition"/>

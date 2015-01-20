@@ -15,7 +15,7 @@
     <category field="social_science"/>
     <issn>1357-034X</issn>
     <eissn>1460-3632</eissn>
-    <updated>2015-01-18T17:26:47+00:00</updated>
+    <updated>2013-09-08T00:04:27+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="en-GB">
@@ -99,12 +99,14 @@
             </group>
           </if>
           <else-if variable="URL">
-            <group delimiter=" ">
-              <text value="URL"/>
-              <date variable="accessed" delimiter=" " prefix="(consulted " suffix="):">
+            <text value="URL"/>
+            <group delimiter=" " prefix=" (consulted" suffix="): ">
+              <date variable="accessed" prefix=" " delimiter=" ">
                 <date-part name="month" form="long"/>
                 <date-part name="year"/>
               </date>
+            </group>
+            <group>
               <text variable="URL"/>
             </group>
           </else-if>
@@ -112,8 +114,8 @@
       </else-if>
       <else-if variable="URL">
         <text value="URL "/>
-        <group>
-          <date variable="accessed" delimiter=" " prefix=" (consulted " suffix="): ">
+        <group delimiter=" " prefix=" (consulted" suffix="): ">
+          <date variable="accessed" prefix=" " delimiter=" ">
             <date-part name="month" form="long"/>
             <date-part name="year"/>
           </date>

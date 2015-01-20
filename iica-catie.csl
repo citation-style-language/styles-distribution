@@ -12,7 +12,7 @@
     <category citation-format="author-date"/>
     <category field="biology"/>
     <summary>Style for the Inter-American Institute for Cooperation on Agriculture (IICA) and the Tropical Agriculture Research and Higher Education Center (CATIE)</summary>
-    <updated>2015-01-18T19:28:50+00:00</updated>
+    <updated>2015-01-17T13:37:43+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <macro name="title">
@@ -235,25 +235,21 @@
     <layout>
       <choose>
         <if type="bill book" match="any">
-          <group delimiter=". ">
-            <text macro="author-short"/>
-            <text macro="year-date"/>
-            <text macro="title"/>
-            <text macro="translator"/>
-            <text macro="editor"/>
-            <text macro="locators"/>
-          </group>
+          <text macro="author-short" suffix=". "/>
+          <text macro="year-date" suffix=". "/>
+          <text macro="title" prefix=" " suffix=". "/>
+          <text macro="translator" suffix=". "/>
+          <text macro="editor" suffix=". "/>
+          <text macro="locators"/>
         </if>
         <else-if type="chapter">
-          <group delimiter=". ">
-            <text macro="author-short"/>
-            <text macro="year-date"/>
-            <text macro="title"/>
-            <text macro="container-author" prefix="In "/>
-            <text macro="container-title"/>
-            <text macro="translator"/>
-            <text macro="locators"/>
-          </group>
+          <text macro="author-short" suffix=". "/>
+          <text macro="year-date" suffix=". "/>
+          <text macro="title" suffix=". "/>
+          <text macro="container-author" prefix="In " suffix=". "/>
+          <text macro="container-title" prefix=" " suffix=". "/>
+          <text macro="translator" suffix=". "/>
+          <text macro="locators"/>
         </else-if>
         <else-if type="thesis">
           <text macro="author-short" suffix=". "/>
@@ -319,16 +315,31 @@
             </else>
           </choose>
         </else-if>
-        <else-if type="article-journal article-magazine article" match="any">
+        <else-if type="article">
           <text macro="author-short" suffix=". "/>
           <text macro="year-date" suffix=". "/>
-          <group delimiter=" " suffix=". ">
+          <group prefix=" " suffix=". ">
             <text macro="title"/>
-            <text variable="note" prefix="(En " suffix=")" text-case="lowercase"/>
           </group>
-          <group suffix=".">
+          <group prefix=" " suffix=".">
             <text variable="container-title" suffix=" "/>
-            <text macro="collection-title" prefix="(Serie " suffix=") "/>
+            <text macro="collection-title" prefix=" (Serie " suffix=") "/>
+            <text macro="volume"/>
+            <text macro="issue" prefix="(" suffix=")"/>
+            <text macro="issue" prefix="no."/>
+            <text variable="note"/>
+          </group>
+        </else-if>
+        <else-if type="article-journal article-magazine" match="any">
+          <text macro="author-short" suffix=". "/>
+          <text macro="year-date" suffix=". "/>
+          <group prefix=" " suffix=". ">
+            <text macro="title"/>
+            <text variable="note" prefix=" (En " suffix=")" text-case="lowercase"/>
+          </group>
+          <group prefix=" " suffix=".">
+            <text variable="container-title" suffix=" "/>
+            <text macro="collection-title" prefix=" (Serie " suffix=") "/>
             <choose>
               <if variable="volume">
                 <text macro="volume"/>
@@ -348,19 +359,15 @@
           </group>
         </else-if>
         <else-if type="map" match="any">
-          <group delimiter=". ">
-            <text macro="author-short"/>
-            <text macro="year-date"/>
-            <text macro="title"/>
-            <text macro="edition"/>
-            <text variable="page" prefix="Págs. "/>
-            <group delimiter=", ">
-              <text macro="publisher-place"/>
-              <text macro="publisher"/>
-            </group>
-            <text variable="scale"/>
-            <text macro="number-of-pages" suffix=" p."/>
-          </group>
+          <text macro="author-short" suffix=". "/>
+          <text macro="year-date" suffix=". "/>
+          <text macro="title" suffix=". "/>
+          <text macro="edition" suffix=". "/>
+          <text variable="page" prefix="Págs. " suffix=". "/>
+          <text macro="publisher-place" suffix=", "/>
+          <text macro="publisher" suffix=". "/>
+          <text variable="scale" prefix=" " suffix=". "/>
+          <text macro="number-of-pages" suffix=" p."/>
         </else-if>
         <else-if type="song motion_picture broadcast musical_score graphic" match="any">
           <text macro="author-short" suffix=". "/>
@@ -369,17 +376,13 @@
             <text macro="title"/>
             <text variable="note" prefix=" (" suffix=")"/>
           </group>
-          <group delimiter=". " suffix=".">
-            <text macro="editor"/>
-            <text macro="edition"/>
-            <group delimiter=", ">
-              <text variable="publisher-place"/>
-              <text macro="publisher"/>
-            </group>
-            <text variable="medium" text-case="capitalize-first"/>
-            <text macro="collection-title" prefix="(" suffix=")"/>
-            <text macro="container-title" prefix="(" suffix=")"/>
-          </group>
+          <text macro="editor" suffix=". "/>
+          <text macro="edition" suffix=". "/>
+          <text variable="publisher-place" suffix=", "/>
+          <text macro="publisher" suffix=". "/>
+          <text variable="medium" suffix=". " text-case="capitalize-first"/>
+          <text macro="collection-title" prefix=" (" suffix=")."/>
+          <text macro="container-title" prefix=" (" suffix=")."/>
         </else-if>
         <else-if type="webpage personal_communication" match="any">
           <text macro="author-short" suffix=". "/>

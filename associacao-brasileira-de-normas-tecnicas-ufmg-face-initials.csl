@@ -29,7 +29,7 @@
     <category citation-format="author-date"/>
     <category field="generic-base"/>
     <summary>The Brazilian standard style</summary>
-    <updated>2015-01-18T11:36:24+00:00</updated>
+    <updated>2014-09-14T13:59:27+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="pt-BR">
@@ -584,12 +584,10 @@
           <group delimiter=". ">
             <text macro="publisher"/>
           </group>
-          <group delimiter=". " prefix=", " suffix=".">
-            <text macro="issued"/>
-            <text variable="volume" prefix="v. "/>
-            <text variable="page" prefix="p. "/>
-            <text macro="access"/>
-          </group>
+          <text macro="issued" prefix=", " suffix=". "/>
+          <text variable="volume" prefix=" v. " suffix=". "/>
+          <text variable="page" prefix="p. " suffix="."/>
+          <text macro="access" prefix=" " suffix="."/>
         </else-if>
         <else>
           <text macro="author" suffix=". "/>
