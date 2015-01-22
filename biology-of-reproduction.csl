@@ -14,7 +14,7 @@
     <issn>0006-3363</issn>
     <eissn>1529-7268</eissn>
     <summary>A style for the journal Biology of Reproduction of the Society for the Study of Reproduction</summary>
-    <updated>2014-09-11T02:57:16+00:00</updated>
+    <updated>2015-01-21T22:37:41+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <macro name="author">
@@ -74,7 +74,7 @@
   <bibliography entry-spacing="0" second-field-align="flush" et-al-min="13" et-al-use-first="12">
     <layout suffix=".">
       <text variable="citation-number" prefix="[" suffix="]"/>
-      <text macro="author" prefix=" " suffix=". "/>
+      <text macro="author" suffix=". "/>
       <choose>
         <if type="bill book graphic legal_case legislation motion_picture report song" match="any">
           <group delimiter=". ">

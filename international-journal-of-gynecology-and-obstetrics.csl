@@ -14,7 +14,7 @@
     <issn>0020-7292</issn>
     <eissn>1879-3479</eissn>
     <summary>A style for Elsevier's International Journal of Gynecology &amp; Obstetrics</summary>
-    <updated>2014-06-23T07:02:00+00:00</updated>
+    <updated>2015-01-21T22:37:41+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <macro name="author">
@@ -74,7 +74,7 @@
   <bibliography entry-spacing="0" second-field-align="flush" et-al-min="7" et-al-use-first="6">
     <layout suffix=".">
       <text variable="citation-number" prefix="[" suffix="]"/>
-      <text macro="author" prefix=" " suffix=". "/>
+      <text macro="author" suffix=". "/>
       <choose>
         <if type="bill book graphic legal_case legislation motion_picture report song" match="any">
           <group delimiter=". ">

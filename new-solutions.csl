@@ -15,7 +15,7 @@
     <category field="medicine"/>
     <issn>1048-2911</issn>
     <eissn>1541-3772</eissn>
-    <updated>2014-08-28T01:36:46+00:00</updated>
+    <updated>2015-01-21T22:37:41+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <!-- Macros -->
@@ -142,7 +142,7 @@
   <bibliography et-al-min="4" et-al-use-first="1" entry-spacing="0" second-field-align="flush">
     <layout suffix=".">
       <text variable="citation-number" prefix="[" suffix="]"/>
-      <text macro="author" prefix=" " suffix=", "/>
+      <text macro="author" suffix=", "/>
       <choose>
         <if type="article-journal article-magazine article-newspaper paper-conference" match="any">
           <text macro="title" suffix=", "/>
