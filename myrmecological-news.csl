@@ -22,7 +22,7 @@
     <category field="biology"/>
     <issn>1994-4136</issn>
     <eissn>1997-3500</eissn>
-    <updated>2015-01-17T12:52:16+00:00</updated>
+    <updated>2015-01-22T22:19:51+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale>
@@ -150,7 +150,7 @@
         </if>
         <else-if type="chapter">
           <text macro="title" prefix=" " suffix=". "/>
-          <group prefix=" " delimiter=" ">
+          <group delimiter=" ">
             <text term="in" text-case="capitalize-first" suffix=": "/>
             <text macro="editor" suffix=" (Eds.): " text-case="capitalize-all"/>
             <text variable="container-title" suffix=". &#8211;"/>

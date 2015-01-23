@@ -14,7 +14,7 @@
     <category citation-format="note"/>
     <category field="humanities"/>
     <summary>Style for NCCR Mediality.</summary>
-    <updated>2014-09-13T22:01:31+00:00</updated>
+    <updated>2015-01-22T22:19:51+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="de">
@@ -213,8 +213,10 @@
     </choose>
     <choose>
       <if variable="collection-editor">
-        <text prefix=", " term="editor" form="verb-short" text-case="lowercase" suffix=". "/>
-        <text prefix=" " macro="secondary-collection-contributors"/>
+        <group prefix=", " delimiter=". ">
+          <text term="editor" form="verb-short" text-case="lowercase"/>
+          <text macro="secondary-collection-contributors"/>
+        </group>
       </if>
     </choose>
   </macro>

@@ -17,7 +17,7 @@
     <category field="communications"/>
     <issn>1904-7967</issn>
     <summary>The Journalistica style</summary>
-    <updated>2014-09-10T06:18:55+00:00</updated>
+    <updated>2015-01-22T22:19:51+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="da-DK">
@@ -252,10 +252,10 @@
           </group>
         </else-if>
         <else>
-          <group suffix=" ">
-            <text macro="year-date" prefix=" (" suffix=")."/>
-            <text macro="title" prefix=" '" suffix="',"/>
-            <text macro="editor" prefix=" "/>
+          <group suffix=" " prefix=" " delimiter=" ">
+            <text macro="year-date" prefix="(" suffix=")."/>
+            <text macro="title" prefix="'" suffix="',"/>
+            <text macro="editor"/>
           </group>
           <group prefix=" " delimiter=" ">
             <text variable="container-title" suffix="," font-style="italic"/>

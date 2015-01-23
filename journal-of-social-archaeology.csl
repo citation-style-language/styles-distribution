@@ -18,7 +18,7 @@
     <issn>1469-6053</issn>
     <eissn>1741-2951</eissn>
     <summary>Journal of Social Archaeology Style - this is based on the actual journal format, not the (misleading) instructions</summary>
-    <updated>2014-09-06T22:02:33+00:00</updated>
+    <updated>2015-01-22T22:19:51+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale>
@@ -194,9 +194,7 @@
         </else-if>
         <else-if type="webpage"/>
         <else>
-          <group suffix=", ">
-            <text macro="editor" prefix=" "/>
-          </group>
+          <text macro="editor" prefix=" " suffix=","/>
           <group prefix=" " suffix=".">
             <text variable="container-title" form="short" font-style="italic"/>
             <group prefix=" ">

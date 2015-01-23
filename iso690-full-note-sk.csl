@@ -17,7 +17,7 @@
     <category citation-format="note"/>
     <category field="theology"/>
     <summary>ISO 690 style for the Comenius University, Faculty of Theology in Bratislava, Slovakia. Citations in notes with full bibliography (Metóda priebežných poznámok).</summary>
-    <updated>2014-09-14T13:59:27+00:00</updated>
+    <updated>2015-01-22T22:19:51+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="sk">
@@ -335,7 +335,7 @@
               <text macro="contributors-long" suffix=". "/>
               <text macro="title-long" font-style="italic"/>
               <text prefix=" " macro="medium" suffix="."/>
-              <text prefix=". " macro="issued" suffix=", "/>
+              <text prefix=". " macro="issued" suffix=","/>
               <text prefix=" " macro="citation-locator"/>
               <text prefix=". " macro="quoted" suffix="."/>
               <text variable="URL" prefix=". Dostupné na internete: "/>

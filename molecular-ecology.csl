@@ -22,7 +22,7 @@
     <category field="biology"/>
     <issn>0962-1083</issn>
     <eissn>1365-294X</eissn>
-    <updated>2013-10-11T05:53:08+00:00</updated>
+    <updated>2015-01-22T22:19:51+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <macro name="editor-translator">
@@ -124,7 +124,7 @@
           <text macro="title" prefix=" "/>
           <group prefix=".">
             <group prefix=" In:">
-              <text variable="container-title" font-style="italic" prefix=" " suffix=" "/>
+              <text variable="container-title" font-style="italic" prefix=" "/>
               <text variable="collection-title" prefix=" " suffix="."/>
               <names variable="editor translator" prefix=" (" delimiter=", " suffix=")">
                 <label form="short" suffix=" " strip-periods="true"/>
