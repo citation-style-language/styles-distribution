@@ -13,7 +13,7 @@
     <category citation-format="numeric"/>
     <category field="science"/>
     <summary>Vancouver for PLoS Journals as of January 2015</summary>
-    <updated>2015-01-17T21:03:02+00:00</updated>
+    <updated>2015-01-23T15:38:17+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="en">
@@ -260,7 +260,7 @@
   <macro name="pages">
     <choose>
       <if type="article-journal article-magazine article-newspaper" match="any">
-        <text variable="page" prefix=":"/>
+        <text variable="page" prefix=": "/>
       </if>
       <else>
         <group prefix=" " delimiter=" ">
@@ -288,7 +288,7 @@
     <sort>
       <key variable="citation-number"/>
     </sort>
-    <layout prefix="(" suffix=")" delimiter=",">
+    <layout prefix="[" suffix="]" delimiter=",">
       <text variable="citation-number"/>
     </layout>
   </citation>
