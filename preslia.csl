@@ -16,7 +16,7 @@
     <category field="botany"/>
     <issn>0032-7786</issn>
     <summary>Preslia is a peer-reviewed scientific journal publishing original research papers on plant systematics, morphology, phytogeography, ecology and vegetation science, with a geographical focus on central Europe. The journal was founded in 1914 and named in honour of brothers Jan Svatopluk Presl (1791&#8211;1849) and Karel Bořivoj Presl (1794&#8211;1852), outstanding Bohemian botanists. It is published quarterly by the Czech Botanical Society.</summary>
-    <updated>2014-09-11T02:57:16+00:00</updated>
+    <updated>2015-01-24T15:23:58+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <macro name="editor-translator">
@@ -131,9 +131,9 @@
           </group>
         </else-if>
         <else-if type="article-journal">
-          <group suffix=". ">
-            <text macro="title" prefix=" "/>
-            <text macro="editor-translator" prefix=" "/>
+          <group suffix=". " prefix=" " delimiter=" ">
+            <text macro="title"/>
+            <text macro="editor-translator"/>
           </group>
           <choose>
             <if variable="issue">
@@ -149,9 +149,9 @@
           </choose>
         </else-if>
         <else>
-          <group suffix=". ">
-            <text macro="title" prefix=" "/>
-            <text macro="editor-translator" prefix=" "/>
+          <group suffix=". " prefix=" " delimiter=" ">
+            <text macro="title"/>
+            <text macro="editor-translator"/>
           </group>
           <group delimiter=" " suffix=".">
             <text variable="container-title" font-style="italic" suffix="."/>

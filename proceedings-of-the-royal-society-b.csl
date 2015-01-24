@@ -24,7 +24,7 @@
     <category field="biology"/>
     <issn>0962-8452</issn>
     <eissn>1471-2954</eissn>
-    <updated>2014-08-28T01:36:46+00:00</updated>
+    <updated>2015-01-24T18:58:15+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale>
@@ -48,11 +48,11 @@
     </names>
   </macro>
   <macro name="publisher">
-    <text variable="publisher-place" suffix=": "/>
-    <text variable="publisher" suffix="."/>
-    <group suffix=". ">
-      <text macro="accessed-date" prefix=" "/>
+    <group delimiter=": " suffix=". ">
+      <text variable="publisher-place"/>
+      <text variable="publisher"/>
     </group>
+    <text macro="accessed-date" suffix=". "/>
   </macro>
   <macro name="accessed-date">
     <choose>

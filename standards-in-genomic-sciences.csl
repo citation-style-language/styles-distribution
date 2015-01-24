@@ -15,7 +15,7 @@
     <category field="biology"/>
     <issn>1944-3277</issn>
     <summary>Style used in the Standards in Genomic Sciences journal</summary>
-    <updated>2014-08-30T16:59:28+00:00</updated>
+    <updated>2015-01-24T18:58:15+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <macro name="editor">
@@ -182,13 +182,11 @@
           <text macro="editor" prefix=" " suffix="."/>
           <group prefix=" " suffix=".">
             <text variable="container-title" font-style="italic" form="short" suffix=" "/>
-            <group delimiter=";" prefix=" ">
+            <group delimiter=";">
               <date variable="issued">
                 <date-part name="year"/>
               </date>
-              <group>
-                <text variable="volume" font-weight="bold"/>
-              </group>
+              <text variable="volume" font-weight="bold"/>
             </group>
             <text variable="page" prefix=":"/>
           </group>

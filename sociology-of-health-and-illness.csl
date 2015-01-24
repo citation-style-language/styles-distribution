@@ -19,7 +19,7 @@
     <issn>0141-9889</issn>
     <eissn>1467-9566</eissn>
     <summary>Harvard author-date style edited for Sociology of Health and Illness</summary>
-    <updated>2014-08-28T01:36:46+00:00</updated>
+    <updated>2015-01-24T15:23:58+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <macro name="editor">
@@ -216,8 +216,8 @@
           </group>
         </else-if>
         <else-if type="chapter paper-conference" match="any">
-          <text macro="title" prefix=" " suffix=". "/>
           <group prefix=" " delimiter=" ">
+            <text macro="title" suffix="."/>
             <text term="in" text-case="capitalize-first"/>
             <text macro="editor" suffix=" "/>
             <text variable="container-title" font-style="italic" suffix="."/>
@@ -231,21 +231,23 @@
           </group>
         </else-if>
         <else>
-          <group suffix=".">
-            <text macro="title" prefix=" "/>
-            <text macro="editor" prefix=" "/>
-          </group>
-          <text variable="container-title" font-style="italic" prefix=" " suffix="."/>
-          <text macro="online" prefix=" " suffix=". "/>
-          <group prefix=" " suffix=".">
-            <group prefix=" ">
-              <text variable="volume"/>
-              <text variable="issue" prefix=" (" suffix=")"/>
-              <text macro="issued"/>
+          <group delimiter=". " prefix=" " suffix=".">
+            <group delimiter=" ">
+              <text macro="title"/>
+              <text macro="editor"/>
             </group>
-            <group prefix=" ">
-              <label variable="page" form="short"/>
-              <text macro="pages"/>
+            <text variable="container-title" font-style="italic"/>
+            <text macro="online"/>
+            <group delimiter=" ">
+              <group>
+                <text variable="volume"/>
+                <text variable="issue" prefix=" (" suffix=")"/>
+                <text macro="issued"/>
+              </group>
+              <group>
+                <label variable="page" form="short"/>
+                <text macro="pages"/>
+              </group>
             </group>
           </group>
         </else>

@@ -13,7 +13,7 @@
     <category citation-format="author-date"/>
     <category field="generic-base"/>
     <category field="social_science"/>
-    <updated>2015-01-17T12:52:16+00:00</updated>
+    <updated>2015-01-24T15:23:58+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xmlns="http://purl.org/net/xbiblio/csl" xml:lang="en-GB">
@@ -183,9 +183,9 @@
           </group>
         </else-if>
         <else>
-          <group suffix=", ">
-            <text macro="title" prefix=" "/>
-            <text macro="editor-translator" prefix=" "/>
+          <group suffix=", " prefix=" " delimiter=" ">
+            <text macro="title"/>
+            <text macro="editor-translator"/>
           </group>
           <group prefix=" " suffix=" ">
             <text variable="container-title" font-style="italic"/>

@@ -15,7 +15,7 @@
     <category citation-format="author-date"/>
     <category field="anthropology"/>
     <summary>SHA style</summary>
-    <updated>2014-09-07T05:27:27+00:00</updated>
+    <updated>2015-01-24T15:23:58+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <macro name="secondary-contributors">
@@ -213,9 +213,9 @@
   <macro name="locators-article">
     <choose>
       <if type="article-newspaper">
-        <group prefix=", ">
-          <text variable="edition" suffix=" "/>
-          <text term="edition" prefix=" "/>
+        <group prefix=", " delimiter=" ">
+          <text variable="edition"/>
+          <text term="edition"/>
         </group>
       </if>
       <else-if type="article-journal">

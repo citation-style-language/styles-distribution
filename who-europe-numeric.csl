@@ -12,7 +12,7 @@
     <category citation-format="numeric"/>
     <category field="medicine"/>
     <summary>The WHO Regional Office for Europe numeric style</summary>
-    <updated>2014-08-30T16:59:28+00:00</updated>
+    <updated>2015-01-24T15:23:58+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <macro name="editor">
@@ -182,7 +182,7 @@
                 <if variable="editor">
                   <text term="in" text-case="capitalize-first" suffix=": " prefix=" "/>
                   <text macro="editor" suffix=" "/>
-                  <text variable="container-title" font-style="italic" prefix=" " suffix="."/>
+                  <text variable="container-title" font-style="italic" suffix="."/>
                   <text variable="volume" prefix="Vol" suffix="."/>
                   <text macro="edition" prefix=" "/>
                   <text variable="collection-title" suffix="."/>
@@ -220,10 +220,10 @@
           </else-if>
           <else-if type="article-newspaper broadcast" match="any">
             <group suffix=".">
-              <text macro="title" suffix="."/>
-              <group suffix=", ">
-                <text variable="container-title" prefix=" " font-style="italic"/>
-                <text variable="publisher-place" prefix=" (" suffix=")"/>
+              <text macro="title" suffix=". "/>
+              <group suffix=", " delimiter=" ">
+                <text variable="container-title" font-style="italic"/>
+                <text variable="publisher-place" prefix="(" suffix=")"/>
               </group>
               <group>
                 <date variable="issued">

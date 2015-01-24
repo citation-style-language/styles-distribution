@@ -11,7 +11,7 @@
     <category citation-format="author-date"/>
     <category field="humanities"/>
     <summary>Harvard author-date style created for King's College London</summary>
-    <updated>2014-09-06T22:02:33+00:00</updated>
+    <updated>2015-01-24T18:58:15+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <!-- format EDITOR entry -->
@@ -250,8 +250,8 @@
           </group>
         </else-if>
         <else-if type="chapter paper-conference" match="any">
-          <text macro="title" prefix=" '" suffix="', "/>
           <group prefix=" " delimiter=" ">
+            <text macro="title" quotes="true" suffix=","/>
             <text term="in"/>
             <text macro="editor"/>
             <text variable="container-title" font-style="italic" suffix="."/>
@@ -265,19 +265,19 @@
           </group>
         </else-if>
         <else>
-          <group suffix=".">
-            <text macro="title" prefix=" "/>
-            <text macro="editor" prefix=" "/>
+          <group suffix=". " prefix=" " delimiter=" ">
+            <text macro="title"/>
+            <text macro="editor"/>
           </group>
-          <text variable="container-title" prefix=" "/>
-          <text macro="access" prefix=" " suffix=". "/>
-          <group prefix=" " suffix=".">
-            <group prefix=" ">
+          <text variable="container-title" suffix=" "/>
+          <text macro="access" suffix=". "/>
+          <group suffix="." delimiter=" ">
+            <group>
               <text variable="volume"/>
               <text variable="issue" prefix=" (" suffix=")"/>
               <text macro="issued"/>
             </group>
-            <group prefix=" ">
+            <group>
               <label variable="locator" form="short"/>
               <text macro="pages"/>
             </group>

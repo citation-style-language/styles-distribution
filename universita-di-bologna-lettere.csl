@@ -16,7 +16,7 @@
     <category field="linguistics"/>
     <category field="philosophy"/>
     <summary>University of Bologna, Liberal Arts College citation style - Stile di citazione dell'Universita' di Bologna, Facolta' di Lettere e Filosofia</summary>
-    <updated>2015-01-01T23:37:43+00:00</updated>
+    <updated>2015-01-24T15:23:58+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="it-IT">
@@ -286,8 +286,10 @@
   <macro name="locators">
     <choose>
       <if type="article-journal">
-        <text term="volume" form="short" prefix=", " suffix=" "/>
-        <text variable="volume" prefix=" "/>
+        <group delimiter=" "  prefix=", ">
+          <text term="volume" form="short"/>
+          <text variable="volume"/>
+        </group>
         <group prefix=", ">
           <text term="issue" form="short" suffix=" "/>
           <number variable="issue"/>

@@ -14,7 +14,7 @@
     <category field="biology"/>
     <eissn>1541-7115</eissn>
     <summary>Urban Habitats (author-date) Style</summary>
-    <updated>2014-09-14T13:59:27+00:00</updated>
+    <updated>2015-01-24T15:23:58+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <macro name="editor">
@@ -143,16 +143,18 @@
           <text prefix=" " suffix="." macro="publisher"/>
         </if>
         <else-if type="chapter paper-conference" match="any">
-          <text macro="title" prefix=" " suffix="."/>
-          <text macro="pages" prefix=" "/>
-          <text term="in" prefix=" " suffix=" "/>
-          <group prefix=" " delimiter=", " suffix=",">
+          <text macro="title" prefix=" " suffix=". "/>
+          <text macro="pages" suffix=" "/>
+          <text term="in" suffix=" "/>
+          <group delimiter=", " suffix=".">
             <text variable="container-title" font-style="italic"/>
             <text variable="collection-title"/>
             <text variable="event"/>
+            <group delimiter=". ">
+              <text macro="editor"/>
+              <text macro="publisher"/>
+            </group>
           </group>
-          <text macro="editor" prefix=" " suffix="."/>
-          <text macro="publisher" prefix=" " suffix="."/>
         </else-if>
         <else-if type="thesis">
           <group prefix=" " suffix="." delimiter=". ">

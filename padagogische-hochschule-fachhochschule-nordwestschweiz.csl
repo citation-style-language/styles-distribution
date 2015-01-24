@@ -18,7 +18,7 @@
     </author>
     <category citation-format="author-date"/>
     <category field="generic-base"/>
-    <updated>2015-01-21T11:09:41+00:00</updated>
+    <updated>2015-01-24T15:23:58+00:00</updated>
     <summary>Empfehlungen der Schreibberatung PH FHNW (Paedagogische Hochschule, Fachhochschule Nordwestschweiz (CH))</summary>
   </info>
 
@@ -266,9 +266,9 @@
  
       <if type="article-newspaper">
         <group prefix=" " delimiter=", ">
-          <group>
-            <text variable="edition" suffix=" "/>
-            <text term="edition" prefix=" "/>
+          <group delimiter=" ">
+            <text variable="edition"/>
+            <text term="edition"/>
           </group>
           <group prefix="(" suffix=")">
             <text term="section" form="short" suffix=" " />

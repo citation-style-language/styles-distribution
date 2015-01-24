@@ -31,7 +31,7 @@
       Buchautor die Abkürzung "ders." zu erhalten, muss diese selbst
       (statt des Namens) ins Zotero-Feld "Buchautor" eingetragen werden.
     </summary>
-    <updated>2015-01-05T19:54:36+00:00</updated>
+    <updated>2015-01-24T15:23:58+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="de">
@@ -229,7 +229,7 @@
     <choose>
       <if variable="collection-editor">
         <text prefix=", " term="editor" form="verb-short" text-case="lowercase" suffix=". "/>
-        <text prefix=" " macro="secondary-collection-contributors"/>
+        <text macro="secondary-collection-contributors"/>
       </if>
     </choose>
   </macro>
