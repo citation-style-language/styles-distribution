@@ -14,7 +14,7 @@
     <category citation-format="author-date"/>
     <category field="generic-base"/>
     <summary>Citation Style of the Paedagogische Hochschule Vorarlberg, mostly german</summary>
-    <updated>2015-01-23T18:02:47+00:00</updated>
+    <updated>2015-01-24T19:23:46+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <macro name="author">
@@ -185,41 +185,41 @@
     </choose>
   </macro>
   <macro name="year-date-three">
-   <choose>
-   <if type="webpage">
-   <choose>
-   <if variable="issued">
-   <date variable="issued">
-          <date-part name="year" prefix="Stand: " suffix="."/>
-        </date>
+    <choose>
+      <if type="webpage">
+        <choose>
+          <if variable="issued">
+            <date variable="issued">
+              <date-part name="year" prefix="Stand: " suffix="."/>
+            </date>
+          </if>
+          <else>
+            <text value="o.&#160;J."/>
+          </else>
+        </choose>
       </if>
       <else>
-        <text value="o.&#160;J."/>
-      </else>     
-    </choose>
-    </if>
-    <else>
-    <text value=""/>
-    </else>
+        <text value=""/>
+      </else>
     </choose>
   </macro>
   <macro name="year-date-four">
-   <choose>
-   <if type="webpage">
-   <choose>
-   <if variable="issued">
-   <date variable="issued">
-          <date-part name="year"/>
-        </date>
+    <choose>
+      <if type="webpage">
+        <choose>
+          <if variable="issued">
+            <date variable="issued">
+              <date-part name="year"/>
+            </date>
+          </if>
+          <else>
+            <text value="o.&#160;J."/>
+          </else>
+        </choose>
       </if>
       <else>
-        <text value="o.&#160;J."/>
-      </else>     
-    </choose>
-    </if>
-    <else>
-    <text value=""/>
-    </else>
+        <text value=""/>
+      </else>
     </choose>
   </macro>
   <macro name="locator">

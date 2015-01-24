@@ -15,7 +15,7 @@
     <category field="medicine"/>
     <issn>1878-8750</issn>
     <summary>A style for some Elsevier journals, resembles Vancouver style</summary>
-    <updated>2014-12-29T11:38:58+00:00</updated>
+    <updated>2015-01-24T19:23:46+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <macro name="access">
@@ -55,7 +55,7 @@
     <choose>
       <if variable="issued">
         <date variable="issued">
-          <date-part name="year" form="long" range-delimiter="–"/>
+          <date-part name="year" form="long" range-delimiter="&#8211;"/>
         </date>
       </if>
       <else>
@@ -187,10 +187,10 @@
               </group>
               <group delimiter=":">
                 <text macro="journal-location"/>
-				<text variable="page" form="long"/>
+                <text variable="page" form="long"/>
               </group>
             </group>
-			<text macro="year-date"/>
+            <text macro="year-date"/>
           </group>
           <text macro="access" prefix=". "/>
         </else>

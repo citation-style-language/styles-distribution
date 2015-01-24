@@ -14,7 +14,7 @@
     <category field="biology"/>
     <issn>1436-8730</issn>
     <eissn>1522-2624</eissn>
-    <updated>2014-12-22T07:22:49+00:00</updated>
+    <updated>2015-01-24T19:23:46+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <macro name="container">
@@ -55,7 +55,7 @@
   <macro name="author-short">
     <names variable="author" font-style="italic">
       <name form="short" and="text" delimiter=", " initialize-with=". " font-style="normal">
-	<name-part name="family" font-style="italic"/>
+        <name-part name="family" font-style="italic"/>
       </name>
       <substitute>
         <names variable="editor"/>

@@ -4,16 +4,16 @@
     <title>Wiley-VCH books</title>
     <id>http://www.zotero.org/styles/wiley-vch-books</id>
     <link href="http://www.zotero.org/styles/wiley-vch-books" rel="self"/>
+    <link href="http://www.zotero.org/styles/ieee" rel="template"/>
     <link href="http://www.wiley-vch.de/publish/en/authors/auguidelines" rel="documentation"/>
     <author>
       <name>Maksim Ivanov</name>
       <email>maksim.ivanov@ff.vu.lt</email>
     </author>
-    <link href="http://www.zotero.org/styles/ieee" rel="template"/>
     <category citation-format="numeric"/>
     <category field="engineering"/>
     <category field="generic-base"/>
-    <updated>2015-01-17T13:37:43+00:00</updated>
+    <updated>2015-01-24T19:23:46+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="en">
@@ -190,7 +190,7 @@
       <key variable="citation-number"/>
     </sort>
     <layout prefix="[" suffix="]" delimiter=", ">
-      <group  delimiter=", ">
+      <group delimiter=", ">
         <text variable="citation-number"/>
         <text macro="citation-locator"/>
       </group>
@@ -212,8 +212,8 @@
             <text variable="container-title" font-style="italic" form="short"/>
             <text macro="locators"/>
             <group delimiter=" ">
-	      <text macro="page"/>
-	      <text macro="issued"/>
+              <text macro="page"/>
+              <text macro="issued"/>
             </group>
           </group>
         </if>
