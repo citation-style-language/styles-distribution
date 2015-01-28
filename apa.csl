@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <style xmlns="http://purl.org/net/xbiblio/csl" class="in-text" version="1.0" demote-non-dropping-particle="never">
-  <!-- This style was edited with the Visual CSL Editor (http://editor.citatinstyles.org/visualEditor/) -->
+  <!-- This style was edited with the Visual CSL Editor (http://editor.citationstyles.org/visualEditor/) -->
   <info>
     <title>American Psychological Association 6th edition</title>
     <title-short>APA</title-short>
@@ -28,7 +28,7 @@
     <category citation-format="author-date"/>
     <category field="psychology"/>
     <category field="generic-base"/>
-    <updated>2015-01-28T04:50:27+00:00</updated>
+    <updated>2014-09-23T19:22:21+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="en">
@@ -281,12 +281,6 @@
               </choose>
             </group>
           </if>
-          <else-if variable="status">
-            <group prefix=" (" suffix=")">
-              <text variable="status"/>
-              <text variable="year-suffix" prefix="-"/>
-            </group>
-          </else-if>
           <else>
             <group prefix=" (" suffix=")">
               <text term="no date" form="short"/>
@@ -316,20 +310,11 @@
   <macro name="issued-year">
     <choose>
       <if variable="issued">
-        <group delimiter="/">
-          <group>
-            <date variable="issued">
-              <date-part name="year"/>
-            </date>
-            <text variable="year-suffix"/>
-          </group>
-          <date variable="original-date" form="text"/>
-        </group>
+        <date variable="issued">
+          <date-part name="year"/>
+        </date>
+        <text variable="year-suffix"/>
       </if>
-      <else-if variable="status">
-        <text variable="status"/>
-        <text variable="year-suffix" prefix="-"/>
-      </else-if>
       <else>
         <text term="no date" form="short"/>
         <text variable="year-suffix" prefix="-"/>
@@ -345,7 +330,7 @@
         </group>
       </if>
       <else>
-        <text variable="edition"/>
+        <text variable="edition" suffix="."/>
       </else>
     </choose>
   </macro>
@@ -470,17 +455,6 @@
       </if>
     </choose>
   </macro>
-  <macro name="original-date">
-    <choose>
-      <if variable="original-date">
-        <group prefix="(" suffix=")" delimiter=" ">
-          <!---This should be localized-->
-          <text value="Original work published"/>
-          <date variable="original-date" form="text"/>
-        </group>
-      </if>
-    </choose>
-  </macro>
   <citation et-al-min="6" et-al-use-first="1" et-al-subsequent-min="3" et-al-subsequent-use-first="1" disambiguate-add-year-suffix="true" disambiguate-add-names="true" disambiguate-add-givenname="true" collapse="year" givenname-disambiguation-rule="primary-name">
     <sort>
       <key macro="author"/>
@@ -516,7 +490,6 @@
         </group>
       </group>
       <text macro="access" prefix=" "/>
-      <text macro="original-date" prefix=" "/>
     </layout>
   </bibliography>
 </style>
