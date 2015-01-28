@@ -15,7 +15,7 @@
     <issn>0022-3042</issn>
     <eissn>1471-4159</eissn>
     <summary>Bibliographic style for Journal of Neurochemistry</summary>
-    <updated>2014-10-17T00:26:43+00:00</updated>
+    <updated>2015-01-28T03:04:50+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="en">
@@ -83,7 +83,7 @@
   <macro name="authors-short">
     <names variable="author">
       <name form="short" and="text" delimiter=" and " delimiter-precedes-last="never" initialize-with=". "/>
-      <et-al font-style="italic" prefix=" "/>
+      <et-al font-style="italic"/>
       <substitute>
         <names variable="editor"/>
         <names variable="translator"/>
