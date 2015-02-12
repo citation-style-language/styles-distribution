@@ -12,7 +12,7 @@
     <category citation-format="author-date"/>
     <category field="geography"/>
     <summary>Zitierstil des Instituts für geographische Wissenschaften, Freie Universität Berlin, nach: "Empfehlungen zur Anfertigung von Referaten und Hausarbeiten am Institut für Geographische Wissenschaften der Freien Universität Berlin" ("Möller-Script")</summary>
-    <updated>2014-10-17T00:26:43+00:00</updated>
+    <updated>2015-02-12T15:35:41+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="de">
@@ -137,6 +137,7 @@
         <label form="short" prefix=" "/>
         <substitute>
           <names variable="collection-editor"/>
+          <names variable="container-author"/>
         </substitute>
       </names>
     </group>
