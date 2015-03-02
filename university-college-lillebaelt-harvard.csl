@@ -10,7 +10,7 @@
       <email>roaldfrosig@gmail.com</email>
     </author>
     <category citation-format="author-date"/>
-    <updated>2015-01-24T19:23:46+00:00</updated>
+    <updated>2015-02-27T13:18:33+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="da">
@@ -25,9 +25,18 @@
   <macro name="issued">
     <choose>
       <if type="chapter">
-        <date variable="original-date">
-          <date-part name="year"/>
-        </date>
+        <choose>
+          <if variable="original-date">
+            <date variable="original-date">
+              <date-part name="year"/>
+            </date>
+          </if>
+          <else>
+            <date variable="issued">
+              <date-part name="year"/>
+            </date>
+          </else>
+        </choose>
       </if>
       <else>
         <date variable="issued">
@@ -58,6 +67,9 @@
   <macro name="author-short">
     <names variable="author">
       <name name-as-sort-order="all" form="short" and="symbol" delimiter=", " initialize-with="."/>
+      <substitute>
+        <names variable="editor"></names>
+      </substitute>
     </names>
   </macro>
   <macro name="page">
