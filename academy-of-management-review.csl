@@ -24,15 +24,11 @@
       <name>Simon Kornblith</name>
       <email>simon@simonster.com</email>
     </contributor>
-    <contributor>
-      <name>Brenton M. Wiernik</name>
-      <email>zotero@wiernik.org</email>
-    </contributor>
     <category citation-format="author-date"/>
     <category field="social_science"/>
     <issn>0363-7425</issn>
     <eissn>1930-3807</eissn>
-    <updated>2015-02-06T02:43:10+00:00</updated>
+    <updated>2015-01-14T21:22:19+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <macro name="container-contributors">
@@ -86,29 +82,30 @@
   </macro>
   <macro name="access">
     <choose>
-      <if variable="page" match="none">
-        <choose>
-          <if variable="URL">
-            <text variable="URL"/>
-            <choose>
-              <if variable="issued" match="none">
-                <date variable="accessed" prefix=", ">
-                  <date-part name="month" suffix=" "/>
-                  <date-part name="day" suffix=", "/>
-                  <date-part name="year"/>
-                </date>
-              </if>
-            </choose>
-          </if>
-        </choose>
+      <if variable="URL">
+        <text variable="URL"/>
+        <group prefix=", ">
+          <date variable="accessed">
+            <date-part name="month" suffix=" "/>
+            <date-part name="day" suffix=", "/>
+            <date-part name="year"/>
+          </date>
+        </group>
       </if>
     </choose>
   </macro>
   <macro name="title">
     <choose>
-      <if variable="container-title" match="none">
+      <if type="report thesis" match="any">
         <text variable="title" font-style="italic" font-weight="bold"/>
+        <group prefix=". ">
+          <text variable="genre"/>
+          <text variable="number" prefix=" No. "/>
+        </group>
       </if>
+      <else-if type="bill book graphic legal_case legislation motion_picture report song" match="any">
+        <text variable="title" font-style="italic" font-weight="bold"/>
+      </else-if>
       <else>
         <text variable="title"/>
       </else>
@@ -116,26 +113,14 @@
   </macro>
   <macro name="publisher">
     <choose>
-      <if type="report" match="any">
-        <group delimiter=", ">
-          <group>
-            <text variable="genre" text-case="capitalize-first"/>
-            <text variable="number" prefix=" no. "/>
-          </group>
-          <group delimiter=": ">
-            <text variable="publisher-place"/>
-            <text variable="publisher"/>
-          </group>
+      <if type="report thesis" match="any">
+        <group delimiter=": ">
+          <text variable="publisher-place"/>
+          <text variable="publisher"/>
         </group>
       </if>
-      <else-if type="thesis manuscript" match="any">
-        <group delimiter=", ">
-          <text variable="genre"/>
-          <text variable="publisher"/>
-          <text variable="publisher-place"/>
-        </group>
-      </else-if>
       <else-if type="article-journal article-magazine" match="none">
+        <text variable="genre" suffix=", "/>
         <group delimiter=": ">
           <text variable="publisher-place"/>
           <text variable="publisher"/>
@@ -146,19 +131,8 @@
   <macro name="event">
     <choose>
       <if variable="event">
-        <choose>
-          <if variable="genre" match="none">
-	    <text term="presented at" text-case="capitalize-first" suffix=" "/>
-            <text variable="event"/>
-	  </if>
-	  <else>
-	    <group delimiter=" ">
-	      <text variable="genre" text-case="capitalize-first"/>
-              <text term="presented at"/>
-              <text variable="event"/>
-            </group>
-	  </else>
-	</choose>
+        <text term="presented at" text-case="capitalize-first" suffix=" "/>
+        <text variable="event"/>
       </if>
     </choose>
   </macro>
@@ -205,13 +179,13 @@
         </group>
       </if>
       <else>
-        <text variable="edition"/>
+        <text variable="edition" suffix="."/>
       </else>
     </choose>
   </macro>
   <macro name="locators">
     <choose>
-      <if type="article-journal article-magazine article-newspaper paper-conference" match="any">
+      <if type="article-journal article-magazine article-newspaper" match="any">
         <group prefix=", " delimiter=": ">
           <group>
             <text variable="volume"/>
@@ -220,11 +194,9 @@
           <text variable="page"/>
         </group>
       </if>
-      <else-if type="bill book chapter graphic legal_case legislation motion_picture report song" match="any">
-        <text macro="edition" prefix=" (" suffix=")"/>
-        <group prefix=", ">
-          <text term="volume" form="short" text-case="lowercase" suffix=" "/>
-          <number variable="volume" form="numeric"/>
+      <else-if type="bill book chapter graphic legal_case legislation motion_picture paper-conference report song" match="any">
+        <group prefix=" (" suffix=")" delimiter=", ">
+          <text macro="edition"/>
         </group>
         <text variable="page" prefix=": "/>
       </else-if>
@@ -262,23 +234,16 @@
           <group>
             <text macro="container-contributors"/>
             <text macro="secondary-contributors"/>
-            <choose>
-              <if type="article-journal article-magazine article-newspaper" match="any">
-                <text variable="container-title" font-style="italic" text-case="title" font-weight="bold"/>
-              </if>
-              <else>
-                <text variable="container-title" font-style="italic" font-weight="bold"/>
-              </else>
-            </choose>
+            <text variable="container-title" font-style="italic" font-weight="bold"/>
           </group>
         </group>
         <text macro="locators"/>
         <group delimiter=", " prefix=". ">
           <text macro="event"/>
-          <text macro="publisher"/>
           <text macro="access"/>
+          <text macro="publisher"/>
         </group>
       </group>
     </layout>
   </bibliography>
-</style>  
+</style>

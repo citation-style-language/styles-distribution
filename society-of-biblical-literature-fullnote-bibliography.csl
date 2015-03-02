@@ -24,7 +24,7 @@
     <category citation-format="note"/>
     <category field="theology"/>
     <summary>Society of Biblical Literature format with full notes and bibliography</summary>
-    <updated>2015-03-01T17:49:37+00:00</updated>
+    <updated>2015-01-24T19:23:46+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="en-US">
@@ -494,17 +494,10 @@
     </group>
   </macro>
   <macro name="publisher">
-    <choose>
-      <if type="thesis">
-        <text variable="publisher"/>
-      </if>
-      <else>
-        <group delimiter=": ">
-          <text variable="publisher-place"/>
-          <text variable="publisher"/>
-        </group>
-      </else>
-    </choose>
+    <group delimiter=": ">
+      <text variable="publisher-place"/>
+      <text variable="publisher"/>
+    </group>
   </macro>
   <macro name="issued">
     <choose>
@@ -698,7 +691,25 @@
           <text macro="archive-note"/>
         </else-if>
       </choose>
-      <text variable="URL"/>
+      <choose>
+        <if variable="URL">
+          <group delimiter=". ">
+            <choose>
+              <if variable="page" match="none">
+                <text value="n.p."/>
+              </if>
+            </choose>
+            <group delimiter=" " prefix="[" suffix="]">
+              <text term="cited"/>
+              <date variable="accessed" form="text"/>
+            </group>
+            <group delimiter=": ">
+              <text term="online" text-case="capitalize-first"/>
+              <text variable="URL"/>
+            </group>
+          </group>
+        </if>
+      </choose>
     </group>
   </macro>
   <macro name="access">
@@ -711,7 +722,23 @@
           <text macro="archive"/>
         </else-if>
       </choose>
-      <text variable="URL"/>
+      <choose>
+        <if variable="URL">
+          <choose>
+            <if variable="page" match="none">
+              <text value="No pages"/>
+            </if>
+          </choose>
+          <group delimiter=" ">
+            <text term="cited" text-case="capitalize-first"/>
+            <date variable="accessed" form="text"/>
+          </group>
+          <group delimiter=": ">
+            <text term="online" text-case="capitalize-first"/>
+            <text variable="URL"/>
+          </group>
+        </if>
+      </choose>
     </group>
   </macro>
   <citation et-al-min="4" et-al-use-first="1" disambiguate-add-names="true">

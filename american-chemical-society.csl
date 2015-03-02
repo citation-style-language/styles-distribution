@@ -17,12 +17,12 @@
     <category citation-format="numeric"/>
     <category field="chemistry"/>
     <summary>The American Chemical Society style.</summary>
-    <updated>2015-02-10T16:05:01+00:00</updated>
+    <updated>2014-09-06T22:02:33+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <macro name="editor">
     <names variable="editor">
-      <name sort-separator=", " initialize-with=". " name-as-sort-order="all" delimiter=", " delimiter-precedes-last="always"/>
+      <name sort-separator=", " initialize-with=". " name-as-sort-order="all" delimiter="; " delimiter-precedes-last="always"/>
       <label form="short" prefix=", " text-case="capitalize-first"/>
     </names>
   </macro>
@@ -48,7 +48,7 @@
     <text variable="collection-title"/>
   </macro>
   <macro name="pages">
-    <label variable="page" form="short" suffix=" " strip-periods="true"/>
+    <label variable="page" form="short" suffix=" "/>
     <text variable="page"/>
   </macro>
   <macro name="book-container">
@@ -95,7 +95,7 @@
       <text variable="citation-number" prefix="(" suffix=") "/>
       <text macro="author" suffix=" "/>
       <choose>
-        <if type="article-magazine article-newspaper" match="any">
+        <if type="article-magazine">
           <group delimiter=" ">
             <text variable="container-title" font-style="italic" suffix="."/>
             <text macro="edition"/>
@@ -118,12 +118,10 @@
         </else-if>
         <else-if type="bill book graphic legal_case legislation motion_picture report song" match="any">
           <group delimiter="; ">
-            <group delimiter=", ">
-              <text variable="title" font-style="italic"/>
-              <text macro="edition"/>
-            </group>
+            <text variable="title" font-style="italic"/>
             <text macro="editor" prefix=" "/>
             <text macro="series"/>
+            <text macro="edition"/>
             <choose>
               <if type="report">
                 <group delimiter=" ">

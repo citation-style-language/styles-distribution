@@ -16,7 +16,7 @@
     <category citation-format="note"/>
     <category field="humanities"/>
     <summary>Le style Invisu a été conçu à partir de nombreux emprunts aux styles français sur le forum francophone de Zotero, en particulier le style EHESS de Franziska Heimburger.</summary>
-    <updated>2015-02-08T21:22:26+00:00</updated>
+    <updated>2014-09-10T06:18:55+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="fr">
@@ -449,19 +449,12 @@
       </else-if>
       <else-if type="graphic personal_communication interview webpage" match="any"/>
       <else-if type="article-journal article-magazine" match="any">
-        <choose>
-          <if is-numeric="page">
-            <group delimiter=" " font-style="normal" prefix=", ">
-             <group delimiter="&#160;" suffix=".">
-              <label variable="page" form="short"/>
-              <text variable="page"/>
-             </group>
-            </group>
-          </if>
-          <else>
-            <text variable="page" prefix=", " suffix="."/>
-          </else>
-        </choose>
+        <group delimiter=" " font-style="normal" prefix=", ">
+          <group delimiter="&#160;" suffix=".">
+            <label variable="page" form="short"/>
+            <text variable="page"/>
+          </group>
+        </group>
       </else-if>
       <else-if type="article-newspaper speech paper-conference" match="any">
         <group font-style="normal">
@@ -482,6 +475,9 @@
         </choose>
       </else>
     </choose>
+  </macro>
+  <macro name="ISBN">
+    <text variable="ISBN" prefix=". ISBN&#160;: " suffix="."/>
   </macro>
   <macro name="archive">
     <group suffix="." prefix=". ">
@@ -538,7 +534,7 @@
       </choose>
     </group>
     <group delimiter=" " font-style="normal">
-      <text value="Consulté le" suffix=" " prefix=" "/>
+      <text value="Consulté le" suffix=" " prefix=". "/>
       <date variable="accessed" form="text">
         <date-part name="day"/>
         <date-part name="month"/>
@@ -605,6 +601,7 @@
       <text macro="year-bib"/>
       <text macro="collection"/>
       <text macro="page-bib"/>
+      <text macro="ISBN"/>
       <text macro="archive"/>
       <text macro="accessed"/>
     </layout>
