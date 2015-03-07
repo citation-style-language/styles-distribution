@@ -27,7 +27,7 @@
     <category citation-format="author-date"/>
     <category field="psychology"/>
     <category field="generic-base"/>
-    <updated>2015-03-06T06:21:42+00:00</updated>
+    <updated>2015-03-07T17:05:05+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="en">
@@ -107,7 +107,7 @@
   </macro>
   <macro name="access">
     <choose>
-      <if type="thesis report">
+      <if type="thesis report" match="any">
         <choose>
           <if variable="archive" match="any">
             <group>
