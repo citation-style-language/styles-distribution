@@ -16,7 +16,7 @@
     <category field="psychology"/>
     <issn>0044-3247</issn>
     <summary>The difference to the DGfP style is the rendering of URLs and access date.</summary>
-    <updated>2015-02-22T20:36:21+00:00</updated>
+    <updated>2015-03-09T18:50:16+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="de">
@@ -89,7 +89,7 @@
               <group suffix=".">
                 <text value="Stand:" prefix="[" suffix=" "/>
                 <date variable="accessed">
-                  <date-part name="day" suffix="."/>
+                  <date-part name="day" form="numeric-leading-zeros" suffix="."/>
                   <date-part name="month" form="numeric-leading-zeros" suffix="."/>
                   <date-part name="year" suffix="]"/>
                 </date>
