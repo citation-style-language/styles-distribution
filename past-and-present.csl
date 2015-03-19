@@ -13,9 +13,17 @@
     <category field="history"/>
     <issn>0031-2746</issn>
     <eissn>1477-464X</eissn>
-    <updated>2014-02-18T06:32:40+00:00</updated>
+    <updated>2015-03-19T05:50:48+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
+  <locale>
+    <terms>
+      <term name="translator" form="short">
+        <single>trans.</single>
+        <multiple>trans.</multiple>
+      </term>
+    </terms>
+  </locale>
   <macro name="author">
     <names variable="author">
       <name and="text" delimiter=", "/>
