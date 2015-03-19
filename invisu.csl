@@ -16,7 +16,7 @@
     <category citation-format="note"/>
     <category field="humanities"/>
     <summary>Le style Invisu a été conçu à partir de nombreux emprunts aux styles français sur le forum francophone de Zotero, en particulier le style EHESS de Franziska Heimburger.</summary>
-    <updated>2015-02-08T21:22:26+00:00</updated>
+    <updated>2015-03-19T02:36:13+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="fr">
@@ -452,10 +452,10 @@
         <choose>
           <if is-numeric="page">
             <group delimiter=" " font-style="normal" prefix=", ">
-             <group delimiter="&#160;" suffix=".">
-              <label variable="page" form="short"/>
-              <text variable="page"/>
-             </group>
+              <group delimiter="&#160;" suffix=".">
+                <label variable="page" form="short"/>
+                <text variable="page"/>
+              </group>
             </group>
           </if>
           <else>

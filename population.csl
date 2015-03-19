@@ -17,7 +17,7 @@
     <issn>0032-4663</issn>
     <eissn>1957-7966</eissn>
     <summary>Le style de la revue de l'Ined Population.</summary>
-    <updated>2015-01-29T13:57:09+00:00</updated>
+    <updated>2015-03-19T02:36:13+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="en">
@@ -252,7 +252,7 @@
                   <text variable="issue" prefix="(" suffix=")"/>
                 </if>
                 <else>
-                    <text variable="issue"/>
+                  <text variable="issue"/>
                 </else>
               </choose>
             </group>

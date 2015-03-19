@@ -14,7 +14,7 @@
     <category citation-format="author-date"/>
     <category field="engineering"/>
     <summary>Style de citation de l'École de technologie supérieure</summary>
-    <updated>2015-02-17T19:02:02+00:00</updated>
+    <updated>2015-03-19T02:36:13+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <macro name="anon">
@@ -162,7 +162,7 @@
             <text variable="page" form="short" suffix=" p"/>
           </group>
         </if>
-	<else-if type="book" match="any">
+        <else-if type="book" match="any">
           <text macro="edition" prefix=", "/>
           <group delimiter=". " prefix=". ">
             <text macro="collection"/>

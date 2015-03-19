@@ -18,7 +18,7 @@
 
     И последнее, патенты по умолчанию представлены как USA, поскольку в CSL 1.0 нет переменной, соответствующей полю country в базе Zotero 4.0. Надеюсь, это будет исправлено в будущих версиях.</summary>
     <published>2010-03-22T10:40:00+06:00</published>
-    <updated>2015-01-30T13:12:15+00:00</updated>
+    <updated>2015-03-19T02:36:13+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <!-- Local terms -->
@@ -107,7 +107,7 @@
     <choose>
       <!-- Special field for short form of container title is only available for journal papers. However, Word plugin (and potentially other CSL processors) has the option to automatically abbreviate (all) container titles. In most cases (other than journal papers) that is not desirable. Unfortunately, testing for variable="container-title-short" does not help, since the above option effectively creates this variable (probably, this can be considered as a bug of CSL processor). So we use abbreviated titles (either manual or automatic) only for journal papers. -->
       <if type="article-journal">
-        <text variable="container-title" form="short"/>  
+        <text variable="container-title" form="short"/>
       </if>
       <else>
         <text variable="container-title"/>

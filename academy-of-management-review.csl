@@ -32,7 +32,7 @@
     <category field="social_science"/>
     <issn>0363-7425</issn>
     <eissn>1930-3807</eissn>
-    <updated>2015-02-06T02:43:10+00:00</updated>
+    <updated>2015-03-19T02:36:13+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <macro name="container-contributors">
@@ -148,17 +148,17 @@
       <if variable="event">
         <choose>
           <if variable="genre" match="none">
-	    <text term="presented at" text-case="capitalize-first" suffix=" "/>
+            <text term="presented at" text-case="capitalize-first" suffix=" "/>
             <text variable="event"/>
-	  </if>
-	  <else>
-	    <group delimiter=" ">
-	      <text variable="genre" text-case="capitalize-first"/>
+          </if>
+          <else>
+            <group delimiter=" ">
+              <text variable="genre" text-case="capitalize-first"/>
               <text term="presented at"/>
               <text variable="event"/>
             </group>
-	  </else>
-	</choose>
+          </else>
+        </choose>
       </if>
     </choose>
   </macro>
@@ -281,4 +281,4 @@
       </group>
     </layout>
   </bibliography>
-</style>  
+</style>

@@ -28,7 +28,7 @@
     <category citation-format="note"/>
     <category field="generic-base"/>
     <summary>Chicago format with short notes and bibliography, no ibid</summary>
-    <updated>2015-03-02T16:34:33+00:00</updated>
+    <updated>2015-03-19T02:36:13+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="en">
@@ -649,7 +649,7 @@
     <!--needs localization-->
     <choose>
       <if variable="original-date issued" match="all">
-        <text value="reprint"  text-case="capitalize-first"/>
+        <text value="reprint" text-case="capitalize-first"/>
       </if>
     </choose>
   </macro>

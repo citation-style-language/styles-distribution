@@ -31,7 +31,7 @@
     </contributor>
     <category citation-format="author-date"/>
     <category field="generic-base"/>
-    <updated>2015-03-03T06:02:39+00:00</updated>
+    <updated>2015-03-19T02:36:13+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="en">
@@ -271,7 +271,7 @@
         <choose>
           <if variable="volume" match="any">
             <text macro="container-title"/>
-            <text macro="locator"/>            
+            <text macro="locator"/>
           </if>
           <else>
             <text macro="container-title"/>

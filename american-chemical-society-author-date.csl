@@ -20,7 +20,7 @@
     <category citation-format="author-date"/>
     <category field="chemistry"/>
     <summary>The American Chemical Society style with article titles</summary>
-    <updated>2015-03-09T16:42:52+00:00</updated>
+    <updated>2015-03-19T02:36:13+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="en">
@@ -193,7 +193,6 @@
             </group>
             <text macro="editor" prefix=" "/>
             <text macro="series"/>
-            
             <choose>
               <if type="report">
                 <group delimiter=" ">
@@ -253,7 +252,7 @@
             <text variable="container-title" font-style="italic" form="short"/>
             <group delimiter=", ">
               <text macro="issued" font-weight="bold"/>
-             <choose>
+              <choose>
                 <if variable="volume">
                   <group delimiter=" ">
                     <text variable="volume" font-style="italic"/>

@@ -24,7 +24,7 @@
     <category citation-format="note"/>
     <category field="generic-base"/>
     <summary>Footnote style for MLA, 6th edition, based on CMoS</summary>
-    <updated>2015-03-06T22:39:03+00:00</updated>
+    <updated>2015-03-19T02:36:13+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale>
@@ -780,7 +780,7 @@
         <text macro="description"/>
         <text macro="secondary-contributors"/>
         <text macro="container-title"/>
-       <group delimiter=", ">
+        <group delimiter=", ">
           <text macro="container-contributors"/>
           <text macro="locators-chapter"/>
         </group>

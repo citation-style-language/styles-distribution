@@ -14,7 +14,7 @@
     <category field="social_science"/>
     <issn>0946-7165</issn>
     <summary>Stil für ZIB herausgegeben vom Nomos Verlag. Stil erstellt mit freundlicher Unterstützung durch die ZIB Redaktion</summary>
-    <updated>2015-03-08T17:52:54+00:00</updated>
+    <updated>2015-03-19T02:36:13+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale>
@@ -137,7 +137,6 @@
             <date variable="issued" form="numeric"/>
           </group>
         </else-if>
-
       </choose>
     </group>
   </macro>
@@ -242,7 +241,7 @@
           <group prefix=", " delimiter=": ">
             <text term="in" text-case="lowercase"/>
             <text macro="editor"/>
-            <group prefix=" "  delimiter=", ">
+            <group prefix=" " delimiter=", ">
               <text variable="container-title"/>
               <text macro="book-volume"/>
               <text macro="edition"/>

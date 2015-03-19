@@ -12,7 +12,7 @@
     <category citation-format="author-date"/>
     <category field="geography"/>
     <summary>Zitierstil des Instituts für geographische Wissenschaften, Freie Universität Berlin, nach: "Empfehlungen zur Anfertigung von Referaten und Hausarbeiten am Institut für Geographische Wissenschaften der Freien Universität Berlin" ("Möller-Script")</summary>
-    <updated>2015-03-01T15:47:15+00:00</updated>
+    <updated>2015-03-19T02:36:13+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="de">
@@ -35,7 +35,7 @@
   <macro name="publisher-place">
     <choose>
       <if variable="publisher-place">
-        <text variable="publisher-place" />
+        <text variable="publisher-place"/>
       </if>
       <else>
         <text value=" o.&#160;O."/>
@@ -79,7 +79,7 @@
       <substitute>
         <names variable="editor"/>
         <names variable="collection-editor"/>
-        <names variable="translator" />
+        <names variable="translator"/>
         <text macro="anon"/>
       </substitute>
     </names>
@@ -106,16 +106,16 @@
     </names>
   </macro>
   <macro name="year-date">
-  <choose>
-    <if variable="issued">
-      <date variable="issued">
-        <date-part name="year"/>
-      </date>
-    </if>
-    <else>
-      <text term="no date" form="short"/>
-    </else>
-  </choose>
+    <choose>
+      <if variable="issued">
+        <date variable="issued">
+          <date-part name="year"/>
+        </date>
+      </if>
+      <else>
+        <text term="no date" form="short"/>
+      </else>
+    </choose>
   </macro>
   <macro name="page">
     <group delimiter=" ">
