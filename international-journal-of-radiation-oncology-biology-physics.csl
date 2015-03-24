@@ -16,14 +16,14 @@
     <contributor>
       <name>Charles Parnot</name>
       <uri>http://twitter.com/cparnot</uri>
-      <email>charles@mekentosj.com</email>
+      <email>charles.parnot@gmail.com</email>
     </contributor>
     <category citation-format="numeric"/>
     <category field="medicine"/>
     <issn>0360-3016</issn>
     <eissn>1879-355X</eissn>
     <summary>The American Medical Association style as used in International Journal of Radiation Oncology Biology Physics.</summary>
-    <updated>2014-08-28T01:36:46+00:00</updated>
+    <updated>2015-03-24T13:44:48+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <macro name="editor">

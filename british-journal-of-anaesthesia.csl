@@ -10,14 +10,14 @@
     <author>
       <name>Charles Parnot</name>
       <uri>http://twitter.com/cparnot</uri>
-      <email>charles@mekentosj.com</email>
+      <email>charles.parnot@gmail.com</email>
     </author>
     <category citation-format="numeric"/>
     <category field="medicine"/>
     <issn>0007-0912</issn>
     <eissn>1471-6771</eissn>
     <summary>Same as Vancouver, but cites in superscript with citation numbers space-separated, and only 3 first authors listed before at al.</summary>
-    <updated>2013-12-26T18:19:04+00:00</updated>
+    <updated>2015-03-24T13:44:48+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="en">

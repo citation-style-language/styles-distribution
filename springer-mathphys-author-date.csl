@@ -10,14 +10,14 @@
     <link href="http://www.springer.com/cda/content/document/cda_downloaddocument/Key_Style_Points_1.0.pdf" rel="documentation"/>
     <author>
       <name>Charles Parnot</name>
-      <email>charles@mekentosj.com</email>
+      <email>charles.parnot@gmail.com</email>
       <uri>http://twitter.com/cparnot</uri>
     </author>
     <category citation-format="author-date"/>
     <category field="generic-base"/>
     <category field="science"/>
     <summary>This style is used by a number of Springer publications.</summary>
-    <updated>2014-08-28T01:36:46+00:00</updated>
+    <updated>2015-03-24T13:44:48+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <macro name="author-short-in-citation">
