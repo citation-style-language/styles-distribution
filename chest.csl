@@ -19,7 +19,7 @@
     <issn>0012-3692</issn>
     <eissn>1931-3543</eissn>
     <summary>Chest style is similar to NEJM: derived from Vancouver, with superscript citations and with slightly different et-al rules</summary>
-    <updated>2015-03-24T13:44:48+00:00</updated>
+    <updated>2015-04-12T21:50:50+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <macro name="author">
@@ -71,7 +71,7 @@
     <choose>
       <if type="article-journal article-magazine" match="any">
         <group suffix=" ">
-          <text variable="container-title" form="short" strip-periods="true"/>
+          <text variable="container-title" form="short" strip-periods="true" font-style="italic"/>
           <choose>
             <if variable="URL">
               <text term="internet" prefix=" [" suffix="]" text-case="capitalize-first"/>
