@@ -17,7 +17,7 @@
     <issn>0006-3606</issn>
     <eissn>1744-7429</eissn>
     <summary>Biotropica author-date style</summary>
-    <updated>2015-03-20T05:31:27+00:00</updated>
+    <updated>2015-04-16T01:55:02+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <macro name="editor">
@@ -177,9 +177,9 @@
             <text variable="container-title" form="short"/>
             <group delimiter=": ">
               <text variable="volume"/>
-              <text variable="page"/>         
+              <text variable="page"/>
+            </group>
           </group>
-	  </group>
         </else>
       </choose>
       <text prefix=" " macro="access" suffix="."/>

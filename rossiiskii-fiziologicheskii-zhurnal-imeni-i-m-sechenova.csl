@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <style xmlns="http://purl.org/net/xbiblio/csl" class="in-text" default-locale="ru-RU" version="1.0" demote-non-dropping-particle="sort-only" page-range-format="expanded">
-<!-- This style was edited with the Visual CSL Editor (http://editor.citationstyles.org/visualEditor/) -->
+  <!-- This style was edited with the Visual CSL Editor (http://editor.citationstyles.org/visualEditor/) -->
   <info>
     <title>Российский физиологический журнал им. И.М. Сеченова (Russian)</title>
     <id>http://www.zotero.org/styles/rossiiskii-fiziologicheskii-zhurnal-imeni-i-m-sechenova</id>
-    <link rel="self" href="http://www.zotero.org/styles/rossiiskii-fiziologicheskii-zhurnal-imeni-i-m-sechenova"/>
-    <link href="http://www.iephb.ru/rule_av_2013.pdf" rel="documentation"/>
+    <link href="http://www.zotero.org/styles/rossiiskii-fiziologicheskii-zhurnal-imeni-i-m-sechenova" rel="self"/>
     <link href="http://www.zotero.org/styles/gost-r-7-0-5-2008-numeric" rel="template"/>
+    <link href="http://www.iephb.ru/rule_av_2013.pdf" rel="documentation"/>
     <author>
       <name>Valery Mukhin</name>
       <email>Valery.Mukhin@gmail.com</email>
@@ -16,7 +16,7 @@
     <category field="medicine"/>
     <issn>0869-8139</issn>
     <summary>The style fits the requirements of the journal. In the author rules there is a point that citations should be numbers separated by commas and these should be superscript symbols. I cannot be able to do this... To sort the bibliography so that Russian were before the English, you need to put any character in the "Advanced" field. Its value must be less than for the Russian records than for English ones.</summary>
-    <updated>2015-03-17T08:34:51+00:00</updated>
+    <updated>2015-04-16T01:55:02+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="en">

@@ -19,7 +19,7 @@
     </contributor>
     <category citation-format="numeric"/>
     <summary>Style Bộ giáo dục đào tạo Việt Nam (Tiếng Anh)</summary>
-    <updated>2015-04-13T19:18:49+00:00</updated>
+    <updated>2015-04-16T01:55:02+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <macro name="author">
@@ -142,4 +142,3 @@
     </layout>
   </bibliography>
 </style>
-
