@@ -6,14 +6,14 @@
     <title-short>Bull Math Biol</title-short>
     <id>http://www.zotero.org/styles/bulletin-of-mathematical-biology</id>
     <link href="http://www.zotero.org/styles/bulletin-of-mathematical-biology" rel="self"/>
-    <link href="http://www.zotero.org/styles/springer-socpsych-author-date" rel="independent-parent"/>
+    <link href="http://www.zotero.org/styles/springer-basic-author-date" rel="independent-parent"/>
     <link href="http://www.springer.com/cda/content/document/cda_downloaddocument/Key_Style_Points_1.0.pdf" rel="documentation"/>
     <link href="http://www.springer.com/cda/content/document/cda_downloaddocument/manuscript-guidelines-1.0.pdf" rel="documentation"/>
     <category citation-format="author-date"/>
     <category field="psychology"/>
     <issn>0092-8240</issn>
     <eissn>1522-9602</eissn>
-    <updated>2014-05-18T01:40:32+00:00</updated>
+    <updated>2015-04-21T12:10:05+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
 </style>
