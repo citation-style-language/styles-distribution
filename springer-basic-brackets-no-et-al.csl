@@ -17,7 +17,7 @@
     <category citation-format="numeric"/>
     <category field="generic-base"/>
     <summary>Springer Numbered Style for the disciplines Medicine, Biomedicine, Life Sciences, Chemistry, Geosciences, Computer Science, Engineering, Economics. This style is based on Harvard style and recommendations of the Council of Biology Editors.</summary>
-    <updated>2015-03-24T13:44:48+00:00</updated>
+    <updated>2015-05-09T06:56:02+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <macro name="author">
@@ -76,7 +76,7 @@
       <text variable="citation-number"/>
     </layout>
   </citation>
-  <bibliography hanging-indent="true">
+  <bibliography second-field-align="flush">
     <layout>
       <text variable="citation-number" suffix=". "/>
       <group delimiter=" ">

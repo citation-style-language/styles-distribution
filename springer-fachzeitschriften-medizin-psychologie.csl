@@ -15,7 +15,7 @@
     <category field="medicine"/>
     <category field="psychology"/>
     <summary>Springer Basic style (German, numeric, brackets, alphabetical) for Springer journals in medicine and psychology.</summary>
-    <updated>2015-01-24T19:23:46+00:00</updated>
+    <updated>2015-05-09T06:56:02+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="de">
@@ -83,7 +83,7 @@
       <text variable="citation-number"/>
     </layout>
   </citation>
-  <bibliography et-al-min="5" et-al-use-first="3" hanging-indent="true">
+  <bibliography et-al-min="5" et-al-use-first="3" second-field-align="flush">
     <sort>
       <key macro="author"/>
       <key macro="year"/>

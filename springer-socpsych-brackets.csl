@@ -18,7 +18,7 @@
     <category citation-format="numeric"/>
     <category field="psychology"/>
     <category field="generic-base"/>
-    <updated>2015-03-24T13:44:48+00:00</updated>
+    <updated>2015-05-09T06:56:02+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="en">
@@ -340,7 +340,7 @@
       <text variable="citation-number"/>
     </layout>
   </citation>
-  <bibliography hanging-indent="true" et-al-min="8" et-al-use-first="6" et-al-use-last="true" entry-spacing="0" line-spacing="2">
+  <bibliography second-field-align="flush" et-al-min="8" et-al-use-first="6" et-al-use-last="true" entry-spacing="0" line-spacing="2">
     <layout>
       <text variable="citation-number" suffix=". "/>
       <group suffix=".">
