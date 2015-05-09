@@ -17,7 +17,7 @@
     <issn>0006-3606</issn>
     <eissn>1744-7429</eissn>
     <summary>Biotropica author-date style</summary>
-    <updated>2015-05-09T06:56:19+00:00</updated>
+    <updated>2015-04-16T01:55:02+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <macro name="editor">
@@ -68,12 +68,19 @@
     </choose>
   </macro>
   <macro name="title">
-    <text variable="title"/>
+    <choose>
+      <if type="bill book graphic legal_case legislation motion_picture report song thesis" match="any">
+        <text variable="title" font-style="italic"/>
+      </if>
+      <else>
+        <text variable="title"/>
+      </else>
+    </choose>
   </macro>
   <macro name="publisher">
-    <group delimiter=", ">
-      <text variable="publisher"/>
+    <group delimiter=": ">
       <text variable="publisher-place"/>
+      <text variable="publisher"/>
     </group>
   </macro>
   <macro name="year-date">
@@ -127,21 +134,19 @@
       <key macro="year-date"/>
       <key variable="title"/>
     </sort>
-    <layout suffix=".">
-      <text macro="author" suffix="."/>
+    <layout>
+      <text macro="author" suffix=","/>
       <date variable="issued" prefix=" " suffix=".">
         <date-part name="year"/>
       </date>
       <choose>
         <if type="bill book graphic legal_case legislation motion_picture report song" match="any">
-          <group prefix=" " delimiter=". ">
-            <group delimiter=" ">
-              <text macro="title"/>
-              <text macro="edition"/>
-              <text macro="editor"/>
-            </group>
-            <text macro="publisher"/>
+          <group prefix=" " delimiter=" " suffix=",">
+            <text macro="title"/>
+            <text macro="edition"/>
+            <text macro="editor"/>
           </group>
+          <text prefix=" " suffix="." macro="publisher"/>
         </if>
         <else-if type="chapter paper-conference" match="any">
           <text macro="title" prefix=" " suffix="."/>
