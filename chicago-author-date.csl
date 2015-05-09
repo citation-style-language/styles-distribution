@@ -24,7 +24,7 @@
     <category citation-format="author-date"/>
     <category field="generic-base"/>
     <summary>The author-date variant of the Chicago style</summary>
-    <updated>2015-04-06T20:30:41+00:00</updated>
+    <updated>2015-05-09T09:49:51+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="en">
@@ -212,7 +212,7 @@
             <group delimiter=". ">
               <text variable="title" text-case="title" quotes="true"/>
               <group delimiter=", ">
-                <text variable="reviewed-title" font-style="italic" prefix="Review of "/>
+                <text variable="reviewed-title" text-case="title" font-style="italic" prefix="Review of "/>
                 <names variable="reviewed-author">
                   <label form="verb-short" text-case="lowercase" suffix=" "/>
                   <name and="text" delimiter=", "/>
@@ -222,7 +222,7 @@
           </if>
           <else>
             <group delimiter=", ">
-              <text variable="title" font-style="italic" prefix="Review of "/>
+              <text variable="title" text-case="title" font-style="italic" prefix="Review of "/>
               <names variable="reviewed-author">
                 <label form="verb-short" text-case="lowercase" suffix=" "/>
                 <name and="text" delimiter=", "/>
