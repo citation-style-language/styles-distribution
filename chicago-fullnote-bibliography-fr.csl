@@ -13,7 +13,7 @@
     <category citation-format="note"/>
     <category field="generic-base"/>
     <summary>Adaptation en français de la norme "Chicago" (méthode classique), basée sur le guide des Bibliothèques de l'Université de Montréal.</summary>
-    <updated>2014-12-05T04:18:39+00:00</updated>
+    <updated>2015-05-24T12:34:45+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale>
@@ -230,7 +230,7 @@
       <if variable="title" match="none">
         <text variable="genre"/>
       </if>
-      <else-if type="bill book graphic legislation motion_picture report song" match="any">
+      <else-if type="bill book graphic legislation motion_picture song" match="any">
         <text variable="title" text-case="title" font-style="italic"/>
         <group delimiter=" " prefix=", ">
           <text term="version"/>
@@ -260,7 +260,7 @@
           </if>
         </choose>
       </if>
-      <else-if type="bill book graphic legislation motion_picture report song" match="any">
+      <else-if type="bill book graphic legislation motion_picture song" match="any">
         <text variable="title" text-case="title" font-style="italic"/>
         <group prefix=" (" suffix=")" delimiter=" ">
           <text term="version"/>
@@ -299,7 +299,7 @@
           </else-if>
         </choose>
       </if>
-      <else-if type="bill book graphic legislation motion_picture report song" match="any">
+      <else-if type="bill book graphic legislation motion_picture song" match="any">
         <text variable="title" text-case="title" form="short" font-style="italic"/>
       </else-if>
       <else-if type="legal_case interview" match="any">
