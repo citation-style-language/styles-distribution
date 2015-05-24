@@ -28,7 +28,7 @@
     <category citation-format="note"/>
     <category field="generic-base"/>
     <summary>Chicago format with short notes and bibliography, no ibid</summary>
-    <updated>2015-04-09T05:05:44+00:00</updated>
+    <updated>2015-05-24T12:38:28+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="en">
@@ -233,7 +233,7 @@
       <if variable="title" match="none">
         <text variable="genre"/>
       </if>
-      <else-if type="bill book graphic  legislation motion_picture report song" match="any">
+      <else-if type="bill book graphic legislation motion_picture song" match="any">
         <text variable="title" text-case="title" font-style="italic"/>
         <group delimiter=" " prefix=", ">
           <text term="version"/>
@@ -260,7 +260,7 @@
           </if>
         </choose>
       </if>
-      <else-if type="bill book graphic legislation motion_picture report song" match="any">
+      <else-if type="bill book graphic legislation motion_picture song" match="any">
         <text variable="title" text-case="title" font-style="italic"/>
         <group prefix=" (" suffix=")" delimiter=" ">
           <text term="version"/>
@@ -299,7 +299,7 @@
           </else-if>
         </choose>
       </if>
-      <else-if type="bill book graphic legislation motion_picture report song" match="any">
+      <else-if type="bill book graphic legislation motion_picture song" match="any">
         <text variable="title" text-case="title" form="short" font-style="italic"/>
       </else-if>
       <else-if type="legal_case interview" match="any">
