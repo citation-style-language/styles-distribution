@@ -6,13 +6,13 @@
     <title-short>Orphanet J Rare Dis</title-short>
     <id>http://www.zotero.org/styles/orphanet-journal-of-rare-diseases</id>
     <link href="http://www.zotero.org/styles/orphanet-journal-of-rare-diseases" rel="self"/>
-    <link href="http://www.zotero.org/styles/biomed-central" rel="independent-parent"/>
+    <link href="http://www.zotero.org/styles/springer-vancouver-brackets" rel="independent-parent"/>
     <link href="http://www.ojrd.com" rel="documentation"/>
     <category citation-format="numeric"/>
     <category field="biology"/>
     <category field="medicine"/>
     <issn>1750-1172</issn>
-    <updated>2014-05-10T01:59:40+00:00</updated>
+    <updated>2015-05-25T18:13:32+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
 </style>
