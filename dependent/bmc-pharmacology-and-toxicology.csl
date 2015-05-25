@@ -6,13 +6,13 @@
     <title-short>BMC pharmacol toxicol</title-short>
     <id>http://www.zotero.org/styles/bmc-pharmacology-and-toxicology</id>
     <link href="http://www.zotero.org/styles/bmc-pharmacology-and-toxicology" rel="self"/>
-    <link href="http://www.zotero.org/styles/springer-vancouver-brackets" rel="independent-parent"/>
+    <link href="http://www.zotero.org/styles/biomed-central" rel="independent-parent"/>
     <link href="http://www.biomedcentral.com/bmcpharmacoltoxicol" rel="documentation"/>
     <category citation-format="numeric"/>
     <category field="biology"/>
     <category field="medicine"/>
     <issn>2050-6511</issn>
-    <updated>2015-05-25T18:13:32+00:00</updated>
+    <updated>2014-05-10T01:59:40+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
 </style>
