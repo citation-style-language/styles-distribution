@@ -20,7 +20,7 @@
     </contributor>
     <category citation-format="note"/>
     <category field="social_science"/>
-    <updated>2015-03-19T02:36:13+00:00</updated>
+    <updated>2015-05-27T08:11:22+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="fr">
@@ -353,8 +353,8 @@
   <macro name="volume">
     <choose>
       <if is-numeric="volume">
-        <text term="volume" form="short" suffix=". "/>
-        <text variable="volume"/>
+        <text variable="volume" suffix=" "/>
+        <text term="volume" form="short" suffix="."/>
       </if>
       <else>
         <text variable="volume"/>
@@ -464,6 +464,7 @@
         <text macro="edition"/>
         <text macro="pub-place"/>
         <text macro="publisher"/>
+        <text macro="collection"/>
         <text macro="yearpage-bib"/>
       </group>
     </layout>
