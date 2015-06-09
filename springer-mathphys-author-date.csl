@@ -17,7 +17,7 @@
     <category field="generic-base"/>
     <category field="science"/>
     <summary>This style is used by a number of Springer publications.</summary>
-    <updated>2015-03-24T13:44:48+00:00</updated>
+    <updated>2015-06-09T05:59:20+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <macro name="author-short-in-citation">
@@ -142,7 +142,8 @@
             <text macro="title" suffix="."/>
             <choose>
               <if variable="container-title">
-                <text macro="editor" prefix="In: " suffix=" "/>
+                <text term="in" text-case="capitalize-first" suffix=": "/>
+                <text macro="editor" suffix=" "/>
                 <group delimiter=". ">
                   <text variable="container-title"/>
                   <text macro="page"/>

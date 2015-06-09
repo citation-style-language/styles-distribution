@@ -15,7 +15,7 @@
     <category field="medicine"/>
     <category field="psychology"/>
     <summary>Springer Basic style (German, numeric, brackets, alphabetical) for Springer journals in medicine and psychology.</summary>
-    <updated>2015-05-09T06:56:02+00:00</updated>
+    <updated>2015-06-09T06:27:43+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="de">
@@ -30,13 +30,6 @@
         <names variable="editor"/>
         <names variable="translator"/>
       </substitute>
-    </names>
-  </macro>
-  <macro name="editor">
-    <text term="in" text-case="capitalize-first" suffix=": "/>
-    <names variable="editor">
-      <name sort-separator=" " initialize-with="" name-as-sort-order="all" delimiter=", " delimiter-precedes-last="always"/>
-      <label form="short" strip-periods="true" prefix=" (" suffix=")"/>
     </names>
   </macro>
   <macro name="edition">
@@ -99,10 +92,16 @@
         <if variable="page">
           <choose>
             <if type="chapter paper-conference" match="any">
-              <text macro="editor"/>
-              <group prefix=" " delimiter=", " suffix=". ">
-                <text variable="container-title" form="short"/>
-                <text macro="edition"/>
+              <group delimiter=" " suffix=". ">
+                <text term="in" text-case="capitalize-first" suffix=":"/>
+                <names variable="editor">
+                  <name sort-separator=" " initialize-with="" name-as-sort-order="all" delimiter=", " delimiter-precedes-last="always"/>
+                  <label form="short" strip-periods="true" prefix=" (" suffix=")"/>
+                </names>
+                <group delimiter=", ">
+                  <text variable="container-title" form="short"/>
+                  <text macro="edition"/>
+                </group>
               </group>
               <text variable="publisher" suffix=", "/>
               <text variable="publisher-place" suffix=", "/>

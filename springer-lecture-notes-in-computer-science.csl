@@ -15,7 +15,7 @@
     </contributor>
     <category citation-format="numeric"/>
     <category field="engineering"/>
-    <updated>2014-08-28T01:36:46+00:00</updated>
+    <updated>2015-06-09T05:59:20+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <macro name="author">
@@ -93,7 +93,8 @@
             <text macro="title" suffix="."/>
             <choose>
               <if variable="container-title">
-                <text macro="editor" prefix="In: " suffix=" "/>
+                <text term="in" text-case="capitalize-first" suffix=": "/>
+                <text macro="editor" suffix=" "/>
                 <group delimiter=". ">
                   <text variable="container-title"/>
                   <text macro="page"/>
