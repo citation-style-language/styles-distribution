@@ -17,7 +17,7 @@
     <category citation-format="numeric"/>
     <category field="chemistry"/>
     <summary>The American Chemical Society style.</summary>
-    <updated>2015-06-16T17:20:54+00:00</updated>
+    <updated>2015-07-20T17:38:20+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="en">
@@ -77,10 +77,15 @@
     <group delimiter=" ">
       <choose>
         <if type="entry-dictionary entry-encyclopedia" match="none">
-          <text term="in" text-case="capitalize-first"/>
+          <group delimiter=" ">
+            <text term="in" text-case="capitalize-first"/>
+            <text variable="container-title" font-style="italic"/>
+          </group>
         </if>
+        <else>
+          <text variable="container-title" font-style="italic"/>
+        </else>
       </choose>
-      <text variable="container-title" font-style="italic"/>
     </group>
   </macro>
   <macro name="issued">

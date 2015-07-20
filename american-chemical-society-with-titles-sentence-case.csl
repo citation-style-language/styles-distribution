@@ -21,7 +21,7 @@
     <category citation-format="numeric"/>
     <category field="chemistry"/>
     <summary>The American Chemical Society style with article titles</summary>
-    <updated>2015-06-16T17:20:54+00:00</updated>
+    <updated>2015-07-20T17:18:40+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="en">
@@ -88,14 +88,19 @@
     <text variable="page"/>
   </macro>
   <macro name="book-container">
-    <group delimiter=" ">
-      <text macro="title" suffix="."/>
+    <group delimiter=". ">
+      <text macro="title"/>
       <choose>
         <if type="entry-dictionary entry-encyclopedia" match="none">
-          <text term="in" text-case="capitalize-first"/>
+          <group delimiter=" ">
+            <text term="in" text-case="capitalize-first"/>
+            <text variable="container-title" font-style="italic"/>
+          </group>
         </if>
+        <else>
+          <text variable="container-title" font-style="italic"/>
+        </else>
       </choose>
-      <text variable="container-title" font-style="italic"/>
     </group>
   </macro>
   <macro name="issued">

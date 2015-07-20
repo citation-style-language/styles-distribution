@@ -17,7 +17,7 @@
     <category citation-format="author-date"/>
     <category field="science"/>
     <summary>The Council of Science Editors style, Name-Year system: author-date in text, sorted in alphabetical order by author.</summary>
-    <updated>2015-03-19T02:36:13+00:00</updated>
+    <updated>2015-07-20T16:45:20+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="en">
@@ -227,9 +227,11 @@
           </if>
           <else-if type="chapter paper-conference entry-dictionary entry-encyclopedia" match="any">
             <group prefix=" " delimiter=" ">
-              <text term="in" text-case="capitalize-first" suffix=":"/>
-              <text macro="editor"/>
-              <text variable="container-title" suffix="."/>
+              <group delimiter=" ">
+                <text term="in" text-case="capitalize-first" suffix=":"/>
+                <text macro="editor"/>
+                <text variable="container-title" suffix="."/>
+              </group>
               <text variable="volume" prefix="Vol. " suffix="."/>
               <text macro="edition"/>
               <group suffix="." delimiter=". ">

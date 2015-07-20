@@ -14,7 +14,7 @@
     <category citation-format="numeric"/>
     <category field="science"/>
     <summary>The Council of Science Editors style, Citation-Sequence system: numbers in text, sorted by order of appearance in text.</summary>
-    <updated>2015-05-20T19:55:27+00:00</updated>
+    <updated>2015-07-20T16:45:20+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="en">
@@ -205,9 +205,11 @@
         <else-if type="chapter paper-conference entry-dictionary entry-encyclopedia" match="any">
           <text macro="title" prefix=" " suffix="."/>
           <group prefix=" " delimiter=" ">
-            <text term="in" text-case="capitalize-first" suffix=":"/>
-            <text macro="editor"/>
-            <text variable="container-title" suffix="."/>
+            <group delimiter=" ">
+              <text term="in" text-case="capitalize-first" suffix=":"/>
+              <text macro="editor"/>
+              <text variable="container-title" suffix="."/>
+            </group>
             <text variable="volume" prefix="Vol. " suffix="."/>
             <text macro="edition"/>
             <group suffix=".">
