@@ -4,16 +4,19 @@
     <title>Rhodora</title>
     <id>http://www.zotero.org/styles/rhodora</id>
     <link href="http://www.zotero.org/styles/rhodora" rel="self"/>
-    <link href="http://www.zotero.org/styles/the-condor" rel="template"/>
     <link href="http://www.rhodora.org/rhodora/pdf/Rhod-inst2012.pdf" rel="documentation"/>
     <author>
       <name>Sebastian Karcher</name>
     </author>
+    <contributor>
+      <name>Keith W. Larson</name>
+      <email>keith.w.larson@gmail.com</email>
+    </contributor>
     <category citation-format="author-date"/>
     <category field="botany"/>
     <issn>0035-4902</issn>
     <summary>journal of the New England Botanical Club</summary>
-    <updated>2014-08-28T01:36:46+00:00</updated>
+    <updated>2015-08-02T20:26:58+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <macro name="container-contributors">
