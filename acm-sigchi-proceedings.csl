@@ -26,7 +26,7 @@
     </contributor>
     <category citation-format="numeric"/>
     <category field="engineering"/>
-    <updated>2015-05-16T22:49:46+00:00</updated>
+    <updated>2015-08-04T21:42:34+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <macro name="author">
@@ -162,7 +162,7 @@
             </group>
           </else-if>
           <else-if type="article-journal">
-            <group suffix="." delimiter=", ">
+            <group suffix="." delimiter=": ">
               <text macro="journal"/>
               <text variable="page"/>
             </group>
