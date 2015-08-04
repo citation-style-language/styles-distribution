@@ -12,7 +12,7 @@
     <category citation-format="author-date"/>
     <category field="medicine"/>
     <category field="science"/>
-    <updated>2015-05-30T15:23:08+00:00</updated>
+    <updated>2015-08-04T16:34:08+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <macro name="editor">
@@ -82,7 +82,7 @@
     </sort>
     <layout delimiter="; " prefix="(" suffix=")">
       <group delimiter=": ">
-	<group delimiter=", ">
+	<group delimiter=" ">
 	  <text macro="author-short"/>
 	  <text macro="year-date"/>
 	</group>
@@ -90,9 +90,12 @@
       </group>
     </layout>
   </citation>
-  <bibliography hanging-indent="false" et-al-min="4" et-al-use-first="3">
+  <bibliography hanging-indent="true" et-al-min="4" et-al-use-first="3">
+    <sort>
+      <key macro="author"/>
+      <key macro="year-date"/>
+    </sort>
     <layout>
-      <text variable="citation-number" suffix=". "/>
       <text macro="author"/>
       <text macro="title" prefix=" " suffix="."/>
       <choose>
