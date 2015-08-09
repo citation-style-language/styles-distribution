@@ -28,7 +28,7 @@
     <category citation-format="note"/>
     <category field="law"/>
     <summary>A modification of the Bluebook legal citation style for Australian conditions.</summary>
-    <updated>2015-04-20T04:27:42+00:00</updated>
+    <updated>2015-08-09T02:13:24+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale>
@@ -186,7 +186,7 @@
         <text variable="title" text-case="title"/>
       </else-if>
       <else-if type="legal_case">
-        <text variable="title" font-style="italic" strip-periods="true" />
+        <text variable="title" font-style="italic" strip-periods="true"/>
       </else-if>
       <else>
         <text variable="title" quotes="true" text-case="title"/>
@@ -196,7 +196,7 @@
   <macro name="title-short">
     <choose>
       <if type="book legislation webpage thesis motion_picture manuscript legal_case" match="any">
-        <text variable="title-short" font-style="italic" text-case="title" />
+        <text variable="title-short" font-style="italic" text-case="title"/>
       </if>
       <else>
         <text variable="title" quotes="true" text-case="title" form="short"/>

@@ -16,7 +16,7 @@
     <category field="anthropology"/>
     <issn>0769-010X</issn>
     <summary>Style based on ISO-690 (author-date, no abstract, French) from Pierre-Amiel Giraud version.</summary>
-    <updated>2015-08-01T22:33:42+00:00</updated>
+    <updated>2015-08-09T02:13:24+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale>
@@ -356,8 +356,8 @@
     </choose>
   </macro>
   <macro name="collection">
-<text variable="collection-title" prefix=", coll. " quotes="true"/>
-<text variable="collection-number" prefix=", "/>
+    <text variable="collection-title" prefix=", coll. " quotes="true"/>
+    <text variable="collection-number" prefix=", "/>
   </macro>
   <macro name="page">
     <choose>
@@ -533,8 +533,8 @@
               <text macro="genre" suffix=", "/>
               <text macro="publisher" prefix="(" suffix=")"/>
               <text macro="archive"/>
-              <text macro="url"  prefix=", "/>
-              <text macro="accessed" />
+              <text macro="url" prefix=", "/>
+              <text macro="accessed"/>
             </group>
           </else-if>
           <else-if type="post-weblog post webpage" match="any">

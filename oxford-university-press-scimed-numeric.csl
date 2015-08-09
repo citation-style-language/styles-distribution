@@ -12,7 +12,7 @@
     <category citation-format="numeric"/>
     <category field="medicine"/>
     <category field="science"/>
-    <updated>2015-05-04T05:02:05+00:00</updated>
+    <updated>2015-08-09T02:13:24+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <macro name="editor">
@@ -92,10 +92,10 @@
         </if>
         <else-if type="chapter paper-conference" match="any">
           <group prefix=" " delimiter=". ">
-	    <group delimiter=": ">
+            <group delimiter=": ">
               <text term="in" text-case="capitalize-first"/>
               <text macro="editor"/>
-	    </group>
+            </group>
             <text variable="container-title" font-style="italic" text-case="title"/>
             <text variable="volume" prefix="Vol "/>
             <text macro="edition"/>
@@ -155,14 +155,14 @@
               </date>
               <text variable="volume" font-weight="bold"/>
             </group>
-	    <choose>
-	      <if variable="page">
-		<text variable="page" prefix=":"/>
-	      </if>
-	      <else>
-		<text variable="DOI" prefix=", DOI: "/>
-	      </else>
-	    </choose>
+            <choose>
+              <if variable="page">
+                <text variable="page" prefix=":"/>
+              </if>
+              <else>
+                <text variable="DOI" prefix=", DOI: "/>
+              </else>
+            </choose>
           </group>
         </else>
       </choose>

@@ -14,8 +14,8 @@
     <category citation-format="numeric"/>
     <category field="medicine"/>
     <issn>0123-9392</issn>
-	<summary>A style for some Elsevier journals, resembles Vancouver style</summary>
-    <updated>2015-06-12T11:34:02+00:00</updated>
+    <summary>A style for some Elsevier journals, resembles Vancouver style</summary>
+    <updated>2015-08-09T02:13:24+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <macro name="access">
@@ -64,7 +64,7 @@
     <choose>
       <if variable="issued">
         <date variable="issued">
-          <date-part name="year" form="long" range-delimiter="–"/>
+          <date-part name="year" form="long" range-delimiter="&#8211;"/>
         </date>
       </if>
       <else>

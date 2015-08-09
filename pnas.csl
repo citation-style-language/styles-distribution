@@ -23,7 +23,7 @@
     <issn>0027-8424</issn>
     <eissn>1091-6490</eissn>
     <summary>The Proceedings of the National Academy of Sciences Journal style.</summary>
-    <updated>2015-06-23T17:17:49+00:00</updated>
+    <updated>2015-08-09T02:13:24+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <macro name="editor">
@@ -53,12 +53,12 @@
             <text value="Available at:" suffix=" "/>
             <text variable="URL"/>
             <group prefix=" [" suffix="]">
-            <text term="accessed" text-case="capitalize-first" suffix=" "/>
-            <date variable="accessed">
+              <text term="accessed" text-case="capitalize-first" suffix=" "/>
+              <date variable="accessed">
                 <date-part name="month" suffix=" "/>
                 <date-part name="day" suffix=", "/>
                 <date-part name="year"/>
-            </date>
+              </date>
             </group>
           </else-if>
         </choose>

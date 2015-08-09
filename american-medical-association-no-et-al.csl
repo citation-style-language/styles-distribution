@@ -17,7 +17,7 @@
     <category citation-format="numeric"/>
     <category field="medicine"/>
     <summary>The American Medical Association style without et al</summary>
-    <updated>2015-05-08T14:40:17+00:00</updated>
+    <updated>2015-08-09T02:13:24+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="en">
@@ -209,7 +209,7 @@
           <group prefix=" " suffix=".">
             <text variable="container-title" font-style="italic" form="short"/>
             <group delimiter=";" prefix=" ">
-             <choose>
+              <choose>
                 <if match="any" variable="issue volume">
                   <date variable="issued">
                     <date-part name="year"/>

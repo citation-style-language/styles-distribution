@@ -17,7 +17,7 @@
     <issn>0047-4045</issn>
     <eissn>1469-8013</eissn>
     <summary>Style for the Cambridge University Press Journal Language in Society</summary>
-    <updated>2015-06-27T22:15:01+00:00</updated>
+    <updated>2015-08-09T02:13:24+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <macro name="editor">
@@ -136,7 +136,7 @@
       </date>
       <choose>
         <if type="bill book graphic legal_case legislation motion_picture report song" match="any">
-          <group delimiter=". ">   
+          <group delimiter=". ">
             <group prefix=" " delimiter=", ">
               <text macro="title"/>
               <text macro="edition"/>
@@ -177,7 +177,7 @@
           </group>
           <group prefix=" " delimiter=" ">
             <text variable="container-title" font-style="italic"/>
-            <group delimiter=":">            
+            <group delimiter=":">
               <group>
                 <text variable="volume"/>
                 <text variable="issue" prefix="(" suffix=")"/>

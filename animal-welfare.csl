@@ -12,7 +12,7 @@
     <category citation-format="author-date"/>
     <category field="biology"/>
     <issn>0962-7286</issn>
-    <updated>2015-07-27T15:05:57+00:00</updated>
+    <updated>2015-08-09T02:13:24+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <macro name="container-contributors">
@@ -31,7 +31,7 @@
       <if type="chapter paper-conference" match="none">
         <names variable="editor translator" delimiter=", " prefix=" (" suffix=")">
           <name and="text" initialize-with=" "/>
-          <label form="short" prefix=", " strip-periods="true"  text-case="capitalize-first"/>
+          <label form="short" prefix=", " strip-periods="true" text-case="capitalize-first"/>
         </names>
       </if>
     </choose>

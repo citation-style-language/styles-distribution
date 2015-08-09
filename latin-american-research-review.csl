@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <style xmlns="http://purl.org/net/xbiblio/csl" class="in-text" version="1.0" demote-non-dropping-particle="sort-only">
   <info>
     <title>Latin American Research Review</title>
@@ -13,7 +13,7 @@
     <issn>0023-8791</issn>
     <eissn>1542-4278</eissn>
     <summary>Style for Latin American Research Review</summary>
-    <updated>2015-07-03T06:34:01+00:00</updated>
+    <updated>2015-08-09T02:13:24+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="es">
@@ -144,7 +144,7 @@
       </choose>
       <choose>
         <if type="legal_case" match="none">
-	  <text variable="URL"/>
+          <text variable="URL"/>
         </if>
       </choose>
     </group>
@@ -166,7 +166,7 @@
       </else>
     </choose>
   </macro>
-<!--  <macro name="edition">
+  <!--  <macro name="edition">
     <choose>
       <if type="bill book graphic legal_case motion_picture report song chapter paper-conference" match="any">
         <choose>
@@ -353,7 +353,7 @@
       <group display="block">
         <text macro="contributors"/>
       </group>
-      <group delimiter="&#009;">
+      <group delimiter="&#9;">
         <text macro="date"/>
         <group>
           <text macro="title"/>

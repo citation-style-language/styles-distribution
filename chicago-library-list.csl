@@ -28,7 +28,7 @@
     <category citation-format="note"/>
     <category field="generic-base"/>
     <summary>Chicago format for creating library lists, where bibliography includes call numbers</summary>
-    <updated>2015-08-03T16:14:25+00:00</updated>
+    <updated>2015-08-09T02:13:24+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="en">
@@ -327,12 +327,12 @@
       <choose>
         <if variable="title" match="none"/>
         <else-if type="manuscript thesis speech" match="any"/>
-	<else-if type="patent">
-	  <group delimiter=" ">
-	    <text variable="authority"/>
-	    <text variable="number"/>
-	  </group>
-	</else-if>
+        <else-if type="patent">
+          <group delimiter=" ">
+            <text variable="authority"/>
+            <text variable="number"/>
+          </group>
+        </else-if>
         <else>
           <text variable="genre"/>
         </else>
@@ -348,12 +348,12 @@
       <choose>
         <if variable="title" match="none"/>
         <else-if type="thesis speech" match="any"/>
-	<else-if type="patent">
-	  <group delimiter=" ">
-	    <text variable="authority"/>
-	    <text variable="number"/>
-	  </group>
-	</else-if>
+        <else-if type="patent">
+          <group delimiter=" ">
+            <text variable="authority"/>
+            <text variable="number"/>
+          </group>
+        </else-if>
         <else>
           <text variable="genre" text-case="capitalize-first"/>
         </else>
@@ -704,25 +704,25 @@
               <date-part name="year"/>
             </date>
           </else-if>
-	  <else-if type="patent">
-	    <group delimiter=", ">
-	      <group delimiter=" ">
-		<!--Needs Localization-->
-		<text value="filed"/> 
-		<date variable="submitted" form="text"/>
-	      </group>
-	      <group delimiter=" ">
-		<choose>
-		  <if variable="issued submitted" match="all">
-		    <text term="and"/>
-		  </if>
-		</choose>
-		<!--Needs Localization-->
-		<text value="issued"/>
-		<date variable="issued" form="text"/>
-	      </group>
-	    </group>
-	  </else-if>
+          <else-if type="patent">
+            <group delimiter=", ">
+              <group delimiter=" ">
+                <!--Needs Localization-->
+                <text value="filed"/>
+                <date variable="submitted" form="text"/>
+              </group>
+              <group delimiter=" ">
+                <choose>
+                  <if variable="issued submitted" match="all">
+                    <text term="and"/>
+                  </if>
+                </choose>
+                <!--Needs Localization-->
+                <text value="issued"/>
+                <date variable="issued" form="text"/>
+              </group>
+            </group>
+          </else-if>
           <else>
             <date variable="issued" form="text"/>
           </else>

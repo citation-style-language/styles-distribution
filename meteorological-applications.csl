@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <style xmlns="http://purl.org/net/xbiblio/csl" class="in-text" version="1.0" demote-non-dropping-particle="sort-only" default-locale="en-US">
-<!-- This style was edited with the Visual CSL Editor (http://editor.citationstyles.org/visualEditor/) -->
+  <!-- This style was edited with the Visual CSL Editor (http://editor.citationstyles.org/visualEditor/) -->
   <info>
     <title>Meteorological Applications</title>
     <title-short>Meteorol. Appl.</title-short>
@@ -17,7 +17,7 @@
     <issn>1350-4827</issn>
     <eissn>1469-8080</eissn>
     <summary>Style for the Meteorological Applications. This style is almost entirely copied from peerj.csl, whose author is Burnmeister (sybrandvs@yahoo.com).</summary>
-    <updated>2015-07-01T12:33:15+00:00</updated>
+    <updated>2015-08-09T02:13:24+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <macro name="author">
