@@ -12,7 +12,7 @@
     <category citation-format="numeric"/>
     <category field="medicine"/>
     <summary>Style dérivé de France (tous les auteurs, numérotation) et modifié par Gérald Baril pour la collection TOPO de l'Institut national de santé publique du Québec</summary>
-    <updated>2014-10-17T00:26:43+00:00</updated>
+    <updated>2015-08-19T17:26:08+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="fr-CA">
@@ -144,7 +144,7 @@
     <sort>
       <key variable="citation-number"/>
     </sort>
-    <layout prefix="(" suffix=")" delimiter=",">
+    <layout prefix="(" suffix=")" delimiter="," vertical-align="sup">
       <text variable="citation-number"/>
     </layout>
   </citation>
