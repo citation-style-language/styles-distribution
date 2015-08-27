@@ -14,7 +14,7 @@
     </contributor>
     <category citation-format="author-date"/>
     <summary>Harvard author-date style edited for the University of Worcester</summary>
-    <updated>2015-08-12T12:56:02+00:00</updated>
+    <updated>2015-08-27T20:36:42+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <macro name="editor">
@@ -276,7 +276,7 @@
       </group>
     </layout>
   </citation>
-  <bibliography et-al-use-first="4" et-al-min="5" hanging-indent="true">
+  <bibliography et-al-use-first="4" et-al-min="5" hanging-indent="false">
     <sort>
       <key macro="author"/>
       <key variable="title"/>
