@@ -13,7 +13,7 @@
     <category citation-format="author-date"/>
     <category field="generic-base"/>
     <summary>Harvard - University of Westminster</summary>
-    <updated>2015-04-16T01:55:02+00:00</updated>
+    <updated>2015-09-18T11:44:15+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="en-GB">
@@ -105,7 +105,7 @@
   </macro>
   <macro name="locator">
     <choose>
-      <if type="article-journal article-newspaper article-magazine">
+      <if type="article-journal article-newspaper article-magazine" match="any">
         <text variable="container-title" font-style="italic" prefix=". " suffix=","/>
         <text variable="volume" font-weight="normal" prefix=" " suffix=" "/>
         <text variable="issue" prefix="(" suffix="), "/>
@@ -120,7 +120,7 @@
   </macro>
   <macro name="published-date">
     <choose>
-      <if type="article-newspaper article-magazine">
+      <if type="article-newspaper article-magazine" match="any">
         <date variable="issued">
           <date-part name="day" suffix=" "/>
           <date-part name="month" form="long"/>
@@ -281,7 +281,7 @@
               <date-part name="year"/>
             </date>
             <choose>
-              <if match="any" variable="collection-title">
+              <if variable="collection-title" match="any">
                 <text variable="collection-title" font-style="italic" prefix=" "/>
                 <text value="television programme" prefix=" [" suffix="]"/>
                 <text macro="publisher"/>
