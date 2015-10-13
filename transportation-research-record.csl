@@ -13,23 +13,17 @@
     <category citation-format="numeric"/>
     <category field="engineering"/>
     <issn>0361-1981</issn>
-    <updated>2014-08-30T22:48:16+00:00</updated>
+    <updated>2015-10-13T02:45:43+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <!-- Macros -->
   <macro name="issued">
     <choose>
-      <if type="article-journal report" match="any">
+      <if type="article-journal report bill book chapter graphic legal_case legislation motion_picture paper-conference song thesis" match="any">
         <date variable="issued">
-          <date-part name="month" form="short" suffix=" "/>
           <date-part name="year" form="long"/>
         </date>
       </if>
-      <else-if type=" bill book chapter graphic legal_case legislation motion_picture paper-conference song thesis" match="any">
-        <date variable="issued">
-          <date-part name="year" form="long"/>
-        </date>
-      </else-if>
       <else>
         <date variable="issued">
           <date-part name="month" form="short" strip-periods="true"/>
