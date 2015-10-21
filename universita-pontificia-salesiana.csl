@@ -24,13 +24,13 @@
     <category field="philosophy"/>
     <category field="social_science"/>
     <summary>Università Pontificia Salesiana. Style without default-locale to be parent of other styles. See https://github.com/citation-style-language/styles/pull/1194</summary>
-    <updated>2015-10-21T19:29:17+00:00</updated>
+    <updated>2015-10-21T20:16:13+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <macro name="editor">
     <names variable="editor" delimiter=", ">
-      <label form="verb" text-case="lowercase"/>
-      <name delimiter=", " prefix=" " and="text" delimiter-precedes-last="never" initialize-with=". "/>
+      <label form="verb" suffix=" " text-case="lowercase"/>
+      <name delimiter=", " and="text" delimiter-precedes-last="never" initialize-with=". "/>
     </names>
   </macro>
   <macro name="translator">
