@@ -24,7 +24,7 @@
     <category field="philosophy"/>
     <category field="social_science"/>
     <summary>Università Pontificia Salesiana. Style without default-locale to be parent of other styles. See https://github.com/citation-style-language/styles/pull/1194</summary>
-    <updated>2014-12-05T04:18:39+00:00</updated>
+    <updated>2015-10-21T19:29:17+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <macro name="editor">
@@ -191,11 +191,6 @@
       <text variable="page" prefix=" "/>
     </group>
   </macro>
-  <macro name="sort-key">
-    <text macro="author-bib" suffix=" "/>
-    <text variable="issue" suffix=" "/>
-    <text variable="genre"/>
-  </macro>
   <macro name="edition-issued">
     <choose>
       <if is-numeric="edition">
@@ -347,7 +342,8 @@
   </citation>
   <bibliography hanging-indent="true" et-al-min="7" et-al-use-first="6" subsequent-author-substitute="&#8212;&#8212;&#8212;" entry-spacing="0">
     <sort>
-      <key macro="sort-key"/>
+      <key macro="author-bib"/>
+      <key variable="issued"/>
     </sort>
     <layout suffix=".">
       <text macro="author-bib" suffix=", "/>
