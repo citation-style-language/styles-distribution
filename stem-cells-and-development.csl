@@ -16,7 +16,7 @@
     <category field="biology"/>
     <issn>1547-3287</issn>
     <eissn>1557-8534</eissn>
-    <updated>2015-03-24T13:44:48+00:00</updated>
+    <updated>2015-10-22T14:00:54+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <macro name="author">
@@ -50,11 +50,6 @@
     </layout>
   </citation>
   <bibliography et-al-min="51" et-al-use-first="50" line-spacing="2">
-    <sort>
-      <key macro="author"/>
-      <key macro="issued"/>
-      <key variable="title"/>
-    </sort>
     <layout suffix=".">
       <text variable="citation-number" suffix=". "/>
       <group delimiter=" ">
