@@ -27,7 +27,7 @@
     <category citation-format="author-date"/>
     <category field="psychology"/>
     <category field="generic-base"/>
-    <updated>2015-08-09T02:13:24+00:00</updated>
+    <updated>2015-10-25T09:01:49+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="en">
@@ -248,10 +248,17 @@
         </group>
       </else-if>
     </choose>
-    <text macro="format"/>
+    <text macro="format" prefix=" [" suffix="]"/>
   </macro>
   <macro name="format">
-    <text variable="medium" text-case="capitalize-first" prefix=" [" suffix="]"/>
+    <choose>
+      <if match="any" variable="medium">
+        <text variable="medium" text-case="capitalize-first"/>
+      </if>
+      <else-if type="dataset" match="any">
+        <text value="Data set"/>
+      </else-if>
+    </choose>
   </macro>
   <macro name="publisher">
     <choose>
@@ -336,7 +343,7 @@
                     <date-part prefix=", " name="month"/>
                   </date>
                 </if>
-                <else-if type="article-journal bill book chapter graphic legal_case legislation motion_picture paper-conference report song" match="none">
+                <else-if type="article-journal bill book chapter graphic legal_case legislation motion_picture paper-conference report song dataset" match="none">
                   <date variable="issued">
                     <date-part prefix=", " name="month"/>
                     <date-part prefix=" " name="day"/>
@@ -363,7 +370,7 @@
   </macro>
   <macro name="issued-sort">
     <choose>
-      <if type="article-journal bill book chapter graphic legal_case legislation motion_picture paper-conference report song" match="none">
+      <if type="article-journal bill book chapter graphic legal_case legislation motion_picture paper-conference report song dataset" match="none">
         <date variable="issued">
           <date-part name="year"/>
           <date-part name="month"/>
