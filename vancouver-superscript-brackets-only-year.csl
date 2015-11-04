@@ -23,7 +23,7 @@
     <category citation-format="numeric"/>
     <category field="medicine"/>
     <summary>Vancouver style as outlined by International Committee of Medical Journal Editors Uniform Requirements for Manuscripts Submitted to Biomedical Journals: Sample References</summary>
-    <updated>2015-01-01T17:31:53+00:00</updated>
+    <updated>2015-10-27T18:47:03+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <macro name="author">
@@ -73,7 +73,7 @@
   </macro>
   <macro name="journal-title">
     <choose>
-      <if type="article-journal article-magazine" match="any">
+      <if type="article-journal article-magazine review review-book" match="any">
         <group suffix=" ">
           <text variable="container-title" form="short" strip-periods="true"/>
           <choose>
@@ -92,7 +92,7 @@
     <group delimiter=" ">
       <text variable="title"/>
       <choose>
-        <if type="article-journal article-magazine" match="none">
+        <if type="article-journal article-magazine review review-book" match="none">
           <choose>
             <if variable="URL">
               <text term="internet" prefix="[" suffix="]" text-case="capitalize-first"/>
@@ -135,7 +135,7 @@
             <text macro="publisher"/>
           </group>
         </if>
-        <else-if type="chapter paper-conference" match="any">
+        <else-if type="chapter paper-conference entry-dictionary entry-encyclopedia" match="any">
           <group prefix=" " suffix=". ">
             <text term="in" suffix=": " text-case="capitalize-first"/>
             <text macro="editor"/>

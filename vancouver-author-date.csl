@@ -15,7 +15,7 @@
     <category citation-format="author-date"/>
     <category field="medicine"/>
     <summary>Vancouver style as outlined by International Committee of Medical Journal Editors Uniform Requirements for Manuscripts Submitted to Biomedical Journals: Sample References</summary>
-    <updated>2015-03-24T13:44:48+00:00</updated>
+    <updated>2015-10-27T18:47:03+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="en">
@@ -58,7 +58,7 @@
   <macro name="editor">
     <group delimiter=": ">
       <choose>
-        <if type="chapter paper-conference" match="any">
+        <if type="chapter paper-conference entry-dictionary entry-encyclopedia" match="any">
           <text term="in" text-case="capitalize-first"/>
         </if>
       </choose>
@@ -106,7 +106,7 @@
   </macro>
   <macro name="container-title">
     <choose>
-      <if type="article-journal article-magazine chapter paper-conference article-newspaper" match="any">
+      <if type="article-journal article-magazine chapter paper-conference article-newspaper review review-book entry-dictionary entry-encyclopedia" match="any">
         <group suffix="." delimiter=" ">
           <text variable="container-title" form="short" strip-periods="true"/>
           <choose>
@@ -138,7 +138,7 @@
   <macro name="title">
     <text variable="title"/>
     <choose>
-      <if type="article-journal article-magazine chapter paper-conference article-newspaper" match="none">
+      <if type="article-journal article-magazine chapter paper-conference article-newspaper review review-book entry-dictionary entry-encyclopedia" match="none">
         <choose>
           <if variable="URL">
             <text term="internet" prefix=" [" suffix="]" text-case="capitalize-first"/>
@@ -168,7 +168,7 @@
   </macro>
   <macro name="date">
     <choose>
-      <if type="article-journal article-magazine article-newspaper" match="any">
+      <if type="article-journal article-magazine article-newspaper review review-book" match="any">
         <group suffix=";" delimiter=" ">
           <date variable="issued" form="text"/>
           <text macro="accessed-date"/>
@@ -203,7 +203,7 @@
   </macro>
   <macro name="pages">
     <choose>
-      <if type="article-journal article-magazine article-newspaper" match="any">
+      <if type="article-journal article-magazine article-newspaper review review-book" match="any">
         <text variable="page" prefix=":"/>
       </if>
       <else>
@@ -216,7 +216,7 @@
   </macro>
   <macro name="journal-location">
     <choose>
-      <if type="article-journal article-magazine" match="any">
+      <if type="article-journal article-magazine review review-book" match="any">
         <text variable="volume"/>
         <text variable="issue" prefix="(" suffix=")"/>
       </if>
