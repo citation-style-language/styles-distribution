@@ -10,7 +10,7 @@
       <email>roaldfrosig@gmail.com</email>
     </author>
     <category citation-format="numeric"/>
-    <updated>2015-10-16T13:49:21+00:00</updated>
+    <updated>2015-11-11T08:19:41+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="en">
@@ -18,6 +18,11 @@
       <term name="online">internet</term>
       <term name="accessed">cited</term>
       <term name="available at">available from</term>
+      <term name="no date">date unknown</term>
+      <term name="page" form="short">
+        <single>p.</single>
+        <multiple>p.</multiple>
+      </term>
     </terms>
   </locale>
   <!--                                                 CITATION MACRO -->
@@ -159,6 +164,9 @@
   <macro name="year">
     <choose>
       <if type="legislation bill"/>
+      <else-if variable="issued accessed" match="none">
+        <text term="no date" prefix="[" suffix="]"/>
+      </else-if>
       <else-if type="article-newspaper broadcast" match="any">
         <date variable="issued" delimiter=" ">
           <date-part name="year"/>
@@ -270,7 +278,7 @@
   </citation>
   <bibliography et-al-min="7" et-al-use-first="6" second-field-align="flush">
     <layout>
-      <text variable="citation-number" suffix="."/>
+      <text variable="citation-number" suffix=". "/>
       <group delimiter=". " suffix=".">
         <group delimiter=" ">
           <group delimiter=". ">
