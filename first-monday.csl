@@ -14,7 +14,7 @@
     <category field="humanities"/>
     <issn>1396-0466</issn>
     <summary>First Monday</summary>
-    <updated>2015-06-12T20:07:45+00:00</updated>
+    <updated>2015-11-28T16:38:51+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <macro name="editor">
@@ -116,7 +116,10 @@
           <text macro="author-short"/>
           <text macro="year-date"/>
         </group>
-        <text variable="locator"/>
+        <group delimiter=" ">
+          <label variable="locator" form="short"/>
+          <text variable="locator"/>
+        </group>
       </group>
     </layout>
   </citation>
