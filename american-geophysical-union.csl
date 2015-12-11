@@ -5,7 +5,7 @@
     <title-short>AGU</title-short>
     <id>http://www.zotero.org/styles/american-geophysical-union</id>
     <link href="http://www.zotero.org/styles/american-geophysical-union" rel="self"/>
-    <link href="http://publications.agu.org/author-resource-center/text-requirements/reference-format/" rel="documentation"/>
+    <link href="http://publications.agu.org/author-resource-center/author-guide/text-requirements/#refs" rel="documentation"/>
     <author>
       <name>Julian Onions</name>
       <email>julian.onions@gmail.com</email>
@@ -16,7 +16,7 @@
     <category citation-format="author-date"/>
     <category field="geology"/>
     <summary>The American Geophysical Union generic style</summary>
-    <updated>2015-12-11T21:37:41+00:00</updated>
+    <updated>2013-11-22T21:57:41+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <macro name="editor">
