@@ -14,7 +14,7 @@
     <category citation-format="numeric"/>
     <category field="biology"/>
     <issn>1666-7719</issn>
-    <updated>2015-12-11T21:41:35+00:00</updated>
+    <updated>2015-12-11T21:58:43+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <macro name="container-contributors">
@@ -165,7 +165,7 @@
       </else-if>
     </choose>
   </macro>
-  <citation>
+  <citation collapse="citation-number">
     <sort>
       <key variable="citation-number"/>
     </sort>
