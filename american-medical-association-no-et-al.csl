@@ -17,7 +17,7 @@
     <category citation-format="numeric"/>
     <category field="medicine"/>
     <summary>The American Medical Association style without et al</summary>
-    <updated>2015-10-06T05:33:55+00:00</updated>
+    <updated>2015-12-16T02:35:11+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="en">
@@ -56,7 +56,7 @@
               <text variable="URL"/>
               <choose>
                 <if type="webpage">
-                  <date variable="issued" prefix="Published " form="text" />
+                  <date variable="issued" prefix="Published " form="text"/>
                 </if>
               </choose>
               <group>

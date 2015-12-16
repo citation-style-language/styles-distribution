@@ -23,7 +23,7 @@
     <category citation-format="numeric"/>
     <category field="medicine"/>
     <summary>Vancouver style as outlined by International Committee of Medical Journal Editors Uniform Requirements for Manuscripts Submitted to Biomedical Journals: Sample References.  Modified to use brackets and to list all authors in the bibliography.</summary>
-    <updated>2015-10-27T18:47:03+00:00</updated>
+    <updated>2015-12-16T02:35:11+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="en">
@@ -257,7 +257,7 @@
       <if type="article-journal article-magazine article-newspaper review review-book" match="any">
         <text variable="page" prefix=":"/>
       </if>
-     <else-if type="book" match="any">
+      <else-if type="book" match="any">
         <text variable="number-of-pages" prefix=" "/>
         <choose>
           <if is-numeric="number-of-pages">

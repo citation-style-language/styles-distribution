@@ -13,7 +13,7 @@
     <category field="history"/>
     <issn>0031-2746</issn>
     <eissn>1477-464X</eissn>
-    <updated>2015-09-05T17:00:20+00:00</updated>
+    <updated>2015-12-16T02:35:11+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale>
@@ -182,7 +182,7 @@
                       <text macro="container"/>
                       <text macro="date"/>
                     </group>
-		    <text macro="archive"/>
+                    <text macro="archive"/>
                     <text macro="volref"/>
                     <text macro="pageref"/>
                   </group>

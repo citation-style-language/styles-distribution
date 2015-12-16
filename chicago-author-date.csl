@@ -24,7 +24,7 @@
     <category citation-format="author-date"/>
     <category field="generic-base"/>
     <summary>The author-date variant of the Chicago style</summary>
-    <updated>2015-10-04T19:32:17+00:00</updated>
+    <updated>2015-12-16T02:35:11+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="en">
@@ -116,7 +116,7 @@
         <substitute>
           <names variable="editor"/>
           <names variable="translator"/>
-          <names variable="director"/>          
+          <names variable="director"/>
           <text macro="substitute-title"/>
           <text macro="title"/>
         </substitute>
@@ -130,7 +130,7 @@
       <substitute>
         <names variable="editor"/>
         <names variable="translator"/>
-        <names variable="director"/>          
+        <names variable="director"/>
         <text macro="substitute-title"/>
         <text macro="title"/>
       </substitute>

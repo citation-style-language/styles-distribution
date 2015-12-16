@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <style xmlns="http://purl.org/net/xbiblio/csl" class="in-text" version="1.0" demote-non-dropping-particle="sort-only" page-range-format="chicago">
-<!-- This style was edited with the Visual CSL Editor (http://editor.citationstyles.org/visualEditor/) -->
+  <!-- This style was edited with the Visual CSL Editor (http://editor.citationstyles.org/visualEditor/) -->
   <info>
     <title>Zeitschrift für Religionswissenschaft (author-date)</title>
     <title-short>ZfR (author-date)</title-short>
     <id>http://www.zotero.org/styles/zeitschrift-fur-religionswissenschaft-author-date</id>
     <link href="http://www.zotero.org/styles/zeitschrift-fur-religionswissenschaft-author-date" rel="self"/>
-    <link href="http://www.degruyter.com/view/supplement/s2194508X_Manuskriptrichtlinien_de.pdf" rel="documentation" xml:lang="de"/>
     <link href="https://www.zotero.org/styles/american-sociological-association" rel="template"/>
+    <link href="http://www.degruyter.com/view/supplement/s2194508X_Manuskriptrichtlinien_de.pdf" xml:lang="de" rel="documentation"/>
     <author>
       <name>Frederik Elwert</name>
       <email>frederik.elwert@rub.de</email>
@@ -17,7 +17,7 @@
     <issn>0943-8610</issn>
     <eissn>2194-508X</eissn>
     <summary>Author-year style for the Zeitschrift für Religionswissenschaft. Based on the ASA style.</summary>
-    <updated>2015-12-04T16:31:52+00:00</updated>
+    <updated>2015-12-16T02:35:11+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="de">

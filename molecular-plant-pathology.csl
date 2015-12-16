@@ -14,7 +14,7 @@
     <issn>1464-6722</issn>
     <eissn>1364-3703</eissn>
     <summary>Molecular plant pathology (Wiley) style</summary>
-    <updated>2015-08-13T14:58:21+00:00</updated>
+    <updated>2015-12-16T02:35:11+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="en">
@@ -147,7 +147,7 @@
             <group delimiter=" " suffix=",">
               <text variable="container-title" suffix="."/>
               <text macro="editor" suffix=")" prefix="("/>
-            </group>  
+            </group>
             <text variable="collection-title" suffix="."/>
             <group suffix="." delimiter=". ">
               <text macro="pages"/>

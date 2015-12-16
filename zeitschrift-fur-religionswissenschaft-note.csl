@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <style xmlns="http://purl.org/net/xbiblio/csl" class="note" version="1.0" demote-non-dropping-particle="never" page-range-format="chicago">
-<!-- This style was edited with the Visual CSL Editor (http://editor.citationstyles.org/visualEditor/) -->
+  <!-- This style was edited with the Visual CSL Editor (http://editor.citationstyles.org/visualEditor/) -->
   <info>
     <title>Zeitschrift für Religionswissenschaft (note)</title>
     <title-short>ZfR (note)</title-short>
     <id>http://www.zotero.org/styles/zeitschrift-fur-religionswissenschaft-note</id>
     <link href="http://www.zotero.org/styles/zeitschrift-fur-religionswissenschaft-note" rel="self"/>
-    <link href="http://www.degruyter.com/view/supplement/s2194508X_Manuskriptrichtlinien_de.pdf" rel="documentation" xml:lang="de"/>
     <link href="https://www.zotero.org/styles/chicago-fullnote-bibliography" rel="template"/>
+    <link href="http://www.degruyter.com/view/supplement/s2194508X_Manuskriptrichtlinien_de.pdf" xml:lang="de" rel="documentation"/>
     <author>
       <name>Frederik Elwert</name>
       <email>frederik.elwert@rub.de</email>
@@ -17,7 +17,7 @@
     <issn>0943-8610</issn>
     <eissn>2194-508X</eissn>
     <summary>Footnote style for the Zeitschrift für Religionswissenschaft. Based on Chigago Manual of Style (16th edition).</summary>
-    <updated>2015-12-04T16:31:52+00:00</updated>
+    <updated>2015-12-16T02:35:11+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="en">
@@ -1184,7 +1184,7 @@
       </choose>
     </layout>
   </citation>
-  <bibliography hanging-indent="true" et-al-min="11" et-al-use-first="7" subsequent-author-substitute="———" entry-spacing="0">
+  <bibliography hanging-indent="true" et-al-min="11" et-al-use-first="7" subsequent-author-substitute="&#8212;&#8212;&#8212;" entry-spacing="0">
     <sort>
       <key macro="contributors-sort"/>
       <key variable="title"/>

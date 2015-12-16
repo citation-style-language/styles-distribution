@@ -12,7 +12,7 @@
     <category citation-format="author-date"/>
     <category field="generic-base"/>
     <summary>The SAGE Harvard author-date style</summary>
-    <updated>2015-08-28T04:04:23+00:00</updated>
+    <updated>2015-12-16T02:35:11+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="en-GB">
@@ -123,10 +123,10 @@
   <macro name="pages">
     <choose>
       <if type="chapter paper-conference" match="any">
-	<group delimiter=" " prefix=", ">
-        <label variable="page" form="short" suffix=" "/>
-        <text variable="page"/>
-	</group>
+        <group delimiter=" " prefix=", ">
+          <label variable="page" form="short" suffix=" "/>
+          <text variable="page"/>
+        </group>
       </if>
       <else-if type="article-journal">
         <text variable="page" prefix=": "/>
@@ -190,7 +190,7 @@
           <text variable="genre"/>
           <text macro="publisher"/>
           <text macro="published-date"/>
-	</group>
+        </group>
         <text macro="locator"/>
       </group>
       <text macro="pages"/>

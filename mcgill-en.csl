@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <style xmlns="http://purl.org/net/xbiblio/csl" version="1.0" class="note" default-locale="en-US">
   <info>
     <title>Canadian Guide to Uniform Legal Citation 7th edition (McGill Guide)</title>
@@ -19,7 +19,7 @@
     </contributor>
     <category citation-format="note"/>
     <category field="law"/>
-    <updated>2015-12-14T06:28:30+00:00</updated>
+    <updated>2015-12-16T02:35:11+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="en">

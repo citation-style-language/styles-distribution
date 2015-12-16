@@ -18,7 +18,7 @@
     <issn>0195-6108</issn>
     <eissn>1936-959X</eissn>
     <summary>The American Journal of Neuroradiology.</summary>
-    <updated>2015-08-25T06:18:34+00:00</updated>
+    <updated>2015-12-16T02:35:11+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <macro name="editor">
@@ -202,7 +202,7 @@
                 </group>
               </else>
             </choose>
-          </group>        
+          </group>
         </else>
       </choose>
     </layout>

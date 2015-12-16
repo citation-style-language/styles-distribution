@@ -16,7 +16,7 @@
     <category field="medicine"/>
     <eissn>1582-4934</eissn>
     <summary>The style for the Journal of Cellular and Molecular Medicine</summary>
-    <updated>2015-10-14T15:08:19+00:00</updated>
+    <updated>2015-12-16T02:35:11+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <macro name="author">
@@ -123,7 +123,7 @@
                 <text variable="page" form="short" prefix=" "/>
               </if>
               <else>
-		<text variable="DOI" form="short" prefix=" DOI: "/>
+                <text variable="DOI" form="short" prefix=" DOI: "/>
               </else>
             </choose>
           </group>
