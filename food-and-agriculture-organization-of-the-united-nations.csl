@@ -16,7 +16,7 @@
     <category field="social_science"/>
     <category field="generic-base"/>
     <summary>This style is created to meet the citation and bibliographical requirements of FAO House Style.</summary>
-    <updated>2015-12-16T02:35:11+00:00</updated>
+    <updated>2015-12-16T04:06:37+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="en">
@@ -48,7 +48,7 @@
   <macro name="author-short">
     <names variable="author">
       <name form="short" and="text" delimiter-precedes-et-al="never" delimiter-precedes-last="never" et-al-min="4" initialize-with="."/>
-      <et-al font-style="italic" prefix=" "/>
+      <et-al font-style="italic"/>
       <substitute>
         <names variable="editor"/>
         <names variable="translator"/>

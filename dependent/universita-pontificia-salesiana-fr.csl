@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<style xmlns="http://purl.org/net/xbiblio/csl" class="note" version="1.0" demote-non-dropping-particle="display-and-sort" default-locale="fr-FR">
+<style xmlns="http://purl.org/net/xbiblio/csl" version="1.0" default-locale="fr-FR">
   <info>
     <title>Università Pontificia Salesiana (French)</title>
     <title-short>UPS-fr</title-short>
@@ -14,7 +14,7 @@
     <category field="philosophy"/>
     <category field="social_science"/>
     <summary>Università Pontificia Salesiana (French)</summary>
-    <updated>2015-10-21T21:02:19+00:00</updated>
+    <updated>2015-12-16T04:06:37+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
 </style>

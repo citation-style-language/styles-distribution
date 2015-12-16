@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<style xmlns="http://purl.org/net/xbiblio/csl" class="in-text" version="1.0" demote-non-dropping-particle="sort-only" default-locale="en-US">
+<style xmlns="http://purl.org/net/xbiblio/csl" version="1.0" default-locale="en-US">
   <info>
     <title>Yakugaku Zasshi (Journal of the Pharmaceutical Society of Japan)</title>
     <id>http://www.zotero.org/styles/yakugaku-zasshi</id>
@@ -15,7 +15,7 @@
     <category field="chemistry"/>
     <issn>0031-6903</issn>
     <eissn>1347-5231</eissn>
-    <updated>2015-12-13T01:15:02+00:00</updated>
+    <updated>2015-12-16T04:06:37+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
 </style>
