@@ -16,7 +16,7 @@
     <category citation-format="author-date"/>
     <category field="generic-base"/>
     <summary>Based on the Harvard author-date style</summary>
-    <updated>2015-12-28T19:13:36+00:00</updated>
+    <updated>2015-12-29T17:15:11+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="de-AT">
@@ -92,12 +92,12 @@
   <macro name="year-date">
     <choose>
       <if variable="issued">
-        <date variable="issued" prefix=", ">
+        <date variable="issued">
           <date-part name="year"/>
         </date>
       </if>
       <else>
-        <text term="no date" form="short" prefix=", "/>
+        <text term="no date" form="short"/>
       </else>
     </choose>
   </macro>
@@ -133,10 +133,8 @@
   <citation et-al-min="6" et-al-use-first="1" et-al-subsequent-min="3" et-al-subsequent-use-first="1" disambiguate-add-names="true" disambiguate-add-givenname="true" disambiguate-add-year-suffix="true">
     <layout prefix="(" suffix=")" delimiter="; ">
       <group delimiter=", ">
-        <group>
-          <text macro="author-short"/>
-          <text macro="year-date"/>
-        </group>
+        <text macro="author-short"/>
+        <text macro="year-date"/>
         <group>
           <label suffix=" " variable="locator" form="short"/>
           <text variable="locator"/>
