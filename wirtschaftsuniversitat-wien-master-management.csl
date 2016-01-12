@@ -15,7 +15,7 @@
     <category citation-format="author-date"/>
     <category field="social_science"/>
     <summary>Citation style for WU Vienna’s Master Management. Based on the style APA 6th edition by Simon Kornblith et al.</summary>
-    <updated>2015-12-21T21:45:12+00:00</updated>
+    <updated>2016-01-12T14:27:56+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="en">
@@ -48,6 +48,7 @@
       <term name="ad">vom</term>
       <term name="et-al">et al.</term>
       <term name="presented at">Paper präsentiert bei der</term>
+      <term name="anonymous">Anonym</term>
     </terms>
   </locale>
   <macro name="container-contributors">
@@ -155,7 +156,7 @@
         <else>
           <choose>
             <if variable="DOI">
-              <text variable="DOI" prefix="http://doi.org/"/>
+              <text variable="DOI" prefix="DOI: "/>
             </if>
             <else>
               <choose>
