@@ -27,7 +27,7 @@
     <category citation-format="author-date"/>
     <category field="psychology"/>
     <category field="generic-base"/>
-    <updated>2015-11-07T18:30:13+00:00</updated>
+    <updated>2016-01-15T03:58:00+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="en">
@@ -284,7 +284,7 @@
       <else-if type="post-weblog webpage" match="none">
         <group delimiter=", ">
           <choose>
-            <if variable="event version" type="speech" match="none">
+            <if variable="event version" type="speech motion_picture" match="none">
               <!-- Including version is to avoid printing the programming language for computerProgram /-->
               <text variable="genre"/>
             </if>
