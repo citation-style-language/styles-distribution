@@ -13,7 +13,7 @@
     <category citation-format="numeric"/>
     <category field="science"/>
     <summary>Manual of Style for the IAEA</summary>
-    <updated>2015-08-09T02:13:24+00:00</updated>
+    <updated>2016-01-16T21:15:18+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale>
@@ -60,8 +60,8 @@
   </macro>
   <macro name="publisher">
     <group delimiter=", ">
-      <text variable="publisher-place"/>
       <text variable="publisher"/>
+      <text variable="publisher-place"/>
     </group>
   </macro>
   <macro name="volume">
