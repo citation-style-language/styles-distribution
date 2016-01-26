@@ -11,7 +11,7 @@
     <issn>1099-5129</issn>
     <eissn>1532-2092</eissn>
     <summary>ESC style, but with short page ranges and et al</summary>
-    <updated>2016-01-25T05:00:15+00:00</updated>
+    <updated>2016-01-26T04:44:25+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="en">
@@ -60,7 +60,7 @@
       <if variable="URL" type="webpage" match="all">
         <group delimiter=" ">
           <text variable="URL"/>
-	  <date variable="accessed" form="text" prefix="(" suffix=")"/>
+          <date variable="accessed" form="text" prefix="(" suffix=")"/>
         </group>
       </if>
     </choose>
@@ -68,11 +68,11 @@
   <macro name="container-title">
     <choose>
       <if type="article-magazine chapter paper-conference article-newspaper" match="any">
-          <text variable="container-title" font-style="italic"/>
+        <text variable="container-title" font-style="italic"/>
         <text macro="edition" prefix=" "/>
       </if>
       <else-if type="article-journal">
-	<text variable="container-title" font-style="italic" form="short" strip-periods="true"/>
+        <text variable="container-title" font-style="italic" form="short" strip-periods="true"/>
       </else-if>
       <!--add event-name and event-place once they become available-->
       <else-if type="bill legislation" match="any">
@@ -207,4 +207,3 @@
     </layout>
   </bibliography>
 </style>
-

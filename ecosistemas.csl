@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<style class="in-text" version="1.0" demote-non-dropping-particle="sort-only" default-locale="es-ES" xmlns="http://purl.org/net/xbiblio/csl">
+<?xml version="1.0" encoding="utf-8"?>
+<style xmlns="http://purl.org/net/xbiblio/csl" class="in-text" version="1.0" demote-non-dropping-particle="sort-only" default-locale="es-ES">
   <!-- This style was edited with the Visual CSL Editor (http://editor.citationstyles.org/visualEditor/) -->
   <info>
     <title>Ecosistemas (Spanish)</title>
@@ -18,7 +18,7 @@
     <category field="science"/>
     <eissn>1697-2473</eissn>
     <summary>Ecosistemas author-date style</summary>
-    <updated>2016-01-21T21:41:20+00:00</updated>
+    <updated>2016-01-26T04:44:25+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <macro name="editor">

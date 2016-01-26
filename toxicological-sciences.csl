@@ -4,8 +4,8 @@
     <title>Toxicological Sciences</title>
     <id>http://www.zotero.org/styles/toxicological-sciences</id>
     <link href="http://www.zotero.org/styles/toxicological-sciences" rel="self"/>
-    <link href="http://www.oxfordjournals.org/our_journals/toxsci/for_authors/msprep_submission.html" rel="documentation"/>
     <link href="http://www.zotero.org/styles/bioinformatics" rel="template"/>
+    <link href="http://www.oxfordjournals.org/our_journals/toxsci/for_authors/msprep_submission.html" rel="documentation"/>
     <author>
       <name>Lyle Burgoon</name>
       <email>burgoon.lyle@gmail.com</email>
@@ -15,7 +15,7 @@
     <issn>1096-6080</issn>
     <eissn>1096-0929</eissn>
     <summary>The Toxicological Sciences Journal style.</summary>
-    <updated>2016-01-10T02:31:16+00:00</updated>
+    <updated>2016-01-26T04:44:25+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <macro name="editor">

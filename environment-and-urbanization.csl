@@ -14,7 +14,7 @@
     <issn>0956-2478</issn>
     <eissn>1746-0301</eissn>
     <summary>Style calls for endnote symbols in parentheses, which CSL can't do</summary>
-    <updated>2016-01-13T06:49:37+00:00</updated>
+    <updated>2016-01-26T04:44:25+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale>
@@ -122,7 +122,7 @@
             <text variable="volume"/>
           </group>
           <group delimiter=" ">
-            <text term="issue" form="short" text-case="capitalize-first"  strip-periods="true"/>
+            <text term="issue" form="short" text-case="capitalize-first" strip-periods="true"/>
             <text variable="issue"/>
           </group>
         </group>
@@ -215,7 +215,7 @@
               <text term="accessed"/>
               <date variable="accessed" form="text"/>
               <text term="at"/>
-              <text variable="URL" />
+              <text variable="URL"/>
             </group>
           </if>
           <else>

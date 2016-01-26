@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<style class="in-text" version="1.0" demote-non-dropping-particle="sort-only" default-locale="de-AT" xmlns="http://purl.org/net/xbiblio/csl">
-<!-- This style was edited with the Visual CSL Editor (http://editor.citationstyles.org/visualEditor/) -->
+<style xmlns="http://purl.org/net/xbiblio/csl" class="in-text" version="1.0" demote-non-dropping-particle="sort-only" default-locale="de-AT">
+  <!-- This style was edited with the Visual CSL Editor (http://editor.citationstyles.org/visualEditor/) -->
   <info>
     <title>Ferdinand Porsche Fern-Fachhochschule (German - Austria)</title>
     <title-short>Ferdinand Porsche FernFH (German - Austria)</title-short>
@@ -16,7 +16,7 @@
     <category citation-format="author-date"/>
     <category field="generic-base"/>
     <summary>Based on the Harvard author-date style</summary>
-    <updated>2015-12-29T17:15:11+00:00</updated>
+    <updated>2016-01-26T04:44:25+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="de-AT">
