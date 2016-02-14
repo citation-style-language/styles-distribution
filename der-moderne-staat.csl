@@ -15,9 +15,14 @@
     <issn>1865-7192</issn>
     <eissn>2196-1395</eissn>
     <summary>der moderne staat</summary>
-    <updated>2015-03-19T02:36:13+00:00</updated>
+    <updated>2016-02-14T13:38:07+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
+  <locale xml:lang="de">
+    <terms>
+      <term name="et-al">u.a.</term>
+    </terms>
+  </locale>
   <macro name="editor">
     <names variable="editor" font-style="italic" delimiter=", ">
       <name delimiter="/" suffix=" " name-as-sort-order="all"/>
