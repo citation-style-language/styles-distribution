@@ -21,12 +21,12 @@
     <category field="anthropology"/>
     <issn>0220-6617</issn>
     <eissn>1951-6207</eissn>
-    <updated>2015-01-24T18:58:15+00:00</updated>
+    <updated>2016-02-18T19:12:09+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <macro name="author">
     <names variable="author" suffix=". - ">
-      <name sort-separator=" " initialize-with=". " name-as-sort-order="all" delimiter=", " delimiter-precedes-last="never" and="text"> 
+      <name sort-separator=" " initialize-with=". " name-as-sort-order="all" delimiter=", " delimiter-precedes-last="never" and="text">
       </name>
       <label form="short" prefix=", " suffix=". " text-case="uppercase" strip-periods="true"/>
       <substitute>
@@ -36,7 +36,7 @@
   </macro>
   <macro name="editor-biblio">
     <names variable="editor" suffix=". ">
-      <name sort-separator=" " initialize-with=". " name-as-sort-order="all" delimiter=", " delimiter-precedes-last="never" and="text"> 
+      <name sort-separator=" " initialize-with=". " name-as-sort-order="all" delimiter=", " delimiter-precedes-last="never" and="text">
       </name>
     </names>
   </macro>

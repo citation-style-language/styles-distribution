@@ -3,7 +3,7 @@
   <info>
     <title>Clinical Gastroenterology and Hepatology</title>
     <id>http://www.zotero.org/styles/clinical-gastroenterology-and-hepatology</id>
-    <link rel="self" href="http://www.zotero.org/styles/clinical-gastroenterology-and-hepatology"/>
+    <link href="http://www.zotero.org/styles/clinical-gastroenterology-and-hepatology" rel="self"/>
     <link href="http://www.zotero.org/styles/american-medical-association" rel="template"/>
     <link href="http://www.cghjournal.org/content/authorinfo" rel="documentation"/>
     <author>
@@ -15,7 +15,7 @@
     <issn>1542-3565</issn>
     <eissn>1542-7714</eissn>
     <summary>This journal uses an adapted AMA style with 4/3 et-al rule and no italics for journal titles or book titles.</summary>
-    <updated>2016-02-01T22:02:30+00:00</updated>
+    <updated>2016-02-18T19:12:09+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="en">

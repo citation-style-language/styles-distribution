@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<style class="in-text" version="1.0" demote-non-dropping-particle="sort-only" default-locale="en-US" xmlns="http://purl.org/net/xbiblio/csl">
+<style xmlns="http://purl.org/net/xbiblio/csl" class="in-text" version="1.0" demote-non-dropping-particle="sort-only" default-locale="en-US">
   <info>
     <title>Florida Entomologist</title>
     <id>http://www.zotero.org/styles/florida-entomologist</id>
@@ -16,7 +16,7 @@
     <issn>0015-4040</issn>
     <eissn>1938-5102</eissn>
     <summary>The Florida Entomologist style.</summary>
-    <updated>2016-02-16T19:42:14+00:00</updated>
+    <updated>2016-02-18T19:12:09+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="en-US">

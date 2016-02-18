@@ -11,7 +11,7 @@
     <category field="medicine"/>
     <issn>0028-3878</issn>
     <eissn>1526-632X</eissn>
-    <updated>2016-02-01T13:32:55+00:00</updated>
+    <updated>2016-02-18T19:12:09+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <macro name="author">
@@ -163,7 +163,7 @@
           </if>
           <else>
             <group prefix="Epub " suffix=".">
-              <date variable="issued"  delimiter=" ">
+              <date variable="issued" delimiter=" ">
                 <date-part name="year"/>
                 <date-part name="month" form="short" strip-periods="true"/>
                 <date-part name="day"/>
