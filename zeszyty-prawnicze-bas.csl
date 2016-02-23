@@ -5,7 +5,7 @@
     <title>Zeszyty Prawnicze BAS (Polish)</title>
     <id>http://www.zotero.org/styles/zeszyty-prawnicze-bas</id>
     <link href="http://www.zotero.org/styles/zeszyty-prawnicze-bas" rel="self"/>
-    <link href="http://www.zotero.org/styles/studia-bas" rel="template"/>
+    <link href="https://www.zotero.org/styles/studia-bas" rel="template"/>
     <link href="http://orka.sejm.gov.pl/WydBAS.nsf/PDF/ZP-wsk/$File/ZP_wskazowki_dla_autorow.pdf" rel="documentation"/>
     <author>
       <name>Grzegorz Balcerowski</name>
@@ -17,7 +17,7 @@
     <issn>2082-064X</issn>
     <eissn>1896-9852</eissn>
     <summary>A style for Bureau of Research "Zeszyty Prawnicze BAS" journal citation</summary>
-    <updated>2016-02-21T23:06:27+00:00</updated>
+    <updated>2014-12-05T04:18:39+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <macro name="editor-translator">
