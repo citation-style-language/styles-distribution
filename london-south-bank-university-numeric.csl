@@ -6,7 +6,7 @@
     <title-short>lsbu-numeric</title-short>
     <id>http://www.zotero.org/styles/london-south-bank-university-numeric</id>
     <link href="http://www.zotero.org/styles/london-south-bank-university-numeric" rel="self"/>
-    <link href="https://www.zotero.org/styles/the-open-university-numeric" rel="template"/>
+    <link href="http://www.zotero.org/styles/the-open-university-numeric" rel="template"/>
     <link href="https://my.lsbu.ac.uk/assets/documents/library/Numeric%20referencing%20helpsheet%2028.pdf" rel="documentation"/>
     <author>
       <name>Kevin O'Donovan</name>
@@ -19,7 +19,7 @@
     <category citation-format="numeric"/>
     <category field="generic-base"/>
     <summary>The London South Bank University numeric style</summary>
-    <updated>2015-01-18T11:36:24+00:00</updated>
+    <updated>2016-02-21T23:06:27+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <macro name="editor">
