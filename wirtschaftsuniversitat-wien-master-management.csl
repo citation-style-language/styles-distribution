@@ -4,7 +4,7 @@
   <info>
     <title>Wirtschaftsuniversität Wien - Master Management</title>
     <id>http://www.zotero.org/styles/wirtschaftsuniversitat-wien-master-management</id>
-    <link href="http://www.zotero.org/styles/wirtschaftsuniversitat-wien-master-management" rel="self"/>
+    <link href="http://www.zotero.org/styles/wirtschaftsuniversitat-wien-master-management.csl" rel="self"/>
     <link href="http://www.zotero.org/styles/apa" rel="template"/>
     <link href="http://wu.ac.at/library" rel="documentation"/>
     <author>
@@ -15,7 +15,7 @@
     <category citation-format="author-date"/>
     <category field="social_science"/>
     <summary>Citation style for WU Vienna’s Master Management. Based on the style APA 6th edition by Simon Kornblith et al.</summary>
-    <updated>2016-02-21T23:08:32+00:00</updated>
+    <updated>2016-01-26T04:44:25+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="en">
