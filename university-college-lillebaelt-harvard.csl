@@ -10,7 +10,7 @@
       <email>roaldfrosig@gmail.com</email>
     </author>
     <category citation-format="author-date"/>
-    <updated>2016-02-23T14:12:20+00:00</updated>
+    <updated>2015-04-16T01:55:02+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="da">
@@ -149,15 +149,7 @@
     </group>
   </macro>
   <macro name="legal-date">
-    <choose>
-      <if variable="number">
-        <text variable="number"/>
-      </if>
-      <else>
-        <text variable="volume"/>
-      </else>
-    </choose>
-<!--    <number variable="volume"/> -->
+    <number variable="volume"/>
     <date variable="issued" prefix=" af " delimiter="/">
       <date-part name="day" form="numeric-leading-zeros"/>
       <date-part name="month" form="numeric-leading-zeros"/>
