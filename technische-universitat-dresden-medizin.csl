@@ -5,7 +5,7 @@
     <title-short>TUD Medizin</title-short>
     <id>http://www.zotero.org/styles/technische-universitat-dresden-medizin</id>
     <link href="http://www.zotero.org/styles/technische-universitat-dresden-medizin" rel="self"/>
-    <link href="https://www.zotero.org/styles/harvard1" rel="template"/>
+    <link href="http://www.zotero.org/styles/harvard1" rel="template"/>
     <link href="http://tu-dresden.de/die_tu_dresden/fakultaeten/medizinische_fakultaet/forschung/die_tu_dresden/fakultaeten/medizinische_fakultaet/forschung/dokumente/dok_akadgrad/documents_newpromordnung/zitierrichtinien_fuer_die_dissertation_formblatt9.0" xml:lang="DE-de" rel="documentation"/>
     <author>
       <name>Jens Mittelbach</name>
@@ -15,7 +15,7 @@
     <category citation-format="author-date"/>
     <category field="medicine"/>
     <summary>Zitierstil entsprechend den Zitierrichtlinien für die Dissertation, Medizinische Fakultät Carl Gustav Carus, Technische Universität Dresden. Stil basiert auf dem Zitierstil der Zeitschrift Human Mutation</summary>
-    <updated>2015-08-28T17:26:48+00:00</updated>
+    <updated>2016-02-25T04:55:40+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="de">

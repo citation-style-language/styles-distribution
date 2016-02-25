@@ -6,7 +6,7 @@
     <title-short>TUD WiWi</title-short>
     <id>http://www.zotero.org/styles/technische-universitat-dresden-wirtschaftswissenschaften</id>
     <link href="http://www.zotero.org/styles/technische-universitat-dresden-wirtschaftswissenschaften" rel="self"/>
-    <link href="https://www.zotero.org/styles/technische-universitat-wien" rel="template"/>
+    <link href="http://www.zotero.org/styles/technische-universitat-wien" rel="template"/>
     <link href="https://secure-redaktion.tu-dresden.de/die_tu_dresden/fakultaeten/fakultaet_wirtschaftswissenschaften/bwl/lei/dateien/Leitfaden-Abschlussarbeiten_13-01-13.pdf" xml:lang="DE-de" rel="documentation"/>
     <author>
       <name>Jens Mittelbach</name>
@@ -16,7 +16,7 @@
     <category citation-format="note"/>
     <category field="social_science"/>
     <summary>Zitierstil entsprechend dem Leitfaden zur Anfertigung wissenschaftlicher Arbeiten am Lehrstuhl für Entrepreneurship und Innovation, Fakultät Wirtschaftswissenschaften, Technische Universität Dresden</summary>
-    <updated>2014-09-11T02:57:16+00:00</updated>
+    <updated>2016-02-25T04:55:40+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="de">

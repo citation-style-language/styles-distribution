@@ -6,7 +6,7 @@
     <title-short>ZfR (author-date)</title-short>
     <id>http://www.zotero.org/styles/zeitschrift-fur-religionswissenschaft-author-date</id>
     <link href="http://www.zotero.org/styles/zeitschrift-fur-religionswissenschaft-author-date" rel="self"/>
-    <link href="https://www.zotero.org/styles/american-sociological-association" rel="template"/>
+    <link href="http://www.zotero.org/styles/american-sociological-association" rel="template"/>
     <link href="http://www.degruyter.com/view/supplement/s2194508X_Manuskriptrichtlinien_de.pdf" xml:lang="de" rel="documentation"/>
     <author>
       <name>Frederik Elwert</name>
@@ -17,7 +17,7 @@
     <issn>0943-8610</issn>
     <eissn>2194-508X</eissn>
     <summary>Author-year style for the Zeitschrift für Religionswissenschaft. Based on the ASA style.</summary>
-    <updated>2015-12-16T02:35:11+00:00</updated>
+    <updated>2016-02-25T04:55:40+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="de">
