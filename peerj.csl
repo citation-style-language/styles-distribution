@@ -14,7 +14,7 @@
     <category field="biology"/>
     <eissn>2167-8359</eissn>
     <summary>style for the journal PeerJ</summary>
-    <updated>2015-06-26T10:55:30+00:00</updated>
+    <updated>2016-02-25T20:36:58+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <macro name="author">
@@ -147,6 +147,7 @@
           </group>
         </else>
       </choose>
+      <text variable="DOI" prefix=". DOI: " suffix="."/>
     </layout>
   </bibliography>
 </style>
