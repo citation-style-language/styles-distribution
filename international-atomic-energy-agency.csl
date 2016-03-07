@@ -13,7 +13,7 @@
     <category citation-format="numeric"/>
     <category field="science"/>
     <summary>Manual of Style for the IAEA</summary>
-    <updated>2016-02-07T22:25:06+00:00</updated>
+    <updated>2016-03-07T13:46:43+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale>
@@ -139,7 +139,7 @@
     <sort>
       <key variable="citation-number"/>
     </sort>
-    <layout delimiter="," prefix="[" suffix="]">
+    <layout delimiter=", " prefix="[" suffix="]">
       <text variable="citation-number"/>
     </layout>
   </citation>
