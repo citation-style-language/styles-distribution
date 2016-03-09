@@ -23,7 +23,7 @@
     <category citation-format="numeric"/>
     <category field="medicine"/>
     <summary>Vancouver style as outlined by International Committee of Medical Journal Editors Uniform Requirements for Manuscripts Submitted to Biomedical Journals: Sample References.  Modified to use brackets and to list all authors in the bibliography.</summary>
-    <updated>2015-12-16T02:35:11+00:00</updated>
+    <updated>2016-02-24T22:21:04+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="en">
@@ -33,6 +33,10 @@
       <date-part name="day"/>
     </date>
     <terms>
+      <term name="collection-editor" form="long">
+        <single>editor</single>
+        <multiple>editors</multiple>
+      </term>
       <term name="presented at">presented at</term>
       <term name="retrieved">available</term>
       <term name="section" form="short">sect.</term>
@@ -157,7 +161,17 @@
         </group>
       </else-if>
       <else>
-        <text variable="container-title" suffix="."/>
+        <group delimiter=", " suffix=".">
+          <choose>
+            <if variable="collection-title" match="none">
+              <group delimiter=" ">
+                <label variable="volume" form="short" text-case="capitalize-first"/>
+                <text variable="volume"/>
+              </group>
+            </if>
+          </choose>
+          <text variable="container-title"/>
+        </group>
       </else>
     </choose>
   </macro>
@@ -281,6 +295,29 @@
       </if>
     </choose>
   </macro>
+  <macro name="collection-details">
+    <choose>
+      <if type="article-journal article-magazine article-newspaper review review-book" match="none">
+        <choose>
+          <if variable="collection-title">
+            <group delimiter=" " prefix="(" suffix=")">
+              <names variable="collection-editor" suffix=".">
+                <name sort-separator=" " initialize-with="" name-as-sort-order="all" delimiter=", " delimiter-precedes-last="always"/>
+                <label form="long" prefix=", "/>
+              </names>
+              <group delimiter="; ">
+                <text variable="collection-title"/> 
+                <group delimiter=" ">
+                  <label variable="volume" form="short"/>
+                  <text variable="volume"/>
+                </group>
+              </group>
+            </group>
+          </if>
+        </choose>
+      </if>
+    </choose>
+  </macro>
   <macro name="report-details">
     <choose>
       <if type="report">
@@ -313,6 +350,7 @@
           <text macro="pages"/>
         </group>
       </group>
+      <text macro="collection-details" suffix=". "/>
       <text macro="report-details" suffix=". "/>
       <text macro="access"/>
     </layout>
