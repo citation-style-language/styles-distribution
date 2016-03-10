@@ -14,7 +14,7 @@
     <category citation-format="numeric"/>
     <category field="medicine"/>
     <summary>A style for journals in the NIHR Journals Library, resembles Vancouver style</summary>
-    <updated>2016-02-18T19:12:09+00:00</updated>
+    <updated>2016-03-10T03:15:38+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <macro name="access">
@@ -52,7 +52,7 @@
     <names variable="editor">
       <name form="long" initialize="true" initialize-with="" delimiter=", " delimiter-precedes-last="always" name-as-sort-order="all" sort-separator=" "/>
       <label form="long" prefix=", " plural="contextual"/>
-      <et-al font-style="italic" prefix=" "/>
+      <et-al font-style="italic"/>
     </names>
   </macro>
   <macro name="year-date">
