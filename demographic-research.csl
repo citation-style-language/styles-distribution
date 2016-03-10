@@ -3,7 +3,7 @@
   <info>
     <title>Demographic Research</title>
     <id>http://www.zotero.org/styles/demographic-research</id>
-    <link rel="self" href="http://www.zotero.org/styles/demographic-research"/>
+    <link href="http://www.zotero.org/styles/demographic-research" rel="self"/>
     <link href="http://www.zotero.org/styles/harvard-cardiff-university-biosi" rel="template"/>
     <link href="http://www.demographic-research.org/files/demographic_research_reference_guidelines.pdf" rel="documentation"/>
     <author>
@@ -18,7 +18,7 @@
     <category field="social_science"/>
     <issn>1435-9871</issn>
     <eissn>2363-7064</eissn>
-    <updated>2016-02-29T21:19:14+00:00</updated>
+    <updated>2016-03-10T03:00:48+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="en-GB">

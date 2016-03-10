@@ -14,7 +14,7 @@
     <category citation-format="numeric"/>
     <category field="medicine"/>
     <summary>Adaptation en français de la norme Vancouver, basée sur le guide des Bibliothèques de l'Université de Montréal.</summary>
-    <updated>2016-02-24T22:21:04+00:00</updated>
+    <updated>2016-03-10T03:00:48+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale>
@@ -148,7 +148,6 @@
           </choose>
           <text variable="container-title"/>
         </group>
-
       </else>
     </choose>
   </macro>
@@ -275,7 +274,7 @@
                 <label form="long" prefix=", "/>
               </names>
               <group delimiter="; ">
-                <text variable="collection-title"/> 
+                <text variable="collection-title"/>
                 <group delimiter=" ">
                   <label variable="volume" form="short"/>
                   <text variable="volume"/>

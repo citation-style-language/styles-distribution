@@ -10,7 +10,7 @@
       <email>roaldfrosig@gmail.com</email>
     </author>
     <category citation-format="author-date"/>
-    <updated>2016-02-23T14:12:20+00:00</updated>
+    <updated>2016-03-10T03:00:48+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="da">
@@ -157,7 +157,7 @@
         <text variable="volume"/>
       </else>
     </choose>
-<!--    <number variable="volume"/> -->
+    <!--    <number variable="volume"/> -->
     <date variable="issued" prefix=" af " delimiter="/">
       <date-part name="day" form="numeric-leading-zeros"/>
       <date-part name="month" form="numeric-leading-zeros"/>

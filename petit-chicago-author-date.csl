@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<style xmlns="http://purl.org/net/xbiblio/csl" class="in-text" version="1.0"  demote-non-dropping-particle="never" page-range-format="chicago" default-locale="fr-CA">
+<style xmlns="http://purl.org/net/xbiblio/csl" class="in-text" version="1.0" demote-non-dropping-particle="never" page-range-format="chicago" default-locale="fr-CA">
   <info>
     <title>Petit Chicago (author-date, French - Canada)</title>
     <title-short>Petit Chicago</title-short>
@@ -14,7 +14,7 @@
     <category citation-format="author-date"/>
     <category field="sociology"/>
     <summary>Style de département de sociologie de l'Université de Montréal. Plus d'informations au http://guides.bib.umontreal.ca/disciplines/159-Sociologie</summary>
-    <updated>2016-02-20T20:10:45+00:00</updated>
+    <updated>2016-03-10T03:00:48+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale>
@@ -50,13 +50,13 @@
   </macro>
   <macro name="editor">
     <names variable="editor">
-      <name and="text" delimiter=", " delimiter-precedes-last="never" name-as-sort-order="first" >
+      <name and="text" delimiter=", " delimiter-precedes-last="never" name-as-sort-order="first">
         <name-part name="family" font-variant="small-caps"/>
       </name>
       <label form="short" prefix=" (" suffix=")"/>
     </names>
     <names variable="container-author">
-      <name and="text" delimiter=", " delimiter-precedes-last="never" name-as-sort-order="first" >
+      <name and="text" delimiter=", " delimiter-precedes-last="never" name-as-sort-order="first">
         <name-part name="family" font-variant="small-caps"/>
       </name>
     </names>
@@ -119,7 +119,7 @@
     </choose>
   </macro>
   <macro name="book-rendering">
-  	<text macro="contributors" suffix=". "/>
+    <text macro="contributors" suffix=". "/>
     <group delimiter=", ">
       <text variable="title" font-style="italic"/>
       <text variable="genre"/>
@@ -180,7 +180,7 @@
         </if>
       </choose>
       <text variable="volume" prefix="vol.&#160;"/>
-      <text variable="issue" prefix="n&#186;"/>
+      <text variable="issue" prefix="nº"/>
       <text macro="issued"/>
       <text variable="page" prefix="p.&#160;"/>
     </group>
@@ -225,14 +225,14 @@
     </choose>
   </macro>
   <macro name="in-text-locators">
-        <group delimiter=" ">
-          <choose>
-            <if locator="page" match="none">
-              <label variable="locator" form="short"/>
-            </if>
-          </choose>
-          <text variable="locator"/>
-        </group>
+    <group delimiter=" ">
+      <choose>
+        <if locator="page" match="none">
+          <label variable="locator" form="short"/>
+        </if>
+      </choose>
+      <text variable="locator"/>
+    </group>
   </macro>
   <macro name="sort-by-contributors">
     <names variable="author">
