@@ -15,7 +15,7 @@
     <category citation-format="author-date"/>
     <category field="social_science"/>
     <summary>Zitierstil entsprechend den Zitierrichtlinien des Lehrstuhls  Betriebswirtschaftslehre, insbesondere Logistik,der Fakultät Wirtschaftswissenschaften, Technische Universität Dresden.</summary>
-    <updated>2016-03-14T13:45:37+00:00</updated>
+    <updated>2016-03-14T14:41:40+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="de">
@@ -199,15 +199,11 @@
                 <text variable="event" suffix=", "/>
                 <text variable="event-place" suffix=", "/>
               </else-if>
-              <else-if type="webpage" match="any">
+              <else>
                 <group delimiter=": " suffix=", ">
                   <text term="in" text-case="capitalize-first"/>
                   <text variable="container-title"/>
                 </group>
-              </else-if>
-              <else>
-                <text term="in" text-case="capitalize-first" suffix=": "/>
-                <text variable="container-title" suffix=", "/>
               </else>
             </choose>
             <group delimiter=", ">
