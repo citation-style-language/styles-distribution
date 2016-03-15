@@ -16,7 +16,7 @@
     <issn>0322-8916</issn>
     <eissn>1805-6555</eissn>
     <summary>Style for articles in english for journal VTEI. Style is based on ČSN ISO 690:2011</summary>
-    <updated>2016-03-09T14:36:31+00:00</updated>
+    <updated>2016-03-10T11:08:39+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale>
@@ -386,7 +386,14 @@
     </choose>
   </macro>
   <macro name="isbn">
-    <text variable="ISBN" prefix="ISBN "/>
+    <choose>
+      <if variable="ISBN">
+        <text variable="ISBN" prefix="ISBN "/>
+      </if>
+      <else>
+        <text macro="issn"/>
+      </else>
+    </choose>
   </macro>
   <macro name="issn">
     <text variable="ISSN" prefix="ISSN "/>

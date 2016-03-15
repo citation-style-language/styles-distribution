@@ -16,7 +16,7 @@
     <category citation-format="note"/>
     <category field="generic-base"/>
     <summary>Style based on ČSN ISO 690:2011</summary>
-    <updated>2014-08-30T16:59:28+00:00</updated>
+    <updated>2016-03-15T10:59:24+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale>
@@ -372,7 +372,14 @@
     </choose>
   </macro>
   <macro name="isbn">
-    <text variable="ISBN" prefix="ISBN "/>
+    <choose>
+      <if variable="ISBN">
+        <text variable="ISBN" prefix="ISBN "/>
+      </if>
+      <else>
+        <text macro="issn"/>
+      </else>
+    </choose>
   </macro>
   <macro name="issn">
     <text variable="ISSN" prefix="ISSN "/>
@@ -381,15 +388,13 @@
     <choose>
       <if variable="DOI">
         <group>
-          <text term="retrieved" suffix=" " text-case="capitalize-first"/>
-          <text term="from" suffix=": doi:"/>
+          <text term="available at" suffix=": doi:" text-case="capitalize-first"/>
           <text variable="DOI"/>
         </group>
       </if>
       <else-if variable="URL">
         <group>
-          <text term="retrieved" suffix=" " text-case="capitalize-first"/>
-          <text term="from" suffix=": "/>
+          <text term="available at" suffix=": " text-case="capitalize-first"/>
           <text variable="URL"/>
         </group>
       </else-if>
