@@ -11,7 +11,7 @@
       <email>roaldfrosig@gmail.com</email>
     </author>
     <category citation-format="author-date"/>
-    <updated>2016-02-23T12:57:25+00:00</updated>
+    <updated>2016-04-07T09:28:55+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="da">
@@ -19,6 +19,7 @@
       <term name="accessed">lokaliseret</term>
       <term name="no date" form="short">u.å.</term>
       <term name="in">i:</term>
+      <term name="et-al">et al.</term>
     </terms>
   </locale>
   <locale xml:lang="en">
