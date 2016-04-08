@@ -16,7 +16,7 @@
     <issn>1440-2440</issn>
     <eissn>1878-1861</eissn>
     <summary>A style for some Elsevier journals, resembles Vancouver style</summary>
-    <updated>2014-10-17T00:26:43+00:00</updated>
+    <updated>2016-04-08T19:13:32+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <macro name="access">
@@ -38,7 +38,7 @@
   </macro>
   <macro name="author">
     <names variable="author">
-      <name form="long" initialize="false" delimiter=", " delimiter-precedes-last="always" name-as-sort-order="all" sort-separator=" "/>
+      <name form="long" initialize="true" initialize-with="" delimiter=", " delimiter-precedes-last="always" name-as-sort-order="all" sort-separator=" "/>
       <label form="long" prefix=", "/>
       <substitute>
         <names variable="editor"/>
