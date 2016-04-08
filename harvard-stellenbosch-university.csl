@@ -13,7 +13,7 @@
     </author>
     <category citation-format="author-date"/>
     <category field="generic-base"/>
-    <updated>2015-12-16T04:06:37+00:00</updated>
+    <updated>2016-04-07T13:55:29+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xmlns="http://purl.org/net/xbiblio/csl" xml:lang="en-GB">
@@ -63,7 +63,7 @@
   </macro>
   <macro name="author-short">
     <names variable="author">
-      <name form="short" and="symbol" delimiter-precedes-last="never" et-al-min="6" et-al-use-first="5" et-al-subsequent-min="3" et-al-subsequent-use-first="1" initialize-with="." sort-separator=" "/>
+      <name form="short" and="symbol" delimiter-precedes-last="never" et-al-min="10" et-al-use-first="5" et-al-subsequent-min="3" et-al-subsequent-use-first="1" initialize-with="." sort-separator=" "/>
       <et-al font-style="italic"/>
       <substitute>
         <names variable="editor"/>
