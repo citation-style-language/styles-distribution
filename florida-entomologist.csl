@@ -16,7 +16,7 @@
     <issn>0015-4040</issn>
     <eissn>1938-5102</eissn>
     <summary>The Florida Entomologist style.</summary>
-    <updated>2016-02-18T19:12:09+00:00</updated>
+    <updated>2016-04-14T14:25:08+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="en-US">
@@ -48,7 +48,7 @@
   </macro>
   <macro name="author-short">
     <names variable="author">
-      <name form="short" delimiter=" " and="text" delimiter-precedes-last="never" initialize-with=". "/>
+      <name form="short" delimiter=" " and="symbol" delimiter-precedes-last="never" initialize-with=". "/>
       <et-al font-style="normal"/>
       <substitute>
         <names variable="editor"/>
@@ -156,7 +156,7 @@
       <key macro="year-date"/>
       <key macro="author-short"/>
     </sort>
-    <layout delimiter=", " prefix="(" suffix=")">
+    <layout delimiter="; " prefix="(" suffix=")">
       <group delimiter=", ">
         <group delimiter=" ">
           <text macro="author-short"/>
