@@ -18,7 +18,7 @@
     <category citation-format="numeric"/>
     <category field="generic-base"/>
     <summary>A style for many of Elsevier's journals that includes article titles in the reference list</summary>
-    <updated>2015-01-21T22:37:41+00:00</updated>
+    <updated>2016-04-21T15:20:00+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <macro name="author">
@@ -87,7 +87,7 @@
       <text variable="citation-number"/>
     </layout>
   </citation>
-  <bibliography entry-spacing="0" second-field-align="flush" et-al-min="7" et-al-use-first="6">
+  <bibliography entry-spacing="0" second-field-align="flush">
     <layout suffix=".">
       <text variable="citation-number" prefix="[" suffix="]"/>
       <text macro="author" suffix=", "/>
