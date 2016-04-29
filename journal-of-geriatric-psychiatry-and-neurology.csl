@@ -5,7 +5,7 @@
     <id>http://www.zotero.org/styles/journal-of-geriatric-psychiatry-and-neurology</id>
     <link href="http://www.zotero.org/styles/journal-of-geriatric-psychiatry-and-neurology" rel="self"/>
     <link href="http://www.zotero.org/styles/american-medical-association" rel="template"/>
-    <link href="http://www.sagepub.com/journals/Journal201662/manuscriptSubmission" rel="documentation"/>
+    <link href="https://us.sagepub.com/en-us/nam/journal-of-geriatric-psychiatry-and-neurology/journal201662#submission-guidelines" rel="documentation"/>
     <author>
       <name>Sebastian Karcher</name>
     </author>
@@ -13,7 +13,7 @@
     <category field="medicine"/>
     <issn>0891-9887</issn>
     <summary>The American Medical Association style  without DOIs. Based on published articles, e.g. doi: 10.1177/0891988713490992  which diverge slightly from instructions to authors</summary>
-    <updated>2014-09-06T22:02:33+00:00</updated>
+    <updated>2016-04-29T18:57:48+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <macro name="editor">
