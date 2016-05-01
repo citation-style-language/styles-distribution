@@ -3,19 +3,19 @@
   <info>
     <title>Canadian Journal of Economics</title>
     <id>http://www.zotero.org/styles/canadian-journal-of-economics</id>
-    <link rel="self" href="http://www.zotero.org/styles/canadian-journal-of-economics"/>
-    <link rel="documentation" href="http://economics.ca/cje/en/style.php"/>
+    <link href="http://www.zotero.org/styles/canadian-journal-of-economics" rel="self"/>
     <link href="http://www.zotero.org/styles/chicago-author-date" rel="template"/>
-    <contributor> 
-    <name>Naomi Scott</name>
-    <email>scottnb@mcmaster.ca</email>
+    <link href="http://economics.ca/cje/en/style.php" rel="documentation"/>
+    <contributor>
+      <name>Naomi Scott</name>
+      <email>scottnb@mcmaster.ca</email>
     </contributor>
     <category citation-format="author-date"/>
     <category field="social_science"/>
     <issn>0008-4085</issn>
     <eissn>1540-5982</eissn>
     <summary>The author-date variant of the chicago style</summary>
-    <updated>2016-04-10T03:39:31+00:00</updated>
+    <updated>2016-05-01T18:00:47+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="en">
@@ -567,7 +567,7 @@
       </group>
     </layout>
   </citation>
-  <bibliography et-al-use-first="19" et-al-min="19" entry-spacing="0" hanging-indent="true" subsequent-author-substitute="———">
+  <bibliography et-al-use-first="19" et-al-min="19" entry-spacing="0" hanging-indent="true" subsequent-author-substitute="&#8212;&#8212;&#8212;">
     <sort>
       <key macro="contributors"/>
       <key variable="issued"/>

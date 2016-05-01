@@ -13,7 +13,7 @@
     <category citation-format="author-date"/>
     <category field="engineering"/>
     <issn>1982-3932</issn>
-    <updated>2016-04-18T11:22:44+00:00</updated>
+    <updated>2016-05-01T18:00:47+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <macro name="editor-translator">
@@ -117,7 +117,7 @@
           <group delimiter=" ">
             <text term="in" text-case="capitalize-first" suffix=":"/>
             <text variable="container-title" font-style="italic"/>
-            <text variable="genre" prefix="genre"  font-style="italic"/>
+            <text variable="genre" prefix="genre" font-style="italic"/>
             <text variable="collection-title" font-style="italic"/>
             <text variable="event" font-style="italic"/>
             <text variable="collection-number" font-style="italic"/>
@@ -134,16 +134,16 @@
                   </date>
                 </group>
               </if>
-             </choose>
+            </choose>
           </group>
-          <text variable="page"/>    
+          <text variable="page"/>
         </group>
       </if>
     </choose>
   </macro>
   <macro name="publisher">
     <group delimiter=", ">
-      <text variable="publisher"/>      
+      <text variable="publisher"/>
       <text variable="publisher-place"/>
     </group>
   </macro>
