@@ -14,7 +14,7 @@
     <category citation-format="numeric"/>
     <category field="medicine"/>
     <summary>A style for journals in the NIHR Journals Library, resembles Vancouver style</summary>
-    <updated>2016-03-10T03:15:38+00:00</updated>
+    <updated>2016-05-02T19:51:16+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <macro name="access">
@@ -113,8 +113,8 @@
     <sort>
       <key variable="citation-number" sort="ascending"/>
     </sort>
-    <layout delimiter=",">
-      <text variable="citation-number" vertical-align="sup"/>
+    <layout delimiter="," vertical-align="sup">
+      <text variable="citation-number"/>
     </layout>
   </citation>
   <bibliography entry-spacing="0" second-field-align="flush" et-al-min="7" et-al-use-first="6">
