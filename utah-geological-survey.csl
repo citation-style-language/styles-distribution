@@ -12,7 +12,7 @@
     <category citation-format="author-date"/>
     <category field="geology"/>
     <summary>The style of the Utah Geological Survey, Utah Geological Association, and the Geology of the Intermountain West</summary>
-    <updated>2016-01-26T04:44:25+00:00</updated>
+    <updated>2016-05-10T15:56:14+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <macro name="editor-translator">
@@ -60,8 +60,8 @@
   </macro>
   <citation et-al-min="3" et-al-use-first="1" disambiguate-add-year-suffix="true" disambiguate-add-names="false" disambiguate-add-givenname="false">
     <sort>
-      <key macro="author-short"/>
       <key variable="issued"/>
+      <key macro="author-short"/>
     </sort>
     <layout prefix="(" suffix=")" delimiter="; ">
       <group delimiter=", ">
