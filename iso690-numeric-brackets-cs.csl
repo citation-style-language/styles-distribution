@@ -17,7 +17,7 @@
     <category citation-format="numeric"/>
     <category field="generic-base"/>
     <summary>Style based on ČSN ISO 690:2011</summary>
-    <updated>2016-04-29T14:05:11+00:00</updated>
+    <updated>2016-05-16T13:10:25+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale>
@@ -346,7 +346,7 @@
           <text term="accessed" form="short" suffix=".&#160;"/>
           <date variable="accessed">
             <date-part name="year"/>
-            <date-part name="month" prefix="-"/>
+            <date-part name="month" form="numeric-leading-zeros" prefix="-"/>
             <date-part name="day" form="numeric-leading-zeros" prefix="-"/>
           </date>
         </group>
