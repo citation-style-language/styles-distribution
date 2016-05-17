@@ -12,7 +12,7 @@
     <category citation-format="author-date"/>
     <category field="geology"/>
     <summary>The style of the Utah Geological Survey, Utah Geological Association, and the Geology of the Intermountain West</summary>
-    <updated>2016-05-10T15:56:14+00:00</updated>
+    <updated>2016-05-17T04:37:06+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <macro name="editor-translator">
@@ -135,9 +135,9 @@
           <group prefix=", ">
             <text term="in" font-style="italic"/>
             <names variable="editor translator" prefix=" " suffix="," delimiter=", ">
-              <name and="text" sort-separator=", " initialize-with="." name-as-sort-order="all"/>
+              <name and="text" sort-separator=", " initialize-with="." name-as-sort-order="all" delimiter-precedes-last="always"/>
               <et-al term="and others"/>
-              <label form="short" prefix=" "/>
+              <label prefix=", "/>
             </names>
             <text variable="event" prefix=" " suffix=" &#8211;"/>
             <text variable="container-title" prefix=" " suffix=":"/>
