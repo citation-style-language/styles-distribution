@@ -16,14 +16,9 @@
     <category field="biology"/>
     <issn>2087-5517</issn>
     <eissn>2527-4376</eissn>
-    <updated>2016-05-30T03:35:33+00:00</updated>
+    <updated>2016-05-30T03:38:33+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
-  <locale xml:lang="us">
-    <terms>
-      <term name="et-al">et al</term>
-    </terms>
-  </locale>
   <macro name="author">
     <names variable="author">
       <name delimiter-precedes-et-al="never" delimiter-precedes-last="always" initialize-with="" name-as-sort-order="all" sort-separator=" "/>
