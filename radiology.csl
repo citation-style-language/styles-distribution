@@ -14,7 +14,7 @@
     <category field="medicine"/>
     <issn>0033-8419</issn>
     <eissn>1527-1315</eissn>
-    <updated>2015-05-10T15:31:54+00:00</updated>
+    <updated>2016-06-03T19:56:53+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="en">
@@ -180,6 +180,7 @@
     <choose>
       <if type="article-journal article-magazine" match="any">
         <text variable="volume"/>
+        <text variable="issue" prefix="(" suffix=")"/>
       </if>
     </choose>
   </macro>
