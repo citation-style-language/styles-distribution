@@ -18,7 +18,7 @@
     <category field="biology"/>
     <issn>1432-9840</issn>
     <eissn>1435-0629</eissn>
-    <updated>2015-03-24T13:44:48+00:00</updated>
+    <updated>2016-06-15T08:18:14+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale>
@@ -91,7 +91,7 @@
     <text variable="page"/>
   </macro>
   <macro name="journal">
-    <text variable="container-title" strip-periods="true"/>
+    <text variable="container-title" form="short" strip-periods="true"/>
   </macro>
   <macro name="edition">
     <choose>
