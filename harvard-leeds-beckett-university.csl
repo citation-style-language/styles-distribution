@@ -12,7 +12,7 @@
     </author>
     <category citation-format="author-date"/>
     <category field="generic-base"/>
-    <updated>2016-06-15T17:42:34+00:00</updated>
+    <updated>2016-06-17T15:52:02+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <macro name="sort-term">
@@ -55,6 +55,14 @@
         <names variable="composer">
           <name initialize-with=". " name-as-sort-order="all" delimiter=", " delimiter-precedes-last="never" and="symbol"/>
         </names>
+      </else-if>
+      <else-if type="motion_picture" variable="URL" match="all">
+        <names variable="author">
+          <name initialize-with=". " name-as-sort-order="all" delimiter=", " delimiter-precedes-last="never" and="symbol"/>
+        </names>
+      </else-if>
+      <else-if type="motion_picture">
+        <text macro="title"/>
       </else-if>
       <else-if variable="author editor" match="any">
         <names variable="author">
@@ -419,7 +427,7 @@
             <text macro="access"/>
           </group>
         </else-if>
-        <else-if type="motion_picture">
+        <else-if type="motion_picture" variable="URL" match="all">
           <group prefix=" " delimiter=". " suffix=".">
             <group delimiter=", ">
               <group>
@@ -436,6 +444,19 @@
               </date>
             </group>
             <text macro="access"/>
+          </group>
+        </else-if>
+        <else-if type="motion_picture">
+          <group prefix=" " delimiter=". " suffix=".">
+            <group>
+              <names variable="author" prefix="Directed by ">
+                <name delimiter=", " delimiter-precedes-last="never" and="symbol"/>
+              </names>
+            </group>
+            <group delimiter=" ">
+              <text macro="publisher"/>
+              <text variable="medium" prefix="[" suffix="]"/>
+            </group>
           </group>
         </else-if>
         <else-if type="legislation">
