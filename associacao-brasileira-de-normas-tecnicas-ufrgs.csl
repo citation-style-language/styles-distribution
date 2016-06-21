@@ -20,7 +20,7 @@
     <category citation-format="author-date"/>
     <category field="generic-base"/>
     <summary>The strict Brazilian ABNT standard style author-date</summary>
-    <updated>2016-05-20T19:14:17+00:00</updated>
+    <updated>2016-06-21T02:53:37+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="pt-BR">
@@ -371,11 +371,11 @@
       </else-if>
     </choose>
   </macro>
- <!--Mostra a ISBN-->
+  <!--Mostra a ISBN-->
   <macro name="ISBN">
     <text variable="ISBN" prefix="ISBN "/>
   </macro>
- <!-- Anotações (campo "extra") -->
+  <!-- Anotações (campo "extra") -->
   <macro name="extra">
     <choose>
       <!-- speech usa campo Extra para instituição ou editor -->

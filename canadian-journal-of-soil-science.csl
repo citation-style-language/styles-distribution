@@ -21,7 +21,7 @@
     <category field="biology"/>
     <issn>0008-4271</issn>
     <eissn>1918-1841</eissn>
-    <updated>2016-05-25T13:33:46+00:00</updated>
+    <updated>2016-06-21T02:53:37+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <macro name="container-contributors">
@@ -166,7 +166,7 @@
             <text variable="container-title"/>
             <text macro="edition"/>
           </group>
-        </group>         
+        </group>
       </else-if>
       <else-if type="bill book graphic legal_case legislation motion_picture report song" match="any">
         <group delimiter=" ">
@@ -210,8 +210,8 @@
           <text macro="author" font-weight="bold"/>
           <text macro="issued"/>
         </group>
-          <text variable="title"/>
-          <text macro="locators"/>
+        <text variable="title"/>
+        <text macro="locators"/>
         <group delimiter=". ">
           <text macro="publisher"/>
           <text macro="access"/>

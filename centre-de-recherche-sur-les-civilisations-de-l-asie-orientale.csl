@@ -25,7 +25,7 @@
     </contributor>
     <category citation-format="note"/>
     <category field="social_science"/>
-    <updated>2016-05-17T16:17:41+00:00</updated>
+    <updated>2016-06-21T02:53:37+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="fr">
@@ -365,7 +365,7 @@
   <macro name="issue">
     <choose>
       <if is-numeric="issue">
-        <text variable="issue" form="short" prefix=", n˚ " />
+        <text variable="issue" form="short" prefix=", n˚ "/>
       </if>
       <else>
         <text variable="issue"/>

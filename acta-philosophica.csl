@@ -16,7 +16,7 @@
     <eissn>1825-6562</eissn>
     <summary>Acta Philosophica journal’s citation style: footnotes citation style plus full bibliography (available customized locales:it,en,es,fr,de)</summary>
     <published>2014-01-24T00:00:00+00:00</published>
-    <updated>2016-05-30T15:08:11+00:00</updated>
+    <updated>2016-06-21T02:53:37+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="it">
@@ -225,7 +225,7 @@
       <substitute>
         <names variable="editor"/>
       </substitute>
-     </names>
+    </names>
   </macro>
   <macro name="editor">
     <names variable="editor">
@@ -533,7 +533,7 @@
       </choose>
     </layout>
   </citation>
-  <bibliography hanging-indent="true" subsequent-author-substitute="———" entry-spacing="0">
+  <bibliography hanging-indent="true" subsequent-author-substitute="&#8212;&#8212;&#8212;" entry-spacing="0">
     <sort>
       <key macro="author-sort"/>
       <key variable="issued"/>
@@ -598,7 +598,7 @@
         </else-if>
         <else-if type="chapter">
           <text macro="title"/>
-          <group delimiter=" " prefix=", " >
+          <group delimiter=" " prefix=", ">
             <text macro="editor-container-title"/>
             <text macro="series-title"/>
           </group>
@@ -631,7 +631,7 @@
           </choose>
           <choose>
             <if variable="page">
-               <text macro="pages"/>
+              <text macro="pages"/>
             </if>
           </choose>
           <text macro="urlref"/>

@@ -4,7 +4,7 @@
     <title>Pontifical Gregorian University (English)</title>
     <id>http://www.zotero.org/styles/pontifical-gregorian-university-en</id>
     <link href="http://www.zotero.org/styles/pontifical-gregorian-university-en" rel="self"/>
-   <link href="http://www.zotero.org/styles/pontifical-gregorian-university" rel="independent-parent"/>
+    <link href="http://www.zotero.org/styles/pontifical-gregorian-university" rel="independent-parent"/>
     <link href="http://www.unigre.it" rel="documentation"/>
     <author>
       <name>Information Systems</name>
@@ -13,7 +13,7 @@
     <category citation-format="note"/>
     <category field="theology"/>
     <summary>The Pontifical Gregorian University (Pontificia Università Gregoriana) style (English)</summary>
-    <updated>2016-06-17T19:56:37+00:00</updated>
+    <updated>2016-06-21T02:53:37+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
 </style>
