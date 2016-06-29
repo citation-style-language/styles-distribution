@@ -24,7 +24,7 @@
     <category citation-format="note"/>
     <category field="theology"/>
     <summary>Society of Biblical Literature format with full notes and bibliography</summary>
-    <updated>2015-03-01T17:49:37+00:00</updated>
+    <updated>2016-06-29T16:45:06+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="en-US">
@@ -370,7 +370,7 @@
     </choose>
   </macro>
   <macro name="collection-title">
-    <text variable="collection-title"/>
+    <text variable="collection-title" form="short"/>
     <text variable="collection-number" prefix=" "/>
   </macro>
   <macro name="collection-title-note">
