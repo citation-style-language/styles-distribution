@@ -15,7 +15,7 @@
     <category citation-format="author-date"/>
     <category field="psychology"/>
     <summary>Zitierstil entsprechend den Zitierrichtlinien der Fakultät Erziehungswissenschaften, Technische Universität Dresden.</summary>
-    <updated>2016-07-20T03:17:50+00:00</updated>
+    <updated>2016-07-25T08:55:16+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="de">
@@ -88,13 +88,11 @@
     </choose>
   </macro>
   <macro name="publisher">
-    <group delimiter=": " suffix=" ">
+    <group delimiter=": ">
       <text variable="publisher-place"/>
       <text variable="publisher"/>
+      <text macro="year-date" />
     </group>
-    <date variable="issued">
-      <date-part name="year"/>
-    </date>
   </macro>
   <macro name="year-date">
     <choose>
@@ -228,7 +226,7 @@
                   <group delimiter=" ">
                     <text term="volume" form="short" suffix=" "/>
                     <text variable="volume"/>
-                    <date date-parts="year" form="text" variable="issued" prefix="/ "/>
+                    <text macro="year-date" prefix="/ "/>
                   </group>
                   <group delimiter=" ">
                     <text term="issue"/>
