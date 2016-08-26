@@ -20,7 +20,7 @@
     <category citation-format="author-date"/>
     <category field="generic-base"/>
     <summary>The strict Brazilian ABNT standard style author-date</summary>
-    <updated>2016-06-21T02:53:37+00:00</updated>
+    <updated>2016-08-04T20:50:49+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="pt-BR">
@@ -436,8 +436,8 @@
     </layout>
   </citation>
   <!-- BIBLIOGRAFIA 
-  et al. aparece a partir de 4 autores -->
-  <bibliography hanging-indent="false" et-al-min="4" et-al-use-first="1" entry-spacing="1" subsequent-author-substitute="______." subsequent-author-substitute-rule="complete-all">
+  et al. aparece a partir de 4 autores. Mesmos autores subsequentes são substituídos por 6 sublinhas -->
+  <bibliography hanging-indent="false" et-al-min="4" et-al-use-first="1" entry-spacing="1" subsequent-author-substitute="______" subsequent-author-substitute-rule="partial-each">
     <sort>
       <key macro="author"/>
       <!-- Organiza primeiro pela ordem de autor -->
