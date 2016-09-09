@@ -14,7 +14,7 @@
     <category field="engineering"/>
     <eissn>1965-0175</eissn>
     <summary>Style for online journal Water Alternatives</summary>
-    <updated>2016-03-10T03:00:48+00:00</updated>
+    <updated>2016-09-09T03:31:26+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="en-US">
@@ -343,7 +343,7 @@
   <macro name="web_availibility">
     <choose>
       <if variable="DOI">
-        <text variable="DOI" prefix="www.dx.doi.org/"/>
+        <text variable="DOI" prefix="http://doi.org/"/>
         <text macro="accessed"/>
       </if>
       <else-if variable="URL">

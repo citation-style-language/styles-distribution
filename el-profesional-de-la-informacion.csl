@@ -13,7 +13,7 @@
     <category field="social_science"/>
     <issn>1386-6710</issn>
     <eissn>1699-2407</eissn>
-    <updated>2013-08-29T04:18:55+00:00</updated>
+    <updated>2016-09-09T03:31:26+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale>
@@ -111,7 +111,7 @@
       <choose>
         <if variable="DOI">
           <group prefix=" ">
-            <text value="http://dx.doi.org/" font-style="italic"/>
+            <text value="http://doi.org/" font-style="italic"/>
             <text variable="DOI" suffix=" " font-style="italic"/>
           </group>
         </if>
