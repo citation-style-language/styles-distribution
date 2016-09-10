@@ -6,6 +6,7 @@
     <id>http://www.zotero.org/styles/free-radical-research</id>
     <link href="http://www.zotero.org/styles/free-radical-research" rel="self"/>
     <link href="http://www.zotero.org/styles/elsevier-vancouver" rel="template"/>
+    <link href="http://www.tandfonline.com/action/authorSubmission?show=instructions&amp;journalCode=ifra20#References" rel="documentation"/>
     <author>
       <name>Julie Courraud</name>
     </author>
@@ -14,7 +15,7 @@
     <issn>1071-5762</issn>
     <eissn>1029-2470</eissn>
     <summary>A style for the journal Free Radical Research. Based on the old Marine Policy style</summary>
-    <updated>2016-09-10T14:32:31+00:00</updated>
+    <updated>2016-09-10T14:50:57+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <macro name="author">
