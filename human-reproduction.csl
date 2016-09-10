@@ -21,7 +21,7 @@
     <category field="medicine"/>
     <issn>0268-1161</issn>
     <eissn>1460-2350</eissn>
-    <updated>2014-08-28T01:36:46+00:00</updated>
+    <updated>2016-09-10T19:36:18+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <macro name="title">
@@ -41,7 +41,7 @@
   </macro>
   <macro name="author">
     <names variable="author" suffix=".">
-      <name delimiter-precedes-last="always" et-al-use-first="10" et-al-subsequent-min="8" initialize-with="" name-as-sort-order="all" sort-separator=" "/>
+      <name delimiter-precedes-last="always" initialize-with="" name-as-sort-order="all" sort-separator=" "/>
       <label prefix=", "/>
       <et-al font-style="italic"/>
       <substitute>

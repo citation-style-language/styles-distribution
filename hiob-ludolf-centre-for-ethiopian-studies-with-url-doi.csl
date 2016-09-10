@@ -13,7 +13,7 @@
     </author>
     <category citation-format="author-date"/>
     <category field="humanities"/>
-    <updated>2016-05-01T18:00:47+00:00</updated>
+    <updated>2016-09-10T19:36:18+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="en-GB">
@@ -61,7 +61,7 @@
   </macro>
   <macro name="author">
     <names variable="author">
-      <name and="text" delimiter-precedes-et-al="never" et-al-subsequent-min="3" initialize-with="." name-as-sort-order="first"/>
+      <name and="text" delimiter-precedes-et-al="never" initialize-with="." name-as-sort-order="first"/>
       <label form="short" text-case="lowercase" prefix=", " suffix=","/>
       <substitute>
         <names variable="editor"/>
