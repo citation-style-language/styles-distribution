@@ -12,7 +12,7 @@
     <category citation-format="author-date"/>
     <category field="generic-base"/>
     <summary>Harvard (author-date style) for Faculty of Health and Life Sciences, Oxford Brookes University</summary>
-    <updated>2014-09-06T22:02:33+00:00</updated>
+    <updated>2016-09-10T17:15:38+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="en-GB">
@@ -171,7 +171,7 @@
       <text variable="locator" prefix=":"/>
     </layout>
   </citation>
-  <bibliography et-al-min="100" entry-spacing="1" line-spacing="2">
+  <bibliography entry-spacing="1" line-spacing="2">
     <sort>
       <key macro="author"/>
       <key macro="year-date"/>
