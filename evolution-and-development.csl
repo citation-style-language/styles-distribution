@@ -15,7 +15,7 @@
     <category field="biology"/>
     <issn>1520-541X</issn>
     <eissn>1525-142X</eissn>
-    <updated>2015-03-24T13:44:48+00:00</updated>
+    <updated>2016-09-14T23:33:09+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <macro name="author-short">
@@ -70,8 +70,8 @@
         <choose>
           <if type="article article-magazine article-newspaper article-journal review" match="any">
             <text variable="title" suffix="."/>
-            <text variable="container-title" form="short" text-case="title"/>
-            <text variable="volume" font-style="italic" suffix=","/>
+            <text variable="container-title" form="short" text-case="title" font-style="italic"/>
+            <text variable="volume" suffix=":"/>
             <text variable="page"/>
           </if>
           <else-if type="chapter paper-conference" match="any">
