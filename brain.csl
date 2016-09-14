@@ -13,7 +13,7 @@
     <category field="medicine"/>
     <issn>0006-8950</issn>
     <eissn>1460-2156</eissn>
-    <updated>2015-01-01T17:31:53+00:00</updated>
+    <updated>2016-09-14T23:14:13+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <macro name="author-short">
@@ -114,8 +114,8 @@
   </macro>
   <citation et-al-min="3" et-al-use-first="1" disambiguate-add-year-suffix="true" disambiguate-add-names="true" disambiguate-add-givenname="true" collapse="year">
     <sort>
-      <key macro="author-short"/>
       <key macro="issued-year"/>
+      <key macro="author-short"/>
     </sort>
     <layout prefix="(" suffix=")" delimiter="; ">
       <group delimiter=", ">
