@@ -15,7 +15,7 @@
     <issn>0140-7775</issn>
     <eissn>1365-2761</eissn>
     <summary>Style for the Journal of Fish Diseases</summary>
-    <updated>2015-01-17T11:18:39+00:00</updated>
+    <updated>2016-09-14T20:39:29+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale>
@@ -95,7 +95,7 @@
       </group>
     </layout>
   </citation>
-  <bibliography hanging-indent="true" et-al-use-first="1" entry-spacing="0">
+  <bibliography hanging-indent="true" entry-spacing="0">
     <sort>
       <key macro="author"/>
       <key variable="title"/>
