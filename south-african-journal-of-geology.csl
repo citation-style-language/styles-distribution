@@ -16,7 +16,7 @@
     <issn>1012-0750</issn>
     <eissn>1996-8590</eissn>
     <summary>Style for the South African Journal of Geology.</summary>
-    <updated>2016-07-08T12:47:43+00:00</updated>
+    <updated>2016-09-16T04:08:24+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <macro name="editor">
@@ -38,7 +38,7 @@
   </macro>
   <macro name="author-short">
     <names variable="author">
-      <name form="short" and="text" et-al-min="3" initialize-with=". "/>
+      <name form="short" and="text" initialize-with=". "/>
       <et-al font-style="normal"/>
       <substitute>
         <names variable="editor"/>

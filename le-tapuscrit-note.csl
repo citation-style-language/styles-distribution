@@ -13,7 +13,7 @@
     <category citation-format="note"/>
     <category field="social_science"/>
     <category field="generic-base"/>
-    <updated>2014-09-21T00:39:49+00:00</updated>
+    <updated>2016-09-16T04:08:24+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="fr">
@@ -417,7 +417,7 @@
   <macro name="collection">
     <text variable="collection-title" quotes="true" prefix=" (coll.&#160;" suffix=")"/>
   </macro>
-  <citation et-al-min="4">
+  <citation et-al-min="4" et-al-use-first="1">
     <layout suffix="." delimiter="&#160;; ">
       <choose>
         <if position="ibid-with-locator">

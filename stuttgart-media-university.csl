@@ -14,7 +14,7 @@
     </author>
     <category citation-format="note"/>
     <category field="social_science"/>
-    <updated>2014-08-30T16:59:28+00:00</updated>
+    <updated>2016-09-16T04:08:24+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="de">
@@ -176,7 +176,7 @@
       </choose>
     </layout>
   </citation>
-  <bibliography et-al-min="3" et-al-use-first="20" hanging-indent="true">
+  <bibliography hanging-indent="true">
     <sort>
       <key macro="author"/>
       <key macro="date"/>
