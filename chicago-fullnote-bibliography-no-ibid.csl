@@ -28,7 +28,7 @@
     <category citation-format="note"/>
     <category field="generic-base"/>
     <summary>Chicago format with full notes and bibliography</summary>
-    <updated>2015-08-15T20:29:12+00:00</updated>
+    <updated>2016-09-17T17:33:03+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="en">
@@ -739,7 +739,22 @@
   </macro>
   <macro name="point-locators-subsequent">
     <choose>
-      <if type="legal_case"/>
+      <if type="legal_case" variable="locator" match="all">
+        <choose>
+          <if locator="page">
+            <group delimiter=":">
+              <number variable="volume"/>
+              <text variable="locator"/>
+            </group>
+          </if>
+          <else>
+            <group delimiter=" ">
+              <label variable="locator" form="short"/>
+              <text variable="locator"/>
+            </group>
+          </else>
+        </choose>
+      </if>
       <else-if variable="locator">
         <choose>
           <if locator="page" match="none">
