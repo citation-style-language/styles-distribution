@@ -12,7 +12,7 @@
     <category citation-format="author-date"/>
     <category field="geography"/>
     <summary>Parent style for the Journals published by The Geological Society (London)</summary>
-    <updated>2016-09-14T23:23:33+00:00</updated>
+    <updated>2016-09-17T04:50:06+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="en-GB">
@@ -149,7 +149,7 @@
     <layout prefix="(" suffix=")" delimiter="; ">
       <group delimiter=", ">
         <group delimiter=" ">
-	  <text macro="year-date"/>
+          <text macro="year-date"/>
           <text macro="author-short"/>
         </group>
         <group delimiter=" ">

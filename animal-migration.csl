@@ -4,8 +4,8 @@
     <title>Animal Migration</title>
     <id>http://www.zotero.org/styles/animal-migration</id>
     <link href="http://www.zotero.org/styles/animal-migration" rel="self"/>
-    <link href="http://www.degruyter.com/view/supplement/s20848838_Instructions_for_Authors.pdf" rel="documentation"/>
     <link href="http://www.zotero.org/styles/engineering-in-life-sciences" rel="template"/>
+    <link href="http://www.degruyter.com/view/supplement/s20848838_Instructions_for_Authors.pdf" rel="documentation"/>
     <author>
       <name>Philina English</name>
     </author>
@@ -13,7 +13,7 @@
     <category field="biology"/>
     <category field="zoology"/>
     <eissn>2084-8838</eissn>
-    <updated>2016-09-10T00:12:19+00:00</updated>
+    <updated>2016-09-17T04:50:06+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <macro name="author">
@@ -95,7 +95,7 @@
           <text macro="edition" suffix=", "/>
           <text macro="publisher"/>
           <group delimiter=" " prefix=", ">
-          <text variable="page"/>
+            <text variable="page"/>
           </group>
         </else-if>
         <else-if type="patent">

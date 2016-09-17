@@ -4,16 +4,16 @@
     <title>Restoration Ecology</title>
     <id>http://www.zotero.org/styles/restoration-ecology</id>
     <link href="http://www.zotero.org/styles/restoration-ecology" rel="self"/>
+    <link href="http://www.zotero.org/styles/genome-biology-and-evolution" rel="template"/>
     <link href="http://onlinelibrary.wiley.com/journal/10.1111/(ISSN)1526-100X/homepage/ForAuthors.html" rel="documentation"/>
     <author>
       <name>Caitlin Rottler</name>
       <email>caitlin.m.rottler@gmail.com</email>
     </author>
-    <link href="http://www.zotero.org/styles/genome-biology-and-evolution" rel="template"/>
     <category citation-format="author-date"/>
     <category field="biology"/>
     <eissn>1526-100X</eissn>
-    <updated>2016-09-07T21:10:12+00:00</updated>
+    <updated>2016-09-17T04:50:06+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <macro name="editor">
@@ -180,4 +180,3 @@
     </layout>
   </bibliography>
 </style>
-

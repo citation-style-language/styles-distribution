@@ -16,7 +16,7 @@
     <issn>0037-8682</issn>
     <eissn>1678-9849</eissn>
     <summary>Style for Revista da Sociedade Brasileira de Medicina Tropical</summary>
-    <updated>2016-09-16T04:08:24+00:00</updated>
+    <updated>2016-09-17T04:50:06+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <macro name="author">
@@ -35,7 +35,7 @@
     <choose>
       <if variable="issued">
         <date date-parts="year" form="numeric" variable="issued">
-          <date-part name="year" form="long" range-delimiter="–"/>
+          <date-part name="year" form="long" range-delimiter="&#8211;"/>
         </date>
       </if>
       <else>

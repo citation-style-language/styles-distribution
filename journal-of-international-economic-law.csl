@@ -4,7 +4,7 @@
     <title>Journal of International Economic Law</title>
     <id>http://www.zotero.org/styles/journal-of-international-economic-law</id>
     <link href="http://www.zotero.org/styles/journal-of-international-economic-law" rel="self"/>
-    <link rel="template" href="http://www.zotero.org/styles/mcgill-en"/>
+    <link href="http://www.zotero.org/styles/mcgill-en" rel="template"/>
     <link href="http://www.oxfordjournals.org/our_journals/jielaw/for_authors/stylesheet_2.pdf" rel="documentation"/>
     <author>
       <name>Catherine Brendow</name>
@@ -14,7 +14,7 @@
     <category field="law"/>
     <issn>1369-3034</issn>
     <summary>According to the style sheet of the Journal of International Economic Law</summary>
-    <updated>2016-06-24T13:24:37+00:00</updated>
+    <updated>2016-09-17T04:50:06+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale>
@@ -63,7 +63,7 @@
     </names>
   </macro>
   <macro name="internet-location">
-        <text variable="URL" prefix=" "/>
+    <text variable="URL" prefix=" "/>
   </macro>
   <macro name="issued-long">
     <text variable="volume"/>
@@ -397,4 +397,3 @@
     </layout>
   </bibliography>
 </style>
-

@@ -14,7 +14,7 @@
     </author>
     <category citation-format="author-date"/>
     <category field="generic-base"/>
-    <updated>2016-07-02T03:33:02+00:00</updated>
+    <updated>2016-09-17T04:50:06+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale>
@@ -596,7 +596,6 @@
       <else-if type="bill legal_case legislation" match="none">
         <text variable="container-title" font-style="italic"/>
       </else-if>
-      
     </choose>
   </macro>
   <macro name="legal-cites">
