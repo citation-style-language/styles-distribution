@@ -13,7 +13,7 @@
     <category citation-format="note"/>
     <category field="medicine"/>
     <summary>A style format for radiopaedia.org, the online radiology collaborative resource.</summary>
-    <updated>2016-09-09T03:31:26+00:00</updated>
+    <updated>2016-09-28T13:09:49+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale>
@@ -402,7 +402,7 @@
       </choose>
       <choose>
         <if variable="DOI">
-          <text variable="DOI" prefix="&lt;a href=&quot;http://doi.org/" suffix="&quot; target=&quot;_blank&quot;&gt;"/>
+          <text variable="DOI" prefix="&lt;a href=&quot;https://doi.org/" suffix="&quot; target=&quot;_blank&quot;&gt;"/>
           <text variable="DOI" prefix="doi:" suffix="&lt;/a&gt;"/>
         </if>
         <else>

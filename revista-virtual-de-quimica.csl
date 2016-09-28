@@ -16,7 +16,7 @@
     <category field="chemistry"/>
     <issn>1984-6835</issn>
     <summary>Reference style for Revista Virtual de Quimica</summary>
-    <updated>2016-09-09T03:31:26+00:00</updated>
+    <updated>2016-09-28T13:09:49+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <macro name="author">
@@ -148,7 +148,7 @@
               <group delimiter=" ">
                 <text variable="volume" form="long" font-style="italic" suffix=","/>
                 <text variable="page-first" suffix="."/>
-                <text variable="DOI" prefix="http://doi.org/"/>
+                <text variable="DOI" prefix="https://doi.org/"/>
                 <text variable="PMID" prefix="http://www.ncbi.nlm.nih.gov/pubmed/"/>
                 <choose>
                   <if match="none" variable="DOI PMID">
