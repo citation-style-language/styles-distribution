@@ -15,7 +15,7 @@
     <category citation-format="author-date"/>
     <category field="social_science"/>
     <summary>Citation style for WU Vienna’s Institute for Retailing &amp; Marketing.</summary>
-    <updated>2016-09-27T03:54:13+00:00</updated>
+    <updated>2016-09-29T14:50:05+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="de">
@@ -283,10 +283,7 @@
           </choose>
           <text macro="issued"/>
         </group>
-        <group delimiter=" ">
-          <label variable="locator" form="short"/>
-          <text variable="locator"/>
-        </group>
+        <text variable="locator"/>
       </group>
     </layout>
   </citation>
