@@ -13,10 +13,14 @@
       <name>Christian Focke</name>
       <email>christian.focke@mail.fernfh.ac.at</email>
     </author>
+    <contributor>
+      <name>Ingrid Wahl</name>
+      <email>ingrid.wahl@fernfh.ac.at</email>
+    </contributor>
     <category citation-format="author-date"/>
     <category field="generic-base"/>
     <summary>Based on the Harvard author-date style</summary>
-    <updated>2016-01-26T04:44:25+00:00</updated>
+    <updated>2016-10-03T14:21:38+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="de-AT">
@@ -192,7 +196,11 @@
               <text variable="issue" prefix="(" suffix=")"/>
             </group>
             <group prefix=", ">
-              <label suffix=" " variable="page" form="short"/>
+              <choose>
+                <if type="article-journal" match="none">
+                  <label suffix=" " variable="page" form="short"/>
+                </if>
+              </choose>
               <text variable="page"/>
             </group>
           </group>
