@@ -26,7 +26,7 @@
     </contributor>
     <category citation-format="numeric"/>
     <category field="engineering"/>
-    <updated>2016-09-28T13:09:49+00:00</updated>
+    <updated>2016-10-03T03:38:40+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <macro name="author">
@@ -115,7 +115,7 @@
       </group>
     </layout>
   </citation>
-  <bibliography et-al-min="7" et-al-use-first="3" second-field-align="flush" entry-spacing="0">
+  <bibliography second-field-align="flush" entry-spacing="0">
     <sort>
       <key macro="author"/>
       <key variable="issued"/>
