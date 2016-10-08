@@ -15,7 +15,7 @@
     <issn>2410-339X</issn>
     <eissn>2410-3403</eissn>
     <summary>Citation style for Geochemical Perspectives Letters based on Information for Authors document; probably applicable to Geochemical Perspectives also.</summary>
-    <updated>2016-10-04T14:06:56+00:00</updated>
+    <updated>2016-10-08T20:04:03+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale>
@@ -93,7 +93,7 @@
     <choose>
       <if variable="event">
         <text variable="event"/>
-  	<text macro="year-date" prefix=" "/>
+        <text macro="year-date" prefix=" "/>
       </if>
     </choose>
   </macro>

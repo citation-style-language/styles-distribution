@@ -10,7 +10,7 @@
     <category field="medicine"/>
     <eissn>1945-4589</eissn>
     <summary>Vancouver style with only year/volume and et al after 13 authors</summary>
-    <updated>2016-09-25T03:21:33+00:00</updated>
+    <updated>2016-10-08T20:04:03+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="en">
@@ -59,7 +59,7 @@
       <text variable="publisher"/>
     </group>
   </macro>
- <macro name="access">
+  <macro name="access">
     <choose>
       <if variable="URL">
         <group delimiter=": ">

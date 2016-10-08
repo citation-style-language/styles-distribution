@@ -5,8 +5,8 @@
     <title-short>NITK</title-short>
     <id>http://www.zotero.org/styles/national-institute-of-technology-karnataka</id>
     <link href="http://www.zotero.org/styles/national-institute-of-technology-karnataka" rel="self"/>
-    <link href="http://nitk.ac.in/sites/default/files/public/curriculum/PG-Curriculum2016-revised.pdf" rel="documentation"/>
     <link href="http://www.zotero.org/styles/american-society-of-civil-engineers" rel="template"/>
+    <link href="http://nitk.ac.in/sites/default/files/public/curriculum/PG-Curriculum2016-revised.pdf" rel="documentation"/>
     <author>
       <name>Pragadeesh Sekar</name>
       <email>pragadeeshsekar@gmail.com</email>
@@ -14,7 +14,7 @@
     <category citation-format="author-date"/>
     <category field="engineering"/>
     <summary>Style for NITK thesis</summary>
-    <updated>2016-10-07T15:23:02+00:00</updated>
+    <updated>2016-10-08T20:04:03+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <macro name="container-contributors">
