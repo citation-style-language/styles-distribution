@@ -4,13 +4,14 @@
     <title>Universidad Autónoma de Ciudad Juárez - Estilo Latino Humanístico</title>
     <id>http://www.zotero.org/styles/universidad-autonoma-cidudad-juarez-estilo-latino-humanistico</id>
     <link href="http://www.zotero.org/styles/universidad-autonoma-cidudad-juarez-estilo-latino-humanistico" rel="self"/>
+    <link href="https://github.com/citation-style-language/styles/commit/d97e37b92d48c2d1a2511c40ae689f105fe3dffc" rel="documentation"/>
     <author>
       <name>Sebastian Karcher</name>
     </author>
     <category citation-format="note"/>
     <category field="humanities"/>
     <summary>Estilo Latino Humanístico, 2016, de la UACJ; Sebastian Karcher has style manual, in conversation with university on where/how to publish</summary>
-    <updated>2016-09-24T19:33:25+00:00</updated>
+    <updated>2016-10-24T04:22:15+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="es">

@@ -20,7 +20,7 @@
     <category citation-format="author-date"/>
     <category field="generic-base"/>
     <summary>The strict Brazilian ABNT standard style author-date</summary>
-    <updated>2016-08-04T20:50:49+00:00</updated>
+    <updated>2016-10-24T04:22:15+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="pt-BR">
@@ -51,7 +51,7 @@
             <name-part name="family" text-case="uppercase"/>
             <name-part name="given" text-case="capitalize-first"/>
           </name>
-          <et-al prefix=" " font-style="italic"/>
+          <et-al font-style="italic"/>
           <label form="short" prefix=" (" suffix=".)" text-case="capitalize-first"/>
           <substitute>
             <names variable="editor"/>
@@ -81,7 +81,7 @@
         <name-part name="given" text-case="capitalize-first"/>
         <name-part name="family" text-case="capitalize-first"/>
       </name>
-      <et-al prefix=" " font-style="italic"/>
+      <et-al font-style="italic"/>
     </names>
   </macro>
   <!-- A macro 'author' e responsável por mostrar os nomes dos autores na bibliografia. Serão no
@@ -95,7 +95,7 @@
         <name-part name="family" text-case="uppercase"/>
         <name-part name="given" text-case="capitalize-all"/>
       </name>
-      <et-al prefix=" " font-style="italic"/>
+      <et-al font-style="italic"/>
       <label form="short" prefix=" (" suffix=".)" text-case="capitalize-first"/>
       <substitute>
         <names variable="editor"/>
@@ -119,7 +119,7 @@
         <!-- <name-part name="family" text-case="lowercase" font-variant="small-caps"/> -->
         <name-part name="given" text-case="capitalize-all"/>
       </name>
-      <et-al prefix=" " font-style="italic"/>
+      <et-al font-style="italic"/>
       <substitute>
         <names variable="editor"/>
         <names variable="translator"/>
