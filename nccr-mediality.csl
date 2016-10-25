@@ -14,7 +14,7 @@
     <category citation-format="note"/>
     <category field="humanities"/>
     <summary>Style for NCCR Mediality.</summary>
-    <updated>2016-10-21T14:38:41+00:00</updated>
+    <updated>2016-10-25T14:27:47+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="de">
@@ -256,7 +256,7 @@
             <number variable="issue"/>
           </else>
         </choose>
-        <date prefix=", " variable="issued">
+        <date variable="issued" prefix=" (" suffix=")">
           <date-part name="year"/>
         </date>
       </else-if>
