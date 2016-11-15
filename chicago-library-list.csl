@@ -28,13 +28,14 @@
     <category citation-format="note"/>
     <category field="generic-base"/>
     <summary>Chicago format for creating library lists, where bibliography includes call numbers</summary>
-    <updated>2016-10-23T01:58:50+00:00</updated>
+    <updated>2016-11-03T13:30:08+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="en">
     <terms>
       <term name="editor" form="verb-short">ed.</term>
       <term name="translator" form="verb-short">trans.</term>
+      <term name="translator" form="short">trans.</term>
       <term name="editortranslator" form="verb-short">
         <single>ed. and trans.</single>
         <multiple>ed. and trans.</multiple>

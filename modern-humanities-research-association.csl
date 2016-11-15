@@ -20,7 +20,7 @@
     <category citation-format="note"/>
     <category field="generic-base"/>
     <summary>MHRA format with full notes and bibliography</summary>
-    <updated>2016-09-28T13:09:49+00:00</updated>
+    <updated>2016-11-14T14:19:18+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="en">
@@ -253,6 +253,9 @@
           <if is-numeric="volume">
             <number variable="volume" form="roman" font-variant="small-caps"/>
           </if>
+          <else>
+            <text variable="volume" font-variant="small-caps"/>
+          </else>
         </choose>
       </if>
     </choose>
