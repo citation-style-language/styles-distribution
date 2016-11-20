@@ -17,7 +17,7 @@
     <category citation-format="author-date"/>
     <category field="generic-base"/>
     <summary>The Harvard author-date style - adapted for use at Coventry University. See usage notes at http://www.oak-wood.co.uk/oss/coventry-harvard-csl</summary>
-    <updated>2016-10-23T21:36:54+00:00</updated>
+    <updated>2016-11-20T04:07:56+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale>
@@ -310,7 +310,8 @@
   <bibliography hanging-indent="true">
     <sort>
       <key macro="author"/>
-      <key macro="year-date" sort="ascending"/>
+      <key macro="year-date" sort="descending"/>
+      <key variable="citation-number" sort="ascending"/>
       <key variable="title"/>
     </sort>
     <layout>
