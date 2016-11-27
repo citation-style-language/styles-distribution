@@ -28,7 +28,7 @@
     <category field="medicine"/>
     <issn>0006-3223</issn>
     <eissn>1873-2402</eissn>
-    <updated>2015-03-18T20:40:07+00:00</updated>
+    <updated>2016-11-27T02:15:19+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <macro name="container-contributors">
@@ -172,7 +172,7 @@
     <sort>
       <key variable="citation-number"/>
     </sort>
-    <layout prefix="(" suffix=")" delimiter="; ">
+    <layout prefix="(" suffix=")" delimiter=", ">
       <text variable="citation-number"/>
     </layout>
   </citation>
