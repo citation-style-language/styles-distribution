@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <style xmlns="http://purl.org/net/xbiblio/csl" class="note" version="1.0" initialize-with="." default-locale="de-DE">
-  <!-- This style was edited with the Visual CSL Editor (http://editor.citationstyles.org/visualEditor/) -->
-  <info>
+  <info>  
     <title>Technische Universität Dresden - Medienwissenschaft und Neuere Deutsche Literatur (note, German)</title>
     <title-short>TUD Germanistik (note, German)</title-short>
     <id>http://www.zotero.org/styles/technische-universitat-dresden-medienwissenschaft-und-neuere-deutsche-literatur-note</id>
@@ -16,7 +15,7 @@
     <category citation-format="note"/>
     <category field="humanities"/>
     <summary>Zitierstil entsprechend den Vorgaben der Professur für Medienwissenschaft und Neuere Deutsche Literatur, Technische Universität Dresden. Die Vorgaben entsprechen denen der Zeitschrift Die Musikforschung.</summary>
-    <updated>2016-12-05T05:12:46+00:00</updated>
+    <updated>2016-12-05T14:40:54+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="de">
@@ -327,6 +326,7 @@
         <text variable="publisher-place"/>
       </else>
     </choose>
+    <text variable="publisher" prefix=": "/>
   </macro>
   <macro name="issued">
     <choose>
