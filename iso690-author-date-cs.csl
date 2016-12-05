@@ -17,7 +17,7 @@
     <category citation-format="author-date"/>
     <category field="generic-base"/>
     <summary>Style based on ČSN ISO 690:2011</summary>
-    <updated>2016-11-23T17:59:01+00:00</updated>
+    <updated>2016-12-05T05:12:46+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale>
@@ -340,7 +340,7 @@
         <text variable="issue" prefix="(" suffix=")"/>
       </group>
       <text macro="collection"/>
-       <text variable="page"/>
+      <text variable="page"/>
     </group>
   </macro>
   <macro name="publisher">

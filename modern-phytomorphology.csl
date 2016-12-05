@@ -15,7 +15,7 @@
     <category field="biology"/>
     <issn>2226-3063</issn>
     <eissn>2227-9555</eissn>
-    <updated>2016-10-08T21:19:38+00:00</updated>
+    <updated>2016-12-05T05:12:46+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <macro name="editor-translator">
@@ -44,12 +44,12 @@
       <substitute>
         <names variable="editor" font-variant="normal"/>
         <names variable="translator" font-variant="normal"/>
-        <text variable="title" form="short" quotes="false" font-variant="small-caps"/>        
+        <text variable="title" form="short" quotes="false" font-variant="small-caps"/>
       </substitute>
     </names>
   </macro>
   <macro name="title">
-    <text variable="title" text-case="title" font-variant="normal" suffix="."/>    
+    <text variable="title" text-case="title" font-variant="normal" suffix="."/>
   </macro>
   <macro name="publisher">
     <group delimiter=", " prefix=" ">
@@ -94,7 +94,7 @@
         <date variable="issued">
           <date-part name="year"/>
         </date>
-        <text variable="locator" prefix=": "/>        
+        <text variable="locator" prefix=": "/>
       </group>
     </layout>
   </citation>
