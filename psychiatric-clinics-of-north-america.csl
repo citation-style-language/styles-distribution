@@ -16,7 +16,7 @@
     <issn>0193-953X</issn>
     <eissn>1558-3147</eissn>
     <summary>A style for some Elsevier journals, resembles Vancouver style</summary>
-    <updated>2016-10-01T16:33:54+00:00</updated>
+    <updated>2016-12-10T20:22:54+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <macro name="access">
@@ -67,7 +67,6 @@
     <choose>
       <if type="article-journal article-magazine" match="any">
         <text variable="volume" form="long"/>
-        <text variable="issue" prefix="(" suffix=")"/>
       </if>
     </choose>
   </macro>
