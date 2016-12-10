@@ -16,7 +16,7 @@
     <issn>0193-953X</issn>
     <eissn>1558-3147</eissn>
     <summary>A style for some Elsevier journals, resembles Vancouver style</summary>
-    <updated>2016-12-10T20:22:54+00:00</updated>
+    <updated>2016-12-10T20:27:25+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <macro name="access">
@@ -24,7 +24,7 @@
       <if variable="DOI">
         <text variable="DOI" prefix="https://doi.org/"/>
       </if>
-      <else-if type="webpage post-weblog" match="any">
+      <else-if type="webpage post-weblog report manuscript" match="any">
         <choose>
           <if variable="URL">
             <group delimiter=". ">
