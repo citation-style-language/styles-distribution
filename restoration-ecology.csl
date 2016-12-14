@@ -13,7 +13,7 @@
     <category citation-format="author-date"/>
     <category field="biology"/>
     <eissn>1526-100X</eissn>
-    <updated>2016-09-17T04:50:06+00:00</updated>
+    <updated>2016-12-14T16:43:30+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <macro name="editor">
@@ -169,7 +169,7 @@
               <text variable="volume"/>
               <text variable="page" form="short"/>
               <choose>
-                <if match="none" locator="page volume">
+                <if match="none" variable="page volume">
                   <text prefix="(" suffix=")" value="In Press"/>
                 </if>
               </choose>
