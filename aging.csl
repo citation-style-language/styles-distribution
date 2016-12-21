@@ -6,11 +6,14 @@
     <link href="http://www.zotero.org/styles/aging" rel="self"/>
     <link href="http://www.zotero.org/styles/vancouver" rel="template"/>
     <link href="http://www.aging-us.com/for-authors" rel="documentation"/>
+    <author>
+      <name>taraonco</name>
+    </author>
     <category citation-format="numeric"/>
     <category field="medicine"/>
     <eissn>1945-4589</eissn>
     <summary>Vancouver style with only year/volume and et al after 13 authors</summary>
-    <updated>2016-10-08T20:04:03+00:00</updated>
+    <updated>2016-12-21T05:18:06+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="en">

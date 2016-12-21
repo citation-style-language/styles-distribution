@@ -7,12 +7,15 @@
     <link href="http://www.zotero.org/styles/acs-nano" rel="self"/>
     <link href="http://www.zotero.org/styles/american-chemical-society-with-titles" rel="template"/>
     <link href="http://pubs.acs.org/paragonplus/submission/ancac3/ancac3_authguide.pdf" rel="documentation"/>
+    <author>
+      <name>Sebastian Karcher</name>
+    </author>
     <category citation-format="numeric"/>
     <category field="chemistry"/>
     <issn>1936-0851</issn>
     <eissn>1936-086X</eissn>
     <summary>ACS style with et al in italics</summary>
-    <updated>2014-09-21T00:39:49+00:00</updated>
+    <updated>2016-12-21T05:18:06+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <macro name="editor">

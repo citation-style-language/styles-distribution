@@ -6,10 +6,13 @@
     <link href="http://www.zotero.org/styles/journal-of-instrumentation" rel="self"/>
     <link href="http://www.zotero.org/styles/frontiers-in-optics" rel="template"/>
     <link href="http://iopscience.iop.org/1748-0221" rel="documentation"/>
+    <author>
+      <name>Sebastian Karcher</name>
+    </author>
     <category citation-format="numeric"/>
     <category field="physics"/>
     <eissn>1748-0221</eissn>
-    <updated>2016-12-10T20:12:38+00:00</updated>
+    <updated>2016-12-21T05:18:06+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="en">

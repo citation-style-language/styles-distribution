@@ -6,11 +6,14 @@
     <link href="http://www.zotero.org/styles/journal-of-avian-biology" rel="self"/>
     <link href="http://www.zotero.org/styles/oikos" rel="template"/>
     <link href="http://www.avianbiology.org/authors/author-guidelines" rel="documentation"/>
+    <author>
+      <name>Sebastian Karcher</name>
+    </author>
     <category citation-format="author-date"/>
     <category field="biology"/>
     <issn>0908-8857</issn>
     <eissn>1600-048X</eissn>
-    <updated>2014-06-11T01:05:15+00:00</updated>
+    <updated>2016-12-21T05:18:06+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <macro name="editor-translator">
