@@ -15,7 +15,7 @@
     <category citation-format="numeric"/>
     <category field="medicine"/>
     <category field="biology"/>
-    <updated>2016-12-18T18:06:01+00:00</updated>
+    <updated>2016-12-24T20:24:45+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="en">
@@ -34,7 +34,7 @@
   <macro name="author">
     <names variable="author">
       <name sort-separator=" " initialize-with="" name-as-sort-order="all" delimiter=", " delimiter-precedes-last="always"/>
-      <label  prefix=", "/>
+      <label prefix=", "/>
       <substitute>
         <names variable="editor"/>
       </substitute>
@@ -43,7 +43,7 @@
   <macro name="editor">
     <names variable="editor" suffix=".">
       <name sort-separator=" " initialize-with="" name-as-sort-order="all" delimiter=", " delimiter-precedes-last="always"/>
-      <label  prefix=", "/>
+      <label prefix=", "/>
     </names>
   </macro>
   <macro name="publisher">
@@ -136,10 +136,10 @@
                 </group>
                 <text macro="edition"/>
                 <text macro="editor"/>
-                <text macro="publisher"/> 
+                <text macro="publisher"/>
                 <group delimiter=" ">
                   <label variable="page" form="short" plural="never"/>
-                  <text variable="page"/>  
+                  <text variable="page"/>
                 </group>
               </group>
             </else-if>

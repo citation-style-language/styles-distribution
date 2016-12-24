@@ -16,13 +16,13 @@
     <category citation-format="author-date"/>
     <category field="generic-base"/>
     <summary>The Open University Harvard author-date style</summary>
-    <updated>2016-12-08T19:22:48+00:00</updated>
+    <updated>2016-12-24T20:24:45+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <macro name="editor">
     <names variable="editor" delimiter=", ">
       <name and="text" initialize-with=". " delimiter=", " sort-separator=", " name-as-sort-order="all"/>
-      <label form="short" prefix=" (" suffix=")"  strip-periods="true"/>
+      <label form="short" prefix=" (" suffix=")" strip-periods="true"/>
     </names>
   </macro>
   <macro name="anon">

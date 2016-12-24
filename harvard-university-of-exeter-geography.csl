@@ -4,15 +4,15 @@
     <title>Harvard - University of Exeter - Geography</title>
     <id>http://www.zotero.org/styles/harvard-university-of-exeter-geography</id>
     <link href="http://www.zotero.org/styles/harvard-university-of-exeter-geography" rel="self"/>
-    <link href="https://geography.exeter.ac.uk/media/universityofexeter/schoolofgeography/pdfs/currentstudents/Referencing_and_Style_Guide.pdf" rel="documentation"/>
     <link href="http://www.zotero.org/styles/french-politics" rel="template"/>
+    <link href="https://geography.exeter.ac.uk/media/universityofexeter/schoolofgeography/pdfs/currentstudents/Referencing_and_Style_Guide.pdf" rel="documentation"/>
     <author>
       <name>Ari Cooper-Davis</name>
       <email>asc223@exeter.ac.uk</email>
     </author>
     <category citation-format="author-date"/>
     <category field="geography"/>
-    <updated>2016-12-19T01:24:05+00:00</updated>
+    <updated>2016-12-24T20:24:45+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="en">
