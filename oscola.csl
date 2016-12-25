@@ -13,7 +13,7 @@
     <category citation-format="note"/>
     <category field="law"/>
     <summary>The OSCOLA Standards. For a Zotero Group showing data-entry in Zotero see: https://www.zotero.org/groups/oscola_samples/items/order/itemType</summary>
-    <updated>2015-06-15T04:01:48+00:00</updated>
+    <updated>2016-12-25T14:50:56+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale>
@@ -168,7 +168,7 @@
   <macro name="editor">
     <choose>
       <if type="chapter paper-conference entry-encyclopedia" match="none">
-        <names variable="editor translator" delimiter=", ">
+        <names variable="editor translator container-author" delimiter=", ">
           <name delimiter-precedes-last="never" and="text" delimiter=", " initialize="false" initialize-with=""/>
           <label form="short" prefix=" " strip-periods="true"/>
         </names>
@@ -178,7 +178,7 @@
   <macro name="editor-chapter">
     <group>
       <text term="in" suffix=" "/>
-      <names variable="editor translator" delimiter=", ">
+      <names variable="editor translator container-author" delimiter=", ">
         <name delimiter-precedes-last="never" and="text" delimiter=", " initialize="false" initialize-with=""/>
         <label form="short" prefix=" (" suffix=")" strip-periods="true"/>
       </names>
