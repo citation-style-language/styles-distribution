@@ -12,7 +12,7 @@
     <category citation-format="author-date"/>
     <category field="medicine"/>
     <summary>The WHO Regional Office for Europe author year style</summary>
-    <updated>2015-01-24T15:23:58+00:00</updated>
+    <updated>2016-12-26T05:44:48+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <macro name="editor">
@@ -51,9 +51,9 @@
       <if variable="URL">
         <group delimiter=", ">
           <text variable="URL"/>
-          <group>
-            <text value="accessed "/>
-            <date variable="accessed ">
+          <group delimiter=" ">
+            <text term="accessed"/>
+            <date variable="accessed">
               <date-part name="day" suffix=" "/>
               <date-part name="month" suffix=" "/>
               <date-part name="year"/>
