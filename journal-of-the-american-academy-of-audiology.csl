@@ -16,7 +16,7 @@
     <category field="medicine"/>
     <issn>1050-0545</issn>
     <eissn>2157-3107</eissn>
-    <updated>2017-01-08T15:34:38+00:00</updated>
+    <updated>2017-01-10T20:34:58+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <macro name="editor">
@@ -154,7 +154,7 @@
                 <text variable="collection-title"/>
                 <text variable="volume" prefix="Vol. "/>
               </group>
-              <text variable="container-title" suffix="."/>
+              <text variable="container-title" font-style="italic" suffix="."/>
               <text macro="publisher" prefix=" "/>
               <text macro="page" prefix=", "/>
             </group>
@@ -166,7 +166,7 @@
             <text macro="editor" prefix=" "/>
           </group>
           <group prefix=" " suffix="." delimiter=" ">
-            <text variable="container-title" form="short" strip-periods="true" suffix="."/>
+            <text variable="container-title" form="short" font-style="italic" strip-periods="true" suffix="."/>
             <group delimiter=":">
               <text variable="volume"/>
               <text variable="page"/>
