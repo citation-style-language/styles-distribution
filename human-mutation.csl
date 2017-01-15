@@ -13,7 +13,7 @@
     <category field="medicine"/>
     <issn>1059-7794</issn>
     <eissn>1098-1004</eissn>
-    <updated>2016-12-28T11:55:35+00:00</updated>
+    <updated>2017-01-15T15:53:01+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <macro name="author-short">
@@ -55,7 +55,7 @@
       <group delimiter=", ">
         <text macro="author-short"/>
         <text macro="issued"/>
-      </group>  
+      </group>
     </layout>
   </citation>
   <bibliography et-al-min="13" et-al-use-first="12">

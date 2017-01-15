@@ -15,7 +15,7 @@
     <category field="physics"/>
     <issn>0008-4204</issn>
     <eissn>1208-6045</eissn>
-    <updated>2017-01-13T11:01:16+00:00</updated>
+    <updated>2017-01-15T15:53:01+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="en">
@@ -82,7 +82,7 @@
   </citation>
   <bibliography second-field-align="flush" et-al-min="10" et-al-use-first="1">
     <layout suffix=".">
-      <text variable="citation-number" />
+      <text variable="citation-number"/>
       <group delimiter=" " prefix=" ">
         <text macro="author"/>
       </group>
