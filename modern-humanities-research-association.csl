@@ -20,7 +20,7 @@
     <category citation-format="note"/>
     <category field="generic-base"/>
     <summary>MHRA format with full notes and bibliography</summary>
-    <updated>2016-11-14T14:19:18+00:00</updated>
+    <updated>2017-01-28T16:03:14+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="en">
@@ -68,7 +68,7 @@
   </macro>
   <macro name="contributors-note">
     <names variable="author">
-      <name and="text" sort-separator=", " delimiter=", " delimiter-precedes-last="never"/>
+      <name and="text" sort-separator=", " delimiter=", "/>
       <label form="short" prefix=", "/>
       <substitute>
         <text macro="title-note"/>
@@ -299,7 +299,7 @@
   </macro>
   <macro name="contributors-short">
     <names variable="author">
-      <name form="short" and="text" sort-separator=", " delimiter=", " delimiter-precedes-last="never"/>
+      <name form="short" and="text" sort-separator=", " delimiter=", "/>
       <substitute>
         <names variable="editor"/>
         <names variable="translator"/>
