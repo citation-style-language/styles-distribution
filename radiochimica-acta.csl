@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<style class="in-text" version="1.0" demote-non-dropping-particle="sort-only" default-locale="en-GB" xmlns="http://purl.org/net/xbiblio/csl">
+<style xmlns="http://purl.org/net/xbiblio/csl" class="in-text" version="1.0" demote-non-dropping-particle="sort-only" default-locale="en-GB">
   <info>
     <title>Radiochimica Acta</title>
     <id>http://www.zotero.org/styles/radiochimica-acta</id>
@@ -14,7 +14,7 @@
     <category field="chemistry"/>
     <issn>0033-8230</issn>
     <eissn>2193-3405</eissn>
-    <updated>2017-01-31T02:34:22+00:00</updated>
+    <updated>2017-02-10T04:08:40+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <macro name="author">

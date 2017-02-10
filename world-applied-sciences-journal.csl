@@ -16,7 +16,7 @@
     <issn>1818-4952</issn>
     <eissn>1991-6426</eissn>
     <summary>A style for the World Applies Sciences Journal based on Elsevier.</summary>
-    <updated>2017-01-15T22:51:03+00:00</updated>
+    <updated>2017-02-10T04:08:40+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <macro name="author">
@@ -37,7 +37,7 @@
   </macro>
   <macro name="year-date">
     <date date-parts="year" form="text" variable="issued" suffix=". "/>
-  </macro> 
+  </macro>
   <macro name="publisher">
     <text variable="publisher"/>
   </macro>
@@ -92,7 +92,7 @@
           <text macro="editor" suffix=", "/>
           <text macro="edition" suffix=", "/>
           <text macro="publisher"/>
-          <group delimiter=": "  prefix=", ">
+          <group delimiter=": " prefix=", ">
             <label variable="page" strip-periods="true" form="short"/>
             <text variable="page"/>
           </group>

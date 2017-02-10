@@ -24,7 +24,7 @@
     <category citation-format="note"/>
     <category field="generic-base"/>
     <summary>Citation Style of the University of Applied Sciences Vorarlberg/Austria, based on A Harvard author-date style variant, mostly german, footnote style</summary>
-    <updated>2017-01-20T01:49:50+00:00</updated>
+    <updated>2017-02-10T04:08:40+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="de">
@@ -179,7 +179,7 @@
           <text variable="publisher"/>
         </group>
         <choose>
-          <if variable="page"></if>
+          <if variable="page"/>
           <else>
             <text value=".&#160;"/>
           </else>

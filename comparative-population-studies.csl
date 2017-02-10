@@ -4,8 +4,8 @@
     <title>Comparative Population Studies</title>
     <id>http://www.zotero.org/styles/comparative-population-studies</id>
     <link href="http://www.zotero.org/styles/comparative-population-studies" rel="self"/>
-    <link href="http://www.comparativepopulationstudies.de/index.php/CPoS/pages/view/AGL_E" rel="documentation"/>
     <link href="http://www.zotero.org/styles/wirtschaftsuniversitat-wien-handel-und-marketing" rel="template"/>
+    <link href="http://www.comparativepopulationstudies.de/index.php/CPoS/pages/view/AGL_E" rel="documentation"/>
     <author>
       <name>Brenton M. Wiernik</name>
       <email>zotero@wiernik.org</email>
@@ -15,7 +15,7 @@
     <issn>1869-8980</issn>
     <eissn>1869-8999</eissn>
     <summary>Citation style for Comparative Population Studies.</summary>
-    <updated>2017-01-16T16:18:07+00:00</updated>
+    <updated>2017-02-10T04:08:40+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <macro name="container">
