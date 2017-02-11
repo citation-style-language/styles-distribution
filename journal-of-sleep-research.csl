@@ -11,11 +11,15 @@
       <name>Omar Harb</name>
       <email>omarharb@hotmail.com</email>
     </author>
+    <contributor>
+      <name>Mike Borghese</name>
+      <email>mborg031@gmail.com</email>      
+    </contributor>
     <category citation-format="author-date"/>
     <category field="science"/>
     <issn>0962-1105</issn>
     <eissn>1365-2869</eissn>
-    <updated>2015-01-24T19:23:46+00:00</updated>
+    <updated>2017-02-11T20:49:28+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <macro name="author-short-in-citation">
@@ -106,7 +110,7 @@
       </group>
     </layout>
   </citation>
-  <bibliography entry-spacing="0">
+  <bibliography entry-spacing="0" et-al-min="7" et-al-use-first="3">
     <sort>
       <key macro="author-in-citation"/>
       <key macro="issued-sort" sort="ascending"/>
