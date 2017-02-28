@@ -42,7 +42,7 @@
     </contributor>
     <category citation-format="author-date"/>
     <issn>0276-7783</issn>
-    <updated>2014-12-10T01:20:13+00:00</updated>
+    <updated>2017-02-28T04:45:52+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="en-US">
@@ -314,7 +314,7 @@
       <group suffix=".">
         <text macro="author" suffix="."/>
         <text macro="issued" prefix=" " suffix="."/>
-        <group delimiter="" prefix=" ">
+        <group delimiter=", " prefix=" ">
           <group delimiter=" ">
             <text macro="title"/>
             <text macro="container-phrase"/>
