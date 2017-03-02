@@ -15,7 +15,7 @@
     <issn>0195-6167</issn>
     <eissn>1533-8339</eissn>
     <summary>Style for the Music Theory Spectrum journal based on the Cambridge Journal International Organization</summary>
-    <updated>2017-03-02T03:49:03+00:00</updated>
+    <updated>2017-03-02T17:08:19+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale>
@@ -391,9 +391,9 @@
     <layout suffix="." delimiter="; ">
       <choose>
         <if position="ibid-with-locator">
-          <group delimiter=", ">
+          <group delimiter=" ">
             <text term="ibid"/>
-            <text macro="point-locators-subsequent"/>
+            <text macro="point-locators-subsequent" prefix="(" suffix=")"/>
           </group>
         </if>
         <else-if position="ibid">
