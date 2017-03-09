@@ -15,7 +15,7 @@
     <category field="psychology"/>
     <category field="generic-base"/>
     <summary>Style basé sur la version francophone du livre « Normes de présentation d’un travail de recherche », 4e édition, par Marc A. Provost ... [et al.] selon les normes APA, 6e édition</summary>
-    <updated>2017-03-09T04:46:23+00:00</updated>
+    <updated>2017-03-09T13:31:24+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="fr">
@@ -380,10 +380,15 @@
   <macro name="issued-year">
     <choose>
       <if variable="issued">
-        <date variable="issued">
-          <date-part name="year"/>
-        </date>
-        <text variable="year-suffix"/>
+        <group delimiter="/">
+          <date variable="original-date" form="text"/>
+          <group>
+            <date variable="issued">
+              <date-part name="year"/>
+            </date>
+            <text variable="year-suffix"/>
+          </group>
+        </group>
       </if>
       <else>
         <text term="no date" form="short"/>
@@ -525,6 +530,16 @@
       </else>
     </choose>
   </macro>
+  <macro name="original-date">
+    <choose>
+      <if variable="original-date">
+        <group prefix="(" suffix=")" delimiter=" ">
+          <text value="Ouvrage original publié en"/>
+          <date variable="original-date" form="text"/>
+        </group>
+      </if>
+    </choose>
+  </macro>
   <citation et-al-min="6" et-al-use-first="1" et-al-subsequent-min="3" et-al-subsequent-use-first="1" disambiguate-add-year-suffix="true" disambiguate-add-names="true" disambiguate-add-givenname="true" collapse="year" givenname-disambiguation-rule="primary-name">
     <sort>
       <key macro="author"/>
@@ -561,6 +576,7 @@
       </group>
       <text macro="extra" prefix=" " suffix="."/>
       <text macro="access" prefix=" "/>
+      <text macro="original-date" prefix=" " suffix="."/>
     </layout>
   </bibliography>
 </style>
