@@ -17,7 +17,7 @@
     <category citation-format="author-date"/>
     <category field="generic-base"/>
     <summary>The Harvard author-date style - adapted for use at Coventry University. See usage notes at http://www.oak-wood.co.uk/oss/coventry-harvard-csl</summary>
-    <updated>2016-11-20T04:07:56+00:00</updated>
+    <updated>2017-03-09T04:37:07+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale>
@@ -368,7 +368,7 @@
           </else-if>
           <else-if type="article-journal article-magazine article-newspaper song speech" match="any">
             <text macro="title" suffix=". "/>
-            <text variable="container-title" font-style="italic"/>
+            <text variable="container-title" font-style="italic" text-case="title"/>
             <text macro="online"/>
             <group delimiter=". ">
               <group delimiter=", ">
