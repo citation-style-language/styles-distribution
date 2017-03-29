@@ -10,7 +10,7 @@
     <category field="medicine"/>
     <issn>0022-3417</issn>
     <eissn>1096-9896</eissn>
-    <updated>2017-03-06T05:21:15+00:00</updated>
+    <updated>2017-03-29T04:22:37+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="en">
@@ -104,7 +104,7 @@
     <sort>
       <key variable="citation-number"/>
     </sort>
-    <layout  delimiter="," prefix="[" suffix="]">
+    <layout delimiter="," prefix="[" suffix="]">
       <text variable="citation-number"/>
       <group prefix="(" suffix=")">
         <label variable="locator" form="short" strip-periods="true"/>

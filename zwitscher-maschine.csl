@@ -11,7 +11,7 @@
     <category citation-format="note"/>
     <category field="humanities"/>
     <issn>2297-6809</issn>
-    <updated>2017-03-04T22:58:18+00:00</updated>
+    <updated>2017-03-29T04:22:37+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale>
@@ -114,7 +114,7 @@
   <macro name="medium">
     <choose>
       <if type="graphic">
-	<text variable="medium"/>
+        <text variable="medium"/>
       </if>
     </choose>
   </macro>
@@ -188,7 +188,7 @@
         <text macro="editor-translator"/>
         <text macro="edition"/>
         <text macro="publisher"/>
-	<text macro="medium"/>
+        <text macro="medium"/>
         <text macro="date"/>
         <text macro="journal-details"/>
         <text macro="pages"/>

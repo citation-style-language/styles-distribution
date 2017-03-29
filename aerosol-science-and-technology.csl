@@ -13,7 +13,7 @@
     <category citation-format="author-date"/>
     <category field="chemistry"/>
     <issn>0278-6826</issn>
-    <updated>2017-03-28T02:50:55+00:00</updated>
+    <updated>2017-03-29T04:22:37+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <macro name="author">
@@ -91,7 +91,8 @@
         </group>
       </else>
     </choose>
-  </macro><macro name="access">
+  </macro>
+  <macro name="access">
     <choose>
       <if type="webpage">
         <group delimiter=" ">
