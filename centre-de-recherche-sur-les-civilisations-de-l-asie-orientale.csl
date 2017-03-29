@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <style xmlns="http://purl.org/net/xbiblio/csl" class="note" default-locale="fr-FR" version="1.0" page-range-format="expanded">
   <info>
-    <title>Centre de recherche sur les civilisations de l’Asie orientale (French)</title>
+    <title>Centre de recherche sur les civilisations de l'Asie orientale (French)</title>
     <title-short>CRCAO</title-short>
     <id>http://www.zotero.org/styles/centre-de-recherche-sur-les-civilisations-de-l-asie-orientale</id>
     <link href="http://www.zotero.org/styles/centre-de-recherche-sur-les-civilisations-de-l-asie-orientale" rel="self"/>
@@ -25,7 +25,7 @@
     </contributor>
     <category citation-format="note"/>
     <category field="social_science"/>
-    <updated>2016-06-21T02:53:37+00:00</updated>
+    <updated>2017-03-29T04:17:16+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="fr">
