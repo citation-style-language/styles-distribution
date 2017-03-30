@@ -5,6 +5,7 @@
     <title-short>Rev.Elev.Med.Vet.Pays.Trop.</title-short>
     <id>http://www.zotero.org/styles/revue-d-elevage-et-de-medecine-veterinaire-des-pays-tropicaux</id>
     <link href="http://www.zotero.org/styles/revue-d-elevage-et-de-medecine-veterinaire-des-pays-tropicaux" rel="self"/>
+    <link href="http://www.zotero.org/styles/journal-of-zoology" rel="template"/>
     <link href="http://remvt.cirad.fr/gb/presentation/note.html" rel="documentation"/>
     <author>
       <name>Cirad-Dist</name>
@@ -13,7 +14,7 @@
     <category field="biology"/>
     <category field="zoology"/>
     <issn>1951-6711</issn>
-    <updated>2017-03-29T03:44:05+00:00</updated>
+    <updated>2017-03-30T03:24:34+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="fr">
