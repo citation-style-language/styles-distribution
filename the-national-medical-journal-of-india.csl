@@ -19,7 +19,7 @@
     <category field="medicine"/>
     <issn>0970-258X</issn>
     <summary>Style for The National Medical Journal of India based on The Lancet.</summary>
-    <updated>2017-01-15T15:53:01+00:00</updated>
+    <updated>2017-03-31T18:25:46+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale>
@@ -78,7 +78,7 @@
       <if variable="page" match="none">
         <choose>
           <if variable="DOI">
-            <text variable="DOI" prefix=" Available at http://dx.doi.org/"/>
+            <text variable="DOI" prefix=" Available at https://doi.org/"/>
             <group prefix=" (" suffix=")." delimiter=" ">
               <text term="accessed"/>
               <date variable="accessed" form="text"/>

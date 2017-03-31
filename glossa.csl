@@ -14,7 +14,7 @@
     <category field="linguistics"/>
     <eissn>2397-1835</eissn>
     <summary>Citation style for Glossa based on APA 6th edition.</summary>
-    <updated>2017-01-26T03:03:18+00:00</updated>
+    <updated>2017-03-31T18:25:46+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="en">
@@ -144,7 +144,7 @@
       <else>
         <choose>
           <if variable="DOI">
-            <text variable="DOI" prefix="DOI: http://dx.doi.org/"/>
+            <text variable="DOI" prefix="DOI: https://doi.org/"/>
           </if>
           <else>
             <choose>

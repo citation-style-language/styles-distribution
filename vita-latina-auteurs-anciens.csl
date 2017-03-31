@@ -27,7 +27,7 @@ Remarques :
     <eissn>1783-1830</eissn>
     <summary>Zotero stylesheet for Vita Latina (journal) specific to the editions of Ancient Literature</summary>
     <published>2017-03-03T00:00:00</published>
-    <updated>2017-03-28T17:21:20+00:00</updated>
+    <updated>2017-03-31T18:25:46+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <!-- INSTRUCTIONS DE FORMATAGE EN FRANCAIS -->
@@ -139,7 +139,7 @@ Remarques :
       <key macro="contributeurs-tri"/>
     </sort>
     <layout suffix=".">
-      <text macro="auteurs" prefix="  "/>
+      <text macro="auteurs" prefix="&#8195;&#8195;"/>
       <group delimiter=" " suffix=", ">
         <text macro="titre"/>
         <text macro="volume"/>
