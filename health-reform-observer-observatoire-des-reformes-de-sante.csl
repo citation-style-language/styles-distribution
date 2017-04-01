@@ -14,7 +14,7 @@
     <category field="medicine"/>
     <category field="social_science"/>
     <eissn>2291-6369</eissn>
-    <updated>2016-09-10T17:15:38+00:00</updated>
+    <updated>2017-04-01T04:14:40+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <macro name="editor">
@@ -63,19 +63,19 @@
   <macro name="title">
     <choose>
       <if type="bill book graphic legal_case legislation motion_picture song thesis" match="any">
-        <text font-style="italic" variable="title" text-case="sentence" suffix="."/>
+        <text font-style="italic" variable="title" suffix="."/>
       </if>
       <else-if type="report" match="any">
-        <text font-style="normal" variable="title" text-case="sentence" suffix="."/>
+        <text font-style="normal" variable="title" suffix="."/>
       </else-if>
       <else-if type="article-journal" match="any">
-        <text variable="title" text-case="sentence"/>
+        <text variable="title"/>
       </else-if>
       <else-if type="chapter" match="any">
-        <text variable="title" text-case="sentence"/>
+        <text variable="title"/>
       </else-if>
       <else>
-        <text variable="title" text-case="sentence"/>
+        <text variable="title"/>
       </else>
     </choose>
   </macro>

@@ -20,7 +20,7 @@
     <category citation-format="author-date"/>
     <category field="generic-base"/>
     <summary>The strict Brazilian ABNT standard style author-date</summary>
-    <updated>2016-10-24T04:22:15+00:00</updated>
+    <updated>2017-04-01T04:14:40+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="pt-BR">
@@ -155,12 +155,12 @@
   <macro name="title">
     <choose>
       <if match="any" type="chapter bill webpage post-weblog article-newspaper article-magazine    article-journal motion_picture paper-conference speech">
-        <text variable="title" text-case="sentence"/>
+        <text variable="title"/>
       </if>
       <else-if match="any" type="entry-encyclopedia entry-dictionary">
         <choose>
           <if match="any" variable="author editor collection-editor translator">
-            <text variable="title" text-case="sentence"/>
+            <text variable="title"/>
           </if>
           <else>
             <text variable="title" text-case="uppercase"/>
@@ -176,7 +176,7 @@
   <macro name="container-title">
     <choose>
       <if type="paper-conference speech" match="any">
-        <text variable="container-title" text-case="sentence"/>
+        <text variable="container-title"/>
       </if>
       <else>
         <text variable="container-title" font-weight="bold" text-case="sentence"/>

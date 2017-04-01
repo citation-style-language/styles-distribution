@@ -12,7 +12,7 @@
     </author>
     <category citation-format="note"/>
     <category field="law"/>
-    <updated>2014-09-21T00:39:49+00:00</updated>
+    <updated>2017-04-01T04:14:40+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
     <!-- GENERAL COMMENTS
 			All comments below are in DUTCH since this is a Dutch reference-style. The comments are for further development of this style. 
@@ -258,7 +258,7 @@
         </choose>
       </if>
       <else-if type="article article-magazine article-newspaper article-journal" match="any">
-        <text variable="title" text-case="sentence" quotes="true" suffix=", "/>
+        <text variable="title" quotes="true" suffix=", "/>
         <text variable="container-title" font-style="italic"/>
         <choose>
           <if variable="volume issue" match="all">
@@ -273,7 +273,7 @@
         <text macro="locators"/>
       </else-if>
       <else-if type="chapter">
-        <text variable="title" text-case="sentence" quotes="true" suffix=", in: "/>
+        <text variable="title" quotes="true" suffix=", in: "/>
         <text macro="container-author" suffix=", "/>
         <text variable="container-title" font-style="italic" suffix=", "/>
         <text variable="publisher-place"/>
