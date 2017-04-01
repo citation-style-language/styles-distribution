@@ -19,7 +19,7 @@
     <category citation-format="author-date"/>
     <category field="generic-base"/>
     <summary>Le style UQAM est une adaptation canadienne-française de la norme APA 6th (2010) selon les normes utilisées à l'Université du Québec à Montréal basé sur le Guide des mémoires et des thèses</summary>
-    <updated>2017-03-31T18:25:46+00:00</updated>
+    <updated>2017-04-01T04:56:31+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="fr">
@@ -82,7 +82,7 @@
   <macro name="author-short">
     <names variable="author">
       <name form="short" and="text" name-as-sort-order="all" delimiter=" " sort-separator=", " delimiter-precedes-last="never" initialize-with=". "/>
-      <et-al font-style="italic" prefix=" "/>
+      <et-al font-style="italic"/>
       <substitute>
         <names variable="editor"/>
         <names variable="translator"/>
