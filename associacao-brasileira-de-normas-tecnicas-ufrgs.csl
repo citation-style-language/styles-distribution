@@ -20,7 +20,7 @@
     <category citation-format="author-date"/>
     <category field="generic-base"/>
     <summary>The strict Brazilian ABNT standard style author-date</summary>
-    <updated>2017-04-01T04:14:40+00:00</updated>
+    <updated>2017-04-02T17:38:37+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="pt-BR">
@@ -168,7 +168,7 @@
         </choose>
       </else-if>
       <else>
-        <text variable="title" font-weight="bold" text-case="sentence"/>
+        <text variable="title" font-weight="bold"/>
       </else>
     </choose>
   </macro>
@@ -179,7 +179,7 @@
         <text variable="container-title"/>
       </if>
       <else>
-        <text variable="container-title" font-weight="bold" text-case="sentence"/>
+        <text variable="container-title" font-weight="bold"/>
       </else>
     </choose>
   </macro>
