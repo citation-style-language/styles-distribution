@@ -5,7 +5,7 @@
     <title-short>TUD Betriebswirtschaftslehre (author-date)</title-short>
     <id>http://www.zotero.org/styles/technische-universitat-dresden-finanzwirtschaft-und-finanzdienstleistungen-author-date</id>
     <link href="http://www.zotero.org/styles/technische-universitat-dresden-finanzwirtschaft-und-finanzdienstleistungen-author-date" rel="self"/>
-    <link href="http://www.zotero.org/styles/harvard1" rel="template"/>
+    <link href="http://www.zotero.org/styles/harvard-cite-them-right" rel="template"/>
     <link href="https://bildungsportal.sachsen.de/opal/url/RepositoryEntry/683835403" rel="documentation"/>
     <author>
       <name>Jens Mittelbach</name>
@@ -15,7 +15,7 @@
     <category citation-format="author-date"/>
     <category field="social_science"/>
     <summary>Zitierstil entsprechend den Zitierrichtlinien des Lehrstuhls Finanzwirtschaft und Finanzdienstleistungen der Fakultät Wirtschaftswissenschaften, Technische Universität Dresden.</summary>
-    <updated>2015-12-16T02:35:11+00:00</updated>
+    <updated>2017-04-03T00:20:53+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="de">
