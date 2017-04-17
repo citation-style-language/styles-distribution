@@ -4,7 +4,7 @@
     <title>Terra Nova</title>
     <id>http://www.zotero.org/styles/terra-nova</id>
     <link href="http://www.zotero.org/styles/terra-nova" rel="self"/>
-    <link href="http://www.zotero.org/styles/geology" rel="template"/>
+    <link href="http://www.zotero.org/styles/the-geological-society-of-america" rel="template"/>
     <link href="http://onlinelibrary.wiley.com/journal/10.1111/%28ISSN%291365-3121/homepage/ForAuthors.html" rel="documentation"/>
     <author>
       <name>Henning Lorenz</name>
@@ -14,7 +14,7 @@
     <category field="geology"/>
     <issn>0954-4879</issn>
     <eissn>1365-3121</eissn>
-    <updated>2014-09-06T22:02:33+00:00</updated>
+    <updated>2017-04-17T12:44:38+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <macro name="editor-translator">
