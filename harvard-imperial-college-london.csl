@@ -11,7 +11,7 @@
     <category citation-format="author-date"/>
     <category field="medicine"/>
     <summary>Harvard author-date style edited for Imperial College London</summary>
-    <updated>2017-04-27T22:45:58+00:00</updated>
+    <updated>2017-05-10T12:50:26+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <macro name="editor">
@@ -141,11 +141,13 @@
       </if>
     </choose>
   </macro>
-  <citation et-al-min="4" et-al-use-first="3" disambiguate-add-year-suffix="true" collapse="year">
+  <citation et-al-min="4" et-al-use-first="1" disambiguate-add-year-suffix="true" collapse="year">
     <layout prefix="(" suffix=")" delimiter="; ">
-      <group delimiter=", ">
-        <text macro="author-short"/>
-        <text macro="year-date"/>
+      <group delimiter=":">
+        <group delimiter=", ">
+          <text macro="author-short"/>
+          <text macro="year-date"/>
+        </group>
         <group>
           <label variable="locator" form="short"/>
           <text variable="locator"/>
