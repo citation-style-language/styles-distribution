@@ -17,7 +17,7 @@
     <category field="chemistry"/>
     <issn>0016-7037</issn>
     <summary>Geochimica et Cosmochimica Acta style</summary>
-    <updated>2016-09-10T14:32:31+00:00</updated>
+    <updated>2017-05-14T03:11:39+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <macro name="editor">
@@ -112,7 +112,7 @@
       <text variable="page"/>
     </group>
   </macro>
-  <citation and="text" et-al-min="3" et-al-use-first="1" disambiguate-add-year-suffix="true" disambiguate-add-names="true" disambiguate-add-givenname="true">
+  <citation and="text" et-al-min="3" et-al-use-first="1" disambiguate-add-year-suffix="true" disambiguate-add-names="false" disambiguate-add-givenname="true">
     <sort>
       <key variable="issued"/>
       <key macro="author-short"/>
