@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <style xmlns="http://purl.org/net/xbiblio/csl" class="in-text" version="1.0" demote-non-dropping-particle="sort-only" default-locale="en-US">
   <info>
-    <title>Springer Humanities (numeric, brackets)</title>
+    <title>Springer - Humanities (numeric, brackets)</title>
     <id>http://www.zotero.org/styles/springer-humanities-brackets</id>
     <link href="http://www.zotero.org/styles/springer-humanities-brackets" rel="self"/>
     <link href="http://www.zotero.org/styles/springer-humanities-author-date" rel="template"/>
@@ -27,7 +27,7 @@
     <category field="generic-base"/>
     <category field="humanities"/>
     <summary>Style for Springer's humanities journals - the journals do look slightly different from each other, but this should work quite closely</summary>
-    <updated>2015-05-09T06:56:02+00:00</updated>
+    <updated>2017-05-18T15:23:08+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale>

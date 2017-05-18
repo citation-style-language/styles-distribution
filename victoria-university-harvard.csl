@@ -23,7 +23,7 @@ TO DO
 
 -->
   <info>
-    <title>Victoria University (Harvard)</title>
+    <title>Victoria University - Harvard</title>
     <title-short>VU</title-short>
     <id>http://www.zotero.org/styles/victoria-university-harvard</id>
     <link href="http://www.zotero.org/styles/victoria-university-harvard" rel="self"/>
@@ -35,7 +35,7 @@ TO DO
     <category citation-format="author-date"/>
     <category field="generic-base"/>
     <summary>Victoria University citation style based on the 2002 version of the style guide titled Harvard referencing guide VU</summary>
-    <updated>2016-03-03T06:05:15+00:00</updated>
+    <updated>2017-05-18T15:23:08+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="en">
