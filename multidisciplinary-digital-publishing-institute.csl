@@ -13,7 +13,7 @@
     <category citation-format="numeric"/>
     <category field="science"/>
     <summary>Style for the MDPI Open access journals</summary>
-    <updated>2014-09-06T22:02:33+00:00</updated>
+    <updated>2017-05-23T19:05:14+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <macro name="editor">
@@ -163,6 +163,7 @@
               <text macro="issued" font-weight="bold"/>
               <text variable="volume" font-style="italic"/>
               <text variable="page"/>
+              <text variable="DOI" prefix="DOI:"/>
             </group>
           </group>
         </else-if>
