@@ -17,7 +17,7 @@
     <category citation-format="author-date"/>
     <category field="generic-base"/>
     <summary>Style based on ČSN ISO 690:2011</summary>
-    <updated>2017-05-08T13:01:46+00:00</updated>
+    <updated>2017-06-02T04:32:45+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale>
@@ -289,8 +289,8 @@
         <date variable="issued">
           <date-part name="day" suffix=".&#160;"/>
           <date-part name="month" form="numeric" suffix="."/>-->
-          <!--date-part name="year"/-->
-        <!--</date>
+  <!--date-part name="year"/-->
+  <!--</date>
       </if>
     </choose>
   </macro>-->
