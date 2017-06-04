@@ -31,7 +31,7 @@
     <category citation-format="author-date"/>
     <category field="psychology"/>
     <category field="generic-base"/>
-    <updated>2017-05-04T21:20:38+00:00</updated>
+    <updated>2017-06-04T15:32:54+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="en">
@@ -141,6 +141,13 @@
           <if variable="DOI" match="any">
             <text variable="DOI" prefix="https://doi.org/"/>
           </if>
+          <else-if variable="URL" match="any">
+            <group>
+              <text term="retrieved" text-case="capitalize-first" suffix=" "/>
+              <text term="from" suffix=" "/>
+              <text variable="URL"/>
+            </group>
+          </else-if>
           <else-if variable="archive" match="any">
             <group>
               <text term="retrieved" text-case="capitalize-first" suffix=" "/>
@@ -149,13 +156,6 @@
               <text variable="archive_location" prefix=" (" suffix=")"/>
             </group>
           </else-if>
-          <else>
-            <group>
-              <text term="retrieved" text-case="capitalize-first" suffix=" "/>
-              <text term="from" suffix=" "/>
-              <text variable="URL"/>
-            </group>
-          </else>
         </choose>
       </if>
       <else>

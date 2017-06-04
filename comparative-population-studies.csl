@@ -15,12 +15,12 @@
     <issn>1869-8980</issn>
     <eissn>1869-8999</eissn>
     <summary>Citation style for Comparative Population Studies.</summary>
-    <updated>2017-04-19T12:13:28+00:00</updated>
+    <updated>2017-06-04T15:32:54+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <macro name="container">
     <choose>
-      <if type="chapter paper-conference" match="any">
+      <if type="chapter paper-conference entry-encyclopedia entry-dictionary" match="any">
         <text term="in" text-case="capitalize-first" suffix=": "/>
         <names variable="editor translator" delimiter="; " suffix=": ">
           <name delimiter-precedes-last="always" initialize-with="." name-as-sort-order="all" font-style="italic"/>
@@ -206,7 +206,7 @@
       <text variable="publisher-place"/>
       <text variable="publisher"/>
       <choose>
-        <if type="chapter paper-conference" match="any">
+        <if type="chapter paper-conference entry-encyclopedia entry-dictionary" match="any">
           <text variable="page"/>
         </if>
       </choose>
