@@ -5,7 +5,7 @@
     <id>http://www.zotero.org/styles/ageing-and-society</id>
     <link href="http://www.zotero.org/styles/ageing-and-society" rel="self"/>
     <link href="http://www.zotero.org/styles/emu-austral-ornithology" rel="template"/>
-    <link href="https://github.com/citation-style-language/styles/files/1047799/575ac5898d9f13e91d15f5cf-1.pdf" rel="documentation"/>
+    <link href="https://www.cambridge.org/core/journals/ageing-and-society/information/instructions-contributors" rel="documentation"/>
     <author>
       <name>Patrick O'Brien</name>
       <email>obrienpat86@gmail.com</email>
@@ -14,7 +14,7 @@
     <category field="biology"/>
     <issn>0144-686X</issn>
     <eissn>1469-1779</eissn>
-    <updated>2017-06-04T21:58:56+00:00</updated>
+    <updated>2017-06-07T04:48:47+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="en">
