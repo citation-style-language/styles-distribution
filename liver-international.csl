@@ -15,7 +15,7 @@
     <issn>1478-3223</issn>
     <eissn>1478-3231</eissn>
     <summary>Liver international journal style.</summary>
-    <updated>2017-06-05T03:56:00+00:00</updated>
+    <updated>2017-06-21T02:00:26+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <macro name="author">
@@ -69,7 +69,7 @@
         <text variable="container-title" form="short" strip-periods="true" suffix=". " font-style="italic"/>
       </if>
       <else>
-        <text variable="container-title" suffix=". "  font-style="italic"/>
+        <text variable="container-title" suffix=". " font-style="italic"/>
       </else>
     </choose>
   </macro>

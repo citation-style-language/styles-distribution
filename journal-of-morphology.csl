@@ -14,7 +14,7 @@
     <issn>0362-2525</issn>
     <eissn>1097-4687</eissn>
     <summary>Journal of Morphology style: APA, no issue numbers, no DOIs except for prepritns</summary>
-    <updated>2017-06-13T01:02:43+00:00</updated>
+    <updated>2017-06-21T02:00:26+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="en">
@@ -416,17 +416,17 @@
   <macro name="locators">
     <choose>
       <if type="article-journal article-magazine" match="any">
-	<choose>
-	  <if variable="volume page" match="any">
-	    <group prefix=", " delimiter=", ">
+        <choose>
+          <if variable="volume page" match="any">
+            <group prefix=", " delimiter=", ">
               <text variable="volume" font-style="italic"/>
               <text variable="page"/>
             </group>
-	  </if>
-	  <else>
-	    <text variable="DOI" prefix="doi:"/>
-	  </else>
-	</choose>
+          </if>
+          <else>
+            <text variable="DOI" prefix="doi:"/>
+          </else>
+        </choose>
         <choose>
           <!--for advanced online publication-->
           <if variable="issued">
