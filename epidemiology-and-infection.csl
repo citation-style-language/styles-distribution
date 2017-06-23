@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <style xmlns="http://purl.org/net/xbiblio/csl" class="in-text" version="1.0" demote-non-dropping-particle="sort-only" default-locale="en-GB">
   <info>
-    <title>Epidemiology and Infection</title>
+    <title>Epidemiology &amp; Infection</title>
     <id>http://www.zotero.org/styles/epidemiology-and-infection</id>
     <link href="http://www.zotero.org/styles/epidemiology-and-infection" rel="self"/>
     <link href="http://www.zotero.org/styles/journal-of-thrombosis-and-haemostasis" rel="template"/>
@@ -14,7 +14,7 @@
     <category field="medicine"/>
     <issn>0950-2688</issn>
     <eissn>1469-4409</eissn>
-    <updated>2017-05-21T17:42:41+00:00</updated>
+    <updated>2017-06-23T01:48:24+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="en">
