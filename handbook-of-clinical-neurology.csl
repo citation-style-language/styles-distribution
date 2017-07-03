@@ -15,7 +15,7 @@
     <category field="medicine"/>
     <issn>0072-9752</issn>
     <summary>Citation Style for the Clinical Handbook of Neurology, 3rd Series.</summary>
-    <updated>2017-05-17T20:29:01+00:00</updated>
+    <updated>2017-07-03T03:48:18+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <macro name="container">
@@ -202,7 +202,7 @@
       </group>
     </layout>
   </citation>
-  <bibliography et-al-min="3" et-al-use-first="3" hanging-indent="true" entry-spacing="0" line-spacing="1">
+  <bibliography et-al-min="4" et-al-use-first="3" hanging-indent="true" entry-spacing="0" line-spacing="1">
     <sort>
       <key macro="author"/>
       <key macro="issued" sort="descending"/>

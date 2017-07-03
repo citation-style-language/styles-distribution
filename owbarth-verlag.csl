@@ -23,7 +23,7 @@
         - Nutzen Sie den Typ 'Bericht' - als Abhilfe, da es keinen Typ 'Standard' gibt.
         - als Autor die Kurzbezeichnung inkl. Nummer und Jahr eingeben (z.B. VDI 2222-1997), Vorname leer, Jahr leer
         - als Titel den ausführlichen Titel bei Bedarf (z.B. VDI Richtlinie 2222 Blatt 1 - Konstruktionsmethodik - Methodisches Entwickeln von Lösungsprinzipien)</summary>
-    <updated>2014-09-10T06:18:55+00:00</updated>
+    <updated>2017-07-03T03:48:18+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="de">
@@ -227,7 +227,7 @@
       </group>
     </layout>
   </citation>
-  <bibliography hanging-indent="true" et-al-min="9" et-al-use-first="9">
+  <bibliography hanging-indent="true" et-al-min="10" et-al-use-first="9">
     <sort>
       <key macro="author"/>
       <key variable="issued"/>

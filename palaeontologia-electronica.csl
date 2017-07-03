@@ -13,7 +13,7 @@
     <category field="biology"/>
     <issn>1094-8074</issn>
     <eissn>1935-3952</eissn>
-    <updated>2015-01-24T15:23:58+00:00</updated>
+    <updated>2017-07-03T03:48:18+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <macro name="container-contributors">
@@ -194,7 +194,7 @@
       </group>
     </layout>
   </citation>
-  <bibliography hanging-indent="true" et-al-min="99" et-al-use-first="99" entry-spacing="0" line-spacing="2">
+  <bibliography hanging-indent="true" et-al-min="99" et-al-use-first="98" entry-spacing="0" line-spacing="2">
     <sort>
       <key macro="author"/>
       <key variable="issued"/>
