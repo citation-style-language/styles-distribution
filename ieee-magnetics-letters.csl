@@ -13,7 +13,7 @@
     <category field="engineering"/>
     <category field="communications"/>
     <issn>1949-307X</issn>
-    <updated>2017-07-09T22:12:49+00:00</updated>
+    <updated>2017-07-10T04:09:03+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="en">
@@ -188,8 +188,11 @@
   </macro>
   <!-- Citation -->
   <citation et-al-min="2" et-al-use-first="1" disambiguate-add-year-suffix="true">
+    <sort>
+      <key variable="citation-number"/>
+    </sort>
     <layout delimiter=", " prefix="[" suffix="]">
-      <group  delimiter=", ">
+      <group delimiter=", ">
         <group delimiter=" ">
           <text macro="author-short"/>
           <text macro="year-date"/>
