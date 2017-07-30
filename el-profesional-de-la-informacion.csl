@@ -13,7 +13,7 @@
     <category field="social_science"/>
     <issn>1386-6710</issn>
     <eissn>1699-2407</eissn>
-    <updated>2017-07-29T03:18:28+00:00</updated>
+    <updated>2017-07-30T13:40:11+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale>
@@ -71,8 +71,10 @@
     <layout>
       <group display="block" suffix=".">
         <group suffix=", ">
-          <text macro="author" suffix=". "/>
-          <text macro="issued" prefix="(" suffix=")"/>
+          <group suffix=". ">
+          <text macro="author"/>
+          <text macro="issued" prefix=" (" suffix=")"/>
+          </group>
           <text macro="title"/>
           <choose>
             <if type="paper-conference" match="any">
