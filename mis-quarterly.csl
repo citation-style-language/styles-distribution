@@ -42,7 +42,7 @@
     </contributor>
     <category citation-format="author-date"/>
     <issn>0276-7783</issn>
-    <updated>2017-02-28T04:45:52+00:00</updated>
+    <updated>2017-08-15T12:29:51+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="en-US">
@@ -324,8 +324,8 @@
             <text macro="container-contributors"/>
             <text macro="secondary-contributors"/>
           </group>
-          <text macro="locators" prefix=" "/>
         </group>
+        <text macro="locators" prefix=" "/>
         <group delimiter=", " prefix=", ">
           <text macro="event"/>
           <text macro="publisher"/>
