@@ -12,7 +12,7 @@
     <category citation-format="note"/>
     <category field="social_science"/>
     <category field="generic-base"/>
-    <updated>2017-08-07T15:56:20+00:00</updated>
+    <updated>2017-08-21T01:35:17+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="fr">
@@ -216,7 +216,7 @@
                       <text macro="title"/>
                     </if>
                   </choose>
-                <text value="Loc.&#160;cit." text-case="capitalize-first" font-style="italic"/>
+                <text value="loc.&#160;cit." font-style="italic"/>
                 <text macro="locator"/>
               </if>
               <else>
@@ -226,7 +226,7 @@
                       <text macro="title"/>
                     </if>
                   </choose>
-                <text value="Op.&#160;cit." text-case="capitalize-first" font-style="italic"/>
+                <text value="op.&#160;cit." font-style="italic"/>
                 <text macro="locator"/>
               </else>
             </choose>
