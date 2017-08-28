@@ -14,7 +14,7 @@
     <category field="medicine"/>
     <category field="physics"/>
     <issn>0094-2405</issn>
-    <updated>2017-05-23T16:02:58+00:00</updated>
+    <updated>2017-08-28T13:34:03+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <macro name="author">
@@ -69,10 +69,10 @@
   <macro name="title">
     <choose>
       <if type="article-journal chapter paper-conference article-magazine" match="any">
-        <text variable="title" form="long" quotes="true"/>
+        <text variable="title"/>
       </if>
       <else>
-        <text variable="title" form="long" font-style="italic"/>
+        <text variable="title" font-style="italic"/>
       </else>
     </choose>
   </macro>
