@@ -46,7 +46,7 @@
     </contributor>
     <category citation-format="author-date"/>
     <issn>0276-7783</issn>
-    <updated>2017-08-16T01:56:50+00:00</updated>
+    <updated>2017-09-04T16:42:21+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="en-US">
@@ -117,10 +117,10 @@
     <group delimiter=", ">
       <choose>
         <if variable="container-title" type="post-weblog webpage post report thesis" match="none">
-          <text variable="title" form="short" font-style="italic" text-case="title"/>
+          <text variable="title" font-style="italic" text-case="title"/>
         </if>
         <else>
-          <text variable="title" form="short" quotes="true" text-case="title"/>
+          <text variable="title" quotes="true" text-case="title"/>
         </else>
       </choose>
       <choose>
