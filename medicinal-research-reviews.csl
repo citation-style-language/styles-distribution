@@ -15,7 +15,7 @@
     <issn>0198-6325</issn>
     <eissn>1098-1128</eissn>
     <summary>Vancouver superscript style for SAGE modified to fit Medicinal Research Reviews guidelines.</summary>
-    <updated>2017-07-22T17:03:11+00:00</updated>
+    <updated>2017-09-05T01:06:39+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <macro name="author">
@@ -152,7 +152,7 @@
               <text macro="publisher"/>
             </group>
             <group delimiter=" " prefix=" ">
-              <label variable="page" form="short" plural="never" strip-periods="true" />
+              <label variable="page" form="short" plural="never" strip-periods="true"/>
               <text variable="page"/>
             </group>
           </group>

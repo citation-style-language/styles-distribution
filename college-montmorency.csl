@@ -12,7 +12,7 @@
     <category citation-format="note"/>
     <category field="social_science"/>
     <category field="generic-base"/>
-    <updated>2017-08-21T01:35:17+00:00</updated>
+    <updated>2017-09-05T01:06:39+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="fr">
@@ -211,21 +211,21 @@
             <choose>
               <if variable="container-title" match="any">
                 <text macro="author"/>
-                  <choose>
-                    <if disambiguate="true">
-                      <text macro="title"/>
-                    </if>
-                  </choose>
+                <choose>
+                  <if disambiguate="true">
+                    <text macro="title"/>
+                  </if>
+                </choose>
                 <text value="loc.&#160;cit." font-style="italic"/>
                 <text macro="locator"/>
               </if>
               <else>
                 <text macro="author"/>
-                  <choose>
-                    <if disambiguate="true">
-                      <text macro="title"/>
-                    </if>
-                  </choose>
+                <choose>
+                  <if disambiguate="true">
+                    <text macro="title"/>
+                  </if>
+                </choose>
                 <text value="op.&#160;cit." font-style="italic"/>
                 <text macro="locator"/>
               </else>
