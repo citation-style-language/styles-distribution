@@ -12,7 +12,7 @@
     <category citation-format="note"/>
     <category field="social_science"/>
     <category field="generic-base"/>
-    <updated>2017-09-05T01:06:39+00:00</updated>
+    <updated>2017-09-06T05:34:59+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="fr">
@@ -57,7 +57,7 @@
       <name name-as-sort-order="all" form="long" and="text" delimiter-precedes-last="never" delimiter-precedes-et-al="never" sort-separator=", " font-style="normal">
         <name-part name="family" text-case="uppercase"/>
       </name>
-      <et-al font-style="italic" prefix=" "/>
+      <et-al font-style="italic"/>
       <substitute>
         <text macro="editor"/>
       </substitute>
@@ -68,7 +68,7 @@
       <name name-as-sort-order="all" form="long" and="text" delimiter-precedes-last="never" delimiter-precedes-et-al="never" sort-separator=", " font-style="normal">
         <name-part name="family" text-case="uppercase"/>
       </name>
-      <et-al font-style="italic" prefix=" "/>
+      <et-al font-style="italic"/>
       <label form="short" prefix=",&#160;" suffix=".,"/>
       <substitute>
         <text macro="container-author" suffix=", dir."/>
@@ -80,7 +80,7 @@
       <name name-as-sort-order="all" form="long" and="text" delimiter-precedes-last="never" delimiter-precedes-et-al="never" sort-separator=", " font-style="normal">
         <name-part name="family" text-case="uppercase"/>
       </name>
-      <et-al font-style="italic" prefix=" "/>
+      <et-al font-style="italic"/>
     </names>
   </macro>
   <macro name="title">

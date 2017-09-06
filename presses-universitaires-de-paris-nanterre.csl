@@ -16,7 +16,7 @@
     <category field="social_science"/>
     <category field="humanities"/>
     <category field="generic-base"/>
-    <updated>2017-07-18T11:18:13+00:00</updated>
+    <updated>2017-09-06T05:34:59+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="fr">
@@ -56,11 +56,10 @@
       </if>
       <else-if variable="editorial-director">
         <names variable="editorial-director">
-          <label prefix=" (" suffix=") "/>
           <name form="long" sort-separator=" " delimiter=", " and="text" delimiter-precedes-last="never" name-as-sort-order="all" font-style="normal">
             <name-part name="family" font-variant="small-caps"/>
           </name>
-          <label form="short"/>
+          <label form="short" prefix="&#160;(" suffix=")"/>
         </names>
       </else-if>
       <else-if variable="editor">
