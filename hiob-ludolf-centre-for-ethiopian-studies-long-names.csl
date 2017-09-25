@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <style xmlns="http://purl.org/net/xbiblio/csl" class="in-text" version="1.0" demote-non-dropping-particle="sort-only" default-locale="en-GB">
-  <!-- This style was edited with the Visual CSL Editor (http://editor.citationstyles.org/visualEditor/) -->
   <info>
-    <title>Hiob Ludolf Centre for Ethiopian Studies (with URL/DOI)</title>
-    <title-short>HLCES (Hamburg)</title-short>
-    <id>http://www.zotero.org/styles/hiob-ludolf-centre-for-ethiopian-studies-with-url-doi</id>
-    <link href="http://www.zotero.org/styles/hiob-ludolf-centre-for-ethiopian-studies-with-url-doi" rel="self"/>
+    <title>Hiob Ludolf Centre for Ethiopian Studies (long names)</title>
+    <title-short>HLCES (Hamburg) long names</title-short>
+    <id>http://www.zotero.org/styles/hiob-ludolf-centre-for-ethiopian-studies-long-names</id>
+    <link href="http://www.zotero.org/styles/hiob-ludolf-centre-for-ethiopian-studies-long-names" rel="self"/>
+    <link href="http://www.zotero.org/styles/hiob-ludolf-centre-for-ethiopian-studies" rel="template"/>
     <link href="http://www1.uni-hamburg.de/COMST/bulletin.html" rel="documentation"/>
     <author>
       <name>Eugenia Sokolinski</name>
@@ -42,7 +42,7 @@
     <choose>
       <if type="chapter entry-encyclopedia paper-conference" match="any">
         <names variable="editor translator" delimiter=", " prefix=" ">
-          <name and="text" initialize-with="."/>
+          <name and="text"/>
           <label form="short" prefix=", " suffix=","/>
         </names>
       </if>
@@ -54,7 +54,7 @@
         <group delimiter=", " prefix=", ">
           <names variable="editor translator" delimiter=", ">
             <label form="short" suffix=" "/>
-            <name and="text" initialize-with="." sort-separator=""/>
+            <name and="text" sort-separator=""/>
           </names>
         </group>
       </if>
@@ -62,7 +62,7 @@
   </macro>
   <macro name="author">
     <names variable="author">
-      <name and="text" delimiter-precedes-et-al="never" initialize-with="." name-as-sort-order="first"/>
+      <name and="text" delimiter-precedes-et-al="never" name-as-sort-order="first"/>
       <label form="short" text-case="lowercase" prefix=", " suffix=","/>
       <substitute>
         <names variable="editor"/>
@@ -90,28 +90,25 @@
   </macro>
   <macro name="access">
     <choose>
-      <if match="any" variable="URL">
-        <group prefix=" (" suffix=")">
-          <text term="available at" suffix=" "/>
-          <text variable="URL" prefix="&lt;" suffix="&gt;"/>
-          <choose>
-            <if variable="accessed">
-              <text term="accessed" prefix=", "/>
-              <date variable="accessed">
-                <date-part name="day" form="numeric" prefix=" "/>
-                <date-part name="month" form="long" prefix=" "/>
-                <date-part name="year" prefix=" "/>
-              </date>
-            </if>
-          </choose>
-        </group>
-      </if>
-    </choose>
-    <choose>
-      <if variable="DOI">
-        <group prefix=" (" suffix=")">
-          <text variable="DOI" prefix="DOI: "/>
-        </group>
+      <if type="webpage">
+        <choose>
+          <if match="any" variable="URL">
+            <group prefix=" (" suffix=")">
+              <text term="available at" suffix=" "/>
+              <text variable="URL" prefix="&lt;" suffix="&gt;"/>
+              <choose>
+                <if variable="accessed">
+                  <text term="accessed" prefix=", "/>
+                  <date variable="accessed">
+                    <date-part name="day" form="numeric" prefix=" "/>
+                    <date-part name="month" form="long" prefix=" "/>
+                    <date-part name="year" prefix=" "/>
+                  </date>
+                </if>
+              </choose>
+            </group>
+          </if>
+        </choose>
       </if>
     </choose>
   </macro>
