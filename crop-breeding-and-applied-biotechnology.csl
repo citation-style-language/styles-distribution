@@ -14,7 +14,7 @@
     <category field="medicine"/>
     <issn>1518-7853</issn>
     <eissn>1984-7033</eissn>
-    <updated>2017-09-26T19:45:00+00:00</updated>
+    <updated>2017-09-28T01:43:26+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="en">
@@ -30,7 +30,7 @@
   </macro>
   <macro name="author">
     <names variable="author">
-      <name and="text" initialize-with="" name-as-sort-order="all" sort-separator=" "/>
+      <name and="text" delimiter-precedes-last="never" initialize-with="" name-as-sort-order="all" sort-separator=" "/>
       <label form="short" prefix=" (" suffix=")" strip-periods="true"/>
       <substitute>
         <names variable="editor"/>
