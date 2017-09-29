@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <style xmlns="http://purl.org/net/xbiblio/csl" class="in-text" version="1.0" demote-non-dropping-particle="never">
   <info>
-    <title>Modern Language Association 7th edition (with URL)</title>
+    <title>Modern Language Association 7th edition</title>
     <title-short>MLA</title-short>
-    <id>http://www.zotero.org/styles/modern-language-association-with-url</id>
-    <link href="http://www.zotero.org/styles/modern-language-association-with-url" rel="self"/>
+    <id>http://www.zotero.org/styles/modern-language-association-7th-edition</id>
+    <link href="http://www.zotero.org/styles/modern-language-association-7th-edition" rel="self"/>
     <link href="http://owl.english.purdue.edu/owl/section/2/11/" rel="documentation"/>
     <author>
       <name>Ilouise S. Bradford</name>
@@ -32,8 +32,8 @@
     </contributor>
     <category citation-format="author"/>
     <category field="generic-base"/>
-    <summary>The 2009 MLA Style for purposes where the URL is still required</summary>
-    <updated>2014-11-20T21:15:58+00:00</updated>
+    <summary>This style adheres to the MLA 7th edition handbook and contains modifications to these types of sources: e-mail, forum posts, interviews, manuscripts, maps, presentations, TV broadcasts, and web pages.</summary>
+    <updated>2017-09-29T03:07:06+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="en">
@@ -88,13 +88,12 @@
     </names>
   </macro>
   <macro name="access">
-    <group delimiter=". ">
+    <group delimiter=" ">
       <date variable="accessed">
         <date-part name="day" suffix=" "/>
         <date-part name="month" form="short" suffix=" "/>
         <date-part name="year"/>
       </date>
-      <text variable="URL" prefix="&lt;" suffix="&gt;"/>
     </group>
   </macro>
   <macro name="issued-full-date">
@@ -154,6 +153,9 @@
             <text value="Audio Recording" prefix=" "/>
           </else>
         </choose>
+      </else-if>
+      <else-if type="graphic" variable="medium" match="all">
+        <text variable="medium" prefix=" "/>
       </else-if>
       <else>
         <choose>
@@ -392,9 +394,9 @@
           </date>
           <text variable="genre" prefix=" " suffix="."/>
         </else-if>
-        <else-if type="webpage">
-          <text variable="container-title" font-style="italic" prefix=" " suffix="."/>
+        <else-if type="webpage post-weblog" match="any">
           <text variable="genre" prefix=" " suffix="."/>
+          <text variable="container-title" font-style="italic" prefix=" " suffix="."/>
           <group delimiter=", " prefix=" ">
             <text macro="publisher"/>
             <text macro="issued-full-date" suffix="."/>
@@ -428,19 +430,21 @@
                   <text macro="pages" prefix=" "/>
                 </if>
                 <else>
-                  <date variable="issued">
-                    <date-part name="day" suffix=" "/>
-                    <date-part name="month" form="short" suffix=" " strip-periods="false"/>
-                    <date-part name="year"/>
-                  </date>
-                  <choose>
-                    <if variable="URL DOI" match="any">
-                      <text variable="page" prefix=": "/>
-                    </if>
-                    <else>
-                      <text macro="pages" prefix=": "/>
-                    </else>
-                  </choose>
+                  <group>
+                    <date variable="issued">
+                      <date-part name="day" suffix=" "/>
+                      <date-part name="month" form="short" suffix=" " strip-periods="false"/>
+                      <date-part name="year"/>
+                    </date>
+                    <choose>
+                      <if variable="URL DOI" match="any">
+                        <text variable="page" prefix=": "/>
+                      </if>
+                      <else>
+                        <text macro="pages" prefix=": "/>
+                      </else>
+                    </choose>
+                  </group>
                 </else>
               </choose>
             </group>

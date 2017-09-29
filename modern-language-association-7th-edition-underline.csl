@@ -3,8 +3,8 @@
   <info>
     <title>Modern Language Association 7th edition (underline)</title>
     <title-short>MLA</title-short>
-    <id>http://www.zotero.org/styles/modern-language-association-underline</id>
-    <link href="http://www.zotero.org/styles/modern-language-association-underline" rel="self"/>
+    <id>http://www.zotero.org/styles/modern-language-association-7th-edition-underline</id>
+    <link href="http://www.zotero.org/styles/modern-language-association-7th-edition-underline" rel="self"/>
     <link href="http://owl.english.purdue.edu/owl/section/2/11/" rel="documentation"/>
     <author>
       <name>Simon Kornblith</name>
@@ -12,7 +12,7 @@
     </author>
     <category citation-format="author"/>
     <category field="generic-base"/>
-    <updated>2013-08-29T05:27:03+00:00</updated>
+    <updated>2017-09-29T03:07:06+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale>
