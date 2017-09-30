@@ -12,7 +12,7 @@
     <category citation-format="note"/>
     <category field="social_science"/>
     <category field="generic-base"/>
-    <updated>2017-09-07T02:56:02+00:00</updated>
+    <updated>2017-09-30T02:31:24+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="fr">
@@ -180,7 +180,7 @@
             <text variable="page" prefix="p.&#160;"/>
           </else>
         </choose>
-      </if>  
+      </if>
       <else-if type="bill">
         <text variable="locator" prefix="art.&#160;"/>
       </else-if>
