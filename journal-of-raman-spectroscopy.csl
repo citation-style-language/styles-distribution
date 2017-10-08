@@ -10,10 +10,12 @@
       <name>Patrick O'Brien</name>
     </author>
     <category citation-format="numeric"/>
+    <category field="chemistry"/>
     <category field="physics"/>
+    <issn>0377-0486</issn>
     <eissn>1097-4555</eissn>
     <summary>Following published examples over styleguide, which has a semicolon between year and volume for journals</summary>
-    <updated>2017-10-07T18:39:37+00:00</updated>
+    <updated>2017-10-08T02:32:30+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale>
