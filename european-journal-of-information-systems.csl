@@ -5,7 +5,7 @@
     <title-short>EJIS</title-short>
     <id>http://www.zotero.org/styles/european-journal-of-information-systems</id>
     <link href="http://www.zotero.org/styles/european-journal-of-information-systems" rel="self"/>
-    <link href="http://www.springer.com/business+%26+management/operations+research/journal/41303#References" rel="documentation"/>
+    <link href="http://www.palgrave.com/gp/journal/41303/authors/presentation-formatting" rel="documentation"/>
     <author>
       <name>Xunhua Guo</name>
       <email>xunhua.guo@gmail.com</email>
@@ -18,7 +18,7 @@
     <category field="science"/>
     <issn>0960-085X</issn>
     <eissn>1476-9344</eissn>
-    <updated>2017-07-13T22:30:59+00:00</updated>
+    <updated>2017-10-21T17:31:14+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <macro name="editor">
@@ -118,6 +118,9 @@
     </group>
   </macro>
   <citation et-al-min="3" et-al-use-first="1" disambiguate-add-year-suffix="true" disambiguate-add-names="true" disambiguate-add-givenname="true">
+    <sort>
+      <key macro="year-date"/>
+    </sort>
     <layout prefix="(" suffix=")" delimiter="; ">
       <group delimiter=", ">
         <text macro="author-short"/>
@@ -141,7 +144,7 @@
       </date>
       <choose>
         <if type="bill book graphic legal_case motion_picture report song" match="any">
-          <group prefix=" " delimiter=". ">
+          <group prefix=" " delimiter=". " suffix=".">
             <group>
               <text macro="title"/>
               <text macro="edition"/>
