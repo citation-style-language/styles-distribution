@@ -15,12 +15,12 @@
     <category citation-format="author-date"/>
     <category field="political_science"/>
     <summary>Style for the German Council of Economic Experts</summary>
-    <updated>2017-10-28T17:56:31+00:00</updated>
+    <updated>2017-10-31T00:16:48+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="de">
     <terms>
-      <term name="accessed">Stand</term>
+      <term name="retrieved">abgerufen am</term>
       <term name="et-al">et al.</term>
       <term name="ordinal-01">.</term>
       <term name="ordinal-02">.</term>
@@ -144,7 +144,7 @@
       </if>
       <else-if variable="edition">
         <text variable="edition"/>
-        <text prefix=" " term="edition" form="short" suffix="."/>
+        <text prefix=" " term="edition"/>
       </else-if>
     </choose>
   </macro>
