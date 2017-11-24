@@ -21,7 +21,7 @@
     </contributor>
     <category citation-format="author-date"/>
     <category field="humanities"/>
-    <updated>2017-10-06T03:12:52+00:00</updated>
+    <updated>2017-11-24T03:45:22+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="en-GB">
@@ -73,7 +73,7 @@
   </macro>
   <macro name="author-with-initials">
     <names variable="author">
-      <name and="text" delimiter-precedes-et-al="never" initialize-with="." sort-separator=" "/>
+      <name and="text" delimiter-precedes-et-al="never" initialize-with=". " sort-separator=" "/>
       <label form="short" text-case="lowercase" prefix=", " suffix=","/>
       <substitute>
         <names variable="editor"/>
