@@ -6,7 +6,7 @@
     <title-short>TAPA</title-short>
     <id>http://www.zotero.org/styles/transactions-of-the-american-philological-association</id>
     <link href="http://www.zotero.org/styles/transactions-of-the-american-philological-association" rel="self"/>
-    <link href="http://www.apaclassics.org/images/uploads/documents/TAPA_Style_Sheet.pdf" rel="documentation"/>
+    <link href="https://classicalstudies.org/sites/default/files/documents/TAPA_Style_Sheet.pdf" rel="documentation"/>
     <author>
       <name>Andrew Dunning</name>
       <email>andunning+zotero@gmail.com</email>
@@ -33,7 +33,7 @@
     <issn>0360-5949</issn>
     <eissn>1533-0699</eissn>
     <summary>The author-date variant of the Chicago style with TAPA modifications (colon before page, no parentheses)</summary>
-    <updated>2017-11-24T04:06:32+00:00</updated>
+    <updated>2017-11-28T04:12:08+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale>
