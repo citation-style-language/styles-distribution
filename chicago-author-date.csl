@@ -24,7 +24,7 @@
     <category citation-format="author-date"/>
     <category field="generic-base"/>
     <summary>The author-date variant of the Chicago style</summary>
-    <updated>2017-10-13T04:00:36+00:00</updated>
+    <updated>2017-12-07T04:15:37+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="en">
@@ -416,14 +416,14 @@
         <text variable="container-title" text-case="title"/>
       </if>
       <else-if type="legal_case" match="none">
-	<group delimiter=" ">
-        <text variable="container-title" text-case="title" font-style="italic"/>
-	<choose>
-	  <if type="post-weblog">
-	    <text value="(blog)"/>
-	  </if>
-	</choose>
-	  </group>
+        <group delimiter=" ">
+          <text variable="container-title" text-case="title" font-style="italic"/>
+          <choose>
+            <if type="post-weblog">
+              <text value="(blog)"/>
+            </if>
+          </choose>
+        </group>
       </else-if>
     </choose>
   </macro>

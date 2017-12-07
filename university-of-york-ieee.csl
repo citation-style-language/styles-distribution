@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <style xmlns="http://purl.org/net/xbiblio/csl" class="in-text" version="1.0" demote-non-dropping-particle="sort-only" default-locale="en-GB">
   <!-- This style was edited with the Visual CSL Editor (http://editor.citationstyles.org/visualEditor/) -->
   <info>
@@ -10,7 +10,7 @@
     <category citation-format="numeric"/>
     <category field="engineering"/>
     <category field="generic-base"/>
-    <updated>2017-10-28T17:52:17+00:00</updated>
+    <updated>2017-12-07T04:15:37+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="en">
@@ -172,7 +172,7 @@
                 <text term="accessed" text-case="capitalize-first"/>
                 <date form="text" variable="accessed">
                   <date-part name="day" form="numeric-leading-zeros"/>
-                  <date-part name="month" form="short" strip-periods="false" />
+                  <date-part name="month" form="short" strip-periods="false"/>
                   <date-part name="year" form="long"/>
                 </date>
               </group>

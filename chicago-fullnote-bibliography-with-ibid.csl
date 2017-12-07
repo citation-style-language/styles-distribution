@@ -28,7 +28,7 @@
     <category citation-format="note"/>
     <category field="generic-base"/>
     <summary>Chicago format with full notes and bibliography</summary>
-    <updated>2017-10-13T04:00:36+00:00</updated>
+    <updated>2017-12-07T04:15:37+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="en">
@@ -393,7 +393,7 @@
         </if>
         <else-if type="post-weblog">
           <text variable="container-title" text-case="title" font-style="italic" suffix=" (blog)"/>
-        </else-if>      
+        </else-if>
         <else-if type="bill legislation legal_case" match="none">
           <text variable="container-title" text-case="title" font-style="italic"/>
         </else-if>
@@ -1092,7 +1092,7 @@
                 <group delimiter=", " prefix="(" suffix=")">
                   <text variable="genre"/>
                   <text macro="issued"/>
-                </group>           
+                </group>
               </if>
               <else>
                 <text macro="issued"/>

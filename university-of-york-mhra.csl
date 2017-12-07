@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <style xmlns="http://purl.org/net/xbiblio/csl" class="note" version="1.0" demote-non-dropping-particle="sort-only" default-locale="en-GB" page-range-format="chicago">
   <!-- This style was edited with the Visual CSL Editor (http://editor.citationstyles.org/visualEditor/) -->
   <info>
@@ -10,7 +10,7 @@
     <link href="https://www.york.ac.uk/students/studying/develop-your-skills/study-skills/study/integrity/referencing-styles/" rel="documentation"/>
     <category citation-format="note"/>
     <category field="generic-base"/>
-    <updated>2017-10-28T17:52:17+00:00</updated>
+    <updated>2017-12-07T04:15:37+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="en">
@@ -504,7 +504,7 @@
       </choose>
     </layout>
   </citation>
-  <bibliography hanging-indent="true" et-al-min="7" et-al-use-first="6" subsequent-author-substitute="———">
+  <bibliography hanging-indent="true" et-al-min="7" et-al-use-first="6" subsequent-author-substitute="&#8212;&#8212;&#8212;">
     <sort>
       <key macro="author"/>
       <key variable="title"/>
