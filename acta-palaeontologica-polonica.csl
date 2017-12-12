@@ -14,18 +14,18 @@
     <category field="biology"/>
     <issn>0567-7920</issn>
     <eissn>1732-2421</eissn>
-    <updated>2014-08-30T16:59:28+00:00</updated>
+    <updated>2017-12-12T03:25:02+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <macro name="author">
     <names variable="author" suffix=".">
-      <name sort-separator=", " initialize-with=". " and="text" name-as-sort-order="all" delimiter=", " delimiter-precedes-last="never" form="long">
+      <name sort-separator=", " initialize-with="." and="text" name-as-sort-order="all" delimiter=", " delimiter-precedes-last="never" form="long">
       </name>
     </names>
   </macro>
   <macro name="editor">
     <names variable="editor">
-      <name sort-separator=", " initialize-with=". " and="text" name-as-sort-order="all" delimiter=", " delimiter-precedes-last="never">
+      <name sort-separator=", " initialize-with="." and="text" name-as-sort-order="all" delimiter=", " delimiter-precedes-last="never">
       </name>
       <label form="short" prefix=" (" suffix=".)"/>
     </names>
