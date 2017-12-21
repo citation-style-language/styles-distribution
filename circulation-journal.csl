@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<style xmlns="http://purl.org/net/xbiblio/csl" page-range-format="minimal" class="in-text" version="1.0" demote-non-dropping-particle="sort-only" default-locale="en-US">
+<style xmlns="http://purl.org/net/xbiblio/csl" page-range-format="expanded" class="in-text" version="1.0" demote-non-dropping-particle="sort-only" default-locale="en-US">
   <info>
     <title>Circulation Journal</title>
     <title-short>Circ.J.</title-short>
@@ -16,7 +16,7 @@
     <category field="medicine"/>
     <issn>1346-9843</issn>
     <eissn>1347-4820</eissn>
-    <updated>2017-12-02T04:51:33+00:00</updated>
+    <updated>2017-12-21T17:07:37+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <macro name="author">
