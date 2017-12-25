@@ -2,6 +2,7 @@
 <style xmlns="http://purl.org/net/xbiblio/csl" class="note" default-locale="fr-CA" version="1.0" page-range-format="expanded">
   <info>
     <title>Université du Québec à Montréal - Département d’histoire (French - Canada)</title>
+    <title-short>UQAM - histoire</title-short>
     <id>http://www.zotero.org/styles/universite-du-quebec-a-montreal-departement-dhistoire</id>
     <link href="http://www.zotero.org/styles/universite-du-quebec-a-montreal-departement-dhistoire" rel="self"/>
     <link href="https://histoire.uqam.ca/wp-content/uploads/sites/21/Nouveau_Guide_Premier_Cycle_decembre_2014.pdf" rel="documentation"/>
@@ -14,7 +15,7 @@
     </contributor>
     <category citation-format="note"/>
     <category field="history"/>
-    <updated>2017-12-25T04:39:44+00:00</updated>
+    <updated>2017-12-25T04:42:12+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="fr">
