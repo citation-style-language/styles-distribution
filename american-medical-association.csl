@@ -17,7 +17,7 @@
     <category citation-format="numeric"/>
     <category field="medicine"/>
     <summary>The American Medical Association style as used in JAMA.</summary>
-    <updated>2015-12-16T02:35:11+00:00</updated>
+    <updated>2018-01-18T03:43:15+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="en">
@@ -52,7 +52,7 @@
             <text variable="DOI"/>
           </if>
           <else-if variable="URL">
-            <group delimiter=". ">
+            <group delimiter=". " suffix=".">
               <text variable="URL"/>
               <choose>
                 <if type="webpage">
@@ -242,7 +242,7 @@
           </group>
         </else>
       </choose>
-      <text prefix=" " macro="access" suffix="."/>
+      <text prefix=" " macro="access"/>
     </layout>
   </bibliography>
 </style>
