@@ -10,7 +10,7 @@
       <email>roaldfrosig@gmail.com</email>
     </author>
     <category citation-format="author-date"/>
-    <updated>2017-09-04T20:16:05+00:00</updated>
+    <updated>2018-02-03T04:06:52+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="da">
@@ -33,7 +33,7 @@ Sorts items by author(s), publication year and title.
   </macro>
   <!--                                                                                                               MACRO   AUTHOR-CITATION
 Author names as they appear in citations.
-Outputs law number and date for primary legislation. Never adds label to author name. Otherwise identical to 'Author-referencelist'.
+Outputs title for primary legislation. Never adds label to author name. Otherwise identical to 'Author-referencelist'.
 -->
   <macro name="author-citation">
     <choose>
@@ -41,7 +41,7 @@ Outputs law number and date for primary legislation. Never adds label to author 
         <names variable="author">
           <name name-as-sort-order="all" initialize-with="."/>
           <substitute>
-            <text macro="law-number"/>
+            <text variable="title" font-style="italic"/>
           </substitute>
         </names>
       </if>
