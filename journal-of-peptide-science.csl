@@ -5,7 +5,7 @@
     <title-short>J. Pept. Sci.</title-short>
     <id>http://www.zotero.org/styles/journal-of-peptide-science</id>
     <link href="http://www.zotero.org/styles/journal-of-peptide-science" rel="self"/>
-    <link href="http://www.zotero.org/styles/american-chemical-society-with-titles-no-et-al" rel="template"/>
+    <link href="http://www.zotero.org/styles/american-chemical-society" rel="template"/>
     <link href="http://onlinelibrary.wiley.com/journal/10.1002/%28ISSN%291099-1387/homepage/ForAuthors.html#Ref" rel="documentation"/>
     <link href="http://onlinelibrary.wiley.com/doi/10.1002/psc.2633/pdf" rel="documentation"/>
     <author>
@@ -17,7 +17,7 @@
     <issn>1075-2617</issn>
     <eissn>1099-1387</eissn>
     <summary>Style for the Journal of Peptide Science how it seems mostly used in current articles (The style guide seems not to reflect the formating of bibliographies of current articles).</summary>
-    <updated>2014-10-21T20:28:17+00:00</updated>
+    <updated>2018-02-05T04:57:25+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <macro name="editor">

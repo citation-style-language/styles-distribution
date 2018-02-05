@@ -5,7 +5,7 @@
     <title-short>MDPI</title-short>
     <id>http://www.zotero.org/styles/multidisciplinary-digital-publishing-institute</id>
     <link href="http://www.zotero.org/styles/multidisciplinary-digital-publishing-institute" rel="self"/>
-    <link href="http://www.zotero.org/styles/american-chemical-society-with-titles" rel="template"/>
+    <link href="http://www.zotero.org/styles/american-chemical-society" rel="template"/>
     <link href="http://www.mdpi.com/authors/references" rel="documentation"/>
     <author>
       <name>Sebastian Karcher</name>
@@ -16,7 +16,7 @@
     <category citation-format="numeric"/>
     <category field="science"/>
     <summary>Style for the MDPI Open access journals</summary>
-    <updated>2017-06-02T13:13:09+00:00</updated>
+    <updated>2018-02-05T04:57:25+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="en">
