@@ -12,7 +12,7 @@
     <category citation-format="author-date"/>
     <category field="generic-base"/>
     <summary>The SAGE Harvard author-date style</summary>
-    <updated>2018-02-07T05:06:10+00:00</updated>
+    <updated>2018-02-18T19:51:43+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="en-GB">
@@ -144,6 +144,13 @@
       </if>
     </choose>
   </macro>
+  <macro name="genre">
+    <choose>
+      <if type="webpage post-weblog" match="none">
+        <text variable="genre"/>
+      </if>
+    </choose>
+  </macro>
   <macro name="pages">
     <choose>
       <if type="chapter" match="any">
@@ -210,7 +217,7 @@
             <text variable="container-title" font-style="italic"/>
           </group>
           <choose>
-            <if type="article-newspaper" match="any">
+            <if type="article-newspaper article-magazine" match="any">
               <date variable="issued">
                 <date-part name="day" suffix=" "/>
                 <date-part name="month" form="long"/>
@@ -225,6 +232,7 @@
     <sort>
       <key macro="author-short"/>
       <key macro="year-date"/>
+      <key variable="title"/>
     </sort>
     <layout prefix="(" suffix=")" delimiter="; ">
       <group delimiter=": ">
@@ -265,8 +273,12 @@
             </if>
           </choose>
           <group delimiter=", ">
-            <text variable="collection-title"/>
-            <text variable="genre"/>
+            <group delimiter=" ">
+              <text variable="collection-title"/>
+              <text variable="collection-number"/>
+              <text variable="number"/>
+            </group>
+            <text macro="genre"/>
             <text macro="published-date"/>
           </group>
           <text macro="publisher"/>
