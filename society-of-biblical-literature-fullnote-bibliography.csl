@@ -27,7 +27,7 @@
     <category citation-format="note"/>
     <category field="theology"/>
     <summary>Society of Biblical Literature format with full notes and bibliography</summary>
-    <updated>2018-02-06T04:56:12+00:00</updated>
+    <updated>2018-02-23T13:52:09+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="en-US">
@@ -630,21 +630,18 @@
         <if locator="page" match="none">
           <choose>
             <if type="bill book graphic legal_case legislation motion_picture report song" match="any">
-              <choose>
-                <if variable="volume">
-                  <group>
-                    <text term="volume" form="short" suffix=" "/>
-                    <number variable="volume" form="numeric"/>
-                    <label variable="locator" form="short" prefix=", " suffix=" "/>
-                  </group>
-                </if>
-                <else>
-                  <label variable="locator" form="short" suffix=" "/>
-                </else>
-              </choose>
+              <group delimiter=", ">
+                <group delimiter=" ">
+                  <text term="volume" form="short"/>
+                  <number variable="volume" form="numeric"/>
+                </group>
+                <group delimiter=" ">
+                  <label variable="locator" form="short"/>
+                  <text variable="locator"/>
+                </group>
+              </group>
             </if>
           </choose>
-          <text variable="locator"/>
         </if>
         <else-if variable="volume">
           <choose>
