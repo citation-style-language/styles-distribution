@@ -16,7 +16,7 @@
     <category field="linguistics"/>
     <category field="philosophy"/>
     <summary>University of Bologna, Liberal Arts College citation style - Stile di citazione dell'Universita' di Bologna, Facolta' di Lettere e Filosofia</summary>
-    <updated>2015-01-24T19:23:46+00:00</updated>
+    <updated>2018-02-24T04:36:32+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="it-IT">
@@ -570,12 +570,12 @@
     </group>
   </macro>
   <citation et-al-min="4" et-al-use-first="1">
-    <layout delimiter="; ">
+    <layout delimiter="; " suffix=". ">
       <choose>
         <if position="ibid-with-locator">
           <group delimiter=", ">
             <text term="ibid" form="long" text-case="capitalize-first" font-style="italic"/>
-            <text macro="point-locators-subsequent" suffix="."/>
+            <text macro="point-locators-subsequent"/>
           </group>
         </if>
         <else-if position="ibid">
@@ -585,7 +585,7 @@
           <group delimiter=", ">
             <text macro="contributors-short"/>
             <text macro="title-short"/>
-            <text macro="point-locators-subsequent" suffix="."/>
+            <text macro="point-locators-subsequent"/>
           </group>
         </else-if>
         <else>
@@ -602,7 +602,7 @@
           <text macro="issue"/>
           <text macro="locators-newspaper" prefix=", "/>
           <text macro="access-note" prefix=", "/>
-          <text macro="point-locators" suffix="."/>
+          <text macro="point-locators"/>
         </else>
       </choose>
     </layout>
