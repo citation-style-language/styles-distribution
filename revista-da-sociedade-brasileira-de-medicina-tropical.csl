@@ -5,7 +5,6 @@
     <title-short>RSBMT</title-short>
     <id>http://www.zotero.org/styles/revista-da-sociedade-brasileira-de-medicina-tropical</id>
     <link href="http://www.zotero.org/styles/revista-da-sociedade-brasileira-de-medicina-tropical" rel="self"/>
-    <link href="http://www.zotero.org/styles/african-journal-of-emergency-medicine" rel="template"/>
     <link href="http://www.scielo.br/revistas/rsbmt/iinstruc.htm" rel="documentation"/>
     <author>
       <name>Pedro Brasil</name>
@@ -16,7 +15,7 @@
     <issn>0037-8682</issn>
     <eissn>1678-9849</eissn>
     <summary>Style for Revista da Sociedade Brasileira de Medicina Tropical</summary>
-    <updated>2016-09-17T04:50:06+00:00</updated>
+    <updated>2018-03-09T05:06:46+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <macro name="author">
