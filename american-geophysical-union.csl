@@ -36,7 +36,7 @@
     <category citation-format="author-date"/>
     <category field="geology"/>
     <summary>The American Geophysical Union generic style</summary>
-    <updated>2017-09-05T01:06:39+00:00</updated>
+    <updated>2018-03-13T12:18:46+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="en">
@@ -676,7 +676,7 @@
       </group>
     </layout>
   </citation>
-  <bibliography hanging-indent="true" et-al-min="8" et-al-use-first="6" et-al-use-last="true" entry-spacing="0" line-spacing="2">
+  <bibliography hanging-indent="true" et-al-min="8" et-al-use-first="6" entry-spacing="0" line-spacing="2">
     <sort>
       <key macro="author" names-min="1" names-use-first="1"/>
       <key macro="author-count" names-min="3" names-use-first="3"/>
