@@ -15,7 +15,7 @@
     <category field="biology"/>
     <issn>0043-9339</issn>
     <eissn>1743-4777</eissn>
-    <updated>2016-06-21T02:53:37+00:00</updated>
+    <updated>2018-03-28T23:10:24+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <macro name="container-contributors">
@@ -74,7 +74,7 @@
   </macro>
   <macro name="access">
     <choose>
-      <if type="webpage report">
+      <if type="webpage report" match="any">
         <text variable="URL"/>
         <date form="text" variable="accessed" prefix=" (accessed " suffix=")"/>
       </if>

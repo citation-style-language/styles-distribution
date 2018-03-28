@@ -23,7 +23,7 @@
     <issn>0302-3052</issn>
     <eissn>1782-1444</eissn>
     <summary>Style défini par les consignes aux auteurs de la revue Mondes en développement.</summary>
-    <updated>2016-09-16T04:08:24+00:00</updated>
+    <updated>2018-03-28T23:10:24+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="fr">
@@ -221,7 +221,7 @@
             <text macro="number-of-pages"/>
           </group>
         </else-if>
-        <else-if type="chapter paper-conference" variable="container-title">
+        <else-if type="chapter paper-conference" variable="container-title" match="any">
           <text variable="title" quotes="false"/>
           <group prefix=", ">
             <text term="in" font-style="italic" suffix=" "/>

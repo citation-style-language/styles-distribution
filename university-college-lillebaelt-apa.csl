@@ -11,7 +11,7 @@
       <email>roaldfrosig@gmail.com</email>
     </author>
     <category citation-format="author-date"/>
-    <updated>2016-04-07T09:28:55+00:00</updated>
+    <updated>2018-03-28T23:10:24+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="da">
@@ -346,7 +346,7 @@
   <macro name="issued-year">
     <!---                                                                                                                                                                              MACRO: issued-year -->
     <choose>
-      <if type="bill legal_case legislation">
+      <if type="bill legal_case legislation" match="any">
       </if>
       <else-if variable="issued">
         <group>

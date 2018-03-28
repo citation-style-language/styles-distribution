@@ -27,7 +27,7 @@
     <category citation-format="note"/>
     <category field="theology"/>
     <summary>Society of Biblical Literature format with full notes and bibliography</summary>
-    <updated>2018-02-23T13:52:09+00:00</updated>
+    <updated>2018-03-28T23:10:24+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="en-US">
@@ -545,7 +545,7 @@
         </group>
       </else-if>
       <!-- Added dictionary and encyclopedia to properly display volume information-->
-      <else-if type="entry-dictionary entry-encyclopedia">
+      <else-if type="entry-dictionary entry-encyclopedia" match="any">
         <group prefix=". ">
           <number variable="number-of-volumes" form="numeric"/>
           <text term="volume" form="short" prefix=" " plural="true"/>
@@ -683,7 +683,7 @@
       <else-if type="article-journal">
         <text variable="locator" prefix=": "/>
       </else-if>
-      <else-if type="entry-dictionary entry-encyclopedia">
+      <else-if type="entry-dictionary entry-encyclopedia" match="any">
         <choose>
           <if position="first" variable="volume" match="all">
             <text macro="point-locators-subsequent" prefix=" "/>

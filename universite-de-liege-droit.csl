@@ -16,7 +16,7 @@
     </author>
     <category citation-format="note"/>
     <category field="law"/>
-    <updated>2017-07-13T11:25:02+00:00</updated>
+    <updated>2018-03-28T23:10:24+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="fr">
@@ -242,7 +242,7 @@
   </macro>
   <macro name="volume-or-medium">
     <choose>
-      <if type="book thesis chapter paper-conference motion_picture">
+      <if type="book thesis chapter paper-conference motion_picture" match="any">
         <group delimiter=", ">
           <text variable="volume"/>
         </group>
@@ -477,7 +477,7 @@
               </else>
             </choose>
             <choose>
-              <if type="book thesis">
+              <if type="book thesis" match="any">
                 <group delimiter=", ">
                   <text variable="volume"/>
                 </group>

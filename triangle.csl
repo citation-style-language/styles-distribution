@@ -20,7 +20,7 @@
     <category field="social_science"/>
     <summary>Derived from Style EHESS-histoire, available at http://www.boiteaoutils.info/2011/06/styles-francais-de-citation-sous-zotero.html
 		First version online in november 2012. Changes made to cover more documents types and to lighten URLS display. Should preferably be used ticking the quoting option (preferences/citer/styles): include URLs addresses in references.</summary>
-    <updated>2016-07-21T13:50:41+00:00</updated>
+    <updated>2018-03-28T23:10:24+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="fr">
@@ -385,7 +385,7 @@
       </if>
       <else-if variable="URL">
         <choose>
-          <if type="webpage post-weblog">
+          <if type="webpage post-weblog" match="any">
             <text value="URL complète en biblio"/>
           </if>
           <else>
@@ -405,7 +405,7 @@
       </if>
       <else-if variable="URL">
         <choose>
-          <if type="webpage post-weblog">
+          <if type="webpage post-weblog" match="any">
             <group delimiter=" ">
               <group>
                 <date variable="accessed" form="text" suffix=", " prefix="consulté le "/>

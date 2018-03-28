@@ -46,7 +46,7 @@
     </contributor>
     <category citation-format="author-date"/>
     <issn>0276-7783</issn>
-    <updated>2017-09-04T16:42:21+00:00</updated>
+    <updated>2018-03-28T23:10:24+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="en-US">
@@ -256,7 +256,7 @@
       <else>
         <text variable="URL"/>
         <choose>
-          <if type="post post-weblog webpage manuscript dataset">
+          <if type="post post-weblog webpage manuscript dataset" match="any">
             <group prefix=", " delimiter=" ">
               <text term="accessed"/>
               <date variable="accessed">

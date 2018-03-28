@@ -15,7 +15,7 @@
     <category field="history"/>
     <category field="humanities"/>
     <issn>0948-8294</issn>
-    <updated>2017-10-11T03:23:03+00:00</updated>
+    <updated>2018-03-28T23:10:24+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="de">
@@ -275,7 +275,7 @@
   </macro>
   <macro name="access">
     <choose>
-      <if type="webpage post-weblog">
+      <if type="webpage post-weblog" match="any">
         <group delimiter=" ">
           <text variable="URL" prefix=", URL: "/>
           <date form="numeric" variable="accessed" prefix="(" suffix=")"/>

@@ -14,7 +14,7 @@
     <category citation-format="author-date"/>
     <category field="social_science"/>
     <summary>Uludağ Üniversitesi Sosyal Bilimler Enstitüsü tez yazım kılavuzuna göre hazırlanmıştır.</summary>
-    <updated>2018-01-07T04:15:18+00:00</updated>
+    <updated>2018-03-28T23:10:24+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="tr">
@@ -563,7 +563,7 @@
       <if type="legal_case">
         <text variable="authority" prefix=". "/>
       </if>
-      <else-if type="speech paper-conference">
+      <else-if type="speech paper-conference" match="any">
         <group delimiter=", " prefix=", ">
           <group delimiter=", ">
             <text variable="genre" text-case="capitalize-first" prefix="(" suffix=")"/>

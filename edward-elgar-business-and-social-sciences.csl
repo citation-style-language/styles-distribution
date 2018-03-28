@@ -17,13 +17,13 @@
     <category citation-format="author-date"/>
     <category field="social_science"/>
     <summary>Style for Edward Elgar Publishing Business and Social Sciences (non-textbook) publications.</summary>
-    <updated>2017-02-10T04:08:40+00:00</updated>
+    <updated>2018-03-28T23:10:24+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <!-- Note: Patents and legal citations not currently supported -->
   <macro name="conditionalusetitle">
     <choose>
-      <if type="article-newspaper article-magazine">
+      <if type="article-newspaper article-magazine" match="any">
         <text variable="container-title"/>
       </if>
       <else>

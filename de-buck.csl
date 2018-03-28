@@ -20,7 +20,7 @@
     <category citation-format="note"/>
     <category field="generic-base"/>
     <summary>Annotatie en literatuurlijst volgens P. de Buck e.a., Zoeken en schrijven. Handleiding bij het maken van een historisch werkstuk (Haarlem 1982). Gebaseerd op "MHRA format with full notes and bibliography"</summary>
-    <updated>2016-08-24T18:30:09+00:00</updated>
+    <updated>2018-03-28T23:10:24+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="nl">
@@ -130,7 +130,7 @@
         <text variable="title" font-style="italic"/>
       </if>
       <else-if type="manuscript"/>
-      <else-if type="thesis speech article">
+      <else-if type="thesis speech article" match="any">
         <text variable="title"/>
       </else-if>
       <else>
@@ -470,7 +470,7 @@
           <text variable="archive_location"/>
         </group>
       </else-if>
-      <else-if type="thesis speech article">
+      <else-if type="thesis speech article" match="any">
         <text variable="title" form="short"/>
       </else-if>
       <else>

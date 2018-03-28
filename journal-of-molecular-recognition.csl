@@ -14,7 +14,7 @@
     <category field="medicine"/>
     <issn>0952-3499</issn>
     <eissn>1099-1352</eissn>
-    <updated>2017-09-21T02:17:09+00:00</updated>
+    <updated>2018-03-28T23:10:24+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="en">
@@ -49,7 +49,7 @@
           </if>
           <else-if variable="URL">
             <choose>
-              <if type="webpage post-weblog article-journal">
+              <if type="webpage post-weblog article-journal" match="any">
                 <group delimiter=". ">
                   <text variable="URL"/>
                   <group>

@@ -13,7 +13,7 @@
     <category citation-format="author-date"/>
     <category field="biology"/>
     <issn>2354-7936</issn>
-    <updated>2017-08-02T04:03:36+00:00</updated>
+    <updated>2018-03-28T23:10:24+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <macro name="container">
@@ -74,7 +74,7 @@
   </macro>
   <macro name="access">
     <choose>
-      <if type="webpage post-weblog">
+      <if type="webpage post-weblog" match="any">
         <text variable="URL"/>
       </if>
     </choose>
@@ -92,7 +92,7 @@
         <text variable="title"/>
         <text macro="edition" prefix=", "/>
       </else-if>
-      <else-if type="webpage post-weblog">
+      <else-if type="webpage post-weblog" match="any">
         <text variable="title"/>
       </else-if>
       <else>

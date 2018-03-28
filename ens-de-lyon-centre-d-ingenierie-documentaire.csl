@@ -18,7 +18,7 @@
     <category field="philosophy"/>
     <category field="humanities"/>
     <category field="political_science"/>
-    <updated>2017-10-08T02:10:11+00:00</updated>
+    <updated>2018-03-28T23:10:24+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="fr">
@@ -518,7 +518,7 @@
       </choose>
       <!-- type/genre -->
       <choose>
-        <if type="thesis manuscript personal_communication speech motion_picture">
+        <if type="thesis manuscript personal_communication speech motion_picture" match="any">
           <text variable="genre"/>
         </if>
       </choose>
