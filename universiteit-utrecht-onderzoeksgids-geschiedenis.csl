@@ -15,7 +15,7 @@
     <category citation-format="note"/>
     <category field="history"/>
     <summary>Annotatie en bibliografie volgens de richtlijnen van de Universiteit Utrecht, Geschiedenis, zoals beschreven in de Onderzoeksgids Geschiedenis</summary>
-    <updated>2015-01-01T23:37:43+00:00</updated>
+    <updated>2018-03-31T04:01:14+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="nl">
@@ -291,7 +291,7 @@
       <else-if type="bill book graphic legal_case motion_picture report song thesis webpage" match="any">
         <text variable="locator" prefix=" "/>
       </else-if>
-      <else-if type=" manuscript" match="any">
+      <else-if type="manuscript" match="any">
         <label variable="locator" form="short" suffix=" "/>
         <text variable="locator"/>
       </else-if>
@@ -350,7 +350,7 @@
       <if variable="page">
         <text variable="locator"/>
       </if>
-      <else-if type=" manuscript" match="any">
+      <else-if type="manuscript" match="any">
         <label variable="locator" form="short" suffix=" "/>
         <text variable="locator"/>
       </else-if>

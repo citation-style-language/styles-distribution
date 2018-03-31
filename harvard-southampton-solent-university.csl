@@ -14,7 +14,7 @@
     <summary>Southampton Solent Harvard style based on based on BRITISH STANDARDS INSTITUTION, 2010. BS ISO 690:2010
     Information and documentation &#8211; Guidelines for bibliographic
     references and citations to information resources.</summary>
-    <updated>2017-03-12T20:34:54+00:00</updated>
+    <updated>2018-03-31T04:01:14+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <macro name="author">
@@ -291,7 +291,7 @@
           <text variable="page"/>
         </group>
       </if>
-      <else-if type=" article-newspaper" match="any">
+      <else-if type="article-newspaper" match="any">
         <date variable="issued" delimiter=" " prefix=", ">
           <date-part name="day"/>
           <date-part name="month" form="short" strip-periods="true"/>

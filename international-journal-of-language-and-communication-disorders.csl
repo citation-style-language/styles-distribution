@@ -14,7 +14,7 @@
     <category field="linguistics"/>
     <issn>1368-2822</issn>
     <eissn>1460-6984</eissn>
-    <updated>2018-02-24T04:48:48+00:00</updated>
+    <updated>2018-03-31T04:01:14+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <macro name="container">
@@ -237,7 +237,7 @@
           <text variable="page"/>
         </group>
       </if>
-      <else-if type=" article-newspaper" match="any">
+      <else-if type="article-newspaper" match="any">
         <date variable="issued" delimiter=" " prefix=", ">
           <date-part name="day"/>
           <date-part name="month" form="short" strip-periods="true"/>
@@ -247,7 +247,7 @@
           <text variable="page"/>
         </group>
       </else-if>
-      <else-if type="bill  book graphic legal_case legislation motion_picture report song thesis" match="any">
+      <else-if type="bill book graphic legal_case legislation motion_picture report song thesis" match="any">
         <group delimiter=", " prefix=" ">
           <text macro="event"/>
           <text macro="publisher"/>

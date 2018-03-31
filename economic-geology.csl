@@ -14,7 +14,7 @@
     <category field="geology"/>
     <issn>0361-0128</issn>
     <eissn>1554-0774</eissn>
-    <updated>2018-02-24T04:32:31+00:00</updated>
+    <updated>2018-03-31T04:01:14+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="en">
@@ -90,7 +90,7 @@
         </date>
       </group>
       <choose>
-        <if type="report ">
+        <if type="report">
           <group prefix=" " delimiter=", ">
             <group delimiter=" ">
               <text variable="title" suffix=":"/>
