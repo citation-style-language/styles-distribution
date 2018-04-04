@@ -3,8 +3,8 @@
   <info>
     <title>Natures Sciences Sociétés</title>
     <title-short>NSS</title-short>
-    <id>http://www.zotero.org/styles/nature-sciences-societes</id>
-    <link href="http://www.zotero.org/styles/nature-sciences-societes" rel="self"/>
+    <id>http://www.zotero.org/styles/natures-sciences-societes</id>
+    <link href="http://www.zotero.org/styles/natures-sciences-societes" rel="self"/>
     <link href="http://www.zotero.org/styles/harvard-cite-them-right" rel="template"/>
     <link href="https://www.nss-journal.org/author-information/instructions-for-authors" rel="documentation"/>
     <author>
@@ -14,7 +14,7 @@
     <category field="science"/>
     <issn>1240-1307</issn>
     <eissn>1765-2979</eissn>
-    <updated>2018-04-03T04:28:38+00:00</updated>
+    <updated>2018-04-04T04:25:35+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="en-GB">
