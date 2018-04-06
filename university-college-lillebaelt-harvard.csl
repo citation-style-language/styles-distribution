@@ -10,7 +10,7 @@
       <email>roaldfrosig@gmail.com</email>
     </author>
     <category citation-format="author-date"/>
-    <updated>2018-02-06T04:53:45+00:00</updated>
+    <updated>2018-04-06T01:22:17+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="da">
@@ -380,7 +380,7 @@ Adds page number or other locator to citations.
   </macro>
   <!--                                                                                                               CITATION
 -->
-  <citation et-al-min="4" et-al-use-first="1" delimiter-precedes-last="never" givenname-disambiguation-rule="all-names-with-initials" disambiguate-add-givenname="true" disambiguate-add-year-suffix="true" collapse="year-suffix" cite-group-delimiter=", ">
+  <citation et-al-min="4" et-al-use-first="1" delimiter-precedes-last="never" givenname-disambiguation-rule="all-names-with-initials" disambiguate-add-givenname="true" disambiguate-add-year-suffix="true" collapse="year-suffix" cite-group-delimiter=", " name-form="short">
     <sort>
       <key macro="alphabetize"/>
     </sort>
