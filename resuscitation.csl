@@ -15,7 +15,7 @@
     <issn>0300-9572</issn>
     <eissn>1873-1570</eissn>
     <summary>Resuscitation is the official monthly interdisciplinary medical journal of the European Resuscitation Council.</summary>
-    <updated>2017-07-19T15:03:18+00:00</updated>
+    <updated>2018-04-25T20:51:55+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="en">
@@ -168,15 +168,7 @@
     <choose>
       <if type="article-journal article-magazine" match="any">
         <group delimiter=":">
-          <group>
-            <text variable="volume"/>
-            <group delimiter=" " prefix="(" suffix=")">
-              <date variable="issued">
-                <date-part name="month"/>
-              </date>
-              <text variable="issue" prefix="(" suffix=")"/>
-            </group>
-          </group>
+          <text variable="volume"/>
           <text variable="page"/>
         </group>
       </if>
@@ -233,9 +225,9 @@
       <text macro="page" prefix=", "/>
     </layout>
   </citation>
-  <bibliography et-al-min="6" et-al-use-first="3">
+  <bibliography et-al-min="7" et-al-use-first="6">
     <layout>
-      <text variable="citation-number" prefix="[" suffix="]."/>
+      <text variable="citation-number" prefix="[" suffix="] "/>
       <group delimiter=" " suffix=".">
         <group delimiter=". ">
           <text macro="author"/>
