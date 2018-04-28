@@ -27,7 +27,7 @@
     <category citation-format="note"/>
     <category field="theology"/>
     <summary>Society of Biblical Literature format with full notes and bibliography</summary>
-    <updated>2018-03-28T23:10:24+00:00</updated>
+    <updated>2018-04-28T20:58:59+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="en-US">
@@ -44,10 +44,22 @@
     </terms>
   </locale>
   <macro name="editor-translator">
-    <names variable="editor translator" delimiter=", ">
-      <label form="verb-short" suffix=" "/>
-      <name and="text" delimiter=", "/>
-    </names>
+    <group delimiter=", ">
+      <choose>
+        <if variable="container-author reviewed-author" match="any">
+          <group>
+            <names variable="container-author reviewed-author" delimiter=", ">
+              <label form="verb-short"  suffix=" "/>
+              <name and="text" delimiter=", "/>
+            </names>
+          </group>
+        </if>
+      </choose>
+      <names variable="editor translator" delimiter=", ">
+        <label form="verb-short" suffix=" "/>
+        <name and="text" delimiter=", "/>
+      </names>
+    </group>
   </macro>
   <macro name="secondary-contributors-note">
     <choose>
