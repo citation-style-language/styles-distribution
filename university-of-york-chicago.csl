@@ -11,7 +11,7 @@
     <category citation-format="note"/>
     <category field="generic-base"/>
     <summary>UoY version Chicago format with full notes and bibliography</summary>
-    <updated>2017-10-28T17:52:17+00:00</updated>
+    <updated>2018-04-28T21:16:57+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="en">
@@ -1160,7 +1160,7 @@
     </choose>
   </macro>
   <macro name="access-note">
-    <group delimiter=", ">
+    <group delimiter=" ">
       <choose>
         <if type="graphic report" match="any">
           <text macro="archive-note"/>
@@ -1188,7 +1188,7 @@
     </group>
   </macro>
   <macro name="access">
-    <group delimiter=". ">
+    <group delimiter=" ">
       <choose>
         <if type="graphic report" match="any">
           <text macro="archive"/>
