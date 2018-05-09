@@ -20,7 +20,7 @@
     <category field="humanities"/>
     <issn>2336-2375</issn>
     <eissn>1803-1617</eissn>
-    <updated>2018-05-08T04:50:55+00:00</updated>
+    <updated>2018-05-09T14:36:52+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="en">
@@ -428,7 +428,7 @@
       <if type="article-journal article-magazine" match="any">
         <group prefix=", " delimiter=", ">
           <group delimiter=", ">
-            <text variable="volume" font-style="italic" prefix="vol. "/>
+            <text variable="volume" prefix="vol. "/>
             <text variable="issue" prefix="no. "/>
           </group>
           <text variable="page" prefix="pp. "/>
