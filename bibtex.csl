@@ -15,7 +15,7 @@
     </contributor>
     <category citation-format="author-date"/>
     <category field="generic-base"/>
-    <updated>2017-07-03T03:48:18+00:00</updated>
+    <updated>2018-05-09T14:35:17+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <macro name="zotero2bibtexType">
@@ -23,7 +23,7 @@
       <if type="bill book graphic legal_case legislation motion_picture report song" match="any">
         <text value="book"/>
       </if>
-      <else-if type="chapter paper-conference" match="any">
+      <else-if type="chapter" match="any">
         <text value="inbook"/>
       </else-if>
       <else-if type="article article-journal article-magazine article-newspaper" match="any">
