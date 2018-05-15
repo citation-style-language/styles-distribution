@@ -16,7 +16,7 @@
     <category citation-format="author-date"/>
     <category field="sociology"/>
     <summary>The ASA style.</summary>
-    <updated>2018-05-13T20:39:38+00:00</updated>
+    <updated>2018-05-15T12:35:34+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <macro name="editor">
@@ -95,7 +95,7 @@
             <if type="manuscript" match="any">
               <group delimiter=" ">
                 <text variable="genre"/>
-                <text variable="call-number"/>
+                <text variable="number"/>
               </group>
             </if>
           </choose>
