@@ -30,29 +30,17 @@
     - Um bei Beiträgen in Sammelbänden (chapter) mit demselben Autor und
       Buchautor die Abkürzung "ders." zu erhalten, muss diese selbst
       (statt des Namens) ins Zotero-Feld "Buchautor" eingetragen werden.</summary>
-    <updated>2015-01-24T19:23:46+00:00</updated>
+    <updated>2018-05-22T00:59:23+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="de">
     <terms>
       <term name="et-al">u.&#160;a.</term>
       <term name="accessed">gesehen am</term>
-      <term name="editor" form="short">
-        <single>Hg</single>
-        <multiple>Hg</multiple>
-      </term>
-      <term name="editor" form="verb-short">
-        <single>Hg.&#160;v</single>
-        <multiple>Hg.&#160;v</multiple>
-      </term>
-      <term name="translator" form="short">
-        <single>Übers</single>
-        <multiple>Übers</multiple>
-      </term>
-      <term name="translator" form="verb-short">
-        <single>Übers.&#160;v</single>
-        <multiple>Übers.&#160;v</multiple>
-      </term>
+      <term name="editor" form="short">Hg</term>
+      <term name="editor" form="verb-short">Hg.&#160;v</term>
+      <term name="translator" form="short">Übers</term>
+      <term name="translator" form="verb-short">Übers.&#160;v</term>
       <term name="accessed">gesehen am</term>
     </terms>
   </locale>

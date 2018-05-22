@@ -13,7 +13,7 @@
     <category citation-format="author-date"/>
     <category field="social_science"/>
     <eissn>2114-5350</eissn>
-    <updated>2014-09-10T06:18:55+00:00</updated>
+    <updated>2018-05-22T00:59:23+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="fr">
@@ -23,18 +23,9 @@
       <term name="ordinal-03">e</term>
       <term name="ordinal-04">e</term>
       <term name="cited">op.&#160;cit.</term>
-      <term name="page" form="short">
-        <single>p.</single>
-        <multiple>p.</multiple>
-      </term>
-      <term name="issue" form="short">
-        <single>n°</single>
-        <multiple>n°</multiple>
-      </term>
-      <term name="editor" form="short">
-        <single>dir.</single>
-        <multiple>dir.</multiple>
-      </term>
+      <term name="page" form="short">p.</term>
+      <term name="issue" form="short">n°</term>
+      <term name="editor" form="short">dir.</term>
     </terms>
   </locale>
   <macro name="author">

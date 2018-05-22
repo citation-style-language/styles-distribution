@@ -14,7 +14,7 @@
     <category citation-format="note"/>
     <category field="social_science"/>
     <summary xml:lang="tr">Uludağ Üniversitesi Sosyal Bilimler Enstitüsü'nde yüksek lisans ve doktora tezi yazan öğrencilerimiz için tez yazım kılavuzuna uygun olarak hazırlanmıştır.</summary>
-    <updated>2018-05-08T22:49:46+00:00</updated>
+    <updated>2018-05-22T00:59:23+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="tr">
@@ -22,14 +22,8 @@
       <term name="editor" form="verb-short">ed.</term>
       <term name="translator" form="verb-short">çev.</term>
       <term name="translator" form="short">çev.</term>
-      <term name="editortranslator" form="verb-short">
-        <single>ed. &amp; çev.</single>
-        <multiple>ed. &amp; çev.</multiple>
-      </term>
-      <term name="editortranslator" form="verb">
-        <single>ed. &amp; çev.</single>
-        <multiple>ed. &amp; çev.</multiple>
-      </term>
+      <term name="editortranslator" form="verb-short">ed. &amp; çev.</term>
+      <term name="editortranslator" form="verb">ed. &amp; çev.</term>
       <term name="translator" form="short">çev.</term>
       <term name="edition" form="short">b.</term>
       <term name="ibid">a.yer</term>

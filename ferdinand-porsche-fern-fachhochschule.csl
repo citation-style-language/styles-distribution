@@ -20,7 +20,7 @@
     <category citation-format="author-date"/>
     <category field="generic-base"/>
     <summary>Based on the Harvard author-date style</summary>
-    <updated>2018-01-18T21:30:52+00:00</updated>
+    <updated>2018-05-22T00:59:23+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="de-AT">
@@ -29,14 +29,8 @@
         <single>Abruf am</single>
         <multiple>Abrufe am</multiple>
       </term>
-      <term name="anonymous" form="short">
-        <single>o. V.</single>
-        <multiple>o. V.</multiple>
-      </term>
-      <term name="et-al" form="long">
-        <single>et al.</single>
-        <multiple>et al.</multiple>
-      </term>
+      <term name="anonymous" form="short">o. V.</term>
+      <term name="et-al" form="long">et al.</term>
       <term name="presented at" form="long">
         <single>vortrag auf der</single>
         <multiple>vorträge auf der</multiple>

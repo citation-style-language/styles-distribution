@@ -14,7 +14,7 @@
     <issn>0378-8660</issn>
     <eissn>1810-536X</eissn>
     <summary>Bibliographic style for Jahrbuch der Österreichischen Byzantinischen Gesellschaft</summary>
-    <updated>2014-09-14T13:59:27+00:00</updated>
+    <updated>2018-05-22T00:59:23+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="en">
@@ -39,18 +39,9 @@
       <term name="folio" form="short">fol.</term>
       <term name="issue" form="short">iss</term>
       <term name="opus" form="short">op.</term>
-      <term name="editor" form="short">
-        <single>ed.</single>
-        <multiple>ed.</multiple>
-      </term>
-      <term name="editorial-director" form="short">
-        <single>ed.</single>
-        <multiple>ed.</multiple>
-      </term>
-      <term name="translator" form="short">
-        <single>trans.</single>
-        <multiple>trans.</multiple>
-      </term>
+      <term name="editor" form="short">ed.</term>
+      <term name="editorial-director" form="short">ed.</term>
+      <term name="translator" form="short">trans.</term>
       <!--DATE-->
       <term name="month-01">january</term>
       <term name="month-02">february</term>

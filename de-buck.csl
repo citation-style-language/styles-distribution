@@ -20,16 +20,13 @@
     <category citation-format="note"/>
     <category field="generic-base"/>
     <summary>Annotatie en literatuurlijst volgens P. de Buck e.a., Zoeken en schrijven. Handleiding bij het maken van een historisch werkstuk (Haarlem 1982). Gebaseerd op "MHRA format with full notes and bibliography"</summary>
-    <updated>2018-03-28T23:10:24+00:00</updated>
+    <updated>2018-05-22T00:59:23+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="nl">
     <terms>
       <term name="et-al">e.a.</term>
-      <term name="editor" form="verb-short">
-        <single>ed.</single>
-        <multiple>ed.</multiple>
-      </term>
+      <term name="editor" form="verb-short">ed.</term>
       <term name="edition" form="short">druk</term>
       <term name="translator" form="verb-short">
         <single>vertaler</single>

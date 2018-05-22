@@ -15,7 +15,7 @@
     <issn>0013-9513</issn>
     <eissn>1783-1423</eissn>
     <summary>Ephemerides Theologicae Lovanienses (ETL) and Bibliotheca Ephemeridum Theologicarum Lovaniensium (BETL)</summary>
-    <updated>2018-03-15T02:55:03+00:00</updated>
+    <updated>2018-05-22T00:59:23+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="en">
@@ -53,10 +53,7 @@
         <multiple>Hgg.</multiple>
       </term>
       <term name="translator" form="short">trans.</term>
-      <term name="page" form="short">
-        <single>S.</single>
-        <multiple>S.</multiple>
-      </term>
+      <term name="page" form="short">S.</term>
       <term name="in">in</term>
     </terms>
   </locale>

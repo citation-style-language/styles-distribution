@@ -27,7 +27,7 @@
     <category field="engineering"/>
     <category field="generic-base"/>
     <summary>Sekolah Pascasarjana Institut Teknologi Bandung - Tesis Magister/Disertasi Doktor</summary>
-    <updated>2018-01-16T02:42:58+00:00</updated>
+    <updated>2018-05-22T00:59:23+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="id">
@@ -36,10 +36,7 @@
         <single>ed. &amp; trans.</single>
         <multiple>eds. &amp; trans.</multiple>
       </term>
-      <term name="translator" form="short">
-        <single>trans.</single>
-        <multiple>trans.</multiple>
-      </term>
+      <term name="translator" form="short">trans.</term>
       <term name="et-al">dkk.</term>
       <term name="retrieved">diperoleh</term>
       <term name="from">melalui</term>

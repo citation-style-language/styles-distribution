@@ -15,15 +15,12 @@
     <category field="anthropology"/>
     <issn>2111-6911</issn>
     <summary>Feuille de style pour la collection "Changer d'époque" des Presses universitaires de Rouen et du Havre (PURH)</summary>
-    <updated>2017-06-20T11:52:09+00:00</updated>
+    <updated>2018-05-22T00:59:23+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="fr">
     <terms>
-      <term name="editor" form="short">
-        <single>dir.</single>
-        <multiple>dir.</multiple>
-      </term>
+      <term name="editor" form="short">dir.</term>
       <term name="in">dans</term>
       <term name="online">mis en ligne le</term>
       <term name="anonymous">anonyme</term>

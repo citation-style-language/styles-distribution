@@ -14,7 +14,7 @@
     </author>
     <category citation-format="author-date"/>
     <category field="generic-base"/>
-    <updated>2016-09-17T04:50:06+00:00</updated>
+    <updated>2018-05-22T00:59:23+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale>
@@ -27,10 +27,7 @@
         <single>ed. &amp; trad.</single>
         <multiple>eds. &amp; trad.</multiple>
       </term>
-      <term name="translator" form="short">
-        <single>trad.</single>
-        <multiple>trad.</multiple>
-      </term>
+      <term name="translator" form="short">trad.</term>
       <term name="page" form="short">
         <single>p.</single>
         <multiple>pp.</multiple>

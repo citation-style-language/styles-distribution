@@ -12,15 +12,12 @@
     <category citation-format="author-date"/>
     <category field="medicine"/>
     <summary>Style adapté de France (tous les auteurs, auteur-date) et modifié par Gérald Baril pour l'équipe NAPP de l'Institut national de santé publique du Québec</summary>
-    <updated>2016-09-28T13:09:49+00:00</updated>
+    <updated>2018-05-22T00:59:23+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="fr-CA">
     <terms>
-      <term name="editor" form="short">
-        <single>dir.</single>
-        <multiple>dir.</multiple>
-      </term>
+      <term name="editor" form="short">dir.</term>
       <term name="et-al">et collab.</term>
     </terms>
   </locale>

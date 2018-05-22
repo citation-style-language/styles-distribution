@@ -14,7 +14,7 @@
     <category field="political_science"/>
     <issn>0269-7459</issn>
     <eissn>1360-0583</eissn>
-    <updated>2017-07-30T04:24:10+00:00</updated>
+    <updated>2018-05-22T00:59:23+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="en">
@@ -23,10 +23,7 @@
         <single>ed. &amp; trans.</single>
         <multiple>eds. &amp; trans.</multiple>
       </term>
-      <term name="translator" form="short">
-        <single>trans.</single>
-        <multiple>trans.</multiple>
-      </term>
+      <term name="translator" form="short">trans.</term>
     </terms>
   </locale>
   <macro name="container-contributors">

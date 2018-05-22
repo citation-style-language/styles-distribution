@@ -27,16 +27,13 @@ Remarques :
     <eissn>1783-1830</eissn>
     <summary>Zotero stylesheet for Vita Latina (journal) specific to the editions of Ancient Literature</summary>
     <published>2017-03-03T00:00:00</published>
-    <updated>2017-03-31T18:25:46+00:00</updated>
+    <updated>2018-05-22T00:59:23+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <!-- INSTRUCTIONS DE FORMATAGE EN FRANCAIS -->
   <locale>
     <terms>
-      <term name="editor" form="short">
-        <single>éd.</single>
-        <multiple>éd.</multiple>
-      </term>
+      <term name="editor" form="short">éd.</term>
       <term name="translator" form="verb-short">trad.</term>
       <term name="in">dans</term>
       <term name="no date">pas de date</term>

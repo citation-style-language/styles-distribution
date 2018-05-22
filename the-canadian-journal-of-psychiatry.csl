@@ -16,15 +16,12 @@
     <category field="psychology"/>
     <issn>0706-7437</issn>
     <eissn>1497-0015</eissn>
-    <updated>2017-10-10T01:13:26+00:00</updated>
+    <updated>2018-05-22T00:59:23+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale>
     <terms>
-      <term name="page" form="short">
-        <single>p</single>
-        <multiple>p</multiple>
-      </term>
+      <term name="page" form="short">p</term>
     </terms>
   </locale>
   <macro name="author">

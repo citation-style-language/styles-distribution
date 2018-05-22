@@ -14,25 +14,16 @@
     <category field="history"/>
     <category field="anthropology"/>
     <summary>Pour les recommandations d'usage, et en particulier pour les rares problèmes d'adéquation entre les normes et le présent style, voir https://zoteroarcheologie.wordpress.com</summary>
-    <updated>2016-12-05T05:12:46+00:00</updated>
+    <updated>2018-05-22T00:59:23+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="fr">
     <terms>
       <term name="cited">op.&#160;cit.</term>
-      <term name="page" form="short">
-        <single>p.</single>
-        <multiple>p.</multiple>
-      </term>
+      <term name="page" form="short">p.</term>
       <term name="in">dans</term>
-      <term name="editor" form="short">
-        <single>éd</single>
-        <multiple>éd</multiple>
-      </term>
-      <term name="collection-editor" form="short">
-        <single>dir.</single>
-        <multiple>dir.</multiple>
-      </term>
+      <term name="editor" form="short">éd</term>
+      <term name="collection-editor" form="short">dir.</term>
     </terms>
   </locale>
   <macro name="responsability">

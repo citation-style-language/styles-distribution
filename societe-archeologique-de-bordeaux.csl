@@ -13,15 +13,12 @@
     <category citation-format="note"/>
     <category field="history"/>
     <summary>Style reprenant les normes diffusées par la SAB</summary>
-    <updated>2017-01-13T16:25:58+00:00</updated>
+    <updated>2018-05-22T00:59:23+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="fr">
     <terms>
-      <term name="editor" form="short">
-        <single>dir.</single>
-        <multiple>dir.</multiple>
-      </term>
+      <term name="editor" form="short">dir.</term>
       <term name="in">dans</term>
       <term name="anonymous">anonyme</term>
       <term name="anonymous" form="short">anon.</term>

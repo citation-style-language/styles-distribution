@@ -13,7 +13,7 @@
     <category citation-format="author-date"/>
     <category field="generic-base"/>
     <summary>Adaptation en français de la norme "Chicago" (méthode auteur-date), basée sur le guide des Bibliothèques de l'Université de Montréal.</summary>
-    <updated>2015-05-19T07:41:46+00:00</updated>
+    <updated>2018-05-22T00:59:23+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale>
@@ -28,10 +28,7 @@
         <single>dir. et trad.</single>
         <multiple>dir. and trad.</multiple>
       </term>
-      <term name="editortranslator" form="verb">
-        <single>Sous la direction et traduit par</single>
-        <multiple>Sous la direction et traduit par</multiple>
-      </term>
+      <term name="editortranslator" form="verb">Sous la direction et traduit par</term>
       <term name="translator" form="verb-short">trad.</term>
       <term name="translator" form="short">trad.</term>
       <term name="translator" form="verb">traduit par</term>

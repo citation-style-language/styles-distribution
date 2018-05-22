@@ -17,7 +17,7 @@
     <issn>0075-4269</issn>
     <eissn>2041-4099</eissn>
     <summary>JHS author-date style</summary>
-    <updated>2017-07-03T03:48:18+00:00</updated>
+    <updated>2018-05-22T00:59:23+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="en-GB">
@@ -26,10 +26,7 @@
         <single>ed.</single>
         <multiple>eds</multiple>
       </term>
-      <term name="translator" form="short">
-        <single>tr.</single>
-        <multiple>tr.</multiple>
-      </term>
+      <term name="translator" form="short">tr.</term>
       <term name="chapter" form="short">
         <single>chapter </single>
         <multiple>chapters </multiple>

@@ -16,7 +16,7 @@
     </author>
     <category citation-format="note"/>
     <category field="law"/>
-    <updated>2018-03-28T23:10:24+00:00</updated>
+    <updated>2018-05-22T00:59:23+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="fr">
@@ -33,14 +33,8 @@
         <single>dir.</single>
         <multiple>dirs.</multiple>
       </term>
-      <term name="in">
-        <single>dans</single>
-        <multiple>dans</multiple>
-      </term>
-      <term name="edition" form="short">
-        <single>éd.</single>
-        <multiple>éd.</multiple>
-      </term>
+      <term name="in">dans</term>
+      <term name="edition" form="short">éd.</term>
       <term name="cited">op. cit.</term>
       <term name="ordinal-01">&#7497;</term>
       <term name="ordinal-02">&#7497;</term>

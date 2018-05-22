@@ -14,15 +14,12 @@
     <category field="science"/>
     <issn>0378-4738</issn>
     <eissn>1816-7950</eissn>
-    <updated>2017-05-11T04:03:46+00:00</updated>
+    <updated>2018-05-22T00:59:23+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="en">
     <terms>
-      <term name="edition" form="short">
-        <single>edn</single>
-        <multiple>edn</multiple>
-      </term>
+      <term name="edition" form="short">edn</term>
       <term name="ordinal">ᵗʰ</term>
       <term name="ordinal-01">ˢᵗ</term>
       <term name="ordinal-02">ⁿᵈ</term>

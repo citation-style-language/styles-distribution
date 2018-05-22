@@ -10,7 +10,7 @@
       <email>roaldfrosig@gmail.com</email>
     </author>
     <category citation-format="numeric"/>
-    <updated>2018-03-31T04:01:14+00:00</updated>
+    <updated>2018-05-22T00:59:23+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="en">
@@ -19,10 +19,7 @@
       <term name="accessed">cited</term>
       <term name="available at">available from</term>
       <term name="no date">date unknown</term>
-      <term name="page" form="short">
-        <single>p.</single>
-        <multiple>p.</multiple>
-      </term>
+      <term name="page" form="short">p.</term>
     </terms>
   </locale>
   <!--                                                 CITATION MACRO -->

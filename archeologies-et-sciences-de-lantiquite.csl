@@ -14,7 +14,7 @@
     <category citation-format="note"/>
     <category field="humanities"/>
     <summary>Le style arscan est utilisé pour les publications et bibliographies du laboratoire ArScAn (Archéologies et Sciences de l'Antiquité). Il correspond aux besoins de l'édition en archéologie, histoire de l'art et histoire.</summary>
-    <updated>2017-07-03T03:48:18+00:00</updated>
+    <updated>2018-05-22T00:59:23+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="fr-FR">
@@ -22,10 +22,7 @@
       <term name="cited">op. cit.</term>
       <term name="issue">titre du fascicule </term>
       <term name="presented at">présentation à</term>
-      <term name="editor" form="short">
-        <single>dir.</single>
-        <multiple>dir.</multiple>
-      </term>
+      <term name="editor" form="short">dir.</term>
       <term name="accessed">Consultation: </term>
     </terms>
   </locale>

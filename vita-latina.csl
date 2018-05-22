@@ -28,17 +28,13 @@ Remarques :
     <eissn>1783-1830</eissn>
     <summary>Zotero stylesheet for Vita Latina (journal)</summary>
     <published>2017-03-03T00:00:00</published>
-    <updated>2017-03-31T18:25:46+00:00</updated>
+    <updated>2018-05-22T00:59:23+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <!-- INSTRUCTIONS DE FORMATAGE EN FRANCAIS -->
   <locale>
     <terms>
-      <term name="editor" form="short">
-        <single>dir.</single>
-        <multiple>dir.</multiple>
-        <!-- dir. diffère bien entendu de éd., mais Zotero ne permet pas de distinguer "directeur de publication" et "éditeur". -->
-      </term>
+      <term name="editor" form="short">dir.</term>
       <term name="translator" form="verb-short">trad.</term>
       <term name="in">dans</term>
       <term name="no date">pas de date</term>

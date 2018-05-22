@@ -24,25 +24,19 @@
     <category field="psychology"/>
     <category field="generic-base"/>
     <summary>Le style UQAM est une adaptation canadienne-française de la norme APA 6th (2010) conforme au Guide de présentation des mémoires et des thèses de l'Université du Québec à Montréal</summary>
-    <updated>2018-03-14T01:19:27+00:00</updated>
+    <updated>2018-05-22T00:59:23+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="fr">
     <terms>
       <term name="editortranslator" form="short">dir. et trad.</term>
       <term name="editor" form="short">dir.</term>
-      <term name="translator" form="short">
-        <single>trad.</single>
-        <multiple>trad.</multiple>
-      </term>
+      <term name="translator" form="short">trad.</term>
       <term name="no date" form="short">s. d.</term>
       <term name="in">Dans</term>
       <term name="retrieved">Récupéré de</term>
       <term name="presented at">Communication présentée à</term>
-      <term name="page" form="short">
-        <single>p.</single>
-        <multiple>p.</multiple>
-      </term>
+      <term name="page" form="short">p.</term>
       <term name="in press">sous presse</term>
       <term name="director" form="short">réal.</term>
       <term name="chapter" form="short">chap. </term>

@@ -25,7 +25,7 @@
     </contributor>
     <category citation-format="note"/>
     <category field="social_science"/>
-    <updated>2018-03-28T23:10:24+00:00</updated>
+    <updated>2018-05-22T00:59:23+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="fr">
@@ -35,10 +35,7 @@
       <term name="ordinal-03">e</term>
       <term name="ordinal-04">e</term>
       <term name="cited">op. cit.</term>
-      <term name="page" form="short">
-        <single>p.</single>
-        <multiple>p.</multiple>
-      </term>
+      <term name="page" form="short">p.</term>
       <term name="editor" form="short">
         <single>éd.</single>
         <multiple>éds.</multiple>
@@ -51,10 +48,7 @@
         <single>éd. et trad. par</single>
         <multiple>éd. et trad par</multiple>
       </term>
-      <term name="editortranslator" form="verb">
-        <single>édité et traduit par</single>
-        <multiple>édité et traduit par</multiple>
-      </term>
+      <term name="editortranslator" form="verb">édité et traduit par</term>
     </terms>
   </locale>
   <macro name="author">

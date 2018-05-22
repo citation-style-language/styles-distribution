@@ -14,7 +14,7 @@
     <category field="linguistics"/>
     <category field="philosophy"/>
     <issn>1972-3792</issn>
-    <updated>2018-02-25T05:18:50+00:00</updated>
+    <updated>2018-05-22T00:59:23+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="it-IT">
@@ -23,10 +23,7 @@
         <single>p.</single>
         <multiple>pp.</multiple>
       </term>
-      <term name="translator" form="verb-short">
-        <single>tr. it. di</single>
-        <multiple>tr. it. di</multiple>
-      </term>
+      <term name="translator" form="verb-short">tr. it. di</term>
       <term name="no date">s.d.</term>
       <term name="ibid" form="short">ivi</term>
       <term name="ibid" form="long">ibidem</term>

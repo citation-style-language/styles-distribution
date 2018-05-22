@@ -15,7 +15,7 @@
     <category field="science"/>
     <issn>2043-9083</issn>
     <eissn>2408-9362</eissn>
-    <updated>2017-02-10T04:08:40+00:00</updated>
+    <updated>2018-05-22T00:59:23+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="en">
@@ -24,10 +24,7 @@
         <single>ed. &amp; trans.</single>
         <multiple>eds. &amp; trans.</multiple>
       </term>
-      <term name="translator" form="short">
-        <single>trans.</single>
-        <multiple>trans.</multiple>
-      </term>
+      <term name="translator" form="short">trans.</term>
     </terms>
   </locale>
   <macro name="container-contributors">

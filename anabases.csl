@@ -16,15 +16,12 @@
     <issn>1774-4296</issn>
     <eissn>2256-9421</eissn>
     <summary>Feuille de style pour la revue Anabases</summary>
-    <updated>2018-03-28T23:10:24+00:00</updated>
+    <updated>2018-05-22T00:59:23+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="fr">
     <terms>
-      <term name="editor" form="short">
-        <single>dir.</single>
-        <multiple>dir.</multiple>
-      </term>
+      <term name="editor" form="short">dir.</term>
       <term name="in">in</term>
       <term name="online">mis en ligne le</term>
       <term name="paragraph" form="short">§</term>

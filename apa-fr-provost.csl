@@ -15,7 +15,7 @@
     <category field="psychology"/>
     <category field="generic-base"/>
     <summary>Style basé sur la version francophone du livre « Normes de présentation d’un travail de recherche », 4e édition, par Marc A. Provost ... [et al.] selon les normes APA, 6e édition</summary>
-    <updated>2017-03-09T13:31:24+00:00</updated>
+    <updated>2018-05-22T00:59:23+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="fr">
@@ -24,14 +24,8 @@
         <single>éd.</single>
         <multiple>éds</multiple>
       </term>
-      <term name="editortranslator" form="short">
-        <single>éd. &amp; trad.</single>
-        <multiple>éd. &amp; trad.</multiple>
-      </term>
-      <term name="translator" form="short">
-        <single>trad.</single>
-        <multiple>trad.</multiple>
-      </term>
+      <term name="editortranslator" form="short">éd. &amp; trad.</term>
+      <term name="translator" form="short">trad.</term>
       <term name="no date" form="short">n.d.</term>
       <term name="in">dans</term>
       <term name="retrieved">repéré</term>

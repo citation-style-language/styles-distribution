@@ -15,15 +15,12 @@
     <category field="humanities"/>
     <eissn>2108-6419</eissn>
     <summary>Feuille de style pour les Collections électroniques de l'INHA avec citation en auteur-date, en note. Pour les livres traduits ou réédités, il faut ajouter manuellement les références de la première édition (lieu et date de publication).</summary>
-    <updated>2014-10-17T00:26:43+00:00</updated>
+    <updated>2018-05-22T00:59:23+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="fr">
     <terms>
-      <term name="editor" form="short">
-        <single>éd.</single>
-        <multiple>éd.</multiple>
-      </term>
+      <term name="editor" form="short">éd.</term>
       <term name="in">dans</term>
       <term name="anonymous">anonyme</term>
       <term name="anonymous" form="short">anon.</term>

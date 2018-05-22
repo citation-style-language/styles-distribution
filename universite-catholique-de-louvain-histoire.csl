@@ -12,7 +12,7 @@
     </author>
     <category citation-format="note"/>
     <category field="history"/>
-    <updated>2018-03-17T02:54:37+00:00</updated>
+    <updated>2018-05-22T00:59:23+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="fr">
@@ -22,14 +22,8 @@
       <term name="ordinal-03">e</term>
       <term name="ordinal-04">e</term>
       <term name="cited">op. cit.</term>
-      <term name="page" form="short">
-        <single>p.</single>
-        <multiple>p.</multiple>
-      </term>
-      <term name="editor" form="short">
-        <single>éd.</single>
-        <multiple>éd.</multiple>
-      </term>
+      <term name="page" form="short">p.</term>
+      <term name="editor" form="short">éd.</term>
       <term name="in">dans</term>
       <term name="translator">traduit par </term>
       <term name="director">dirigée par </term>

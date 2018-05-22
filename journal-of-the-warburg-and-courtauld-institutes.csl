@@ -14,21 +14,15 @@
     <category field="history"/>
     <issn>0075-4390</issn>
     <eissn>2044-0014</eissn>
-    <updated>2017-09-27T03:53:00+00:00</updated>
+    <updated>2018-05-22T00:59:23+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale>
     <style-options punctuation-in-quote="false"/>
     <terms>
       <term name="et-al">et al.</term>
-      <term name="editor" form="short">
-        <single>ed.</single>
-        <multiple>ed.</multiple>
-      </term>
-      <term name="collection-editor" form="short">
-        <single>ed.</single>
-        <multiple>ed.</multiple>
-      </term>
+      <term name="editor" form="short">ed.</term>
+      <term name="collection-editor" form="short">ed.</term>
       <term name="page-range-delimiter">-</term>
     </terms>
   </locale>
