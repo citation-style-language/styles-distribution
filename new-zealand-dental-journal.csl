@@ -7,7 +7,7 @@
     <link href="http://www.zotero.org/styles/harvard-cite-them-right" rel="template"/>
     <link href="https://www.researchgate.net/profile/Lee_Smith28/publication/315481211_Understanding_Bachelor_of_Oral_Health_Student_and_educators%27_understandings_of_professionalism/links/58e2dedd92851c1b9d6a0796/Understanding-Bachelor-of-Oral-Health-Student-and-educators-understandings-of-professionalism.pdf" rel="documentation"/>
     <author>
-        <name>Sebastian Karcher</name>
+      <name>Sebastian Karcher</name>
     </author>
     <contributor>
       <name>Emmanuel Charpentier</name>
@@ -16,7 +16,7 @@
     <category citation-format="author-date"/>
     <category field="medicine"/>
     <issn>0028-8047</issn>
-    <updated>2018-04-02T02:25:19+00:00</updated>
+    <updated>2018-06-03T03:31:35+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <macro name="editor">

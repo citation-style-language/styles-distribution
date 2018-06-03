@@ -21,7 +21,7 @@
     <issn>2364-3676</issn>
     <eissn>2197-649X</eissn>
     <summary>New author-date style meant to meet citation specifications provided by JNA. Based on the DAI style.</summary>
-    <updated>2018-05-25T13:15:32+00:00</updated>
+    <updated>2018-06-03T03:31:35+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="en">
@@ -66,7 +66,7 @@
                 <label form="short" strip-periods="false" prefix=" (" suffix="),"/>
               </names>
               <names variable="container-author">
-                <name delimiter=" – " delimiter-precedes-et-al="never" delimiter-precedes-last="always" initialize-with="."/>
+                <name delimiter=" &#8211; " delimiter-precedes-et-al="never" delimiter-precedes-last="always" initialize-with="."/>
               </names>
               <text macro="collection-title"/>
             </if>
@@ -99,7 +99,7 @@
           <if match="none" variable="editor">
             <names variable="translator" prefix=", ">
               <label form="verb-short" suffix=" "/>
-              <name delimiter=" – " delimiter-precedes-et-al="never" delimiter-precedes-last="always" initialize-with="."/>
+              <name delimiter=" &#8211; " delimiter-precedes-et-al="never" delimiter-precedes-last="always" initialize-with="."/>
             </names>
           </if>
         </choose>
@@ -136,7 +136,7 @@
       </if>
       <else-if variable="editor">
         <names variable="editor">
-          <name form="short" delimiter=" – " et-al-min="3" et-al-use-first="1"/>
+          <name form="short" delimiter=" &#8211; " et-al-min="3" et-al-use-first="1"/>
         </names>
       </else-if>
       <else>
@@ -160,7 +160,7 @@
       </if>
       <else-if variable="editor">
         <names variable="editor">
-          <name form="short" delimiter=" – " delimiter-precedes-last="always" et-al-min="3" et-al-use-first="1"/>
+          <name form="short" delimiter=" &#8211; " delimiter-precedes-last="always" et-al-min="3" et-al-use-first="1"/>
         </names>
       </else-if>
       <else>
@@ -346,7 +346,7 @@
       <if match="any" variable="reviewed-author">
         <text term="reviewed-author" form="verb" prefix=", " suffix=" "/>
         <names variable="reviewed-author">
-          <name delimiter=" – " delimiter-precedes-et-al="never" delimiter-precedes-last="always" initialize-with="."/>
+          <name delimiter=" &#8211; " delimiter-precedes-et-al="never" delimiter-precedes-last="always" initialize-with="."/>
         </names>
         <text variable="reviewed-title" prefix=", "/>
       </if>
