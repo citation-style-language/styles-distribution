@@ -15,7 +15,7 @@
     <issn>0195-6167</issn>
     <eissn>1533-8339</eissn>
     <summary>Style for the Music Theory Spectrum journal based on the Cambridge Journal International Organization</summary>
-    <updated>2017-03-02T17:08:19+00:00</updated>
+    <updated>2018-06-04T19:39:34+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale>
@@ -157,10 +157,10 @@
         </choose>
       </if>
       <else-if type="bill book graphic legal_case legislation motion_picture report song" match="any">
-        <text variable="title" font-style="italic"/>
+        <text variable="title" font-style="italic" text-case="title"/>
       </else-if>
       <else>
-        <text variable="title" quotes="true"/>
+        <text variable="title" quotes="true" text-case="title"/>
       </else>
     </choose>
   </macro>
@@ -187,7 +187,7 @@
     </choose>
     <choose>
       <if type="legal_case" match="none">
-        <text variable="container-title" font-style="italic"/>
+        <text variable="container-title" font-style="italic" text-case="title"/>
       </if>
     </choose>
   </macro>
