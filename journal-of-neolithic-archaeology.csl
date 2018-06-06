@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <style xmlns="http://purl.org/net/xbiblio/csl" class="note" version="1.0" delimiter-precedes-et-al="never" demote-non-dropping-particle="sort-only">
+  <!-- Polyglot; journal publishes in English, German, and occasionally in other languages -->
   <info>
     <title>Journal of Neolithic Archaeology</title>
     <title-short>JNA</title-short>
@@ -21,7 +22,7 @@
     <issn>2364-3676</issn>
     <eissn>2197-649X</eissn>
     <summary>New author-date style meant to meet citation specifications provided by JNA. Based on the DAI style.</summary>
-    <updated>2018-06-03T03:31:35+00:00</updated>
+    <updated>2018-06-06T00:20:29+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="en">
