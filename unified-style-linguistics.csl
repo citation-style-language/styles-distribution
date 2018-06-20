@@ -21,7 +21,7 @@
     <category citation-format="author-date"/>
     <category field="linguistics"/>
     <summary>Unified Style Sheet for Linguistics</summary>
-    <updated>2018-06-18T02:43:59+00:00</updated>
+    <updated>2018-06-20T03:25:58+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale>
@@ -269,10 +269,14 @@
     </group>
   </macro>
   <macro name="container-title">
-    <group delimiter=" ">
-      <text variable="container-title" font-style="italic"/>
-      <text macro="collection-title"/>
-    </group>
+    <choose>
+      <if variable="container-title">
+        <group delimiter=" ">
+          <text variable="container-title" font-style="italic"/>
+          <text macro="collection-title"/>
+        </group>
+      </if>
+    </choose>
   </macro>
   <macro name="publisher">
     <group delimiter=": ">
