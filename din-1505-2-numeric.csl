@@ -40,7 +40,7 @@
       tab: &#009;
       
     -->
-    <updated>2018-03-31T04:01:14+00:00</updated>
+    <updated>2018-06-23T17:44:24+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="de">
@@ -153,10 +153,17 @@
     </group>
   </macro>
   <macro name="edition">
-    <group>
-      <number variable="edition" form="numeric" suffix=". "/>
-      <text term="edition" form="short" plural="false"/>
-    </group>
+    <choose>
+      <if is-numeric="edition">
+        <group delimiter=" ">
+          <number variable="edition" form="numeric" suffix=". "/>
+          <text term="edition" form="short" plural="false"/>
+        </group>
+      </if>
+      <else>
+        <text variable="edition" suffix="."/>
+      </else>
+    </choose>
   </macro>
   <macro name="pages">
     <choose>
