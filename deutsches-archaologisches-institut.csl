@@ -20,7 +20,7 @@
     <category citation-format="author-date"/>
     <category field="anthropology"/>
     <summary>New author-date style meant to meet citation specifications provided by DAI</summary>
-    <updated>2018-06-03T03:31:35+00:00</updated>
+    <updated>2018-07-01T17:26:23+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="en">
@@ -146,12 +146,12 @@
     <choose>
       <if variable="author">
         <names variable="author">
-          <name form="short" delimiter=" &#8211; " et-al-min="3" et-al-use-first="1"/>
+          <name form="short" delimiter=" &#8211; "/>
         </names>
       </if>
       <else-if variable="editor">
         <names variable="editor">
-          <name form="short" delimiter=" &#8211; " et-al-min="3" et-al-use-first="1"/>
+          <name form="short" delimiter=" &#8211; "/>
         </names>
       </else-if>
       <else>

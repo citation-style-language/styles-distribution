@@ -15,7 +15,7 @@
     <category citation-format="author-date"/>
     <category field="psychology"/>
     <summary>Zitierstil entsprechend den Zitierrichtlinien der Fakultät Erziehungswissenschaften, Technische Universität Dresden.</summary>
-    <updated>2016-09-17T04:50:06+00:00</updated>
+    <updated>2018-07-01T17:26:23+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="de">
@@ -55,7 +55,7 @@
   </macro>
   <macro name="author-short">
     <names variable="author">
-      <name form="short" delimiter="; " delimiter-precedes-last="never" et-al-min="3" et-al-use-first="1" initialize-with=". "/>
+      <name form="short" delimiter="; " delimiter-precedes-last="never" initialize-with=". "/>
       <et-al/>
       <substitute>
         <names variable="editor"/>

@@ -14,7 +14,7 @@
     <category citation-format="author-date"/>
     <category field="generic-base"/>
     <summary>University for the Creative Arts Harvard style</summary>
-    <updated>2018-04-02T03:12:48+00:00</updated>
+    <updated>2018-07-01T17:26:23+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale>
@@ -412,7 +412,7 @@
       </if>
       <else>
         <names variable="author">
-          <name form="short" font-style="normal" and="text" delimiter-precedes-last="never" et-al-min="3" et-al-use-first="1" initialize-with="."/>
+          <name form="short" font-style="normal" and="text" delimiter-precedes-last="never" initialize-with="."/>
           <et-al font-style="italic"/>
           <substitute>
             <text variable="title"/>
@@ -421,7 +421,7 @@
       </else>
     </choose>
   </macro>
-  <citation disambiguate-add-year-suffix="true" collapse="year-suffix">
+  <citation disambiguate-add-year-suffix="true" collapse="year-suffix" et-al-min="3" et-al-use-first="1">
     <layout delimiter=";" prefix="(" suffix=")">
       <group delimiter=":">
         <group delimiter=", ">

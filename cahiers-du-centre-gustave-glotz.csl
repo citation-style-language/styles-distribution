@@ -15,7 +15,7 @@
     <category field="humanities"/>
     <issn>1016-9008</issn>
     <summary>Feuille de style pour les Cahiers du Centre Gustave-Glotz. L'utilisation de 'in' pour les articles en langue étrangère doit être effectuée manuellement.</summary>
-    <updated>2018-05-22T00:59:23+00:00</updated>
+    <updated>2018-07-01T17:26:23+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="fr">
@@ -68,7 +68,7 @@
   </macro>
   <macro name="author-short">
     <names variable="author">
-      <name form="short" delimiter=", " et-al-min="4" et-al-use-first="1"/>
+      <name form="short" delimiter=", "/>
       <et-al font-variant="normal" font-style="italic"/>
       <substitute>
         <names variable="editor"/>

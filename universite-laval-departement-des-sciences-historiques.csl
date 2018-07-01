@@ -12,12 +12,12 @@
     <category citation-format="note"/>
     <category field="history"/>
     <summary>Le style bibliographique pour citation et références du Département des sciences historiques de l'Université Laval</summary>
-    <updated>2018-06-13T03:45:42+00:00</updated>
+    <updated>2018-07-01T17:26:23+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <macro name="author-bibliography">
     <names variable="author">
-      <name and="text" delimiter-precedes-last="never" et-al-min="3" et-al-use-first="1" initialize="false" initialize-with="." name-as-sort-order="first">
+      <name and="text" delimiter-precedes-last="never" initialize="false" initialize-with="." name-as-sort-order="first">
         <name-part name="family" text-case="uppercase"/>
       </name>
       <et-al font-style="italic"/>
@@ -32,7 +32,7 @@
   </macro>
   <macro name="editor-bibliography">
     <names variable="editor">
-      <name and="text" delimiter-precedes-et-al="never" delimiter-precedes-last="never" et-al-min="3" et-al-use-first="1" initialize="false" initialize-with="." name-as-sort-order="first">
+      <name and="text" delimiter-precedes-et-al="never" delimiter-precedes-last="never" initialize="false" initialize-with="." name-as-sort-order="first">
         <name-part name="family" text-case="uppercase"/>
         <name-part name="given" text-case="capitalize-first"/>
       </name>
@@ -266,7 +266,7 @@
       </choose>
     </layout>
   </citation>
-  <bibliography hanging-indent="true">
+  <bibliography hanging-indent="true" et-al-min="3" et-al-use-first="1">
     <sort>
       <key macro="author-bibliography"/>
       <key macro="year-date"/>
