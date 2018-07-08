@@ -3,8 +3,8 @@
   <info>
     <title>Fatigue &amp; Fracture of Engineering Materials &amp; Structures</title>
     <title-short>FFEMS</title-short>
-    <id>http://www.zotero.org/styles/fatigue-and-fracture-of-engineering-materials-and-structure</id>
-    <link href="http://www.zotero.org/styles/fatigue-and-fracture-of-engineering-materials-and-structure" rel="self"/>
+    <id>http://www.zotero.org/styles/fatigue-and-fracture-of-engineering-materials-and-structures</id>
+    <link href="http://www.zotero.org/styles/fatigue-and-fracture-of-engineering-materials-and-structures" rel="self"/>
     <link href="http://www.zotero.org/styles/journal-of-clinical-rheumatology" rel="template"/>
     <link href="https://onlinelibrary.wiley.com/page/journal/14602695/homepage/forauthors.html" rel="documentation"/>
     <author>
@@ -15,7 +15,7 @@
     <category field="medicine"/>
     <issn>8756-758X</issn>
     <eissn>1460-2695</eissn>
-    <updated>2018-07-08T02:38:13+00:00</updated>
+    <updated>2018-07-08T17:40:47+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <macro name="editor">
