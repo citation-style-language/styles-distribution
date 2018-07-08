@@ -31,7 +31,7 @@
     <category citation-format="author-date"/>
     <category field="psychology"/>
     <category field="generic-base"/>
-    <updated>2018-07-07T17:14:26+00:00</updated>
+    <updated>2018-07-08T02:01:21+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="en">
@@ -763,12 +763,12 @@
             <text macro="original-date"/>
           </group>
         </if>
-        <else>
+        <else-if variable="original-date">
           <group prefix=" (" suffix=")" delimiter=" ">
             <text macro="original-published"/>
             <text macro="original-date"/>
           </group>
-        </else>
+        </else-if>
       </choose>
     </layout>
   </bibliography>
