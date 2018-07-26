@@ -13,7 +13,7 @@
     <category field="medicine"/>
     <issn>0001-4575</issn>
     <eissn>1879-2057</eissn>
-    <updated>2017-06-02T04:32:45+00:00</updated>
+    <updated>2018-07-26T12:01:10+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <macro name="container">
@@ -76,7 +76,7 @@
       <if variable="DOI">
         <text variable="DOI" prefix="doi:"/>
       </if>
-      <else-if type="webpage">
+      <else-if type="post post-weblog webpage">
         <group delimiter=" ">
           <text value="URL"/>
           <text variable="URL"/>
