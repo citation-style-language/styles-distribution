@@ -5,7 +5,7 @@
     <title-short>JoL</title-short>
     <id>http://www.zotero.org/styles/journal-of-linguistics</id>
     <link href="http://www.zotero.org/styles/journal-of-linguistics" rel="self"/>
-    <link href="http://www.zotero.org/styles/unified-style-linguistics" rel="template"/>
+    <link href="http://www.zotero.org/styles/unified-style-sheet-for-linguistics" rel="template"/>
     <link href="https://www.cambridge.org/core/journals/journal-of-linguistics/information/instructions-contributors" rel="documentation"/>
     <author>
       <name>Patrick O'Brien, PhD</name>
@@ -14,7 +14,7 @@
     <category field="linguistics"/>
     <issn>0022-2267</issn>
     <eissn>1469-7742</eissn>
-    <updated>2018-07-06T02:39:09+00:00</updated>
+    <updated>2018-08-02T04:21:54+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale>

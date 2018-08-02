@@ -5,7 +5,7 @@
     <title-short>IJL</title-short>
     <id>http://www.zotero.org/styles/international-journal-of-lexicography</id>
     <link href="http://www.zotero.org/styles/international-journal-of-lexicography" rel="self"/>
-    <link href="http://www.zotero.org/styles/unified-style-linguistics" rel="template"/>
+    <link href="http://www.zotero.org/styles/unified-style-sheet-for-linguistics" rel="template"/>
     <link href="http://www.oxfordjournals.org/our_journals/lexico/for_authors/index.html" rel="documentation"/>
     <author>
       <name>Robert Lew</name>
@@ -25,7 +25,7 @@
     <issn>0950-3846</issn>
     <eissn>1477-4577</eissn>
     <summary>International Journal of Lexicography Style, created by modifying the Unified Style Sheet for Linguistics</summary>
-    <updated>2018-07-01T17:26:23+00:00</updated>
+    <updated>2018-08-02T04:21:54+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale>
