@@ -15,7 +15,7 @@
     <category field="science"/>
     <category field="botany"/>
     <issn>0002-9254</issn>
-    <updated>2018-06-26T03:21:38+00:00</updated>
+    <updated>2018-08-10T04:15:28+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="en">
@@ -181,7 +181,7 @@
                 <text macro="editor-translator"/>
                 <text macro="pages" prefix=" " suffix="."/>
               </group>
-              <text macro="publisher" prefix=" " suffix=";"/>
+              <text macro="publisher" prefix=" " suffix="."/>
             </group>
           </else-if>
           <else>
