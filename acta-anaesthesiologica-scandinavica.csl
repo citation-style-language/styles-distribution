@@ -18,7 +18,7 @@
     <category field="medicine"/>
     <issn>0001-5172</issn>
     <eissn>1399-6576</eissn>
-    <updated>2018-07-26T12:01:10+00:00</updated>
+    <updated>2018-08-13T15:47:21+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <macro name="author">
@@ -55,7 +55,7 @@
         <group prefix="; " delimiter=": " suffix=".">
           <text variable="volume"/>
           <text variable="page"/>
-        </group>   
+        </group>
       </else-if>
       <else-if variable="DOI">
         <text variable="volume" prefix="; "/>
@@ -69,7 +69,7 @@
         </group>
       </else-if>
     </choose>
-  </macro>  
+  </macro>
   <macro name="accessed-date">
     <group prefix="[" suffix="]." delimiter=" ">
       <text term="cited" text-case="lowercase"/>
