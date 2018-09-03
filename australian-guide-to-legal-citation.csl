@@ -32,7 +32,7 @@
     <category citation-format="note"/>
     <category field="law"/>
     <summary>A modification of the Bluebook legal citation style for Australian conditions.</summary>
-    <updated>2016-07-07T13:41:07+00:00</updated>
+    <updated>2018-09-03T17:14:48+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale>
@@ -229,7 +229,7 @@
           </else-if>
         </choose>
       </if>
-      <else-if type="webpage">
+      <else-if type="webpage post-weblog" match="any">
         <text macro="issued-full" prefix="(" suffix=")"/>
       </else-if>
       <else-if type="legislation">
@@ -410,6 +410,16 @@
       </if>
     </choose>
   </macro>
+  <macro name="blog-info">
+    <choose>
+      <if type="post-weblog">
+        <group delimiter=" ">
+          <text value="on"/>
+          <text variable="container-title" font-style="italic"/>
+        </group>
+      </if>
+    </choose>
+  </macro>
   <macro name="URL">
     <choose>
       <if type="legal_case legislation bill" match="none">
@@ -512,6 +522,7 @@
                   <text macro="broadcast-container"/>
                 </group>
                 <group delimiter=" ">
+                  <text macro="blog-info"/>
                   <text macro="date-parenthesis"/>
                   <text macro="article-case-info"/>
                   <text macro="book-container"/>
@@ -554,6 +565,7 @@
           <text macro="broadcast-container"/>
         </group>
         <group delimiter=" ">
+          <text macro="blog-info"/>
           <text macro="date-parenthesis"/>
           <text macro="article-case-info"/>
           <text macro="book-container"/>
