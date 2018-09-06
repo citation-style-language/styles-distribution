@@ -17,7 +17,7 @@
     <issn>0032-3470</issn>
     <eissn>1862-2860</eissn>
     <summary>Stil fuer die Politische Vierteljahresschrift (Maerz 2017).</summary>
-    <updated>2018-08-13T18:09:21+00:00</updated>
+    <updated>2018-09-06T16:31:24+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="de">
@@ -182,7 +182,7 @@
               <text variable="container-title" font-style="italic"/>
               <text variable="volume" prefix=" "/>
               <text variable="issue" prefix="(" suffix=")"/>
-              <text variable="page" prefix=", "/>
+              <text variable="page" prefix=":"/>
             </group>
           </group>
         </else>
