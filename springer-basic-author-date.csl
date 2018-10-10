@@ -19,7 +19,7 @@
     <category citation-format="author-date"/>
     <category field="generic-base"/>
     <summary>Springer Author Date Style for the disciplines Medicine, Biomedicine, Life Sciences, Chemistry, Geosciences, Computer Science, Engineering, Economics. This style is based on Harvard style and recommendations of the Council of Biology Editors.</summary>
-    <updated>2018-09-19T03:16:04+00:00</updated>
+    <updated>2018-10-10T14:32:08+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale>
@@ -92,9 +92,15 @@
       <key macro="author"/>
     </sort>
     <layout prefix="(" suffix=")" delimiter="; ">
-      <group delimiter=" ">
-        <text macro="author-short"/>
-        <text macro="year"/>
+      <group delimiter=", ">
+        <group delimiter=" ">
+          <text macro="author-short"/>
+          <text macro="year"/>
+        </group>
+        <group delimiter=" ">
+          <label variable="locator" form="short"/>
+          <text variable="locator"/>
+        </group>
       </group>
     </layout>
   </citation>
