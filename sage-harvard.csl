@@ -12,7 +12,7 @@
     <category citation-format="author-date"/>
     <category field="generic-base"/>
     <summary>The SAGE Harvard author-date style</summary>
-    <updated>2018-06-03T03:31:35+00:00</updated>
+    <updated>2018-10-21T01:49:39+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="en-GB">
@@ -87,9 +87,12 @@
   </macro>
   <macro name="title">
     <choose>
-      <if type="bill book graphic legal_case motion_picture report song thesis" match="any">
-        <text variable="title" font-style="italic"/>
+      <if type="book">
+        <text variable="title" font-style="italic" text-case="title"/>
       </if>
+      <else-if type="bill graphic legal_case motion_picture report song thesis" match="any">
+        <text variable="title" font-style="italic"/>
+      </else-if>
       <else>
         <text variable="title"/>
       </else>
@@ -182,7 +185,14 @@
       <if type="chapter post-weblog post" match="any">
         <group delimiter=" " prefix="In: ">
           <text macro="editor"/>
-          <text variable="container-title" font-style="italic"/>
+          <choose>
+            <if type="chapter">
+              <text variable="container-title" font-style="italic" text-case="title"/>
+            </if>
+            <else>
+              <text variable="container-title" font-style="italic"/>
+            </else>
+          </choose>
         </group>
       </if>
       <else-if type="paper-conference" match="any">
