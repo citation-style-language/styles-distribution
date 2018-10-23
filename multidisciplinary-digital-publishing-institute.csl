@@ -16,7 +16,7 @@
     <category citation-format="numeric"/>
     <category field="science"/>
     <summary>Style for the MDPI Open access journals</summary>
-    <updated>2018-02-05T04:57:25+00:00</updated>
+    <updated>2018-10-23T12:18:41+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="en">
@@ -27,13 +27,13 @@
   </locale>
   <macro name="editor">
     <names variable="editor">
-      <name delimiter-precedes-last="always" initialize-with=". " name-as-sort-order="all"/>
+      <name delimiter-precedes-last="always" initialize-with="." name-as-sort-order="all"/>
       <label form="short" prefix=", " text-case="capitalize-first"/>
     </names>
   </macro>
   <macro name="author">
     <names variable="author">
-      <name sort-separator=", " initialize-with=". " name-as-sort-order="all" delimiter="; " delimiter-precedes-last="always"/>
+      <name sort-separator=", " initialize-with="." name-as-sort-order="all" delimiter="; " delimiter-precedes-last="always"/>
       <label form="short" prefix=", " text-case="capitalize-first"/>
     </names>
   </macro>
