@@ -20,7 +20,7 @@
     <category citation-format="numeric"/>
     <category field="chemistry"/>
     <summary>The American Chemical Society style</summary>
-    <updated>2018-02-05T04:57:25+00:00</updated>
+    <updated>2018-11-08T14:06:19+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="en">
@@ -263,6 +263,7 @@
           </group>
         </else>
       </choose>
+      <text variable="DOI" prefix=". https://doi.org/"/>
     </layout>
   </bibliography>
 </style>
