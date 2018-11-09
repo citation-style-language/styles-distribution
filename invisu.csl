@@ -16,7 +16,7 @@
     <category citation-format="note"/>
     <category field="humanities"/>
     <summary>Le style InVisu a été conçu à partir de nombreux emprunts aux styles français sur le forum francophone de Zotero. Il est adapté aux besoins du multilinguisme de la revue ABE Journal et aux types de documents propres à l'histoire de l'art comme les illustrations.</summary>
-    <updated>2018-10-30T02:45:50+00:00</updated>
+    <updated>2018-11-09T02:49:21+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="fr-FR">
@@ -220,20 +220,17 @@
         <choose>
           <if type="book graphic report map personal_communication interview motion_picture thesis broadcast speech manuscript" match="any">
             <text variable="title" form="short" font-style="italic"/>
-            <text term="cited" font-style="italic" prefix=", "/>
-            <text macro="first-reference-note-number"/>
-            <text macro="locators" prefix=", "/>
           </if>
           <else>
             <text variable="title" text-case="capitalize-first" form="short" quotes="true" font-style="normal"/>
-            <text term="cited" font-style="italic" prefix=", "/>
-            <text macro="first-reference-note-number"/>
-            <text macro="locators" prefix=", "/>
           </else>
         </choose>
+        <text term="cited" font-style="italic" prefix=", "/>
+        <text macro="first-reference-note-number"/>
       </if>
       <else>
         <text term="cited" font-style="italic" suffix="."/>
+        <text macro="first-reference-note-number"/>
       </else>
     </choose>
   </macro>
@@ -651,10 +648,8 @@
     <layout suffix="." delimiter="&#160;; ">
       <choose>
         <if position="ibid-with-locator">
-          <group delimiter=", ">
-            <text term="ibid" text-case="capitalize-first" font-style="italic" suffix="."/>
-            <text macro="locators"/>
-          </group>
+          <text term="ibid" text-case="capitalize-first" font-style="italic" suffix="."/>
+          <text macro="locators" prefix=", "/>
         </if>
         <else-if position="ibid">
           <text term="ibid" text-case="capitalize-first" font-style="italic"/>
@@ -662,6 +657,7 @@
         <else-if position="subsequent">
           <text macro="author-sub"/>
           <text macro="disambiguate"/>
+          <text macro="locators" prefix=", "/>
         </else-if>
         <else>
           <text macro="author"/>
