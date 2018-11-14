@@ -14,7 +14,7 @@
     <category field="geology"/>
     <issn>0361-0128</issn>
     <eissn>1554-0774</eissn>
-    <updated>2018-11-11T02:59:48+00:00</updated>
+    <updated>2018-11-14T03:23:10+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="en">
@@ -51,7 +51,6 @@
   <macro name="author-short">
     <names variable="author">
       <name form="short" and="text" delimiter=", " initialize-with="."/>
-      <et-al term="and others"/>
       <substitute>
         <names variable="editor"/>
         <names variable="translator"/>
@@ -157,7 +156,6 @@
             <text term="in"/>
             <names variable="editor translator" prefix=" " suffix="," delimiter=", ">
               <name and="text" initialize-with=". " name-as-sort-order="all"/>
-              <et-al term="and others"/>
               <label form="short" prefix=" "/>
             </names>
             <text variable="event" prefix=" " suffix=" &#8211;"/>
