@@ -16,7 +16,7 @@
     <category citation-format="numeric"/>
     <category field="science"/>
     <summary>Style for the MDPI Open access journals</summary>
-    <updated>2018-11-15T04:56:01+00:00</updated>
+    <updated>2018-11-29T23:35:34+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="en">
@@ -149,11 +149,28 @@
             </group>
           </group>
         </else-if>
-        <else-if type="chapter paper-conference" match="any">
+        <else-if type="chapter">
           <group delimiter="; ">
             <text macro="book-container"/>
             <text macro="editor"/>
             <text macro="series"/>
+            <group delimiter=", ">
+              <text macro="publisher"/>
+              <text macro="issued"/>
+            </group>
+            <group delimiter=", ">
+              <text macro="volume"/>
+              <text macro="pages"/>
+            </group>
+          </group>
+        </else-if>
+        <else-if type="paper-conference">
+          <group delimiter="; ">
+            <group delimiter=" ">
+              <text variable="title" suffix="."/>
+              <text variable="container-title" prefix="In Proceedings of the "/>
+            </group>
+            <text macro="editor"/>
             <group delimiter=", ">
               <text macro="publisher"/>
               <text macro="issued"/>
