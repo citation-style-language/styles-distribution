@@ -25,10 +25,13 @@
     <contributor>
       <name>Sebastian Karcher</name>
     </contributor>
+	<contributor>
+      <name>Giuseppe Silano</name>
+    </contributor>
     <category citation-format="numeric"/>
     <category field="engineering"/>
     <category field="generic-base"/>
-    <updated>2018-03-31T04:01:14+00:00</updated>
+    <updated>2018-12-25T16:01:00+01:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="en">
@@ -39,6 +42,23 @@
     </terms>
   </locale>
   <!-- Macros -->
+  <macro name="note">
+    <choose>
+      <if type="bill book chapter graphic legal_case legislation motion_picture paper-conference report song" match="any">
+        <choose>
+          <if is-numeric="note">
+            <group delimiter=" ">
+              <number variable="note" form="ordinal"/>
+              <text term="note" form="short"/>
+            </group>
+          </if>
+          <else>
+            <text variable="note" text-case="capitalize-first" suffix=""/>
+          </else>
+        </choose>
+      </if>
+    </choose>
+  </macro>
   <macro name="edition">
     <choose>
       <if type="bill book chapter graphic legal_case legislation motion_picture paper-conference report song" match="any">
@@ -96,6 +116,11 @@
     </names>
   </macro>
   <macro name="locators">
+    <group delimiter=", ">
+	  <text macro="note"/>
+	  <group delimiter=" ">
+	  </group>
+	</group>
     <group delimiter=", ">
       <text macro="edition"/>
       <group delimiter=" ">
@@ -226,7 +251,7 @@
   <bibliography entry-spacing="0" second-field-align="flush">
     <layout suffix=".">
       <!-- Citation Number -->
-      <text variable="citation-number" prefix="[" suffix="]"/>
+      <!-- <text variable="citation-number" prefix="[" suffix="]"/> -->
       <!-- Author(s) -->
       <text macro="author" suffix=", "/>
       <!-- Rest of Citation -->
