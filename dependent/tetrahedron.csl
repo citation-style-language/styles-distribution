@@ -5,10 +5,10 @@
     <title>Tetrahedron</title>
     <id>http://www.zotero.org/styles/tetrahedron</id>
     <link href="http://www.zotero.org/styles/tetrahedron" rel="self"/>
-    <link href="http://www.zotero.org/styles/american-medical-association" rel="independent-parent"/>
+    <link href="http://www.zotero.org/styles/elsevier-with-titles" rel="independent-parent"/>
     <category citation-format="numeric"/>
     <issn>0040-4020</issn>
-    <updated>2018-03-09T05:06:46+00:00</updated>
+    <updated>2019-01-04T05:27:33+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
 </style>
