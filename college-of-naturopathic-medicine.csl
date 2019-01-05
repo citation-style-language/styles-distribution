@@ -12,7 +12,7 @@
     </author>
     <category citation-format="author-date"/>
     <category field="medicine"/>
-    <updated>2018-12-12T05:01:07+00:00</updated>
+    <updated>2019-01-05T19:37:30+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <macro name="editor">
@@ -154,7 +154,7 @@
       </group>
     </layout>
   </citation>
-  <bibliography hanging-indent="false" et-al-min="11" et-al-use-first="10">
+  <bibliography hanging-indent="false" et-al-min="4" et-al-use-first="3">
     <sort>
       <key macro="author"/>
       <key variable="title"/>
