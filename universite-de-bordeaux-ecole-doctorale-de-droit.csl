@@ -4,7 +4,7 @@
     <title>Université de Bordeaux - École doctorale de droit (French)</title>
     <id>http://www.zotero.org/styles/universite-de-bordeaux-ecole-doctorale-de-droit</id>
     <link href="http://www.zotero.org/styles/universite-de-bordeaux-ecole-doctorale-de-droit" rel="self"/>
-    <link href="http://weburfist.univ-bordeaux.fr/wp-content/uploads/2017/12/20171208-R%C3%A9dux-Guide-de-r%C3%A9daction-des-r%C3%A9f%C3%A9rences-bibliographiques-version-num%C3%A9rique.pdf" rel="documentation"/>
+    <link href="http://weburfist.univ-bordeaux.fr/wp-content/uploads/2019/01/20190111-2e-%C3%A9d.-Citer-r%C3%A9f%C3%A9rences-bibliographiques-version-num%C3%A9rique.pdf" rel="documentation"/>
     <link href="https://documentation-style-csl-ed-droit-ubx.readthedocs.io" rel="documentation"/>
     <author>
       <name>Pierre Gravier</name>
@@ -16,7 +16,7 @@
     </author>
     <category citation-format="note"/>
     <category field="law"/>
-    <updated>2018-12-19T05:14:24+00:00</updated>
+    <updated>2019-01-14T14:52:27+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="fr">
