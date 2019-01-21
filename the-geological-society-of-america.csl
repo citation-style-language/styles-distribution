@@ -6,7 +6,7 @@
     <id>http://www.zotero.org/styles/the-geological-society-of-america</id>
     <link href="http://www.zotero.org/styles/the-geological-society-of-america" rel="self"/>
     <link href="http://www.geosociety.org/gsa/pubs/geology/home.aspx#overview" rel="documentation"/>
-    <link rel="documentation" href="http://www.geosociety.org/documents/gsa/pubs/GSA_RefGuide_Examples.pdf"/>
+    <link href="http://www.geosociety.org/documents/gsa/pubs/GSA_RefGuide_Examples.pdf" rel="documentation"/>
     <author>
       <name>Rintze Zelle</name>
       <uri>http://twitter.com/rintzezelle</uri>
@@ -16,7 +16,7 @@
     </contributor>
     <category citation-format="author-date"/>
     <category field="geology"/>
-    <updated>2018-09-26T15:38:57+00:00</updated>
+    <updated>2019-01-21T04:02:09+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <macro name="editor-translator">

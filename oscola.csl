@@ -13,7 +13,7 @@
     <category citation-format="note"/>
     <category field="law"/>
     <summary>The OSCOLA Standards. For a Zotero Group showing data-entry in Zotero see: https://www.zotero.org/groups/oscola_samples/items/order/itemType</summary>
-    <updated>2018-11-08T14:08:58+00:00</updated>
+    <updated>2019-01-21T04:02:09+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale>
@@ -579,11 +579,11 @@
                 <text macro="author-note"/>
                 <text macro="title-short"/>
                 <text macro="looseleaf-note"/>
-		<choose>
-		  <if type="legislation" match="none">
+                <choose>
+                  <if type="legislation" match="none">
                     <text variable="first-reference-note-number" prefix="(n " suffix=")"/>
-		  </if>
-		</choose>
+                  </if>
+                </choose>
                 <text macro="locator-basic"/>
               </group>
             </if>

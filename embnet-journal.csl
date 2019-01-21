@@ -14,7 +14,7 @@
     <category field="biology"/>
     <eissn>2226-6089</eissn>
     <summary>The EMBnet.journal style.</summary>
-    <updated>2018-11-02T19:11:10+00:00</updated>
+    <updated>2019-01-21T04:02:09+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <macro name="editor">
@@ -137,7 +137,7 @@
             <text variable="issue" font-weight="normal" prefix=" (" suffix=")"/>
             <text variable="page" prefix=", " suffix="."/>
           </group>
-          <text variable="DOI" strip-periods="false" prefix=" http://dx.doi.org/"/>
+          <text variable="DOI" strip-periods="false" prefix=" https://doi.org/"/>
         </else>
       </choose>
     </layout>

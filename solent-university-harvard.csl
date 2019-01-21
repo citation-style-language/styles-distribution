@@ -14,7 +14,7 @@
     <summary>Solent University Harvard style based on based on BRITISH STANDARDS INSTITUTION, 2010. BS ISO 690:2010
     Information and documentation &#8211; Guidelines for bibliographic
     references and citations to information resources.</summary>
-    <updated>2018-12-02T19:09:32+00:00</updated>
+    <updated>2019-01-21T04:02:09+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <macro name="author">
@@ -150,7 +150,7 @@
       <else-if type="bill book graphic legal_case legislation motion_picture report song" match="any">
         <text variable="container-title"/>
       </else-if>
-      <else-if type="broadcast webpage"></else-if>
+      <else-if type="broadcast webpage"/>
       <else-if type="post post-weblog">
         <text term="in" text-case="capitalize-first" suffix=": "/>
         <group delimiter=" ">

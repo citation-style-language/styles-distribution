@@ -18,7 +18,7 @@
     <issn>0740-3194</issn>
     <eissn>1522-2594</eissn>
     <summary>Magnetic Resonance in Medicine style</summary>
-    <updated>2018-09-11T01:36:43+00:00</updated>
+    <updated>2019-01-21T04:02:09+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <macro name="editor">
@@ -146,7 +146,7 @@
             <group delimiter=" ">
               <text term="accessed" text-case="capitalize-first"/>
               <date form="text" variable="accessed"/>
-            </group>  
+            </group>
           </group>
         </else-if>
         <else>

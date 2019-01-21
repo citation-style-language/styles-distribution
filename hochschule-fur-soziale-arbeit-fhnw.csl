@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<style class="in-text" version="1.0" demote-non-dropping-particle="sort-only" default-locale="de-CH" xmlns="http://purl.org/net/xbiblio/csl">
+<style xmlns="http://purl.org/net/xbiblio/csl" class="in-text" version="1.0" demote-non-dropping-particle="sort-only" default-locale="de-CH">
   <!-- This style was edited with the Visual CSL Editor (http://editor.citationstyles.org/visualEditor/) -->
   <info>
     <title>Hochschule für Soziale Arbeit FHNW (German - Switzerland)</title>
@@ -14,7 +14,7 @@
     <category citation-format="author-date"/>
     <category field="generic-base"/>
     <summary>Zitationsempfehlung auf Basis der Wegleitung zur Gestaltung wissenschaftlicher Arbeiten an der Hochschule für Soziale Arbeit FHNW</summary>
-    <updated>2018-11-11T03:24:51+00:00</updated>
+    <updated>2019-01-21T04:02:09+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="de">
@@ -26,7 +26,7 @@
       <term name="edition">Aufl.</term>
     </terms>
   </locale>
-    <!--Makro Autoren: Darstellung in Inline-Zitation -->
+  <!--Makro Autoren: Darstellung in Inline-Zitation -->
   <macro name="contributor-short">
     <choose>
       <if variable="author" match="any">

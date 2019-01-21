@@ -6,7 +6,7 @@
     <id>http://www.zotero.org/styles/express-polymer-letters</id>
     <link href="http://www.zotero.org/styles/express-polymer-letters" rel="self"/>
     <link href="http://www.zotero.org/styles/multidisciplinary-digital-publishing-institute" rel="template"/>
-    <link href="http://www.expresspolymlett.com/" rel="documentation"/>	  
+    <link href="http://www.expresspolymlett.com/" rel="documentation"/>
     <author>
       <name>Danny Balanta</name>
       <uri>https://www.mendeley.com/profiles/danny-balanta1/</uri>
@@ -15,7 +15,7 @@
     <category field="science"/>
     <issn>1778-618X</issn>
     <summary>Style for eXPRESS Polymer Letters</summary>
-    <updated>2018-09-05T00:24:15+00:00</updated>
+    <updated>2019-01-21T04:02:09+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="en">
