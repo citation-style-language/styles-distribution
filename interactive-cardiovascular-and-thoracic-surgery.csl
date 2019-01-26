@@ -5,7 +5,6 @@
     <title-short>ICVTS</title-short>
     <id>http://www.zotero.org/styles/interactive-cardiovascular-and-thoracic-surgery</id>
     <link href="http://www.zotero.org/styles/interactive-cardiovascular-and-thoracic-surgery" rel="self"/>
-    <link href="http://www.zotero.org/styles/resuscitation" rel="template"/>
     <link href="https://academic.oup.com/icvts/pages/Submission_Online#Manuscript%20format%20and%20style" rel="documentation"/>
     <author>
       <name>Patrick O'Brien, PhD</name>
@@ -15,7 +14,7 @@
     <category field="medicine"/>
     <issn>1569-9293</issn>
     <eissn>1569-9285</eissn>
-    <updated>2018-10-07T04:02:53+00:00</updated>
+    <updated>2019-01-26T05:20:56+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="en">
