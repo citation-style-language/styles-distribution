@@ -16,7 +16,7 @@
     <category citation-format="note"/>
     <category field="humanities"/>
     <summary>Le style InVisu a été conçu à partir de nombreux emprunts aux styles français sur le forum francophone de Zotero. Il est adapté aux besoins du multilinguisme de la revue ABE Journal et aux types de documents propres à l'histoire de l'art comme les illustrations.</summary>
-    <updated>2019-02-04T15:47:49+00:00</updated>
+    <updated>2019-02-10T13:42:06+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="fr-FR">
@@ -631,7 +631,7 @@
   <macro name="accessed">
     <choose>
       <if variable="URL" match="any">
-        <group delimiter=" ">
+        <group>
           <choose>
             <if type="graphic personal_communication interview" match="any">
               <text variable="URL" text-decoration="none" prefix=" URL&#160;: "/>
