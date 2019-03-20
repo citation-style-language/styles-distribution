@@ -14,7 +14,7 @@
     <category citation-format="author-date"/>
     <category field="generic-base"/>
     <summary>Zitationsempfehlung auf Basis der Wegleitung zur Gestaltung wissenschaftlicher Arbeiten an der Hochschule für Soziale Arbeit FHNW</summary>
-    <updated>2019-01-21T04:02:09+00:00</updated>
+    <updated>2019-03-19T13:12:21+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="de">
@@ -52,7 +52,7 @@
       </if>
       <else-if variable="editor" match="any">
         <names variable="editor">
-          <name form="short" delimiter="/"/>
+          <name delimiter="/" delimiter-precedes-last="never" name-as-sort-order="all"/>
           <label form="short" plural="always" prefix=" (" suffix=")"/>
         </names>
       </else-if>
