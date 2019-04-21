@@ -16,7 +16,7 @@
     <category citation-format="note"/>
     <category field="theology"/>
     <summary>ISO 690 style for the Comenius University in Bratislava, Faculty of Roman Catholic Theology of Cyril and Methodius. Citations in notes with full bibliography (Metóda priebežných poznámok).</summary>
-    <updated>2018-02-25T04:33:48+00:00</updated>
+    <updated>2019-04-20T16:03:24+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="sk">
@@ -453,6 +453,7 @@
             </else-if>
             <else>
               <text prefix=" " macro="medium" suffix="."/>
+              <text prefix=". " macro="edition" suffix="."/>
               <text prefix=". " macro="issued" suffix="."/>
               <text prefix=". " macro="collection" suffix="."/>
               <text prefix=". " variable="note" suffix="."/>
