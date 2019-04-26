@@ -18,7 +18,7 @@
     <summary>Adaptation en français de la norme Vancouver pour la Bibliothèque Universitaire de Médecine de Lausanne. Basée sur le guide de citation Vancouver de la Bibliothèque Universitaire de Médecine de Lausanne
 	et sur le style vancouver-fr-ca par Florian Martin-Bariteau http://guides.bib.umontreal.ca/disciplines/247-Citer-selon-le-style-Vancouver?tab=2394
 	Utilisé sous CC BY http://creativecommons.org/licenses/by-sa/3.0/</summary>
-    <updated>2019-04-21T04:41:31+00:00</updated>
+    <updated>2019-04-26T04:15:47+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale>
@@ -504,7 +504,7 @@
                 <if match="all" variable="issued">
                   <text term="internet" text-case="capitalize-first" prefix="[" suffix="]. "/>
                   <date form="text" variable="issued" suffix=". "/>
-                  <text variable="title" suffix="; "/>
+                  <text variable="title" suffix=" "/>
                   <group prefix="[" suffix="]. " delimiter=" ">
                     <text term="cited"/>
                     <date form="text" variable="accessed"/>
@@ -512,7 +512,7 @@
                 </if>
                 <else-if match="none" variable="issued">
                   <text term="internet" text-case="capitalize-first" prefix="[" suffix="]. "/>
-                  <text variable="title" suffix="; "/>
+                  <text variable="title" suffix=" "/>
                   <group prefix="[" suffix="]. " delimiter=" ">
                     <text term="cited"/>
                     <date form="text" variable="accessed"/>
