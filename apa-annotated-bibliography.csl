@@ -32,7 +32,7 @@
     <category citation-format="author-date"/>
     <category field="psychology"/>
     <category field="generic-base"/>
-    <updated>2019-04-11T21:28:27+00:00</updated>
+    <updated>2019-04-27T18:46:01+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="en">
@@ -50,6 +50,16 @@
   <locale xml:lang="es">
     <terms>
       <term name="from">de</term>
+    </terms>
+  </locale>
+  <locale xml:lang="de">
+    <terms>
+      <term name="et-al">et al.</term>
+    </terms>
+  </locale>
+  <locale xml:lang="da">
+    <terms>
+      <term name="et-al">et al.</term>
     </terms>
   </locale>
   <macro name="container-contributors-booklike">
@@ -767,7 +777,7 @@
           <!-- Replace "archive" with "archive_collection" as that becomes available -->
           <text variable="archive"/>
           <text variable="archive_location" prefix="(" suffix=")"/>
-        </group>         
+        </group>
       </group>
       <group delimiter=", ">
         <!-- Move "archive" here when "archive_collection" becomes available -->
@@ -832,7 +842,7 @@
                 </if>
               </choose>
             </if>
-            <else> 
+            <else>
               <group delimiter=": ">
                 <text variable="publisher-place"/>
                 <text variable="publisher"/>
@@ -1255,7 +1265,7 @@
       </else-if>
       <else-if type="bill legal_case legislation treaty" match="any">
         <text macro="legal-cites"/>
-      </else-if>     
+      </else-if>
     </choose>
   </macro>
   <macro name="container-booklike">
