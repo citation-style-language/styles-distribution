@@ -12,7 +12,7 @@
     <category citation-format="author"/>
     <category field="generic-base"/>
     <summary>This style adheres to the MLA 8th edition handbook. Follows the structure of references as outlined in the MLA Manual closely</summary>
-    <updated>2019-04-15T01:57:33+00:00</updated>
+    <updated>2019-05-08T12:24:56+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="en">
@@ -92,13 +92,13 @@
     <group delimiter=", ">
       <choose>
         <if variable="container-title" match="any">
-          <names variable="interviewer editor translator" delimiter=", ">
+          <names variable="illustrator interviewer editor translator" delimiter=", ">
             <label form="verb" suffix=" "/>
             <name and="text"/>
           </names>
         </if>
         <else>
-          <names variable="interviewer editor translator" delimiter=", ">
+          <names variable="illustrator interviewer editor translator" delimiter=", ">
             <label form="verb" suffix=" " text-case="capitalize-first"/>
             <name and="text"/>
           </names>
