@@ -16,7 +16,7 @@
     <issn>0248-6016</issn>
     <eissn>1952-420X</eissn>
     <summary>Author-date style for Techniques &amp; culture. First edition year has to be inserted in extra field, see https://www.zotero.org/support/kb/item_types_and_fields#citing_fields_from_extra</summary>
-    <updated>2019-03-01T14:54:46+00:00</updated>
+    <updated>2019-06-04T17:06:16+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="fr">
@@ -159,7 +159,7 @@
       <key variable="issued"/>
     </sort>
     <layout prefix=" (" suffix=")" delimiter=" ; ">
-      <text macro="author-short" suffix=", "/>
+      <text macro="author-short" suffix=" "/>
       <text macro="year-date"/>
       <group>
         <text macro="loc-cite" prefix=" : "/>
@@ -217,7 +217,7 @@
               </group>
             </group>
           </else-if>
-          <else-if type="book graphic" match="any">
+          <else-if type="book graphic report" match="any">
             <group suffix="." delimiter=" ">
               <text macro="title" suffix=","/>
               <text macro="publisher"/>
