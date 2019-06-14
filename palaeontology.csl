@@ -5,7 +5,7 @@
     <id>http://www.zotero.org/styles/palaeontology</id>
     <link href="http://www.zotero.org/styles/palaeontology" rel="self"/>
     <link href="http://www.zotero.org/styles/journal-of-vertebrate-paleontology" rel="template"/>
-    <link href="https://www.palass.org/publications/authors/instructions-authors-2012" rel="documentation"/>
+    <link href="https://www.palass.org/sites/default/files/media/publications/for_authors/ITA_2016_v1.pdf" rel="documentation"/>
     <author>
       <name>Benjamin C. Moon</name>
       <email>benjamin.moon@bristol.ac.uk</email>
@@ -19,7 +19,7 @@
     <category field="biology"/>
     <issn>0031-0239</issn>
     <eissn>1475-4983</eissn>
-    <updated>2019-03-05T14:09:17+00:00</updated>
+    <updated>2019-06-14T00:42:02+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <macro name="author">
@@ -39,7 +39,7 @@
   </macro>
   <macro name="author-short">
     <names variable="author">
-      <name form="short" and="text" delimiter=", " delimiter-precedes-last="never" initialize-with=". "/>
+      <name form="short" and="symbol" delimiter=", " delimiter-precedes-last="never" initialize-with=". "/>
       <et-al font-style="italic"/>
       <substitute>
         <names variable="editor"/>
