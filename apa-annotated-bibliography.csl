@@ -32,7 +32,7 @@
     <category citation-format="author-date"/>
     <category field="psychology"/>
     <category field="generic-base"/>
-    <updated>2019-04-27T18:46:01+00:00</updated>
+    <updated>2019-06-23T02:08:45+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="en">
@@ -58,6 +58,16 @@
     </terms>
   </locale>
   <locale xml:lang="da">
+    <terms>
+      <term name="et-al">et al.</term>
+    </terms>
+  </locale>
+  <locale xml:lang="nn">
+    <terms>
+      <term name="et-al">et al.</term>
+    </terms>
+  </locale>
+  <locale xml:lang="nb">
     <terms>
       <term name="et-al">et al.</term>
     </terms>
