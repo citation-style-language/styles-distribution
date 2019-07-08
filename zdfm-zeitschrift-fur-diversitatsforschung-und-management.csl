@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <style xmlns="http://purl.org/net/xbiblio/csl" class="in-text" version="1.0" name-delimiter="/" demote-non-dropping-particle="never" default-locale="de-AT">
   <info>
-    <title>ZDfm – Zeitschrift für Diversitätsforschung und -management</title>
+    <title>ZDfm &#8211; Zeitschrift für Diversitätsforschung und -management (German - Austria)</title>
     <id>http://www.zotero.org/styles/zdfm-zeitschrift-fur-diversitatsforschung-und-management</id>
     <link href="http://www.zotero.org/styles/zdfm-zeitschrift-fur-diversitatsforschung-und-management" rel="self"/>
-    <link rel="template" href="http://www.zotero.org/styles/wirtschaftsuniversitat-wien-handel-und-marketing"/>
+    <link href="http://www.zotero.org/styles/wirtschaftsuniversitat-wien-handel-und-marketing" rel="template"/>
     <link href="https://www.budrich-journals.de/index.php/zdfm/about/submissions#copyrightNotice" rel="documentation"/>
     <author>
       <name>Patrick O'Brien, PhD</name>
@@ -14,7 +14,7 @@
     <category field="social_science"/>
     <issn>2367-3060</issn>
     <eissn>2367-3079</eissn>
-    <updated>2019-03-20T13:19:25+00:00</updated>
+    <updated>2019-07-08T04:39:57+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="de">

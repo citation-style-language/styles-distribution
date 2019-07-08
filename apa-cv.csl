@@ -32,7 +32,7 @@
     <category citation-format="author-date"/>
     <category field="psychology"/>
     <category field="generic-base"/>
-    <updated>2019-06-23T02:08:45+00:00</updated>
+    <updated>2019-07-08T04:39:57+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="en">
@@ -278,21 +278,21 @@
                 </choose>
                 <names variable="translator">
                   <name name-as-sort-order="all" and="symbol" sort-separator=", " initialize-with=". " delimiter=", " delimiter-precedes-last="always"/>
-                    <label form="short" prefix=" (" suffix=")" text-case="title"/>
+                  <label form="short" prefix=" (" suffix=")" text-case="title"/>
                 </names>
               </if>
             </choose>
             <names variable="editor translator" delimiter=", ">
               <name name-as-sort-order="all" and="symbol" sort-separator=", " initialize-with=". " delimiter=", " delimiter-precedes-last="always"/>
-                <label form="short" prefix=" (" suffix=")" text-case="title"/>
+              <label form="short" prefix=" (" suffix=")" text-case="title"/>
             </names>
             <names variable="editorial-director">
               <name name-as-sort-order="all" and="symbol" sort-separator=", " initialize-with=". " delimiter=", " delimiter-precedes-last="always"/>
-                <label form="short" prefix=" (" suffix=")" text-case="title"/>
+              <label form="short" prefix=" (" suffix=")" text-case="title"/>
             </names>
             <names variable="collection-editor">
               <name name-as-sort-order="all" and="symbol" sort-separator=", " initialize-with=". " delimiter=", " delimiter-precedes-last="always"/>
-                <label form="short" prefix=" (" suffix=")" text-case="title"/>
+              <label form="short" prefix=" (" suffix=")" text-case="title"/>
             </names>
             <choose>
               <if type="report">

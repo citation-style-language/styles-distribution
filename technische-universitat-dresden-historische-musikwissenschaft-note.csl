@@ -15,7 +15,7 @@
     <category citation-format="note"/>
     <category field="humanities"/>
     <summary>Zitierstil entsprechend den Vorgaben des Lehrstuhls Historische Musikwissenschaft, Technische Universität Dresden. Die Vorgaben entsprechen denen der Zeitschrift Die Musikforschung.</summary>
-    <updated>2019-04-17T16:45:16+00:00</updated>
+    <updated>2019-07-08T04:39:57+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="de">
@@ -363,7 +363,7 @@
     <group>
       <choose>
         <if type="article-journal article-magazine article-newspaper broadcast interview manuscript map patent personal_communication song speech thesis article webpage chapter paper-conference" match="any">
-          <label suffix=" " variable="page" form="short"/>
+          <label suffix="&#160;" variable="page" form="short"/>
           <text variable="page"/>
         </if>
         <else-if type="entry-encyclopedia" match="any">

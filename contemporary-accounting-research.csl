@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<style class="in-text" version="1.0" page-range-format="chicago" default-locale="en-US" xmlns="http://purl.org/net/xbiblio/csl">
+<style xmlns="http://purl.org/net/xbiblio/csl" class="in-text" version="1.0" page-range-format="chicago" default-locale="en-US">
   <info>
     <title>Contemporary Accounting Research</title>
     <title-short>CAR</title-short>
@@ -16,7 +16,7 @@
     <category field="social_science"/>
     <eissn>1911-3846</eissn>
     <summary>Style for Contemporary Accounting Research based on Style Guide rev.1.</summary>
-    <updated>2019-03-14T02:49:59+00:00</updated>
+    <updated>2019-07-08T04:39:57+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="en">
