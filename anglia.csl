@@ -16,7 +16,7 @@
     <issn>0340-5222</issn>
     <eissn>1865-8938</eissn>
     <summary>The reference style of the journal Anglia.</summary>
-    <updated>2019-04-08T03:27:34+00:00</updated>
+    <updated>2019-07-20T13:43:23+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="en">
@@ -585,7 +585,7 @@
       </group>
     </layout>
   </citation>
-  <bibliography hanging-indent="true" et-al-min="11" et-al-use-first="7" subsequent-author-substitute="&#8212;&#8212;&#8212;" entry-spacing="0">
+  <bibliography hanging-indent="true" et-al-min="11" et-al-use-first="7" entry-spacing="0">
     <sort>
       <key macro="contributors"/>
       <key variable="issued"/>
