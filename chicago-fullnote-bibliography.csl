@@ -31,7 +31,7 @@
     <category citation-format="note"/>
     <category field="generic-base"/>
     <summary>Chicago format with full notes and bibliography</summary>
-    <updated>2019-01-03T23:12:42+00:00</updated>
+    <updated>2019-09-26T01:46:31+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="en">
@@ -714,7 +714,14 @@
         <text variable="original-publisher-place"/>
         <text variable="original-publisher"/>
       </group>
-      <date variable="original-date" form="text" date-parts="year"/>
+      <choose>
+        <if is-uncertain-date="original-date">
+          <date variable="original-date" form="numeric" date-parts="year" prefix="[" suffix="?]"/>
+        </if>
+        <else>
+          <date variable="original-date" form="numeric" date-parts="year"/>
+        </else>
+      </choose>
     </group>
   </macro>
   <macro name="reprint-note">
