@@ -12,7 +12,7 @@
     <category citation-format="author-date"/>
     <category field="medicine"/>
     <summary>Harvard house style for the Royal College of Nursing</summary>
-    <updated>2019-08-30T17:20:18+00:00</updated>
+    <updated>2019-09-28T02:07:21+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="en-GB">
@@ -146,8 +146,11 @@
           <text macro="edition"/>
         </group>
       </if>
+      <else-if type="article-journal" match="any">
+        <text variable="title"/>
+      </else-if>
       <else>
-        <text variable="title" form="long" quotes="true"/>
+        <text variable="title" quotes="true"/>
       </else>
     </choose>
   </macro>
