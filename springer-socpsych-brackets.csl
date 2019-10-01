@@ -18,7 +18,7 @@
     <category citation-format="numeric"/>
     <category field="psychology"/>
     <category field="generic-base"/>
-    <updated>2018-05-22T00:59:23+00:00</updated>
+    <updated>2019-10-01T00:21:45+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="en">
@@ -93,7 +93,7 @@
       <else>
         <choose>
           <if variable="DOI">
-            <text variable="DOI" prefix="doi:"/>
+            <text variable="DOI" prefix="https://doi.org/"/>
           </if>
           <else>
             <choose>
