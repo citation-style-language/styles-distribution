@@ -14,7 +14,7 @@
     <category field="biology"/>
     <issn>1508-1109</issn>
     <eissn>1733-5329</eissn>
-    <updated>2019-08-05T03:44:52+00:00</updated>
+    <updated>2019-10-02T00:48:01+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <macro name="author">
@@ -26,7 +26,7 @@
       <substitute>
         <names variable="editor"/>
         <names variable="translator"/>
-      </substitute>      
+      </substitute>
     </names>
   </macro>
   <macro name="editor">

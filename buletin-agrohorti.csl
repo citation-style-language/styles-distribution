@@ -19,7 +19,7 @@
     <category field="botany"/>
     <issn>2337-3407</issn>
     <eissn>2614-3194</eissn>
-    <updated>2019-07-14T22:17:54+00:00</updated>
+    <updated>2019-10-02T00:48:01+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <macro name="author">
@@ -29,12 +29,12 @@
       <substitute>
         <names variable="editor"/>
         <names variable="translator"/>
-      </substitute>  
+      </substitute>
     </names>
   </macro>
   <macro name="editor">
     <names variable="editor">
-      <name sort-separator=" " initialize-with="."  delimiter=", "/>
+      <name sort-separator=" " initialize-with="." delimiter=", "/>
       <label form="short" prefix=" (" suffix=")"/>
     </names>
   </macro>
@@ -146,7 +146,7 @@
           <else-if type="chapter" match="any">
             <group delimiter=". ">
               <text variable="title"/>
-              <group delimiter=" "> 
+              <group delimiter=" ">
                 <text term="in" font-style="italic" text-case="capitalize-first"/>
                 <text macro="editor"/>
               </group>
