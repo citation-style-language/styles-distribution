@@ -5,6 +5,7 @@
     <title-short>MOM Éditions (EN)</title-short>
     <id>http://www.zotero.org/styles/maison-de-l-orient-et-de-la-mediterranee-en</id>
     <link href="http://www.zotero.org/styles/maison-de-l-orient-et-de-la-mediterranee-en" rel="self"/>
+    <link href="http://www.zotero.org/styles/maison-de-l-orient-et-de-la-mediterranee" rel="template"/>
     <link href="https://www.mom.fr/sites/mom.fr/files/img/Publications/mom-editions_3_normes-bibliographie.pdf" rel="documentation"/>
     <author>
       <name>Clarisse Lachat</name>
@@ -17,7 +18,7 @@
     <category citation-format="note"/>
     <category field="history"/>
     <summary>English CSL for MOM Éditions (Maison de l'Orient et de la Méditerranée).</summary>
-    <updated>2019-10-07T00:18:22+00:00</updated>
+    <updated>2019-10-07T00:22:22+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="en">
