@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<style xmlns="http://purl.org/net/xbiblio/csl" version="1.0" class="note" demote-non-dropping-particle="sort-only" default-locale="fr-FR" page-range-format="expanded">
+<style xmlns="http://purl.org/net/xbiblio/csl" version="1.0" class="note" demote-non-dropping-particle="sort-only" default-locale="en-US" page-range-format="expanded">
   <info>
-    <title>Maison de l'Orient et de la Méditerranée (French)</title>
-    <title-short>MOM Éditions (FR)</title-short>
-    <id>http://www.zotero.org/styles/maison-de-l-orient-et-de-la-mediterranee</id>
-    <link href="http://www.zotero.org/styles/maison-de-l-orient-et-de-la-mediterranee" rel="self"/>
-    <link href="http://www.zotero.org/styles/collection-de-l-ecole-francaise-de-rome-full-note" rel="template"/>
+    <title>Maison de l'Orient et de la Méditerranée (English)</title>
+    <title-short>MOM Éditions (EN)</title-short>
+    <id>http://www.zotero.org/styles/maison-de-l-orient-et-de-la-mediterranee-en</id>
+    <link href="http://www.zotero.org/styles/maison-de-l-orient-et-de-la-mediterranee-en" rel="self"/>
     <link href="https://www.mom.fr/sites/mom.fr/files/img/Publications/mom-editions_3_normes-bibliographie.pdf" rel="documentation"/>
     <author>
       <name>Clarisse Lachat</name>
@@ -17,20 +16,20 @@
     </contributor>
     <category citation-format="note"/>
     <category field="history"/>
-    <summary>Nouvelle feuille de style pour MOM Éditions (Maison de l'Orient et de la Méditerranée). Normes 2019.</summary>
-    <updated>2019-10-07T00:18:11+00:00</updated>
+    <summary>English CSL for MOM Éditions (Maison de l'Orient et de la Méditerranée).</summary>
+    <updated>2019-10-07T00:18:22+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
-  <locale xml:lang="fr">
+  <locale xml:lang="en">
     <terms>
-      <term name="in">dans</term>
-      <term name="anonymous">anonyme</term>
+      <term name="in">in</term>
+      <term name="anonymous">anonymous</term>
       <term name="anonymous" form="short">anon.</term>
-      <term name="accessed">consulté le</term>
-      <term name="no date">sans date</term>
-      <term name="translator" form="short">trad.</term>
+      <term name="accessed">accessed</term>
+      <term name="no date">no date</term>
+      <term name="translator" form="short">trans.</term>
       <term name="editor" form="short">dir.</term>
-      <term name="edition" form="short">éd.</term>
+      <term name="edition" form="short">ed.</term>
       <term name="no date" form="short">s.d.</term>
       <term name="sub verbo" form="short">s.v.</term>
     </terms>
@@ -59,7 +58,9 @@
     </names>
   </macro>
   <macro name="pages">
-    <text variable="page"/>
+    <group prefix=", pp.&#160;">
+      <text variable="page"/>
+    </group>
   </macro>
   <macro name="author-short">
     <names variable="author">
@@ -86,7 +87,7 @@
   </macro>
   <macro name="title">
     <choose>
-      <if type="webpage " match="any">
+      <if type="webpage" match="any">
         <text variable="title"/>
       </if>
       <else-if variable="container-title" match="none">
@@ -157,7 +158,7 @@
       <key macro="author"/>
       <key variable="issued"/>
     </sort>
-    <layout delimiter="&#160;; ">
+    <layout delimiter="; ">
       <group>
         <choose>
           <if variable="author" match="any">
@@ -185,13 +186,13 @@
       <group>
         <choose>
           <if variable="author" match="any">
-            <group delimiter=" " suffix="&#160;: ">
+            <group delimiter=" " suffix=": ">
               <text macro="author-short"/>
               <text macro="year-date"/>
             </group>
           </if>
           <else-if variable="editor" match="any">
-            <group delimiter=" " suffix="&#160;: ">
+            <group delimiter=" " suffix=": ">
               <text macro="editor-short"/>
               <text macro="year-date"/>
             </group>
@@ -203,7 +204,7 @@
             <group>
               <text macro="title" font-style="italic"/>
               <text variable="genre" prefix=", "/>
-              <text variable="publisher" prefix=", " suffix=" (inédit)"/>
+              <text variable="publisher" prefix=", " suffix=" (unpublished)"/>
             </group>
           </if>
           <else-if type="article-journal article-magazine article-newspaper broadcast personal_communication thesis " match="any">
@@ -224,7 +225,7 @@
                 </else>
               </choose>
               <text macro="year-date" prefix=", "/>
-              <text macro="pages" prefix=", p.&#160;"/>
+              <text macro="pages"/>
             </group>
           </else-if>
           <else-if type="webpage post post-weblog" match="any">
@@ -244,7 +245,7 @@
               <text macro="publisher-place" prefix=", "/>
               <text macro="publisher" prefix=", "/>
               <text macro="year-date" prefix=", "/>
-              <text macro="pages" prefix=", p.&#160;"/>
+              <text macro="pages"/>
             </group>
           </else-if>
           <else-if type="book graphic" match="any">
@@ -256,16 +257,16 @@
             </group>
           </else-if>
           <else-if type="chapter paper-conference" match="any">
-            <text macro="title" quotes="true" suffix=", "/>
+            <text macro="title" quotes="true"/>
             <group>
-              <text value="dans" suffix=" "/>
+              <text value=", in "/>
               <text macro="editor" suffix=", "/>
               <text macro="container-author" suffix=", "/>
               <text variable="container-title" font-style="italic"/>
               <text macro="publisher-place" prefix=", "/>
               <text macro="publisher" prefix=", "/>
               <text macro="year-date" prefix=", "/>
-              <text macro="pages" prefix=", p.&#160;"/>
+              <text macro="pages"/>
             </group>
           </else-if>
         </choose>
