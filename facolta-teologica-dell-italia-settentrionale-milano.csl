@@ -18,7 +18,7 @@
     <category field="philosophy"/>
     <category field="social_science"/>
     <summary>Facoltà Teologica dell'Italia Settentrionale - Italiano 2018</summary>
-    <updated>2019-06-09T02:00:07+00:00</updated>
+    <updated>2019-11-17T22:03:14+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="it">
@@ -66,18 +66,6 @@
         <name-part name="family" font-variant="small-caps"/>
       </name>
       <label form="short" plural="never" prefix=" (" suffix=")"/>
-      <et-al font-variant="small-caps"/>
-      <substitute>
-        <names variable="editor"/>
-      </substitute>
-    </names>
-  </macro>
-  <macro name="author-short">
-    <names variable="author">
-      <name form="short" delimiter=" &#8211; " delimiter-precedes-last="always" initialize-with=".">
-        <name-part name="family" font-variant="small-caps"/>
-      </name>
-      <label form="short" text-case="capitalize-first" prefix=" (" suffix=")"/>
       <et-al font-variant="small-caps"/>
       <substitute>
         <names variable="editor"/>
@@ -260,7 +248,7 @@
         <else-if position="subsequent">
           <group delimiter=", ">
             <group>
-              <text macro="author-short"/>
+              <text macro="author"/>
               <text macro="recipient"/>
             </group>
             <choose>
