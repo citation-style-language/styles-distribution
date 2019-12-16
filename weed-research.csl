@@ -14,7 +14,7 @@
     <category field="biology"/>
     <issn>0043-1737</issn>
     <eissn>1365-3180</eissn>
-    <updated>2019-10-12T18:53:02+00:00</updated>
+    <updated>2019-12-16T15:55:03+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <macro name="container">
@@ -42,7 +42,7 @@
   </macro>
   <macro name="author">
     <names variable="author">
-      <name and="symbol" delimiter-precedes-last="never" delimiter-precedes-et-al="never"  initialize-with="" name-as-sort-order="all" sort-separator=" ">
+      <name and="symbol" delimiter-precedes-last="never" delimiter-precedes-et-al="never" initialize-with="" name-as-sort-order="all" sort-separator=" ">
         <name-part name="family" font-variant="small-caps"/>
       </name>
       <label form="short" prefix=" (" suffix=")" text-case="capitalize-first"/>

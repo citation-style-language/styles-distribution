@@ -15,7 +15,7 @@
     <issn>0242-7702</issn>
     <eissn>2425-1941</eissn>
     <summary>Style for the Les nouvelles de l'archéologie journal.</summary>
-    <updated>2019-10-09T13:51:35+00:00</updated>
+    <updated>2019-12-16T15:55:03+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="fr">
@@ -54,8 +54,8 @@
       <name and="symbol" name-as-sort-order="all" font-variant="small-caps" sort-separator=" " delimiter=", " delimiter-precedes-last="never" initialize-with="."/>
       <label form="short" prefix=" "/>
       <substitute>
-          <names variable="editor" />
-          <names variable="editorial-director"/>
+        <names variable="editor"/>
+        <names variable="editorial-director"/>
       </substitute>
     </names>
   </macro>
