@@ -13,7 +13,7 @@
     </author>
     <category citation-format="numeric"/>
     <category field="engineering"/>
-    <updated>2017-07-09T19:02:06+00:00</updated>
+    <updated>2019-12-17T21:29:48+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <macro name="author">
@@ -137,6 +137,7 @@
                   <text variable="collection-title" prefix="(" suffix=")"/>
                 </group>
               </group>
+              <text macro="book-publisher"/>
               <text variable="page"/>
             </group>
           </else-if>
