@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <style xmlns="http://purl.org/net/xbiblio/csl" class="in-text" version="1.0" demote-non-dropping-particle="never" page-range-format="expanded">
   <info>
-    <title>American Psychological Association 6th edition ("doi:" DOI prefix)</title>
-    <title-short>APA (6th ed., "doi:" DOI prefix)</title-short>
-    <id>http://www.zotero.org/styles/apa-old-doi-prefix</id>
-    <link href="http://www.zotero.org/styles/apa-old-doi-prefix" rel="self"/>
-    <link href="http://www.zotero.org/styles/apa-6th-edition" rel="template"/>
+    <title>American Psychological Association 6th edition</title>
+    <title-short>APA (6th ed.)</title-short>
+    <id>http://www.zotero.org/styles/apa-6th-edition</id>
+    <link href="http://www.zotero.org/styles/apa-6th-edition" rel="self"/>
     <link href="http://owl.english.purdue.edu/owl/resource/560/01/" rel="documentation"/>
     <author>
       <name>Simon Kornblith</name>
@@ -441,7 +440,7 @@
     <choose>
       <if type="bill legal_case legislation" match="any"/>
       <else-if variable="DOI" match="any">
-        <text variable="DOI" prefix="doi: "/>
+        <text variable="DOI" prefix="https://doi.org/"/>
       </else-if>
       <else-if variable="URL">
         <group delimiter=" ">
