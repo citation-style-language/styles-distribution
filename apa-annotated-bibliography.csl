@@ -14,7 +14,7 @@
     <category citation-format="author-date"/>
     <category field="psychology"/>
     <category field="generic-base"/>
-    <updated>2020-01-01T16:00:07+00:00</updated>
+    <updated>2020-01-03T14:43:16+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="en">
@@ -59,6 +59,11 @@
     </terms>
   </locale>
   <locale xml:lang="nb">
+    <terms>
+      <term name="et-al">et al.</term>
+    </terms>
+  </locale>
+  <locale xml:lang="nl">
     <terms>
       <term name="et-al">et al.</term>
     </terms>
