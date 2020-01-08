@@ -5,7 +5,7 @@
     <title-short>IJPAC</title-short>
     <id>http://www.zotero.org/styles/international-journal-of-polymer-analysis-and-characterization</id>
     <link href="http://www.zotero.org/styles/international-journal-of-polymer-analysis-and-characterization" rel="self"/>
-    <link href="http://www.zotero.org/styles/environmental-toxicology-and-chemistry" rel="template"/>
+    <link href="http://www.zotero.org/styles/molecular-therapy" rel="template"/>
     <link href="https://www.tandfonline.com/action/authorSubmission?journalCode=gpac20&amp;page=instructions#refs" rel="documentation"/>
     <author>
       <name>Patrick O'Brien</name>
@@ -15,7 +15,7 @@
     <category field="chemistry"/>
     <issn>1023-666X</issn>
     <eissn>1563-5341</eissn>
-    <updated>2019-07-20T18:06:58+00:00</updated>
+    <updated>2020-01-08T04:46:10+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="en">
