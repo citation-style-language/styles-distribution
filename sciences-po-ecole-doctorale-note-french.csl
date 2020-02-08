@@ -12,7 +12,7 @@
     <category citation-format="note"/>
     <category field="social_science"/>
     <category field="generic-base"/>
-    <updated>2020-02-05T13:35:05+00:00</updated>
+    <updated>2020-02-08T15:37:39+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="fr">
@@ -167,7 +167,7 @@
       <if type="bill book chapter entry-dictionary entry-encyclopedia thesis legal_case manuscript map paper-conference song" match="any">
         <choose>
           <if variable="publisher-place" match="any">
-            <text variable="publisher-place" suffix="&#160;: "/>
+            <text variable="publisher-place"/>
           </if>
           <else>
             <text value="[s.l.]"/>
