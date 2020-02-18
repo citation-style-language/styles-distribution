@@ -13,7 +13,7 @@
     <category citation-format="note"/>
     <category field="generic-base"/>
     <summary>Chicago format with full notes and bibliography with modifications for MBTS</summary>
-    <updated>2019-12-16T20:43:30+00:00</updated>
+    <updated>2020-02-18T04:57:50+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="en">
@@ -234,7 +234,7 @@
       <else-if variable="reviewed-author">
         <text variable="title" font-style="italic" prefix="review of "/>
       </else-if>
-      <else-if type="entry-dictionary"></else-if>
+      <else-if type="entry-dictionary"/>
       <else>
         <text variable="title" text-case="title" quotes="true"/>
       </else>
@@ -268,7 +268,7 @@
       <else-if type="bill legislation legal_case interview patent" match="any">
         <text variable="title"/>
       </else-if>
-      <else-if type="entry-dictionary"></else-if>
+      <else-if type="entry-dictionary"/>
       <else>
         <text variable="title" text-case="title" quotes="true"/>
       </else>

@@ -43,7 +43,7 @@
     <category citation-format="author-date"/>
     <category field="generic-base"/>
     <summary>The Brazilian Standard Style in accordance with ABNT-NBR 10520.2002 and ABNT-NBR 6023.2018</summary>
-    <updated>2020-01-23T13:46:38+00:00</updated>
+    <updated>2020-02-18T04:57:50+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="pt-BR">
@@ -102,21 +102,21 @@
   <macro name="translator">
     <text value="Tradução "/>
     <names variable="translator" delimiter="; ">
-      <name delimiter="; " sort-separator=" " delimiter-precedes-last="always"></name>
+      <name delimiter="; " sort-separator=" " delimiter-precedes-last="always"/>
       <et-al font-style="italic"/>
     </names>
   </macro>
   <macro name="composer">
     <text value="Compositor: "/>
     <names variable="composer" delimiter="; ">
-      <name delimiter="; " sort-separator=" " delimiter-precedes-last="always"></name>
+      <name delimiter="; " sort-separator=" " delimiter-precedes-last="always"/>
       <et-al font-style="italic"/>
     </names>
   </macro>
   <macro name="recipient">
     <text value="Destinatário: "/>
     <names variable="recipient" delimiter="; ">
-      <name delimiter=" e " sort-separator=" " delimiter-precedes-last="always"></name>
+      <name delimiter=" e " sort-separator=" " delimiter-precedes-last="always"/>
       <et-al font-style="italic"/>
     </names>
   </macro>
@@ -124,7 +124,7 @@
     <choose>
       <if type="motion_picture broadcast song" match="any">
         <names variable="author">
-          <name></name>
+          <name/>
         </names>
       </if>
       <else>
