@@ -13,7 +13,7 @@
     <category field="law"/>
     <issn>1477-0814</issn>
     <summary>Style for the Wildy journal The Journal of Comparative Law</summary>
-    <updated>2020-02-24T03:07:10+00:00</updated>
+    <updated>2020-02-25T03:36:55+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale>
@@ -124,9 +124,9 @@
       <else-if type="bill">
         <text macro="issued-year"/>
       </else-if>
-<else>
-<text macro="issued-year" prefix="(" suffix=")"/>
-</else>
+      <else>
+        <text macro="issued-year" prefix="(" suffix=")"/>
+      </else>
     </choose>
   </macro>
   <!--publication info -->
@@ -217,10 +217,10 @@
     </choose>
   </macro>
   <macro name="page-and-locator">
-        <group delimiter=" ">
-          <text variable="page-first"/>
-                  <text variable="locator" prefix="at "/>
-        </group>
+    <group delimiter=" ">
+      <text variable="page-first"/>
+      <text variable="locator" prefix="at "/>
+    </group>
   </macro>
   <!--Others -->
   <macro name="manuscript-catchall">
@@ -234,9 +234,9 @@
     <choose>
       <if variable="URL">
         <group delimiter=" ">
-        <text term="available at" text-case="capitalize-first" suffix=":"/>
-        <text variable="URL" prefix="&lt;" suffix="&gt;"/>
-      </group>
+          <text term="available at" text-case="capitalize-first" suffix=":"/>
+          <text variable="URL" prefix="&lt;" suffix="&gt;"/>
+        </group>
       </if>
     </choose>
   </macro>
@@ -245,9 +245,9 @@
       <choose>
         <if position="ibid-with-locator">
           <group delimiter=" ">
-          <text term="ibid"/>
+            <text term="ibid"/>
             <text variable="locator" prefix="at "/>
-        </group>
+          </group>
         </if>
         <else-if position="ibid">
           <text term="ibid"/>
@@ -255,10 +255,10 @@
         <else-if position="subsequent">
           <group delimiter=" ">
             <text macro="author-short"/>
-                <text macro="title-short"/>
-          <text variable="first-reference-note-number" prefix="supra note "/>
-          <text variable="locator" prefix=" at"/>
-        </group>
+            <text macro="title-short"/>
+            <text variable="first-reference-note-number" prefix="supra note "/>
+            <text variable="locator" prefix="at "/>
+          </group>
         </else-if>
         <else>
           <!--general whole citation -->
