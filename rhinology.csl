@@ -14,7 +14,7 @@
     <category field="medicine"/>
     <issn>0300-0729</issn>
     <eissn>1996-8604</eissn>
-    <updated>2020-04-04T03:14:36+00:00</updated>
+    <updated>2020-04-05T20:49:26+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="en">
@@ -186,7 +186,7 @@
     <choose>
       <if type="article-journal article-magazine article-newspaper review review-book" match="any">
         <group suffix=";" delimiter=" ">
-          <date variable="issued" form="text"/>
+          <date variable="issued" form="text" date-parts="year"/>
           <text macro="accessed-date"/>
         </group>
       </if>
