@@ -16,7 +16,7 @@
     <category citation-format="numeric"/>
     <category field="science"/>
     <summary>Style for the MDPI Open access journals</summary>
-    <updated>2018-12-04T02:45:01+00:00</updated>
+    <updated>2020-04-12T20:47:20+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="en">
@@ -94,6 +94,9 @@
       <if type="book chapter" match="any">
         <text variable="ISBN" prefix=" ISBN "/>
       </if>
+      <else-if type="article-journal">
+        <text variable="DOI" prefix=", doi:"/>
+      </else-if>
     </choose>
   </macro>
   <citation collapse="citation-number">
