@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<style xmlns="http://purl.org/net/xbiblio/csl" class="in-text" version="1.0" demote-non-dropping-particle="never" default-locale="fr-FR">
+<style xmlns="http://purl.org/net/xbiblio/csl" class="in-text" version="1.0" demote-non-dropping-particle="never" default-locale="fr-CA">
   <info>
     <title>American Psychological Association 6th edition (Provost) (French - Canada)</title>
-    <title-short>APA FR Provost</title-short>
+    <title-short>APA (fr, Provost)</title-short>
     <id>http://www.zotero.org/styles/apa-fr-provost</id>
     <link href="http://www.zotero.org/styles/apa-fr-provost" rel="self"/>
     <link href="http://www.zotero.org/styles/apa" rel="template"/>
@@ -11,11 +11,15 @@
       <name>Laure Mellifluo</name>
       <email>laure.melli@gmail.com</email>
     </author>
+    <contributor>
+      <name>Brenton M. Wiernik</name>
+      <email>zotero@wiernik.org</email>
+    </contributor>
     <category citation-format="author-date"/>
     <category field="psychology"/>
     <category field="generic-base"/>
     <summary>Style basé sur la version francophone du livre « Normes de présentation d’un travail de recherche », 4e édition, par Marc A. Provost ... [et al.] selon les normes APA, 6e édition</summary>
-    <updated>2018-05-22T00:59:23+00:00</updated>
+    <updated>2020-04-14T02:48:20+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="fr">
@@ -181,7 +185,7 @@
       </else-if>
       <else-if type="legislation">
         <text variable="title" font-style="italic"/>
-        <group prefix=" (" suffix=")" delimiter="&#160;; ">
+        <group prefix=" (" suffix=")" delimiter="; ">
           <text variable="number"/>
           <text variable="container-title"/>
         </group>
@@ -224,7 +228,7 @@
   <macro name="publisher">
     <choose>
       <if type="report" match="any">
-        <group delimiter="&#160;: ">
+        <group delimiter=": ">
           <text variable="publisher-place"/>
           <text variable="publisher"/>
         </group>
@@ -247,7 +251,7 @@
           </choose>
           <choose>
             <if type="book chapter" match="any">
-              <group delimiter="&#160;: ">
+              <group delimiter=": ">
                 <choose>
                   <if variable="publisher-place">
                     <text variable="publisher-place"/>
@@ -280,7 +284,7 @@
               </group>
             </else-if>
             <else-if type="article-journal article-magazine article-newspaper" match="none">
-              <group delimiter="&#160;: ">
+              <group delimiter=": ">
                 <text variable="publisher-place"/>
                 <text variable="publisher"/>
               </group>
@@ -539,7 +543,7 @@
       <key macro="author"/>
       <key macro="issued-sort"/>
     </sort>
-    <layout prefix="(" suffix=")" delimiter="&#160;; ">
+    <layout prefix="(" suffix=")" delimiter="; ">
       <group delimiter=", ">
         <text macro="author-short"/>
         <text macro="issued-year"/>
