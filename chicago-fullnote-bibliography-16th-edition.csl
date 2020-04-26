@@ -25,10 +25,13 @@
       <name>Andrew Dunning</name>
       <email>andrew.dunning@utoronto.ca</email>
     </contributor>
+    <contributor>
+      <name>Brenton M. Wiernik</name>
+    </contributor>
     <category citation-format="note"/>
     <category field="generic-base"/>
     <summary>Chicago format with full notes and bibliography</summary>
-    <updated>2019-01-03T23:12:42+00:00</updated>
+    <updated>2020-04-26T18:22:50+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="en">
@@ -665,7 +668,14 @@
     <choose>
       <if variable="title">
         <group delimiter=" ">
-          <text term="presented at"/>
+          <choose>
+            <if variable="genre">
+              <text term="presented at"/>
+            </if>
+            <else>
+              <text term="presented at" text-case="capitalize-first"/>
+            </else>
+          </choose>
           <text variable="event"/>
         </group>
       </if>
