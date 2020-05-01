@@ -16,7 +16,7 @@
     <category field="linguistics"/>
     <category field="literature"/>
     <summary>Zitierstil entsprechend den Vorgaben der linguistischen Professuren am Institut für Germanistik der Technischen Universität Dresden. Der Stil orientiert sich an den Richtlinien von 'Deutsche Sprache: Zeitschrift für Theorie Praxis Dokumentation', hg. vom IDS Mannheim</summary>
-    <updated>2020-04-29T01:05:19+00:00</updated>
+    <updated>2020-05-01T04:08:51+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="de">
@@ -119,7 +119,7 @@
       </group>
     </layout>
   </citation>
-  <bibliography et-al-min="9" et-al-use-first="1">
+  <bibliography et-al-min="9" et-al-use-first="1" entry-spacing="0" hanging-indent="true">
     <sort>
       <key macro="creator-short"/>
       <key macro="creator-year-short"/>
