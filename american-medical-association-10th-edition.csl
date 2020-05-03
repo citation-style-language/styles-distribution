@@ -1,13 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <style xmlns="http://purl.org/net/xbiblio/csl" class="in-text" version="1.0" demote-non-dropping-particle="sort-only" page-range-format="expanded" default-locale="en-US">
   <info>
-    <title>American Medical Association 11th edition (no "et al.")</title>
-    <title-short>AMA (11th ed.)</title-short>
-    <id>http://www.zotero.org/styles/american-medical-association-no-et-al</id>
-    <link href="http://www.zotero.org/styles/american-medical-association-no-et-al" rel="self"/>
-    <link href="http://www.zotero.org/styles/american-medical-association" rel="template"/>
+    <title>American Medical Association 10th edition</title>
+    <title-short>AMA (10th ed.)</title-short>
+    <id>http://www.zotero.org/styles/american-medical-association-10th-edition</id>
+    <link href="http://www.zotero.org/styles/american-medical-association-10th-edition" rel="self"/>
     <link href="https://westlibrary.txwes.edu/sites/default/files/pdf/AMACitationStyle.pdf" rel="documentation"/>
-    <link href="https://www.amamanualofstyle.com/fileasset/AMAMOS/aaaAMWA%20presentation%20Nov%202019%20FULL.pdf" rel="documentation"/>
     <author>
       <name>Julian Onions</name>
       <email>julian.onions@gmail.com</email>
@@ -20,13 +18,9 @@
       <name>Daniel W Chan</name>
       <email>danwchan@protonmail.com</email>
     </contributor>
-    <contributor>
-      <name>Patrick O'Brien</name>
-      <email>obrienpat86@gmail.com</email>
-    </contributor>
     <category citation-format="numeric"/>
     <category field="medicine"/>
-    <summary>The American Medical Association style as used in JAMA, without et al. Version 11 as per November-2019.</summary>
+    <summary>The American Medical Association style as used in JAMA.</summary>
     <updated>2020-05-03T02:23:16+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
@@ -62,9 +56,10 @@
             <text variable="DOI"/>
           </if>
           <else-if variable="URL">
-            <group delimiter=". ">
+            <group delimiter=". " suffix=".">
+              <text variable="URL"/>
               <choose>
-                <if type="webpage post post-weblog" match="any">
+                <if type="webpage">
                   <date variable="issued" prefix="Published " form="text"/>
                 </if>
               </choose>
@@ -76,7 +71,6 @@
                   <date-part name="year"/>
                 </date>
               </group>
-              <text variable="URL"/>
             </group>
           </else-if>
         </choose>
@@ -94,7 +88,10 @@
     </choose>
   </macro>
   <macro name="publisher">
-    <text variable="publisher"/>
+    <group delimiter=": ">
+      <text variable="publisher-place"/>
+      <text variable="publisher"/>
+    </group>
   </macro>
   <macro name="edition">
     <choose>
@@ -121,7 +118,7 @@
       </group>
     </layout>
   </citation>
-  <bibliography hanging-indent="false" et-al-min="99" et-al-use-first="98" second-field-align="flush">
+  <bibliography hanging-indent="false" et-al-min="7" et-al-use-first="3" second-field-align="flush">
     <layout>
       <text variable="citation-number" suffix=". "/>
       <text macro="author"/>
@@ -219,7 +216,7 @@
             </date>
           </group>
         </else-if>
-        <else-if type="webpage post post-weblog" match="any">
+        <else-if type="webpage">
           <text variable="container-title" prefix=" " suffix="."/>
         </else-if>
         <else-if type="speech">
@@ -258,10 +255,10 @@
                   </date>
                 </if>
                 <else>
-                  <group delimiter=" ">
-                    <text value="Published online"/>
-                    <date form="text" date-parts="year-month-day" variable="issued"/>
-                  </group>
+                  <date variable="issued">
+                    <date-part name="month" suffix=" "/>
+                    <date-part name="year"/>
+                  </date>
                 </else>
               </choose>
               <group>
