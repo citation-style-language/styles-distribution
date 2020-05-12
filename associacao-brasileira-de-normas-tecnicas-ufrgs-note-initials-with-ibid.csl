@@ -27,7 +27,7 @@
     <category citation-format="note"/>
     <category field="generic-base"/>
     <summary>The Brazilian Standard Style of citation and bibliography (ABNT-NBR 10520.2002 and ABNT-NBR 6023.2018) adapted to the footnote format, using as a base the Chicago style of notes with ibid</summary>
-    <updated>2020-04-10T03:25:38+00:00</updated>
+    <updated>2020-05-12T22:22:03+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="pt-BR">
@@ -93,7 +93,7 @@
   <macro name="translator">
     <text value="Traducao "/>
     <names variable="translator" delimiter="; ">
-      <name delimiter="; " sort-separator=" " delimiter-precedes-last="always"></name>
+      <name delimiter="; " sort-separator=" " delimiter-precedes-last="always"/>
     </names>
   </macro>
   <macro name="author">
