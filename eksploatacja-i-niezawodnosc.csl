@@ -14,7 +14,7 @@
     <category citation-format="numeric"/>
     <category field="science"/>
     <issn>1507-2711</issn>
-    <updated>2020-01-30T01:30:27+00:00</updated>
+    <updated>2020-05-17T04:12:08+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="en">
@@ -75,7 +75,7 @@
   </macro>
   <citation collapse="citation-number">
     <sort>
-      <key variable="citation-number"/>
+      <key variable="author"/>
     </sort>
     <layout prefix="[" suffix="]" delimiter=", ">
       <text variable="citation-number"/>
