@@ -16,7 +16,7 @@
     <issn>0100-0683</issn>
     <eissn>1806-9657</eissn>
     <summary>Brazilian Soil Science Journal style based on Vancouver-author-date style</summary>
-    <updated>2020-05-17T04:08:27+00:00</updated>
+    <updated>2020-05-20T21:54:05+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="en-US">
@@ -51,7 +51,6 @@
       </if>
       <else-if type="report">
         <text variable="publisher" suffix=" "/>
-        <!-- institution -->
         <names variable="author">
           <name initialize-with="" delimiter=", " delimiter-precedes-last="always" name-as-sort-order="all" sort-separator=" "/>
           <label form="long" prefix=", "/>
@@ -290,7 +289,7 @@
           <group delimiter=":">
             <group delimiter=". ">
               <group delimiter=". ">
-                <text variable="title" text-case="title"/>
+                <text variable="title" text-case="capitalize-first"/>
                 <text variable="container-title" form="short" text-case="title" strip-periods="true"/>
               </group>
               <group delimiter=";">
