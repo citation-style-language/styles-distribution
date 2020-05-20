@@ -14,7 +14,7 @@
     <category citation-format="numeric"/>
     <category field="science"/>
     <issn>1507-2711</issn>
-    <updated>2020-05-17T04:12:08+00:00</updated>
+    <updated>2020-05-20T22:33:29+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="en">
@@ -82,6 +82,9 @@
     </layout>
   </citation>
   <bibliography et-al-min="5" et-al-use-first="3" delimiter-precedes-et-al="never" second-field-align="flush">
+    <sort>
+      <key variable="author"/>
+    </sort>
     <layout suffix=".">
       <text variable="citation-number" suffix=". "/>
       <choose>
