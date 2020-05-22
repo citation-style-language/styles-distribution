@@ -10,7 +10,7 @@
     <category field="medicine"/>
     <issn>0013-9580</issn>
     <eissn>1528-1167</eissn>
-    <updated>2017-12-06T01:51:24+00:00</updated>
+    <updated>2020-05-22T03:34:46+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="en">
@@ -305,7 +305,7 @@
       <text variable="citation-number"/>
     </layout>
   </citation>
-  <bibliography et-al-min="4" et-al-use-first="3" second-field-align="flush">
+  <bibliography et-al-min="7" et-al-use-first="6" second-field-align="flush">
     <layout>
       <text variable="citation-number" suffix=". "/>
       <group delimiter=". " suffix=". ">
