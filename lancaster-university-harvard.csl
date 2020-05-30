@@ -12,7 +12,7 @@
     <category citation-format="author-date"/>
     <category field="generic-base"/>
     <summary>The Harvard author-date style - adapted for Lancaster University</summary>
-    <updated>2020-05-28T02:36:41+00:00</updated>
+    <updated>2020-05-30T13:08:55+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <macro name="accessed">
@@ -436,6 +436,7 @@
   <bibliography hanging-indent="false" et-al-min="3" et-al-use-first="1">
     <sort>
       <key macro="author"/>
+      <key variable="citation-number"/>
       <key variable="title"/>
     </sort>
     <layout>
