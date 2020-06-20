@@ -14,7 +14,7 @@
     </contributor>
     <category citation-format="note"/>
     <category field="humanities"/>
-    <updated>2019-12-09T01:54:11+00:00</updated>
+    <updated>2020-06-20T03:10:13+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="de">
@@ -467,6 +467,9 @@
     </layout>
   </citation>
   <bibliography>
+    <sort>
+      <key macro="author_title-bibliography"/>
+    </sort>
     <layout suffix=".">
       <text macro="author_title-bibliography"/>
       <text macro="reference-publication-details"/>
