@@ -17,7 +17,7 @@
     <category citation-format="author-date"/>
     <category field="engineering"/>
     <summary>The author-date variant of the Chicago style by FEUP</summary>
-    <updated>2020-06-26T02:53:27+00:00</updated>
+    <updated>2020-06-28T01:56:53+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="en">
@@ -206,7 +206,7 @@
         </choose>
       </else-if>
       <else-if type="legal_case interview patent webpage" match="any">
-        <text variable="title"/>
+        <text variable="title" quotes="true"/>
       </else-if>
       <else>
         <text variable="title" text-case="title" quotes="true"/>
