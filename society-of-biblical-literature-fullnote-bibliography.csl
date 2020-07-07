@@ -27,7 +27,7 @@
     <category citation-format="note"/>
     <category field="theology"/>
     <summary>Society of Biblical Literature format with full notes and bibliography</summary>
-    <updated>2019-06-19T14:16:56+00:00</updated>
+    <updated>2020-07-07T03:11:31+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="en-US">
@@ -48,7 +48,7 @@
     </names>
   </macro>
   <macro name="editor-translator-verb-period">
-    <names variable="editor translator" delimiter=" ">
+    <names variable="editor translator" delimiter=". ">
       <label form="verb" text-case="capitalize-first" suffix=" "/>
       <name and="text" delimiter=", "/>
     </names>
