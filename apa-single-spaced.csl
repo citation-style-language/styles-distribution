@@ -14,7 +14,7 @@
     <category citation-format="author-date"/>
     <category field="psychology"/>
     <category field="generic-base"/>
-    <updated>2020-06-20T19:14:13+00:00</updated>
+    <updated>2020-07-13T03:13:43+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="en">
@@ -190,14 +190,14 @@
   </locale>
   <locale xml:lang="la">
     <terms>
-      <term name="letter"></term>
+      <term name="letter"/>
       <term name="letter" form="short">epistula</term>
     </terms>
   </locale>
   <locale xml:lang="lt">
     <terms>
       <term name="letter">communicationis personalis</term>
-      <term name="letter" form="short"></term>
+      <term name="letter" form="short"/>
     </terms>
   </locale>
   <locale xml:lang="lv">

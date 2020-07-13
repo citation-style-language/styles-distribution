@@ -16,7 +16,7 @@
     <category field="social_science"/>
     <category field="humanities"/>
     <summary>Estilo bibliográfico, sistema moderno, del Instituto de Investigaciones sobre la Universidad y la Educación de la UNAM</summary>
-    <updated>2020-06-07T13:48:07+00:00</updated>
+    <updated>2020-07-13T03:13:43+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale>
@@ -377,7 +377,7 @@
           <group>
             <text macro="title" strip-periods="false" quotes="true" prefix=" "/>
             <choose>
-              <if variable="container-title" match="none"></if>
+              <if variable="container-title" match="none"/>
             </choose>
           </group>
           <group prefix=", " delimiter=", ">
@@ -390,7 +390,7 @@
             <text macro="locators"/>
           </group>
           <choose>
-            <if variable="container-title"></if>
+            <if variable="container-title"/>
           </choose>
           <group prefix=", " delimiter=", ">
             <text macro="editor"/>
