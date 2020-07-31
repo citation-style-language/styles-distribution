@@ -27,7 +27,7 @@
     <category citation-format="numeric"/>
     <category field="biology"/>
     <summary>Style for all American Society for Microbiology journals.</summary>
-    <updated>2017-02-07T20:46:38+00:00</updated>
+    <updated>2020-07-31T03:52:41+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <macro name="author">
@@ -105,10 +105,17 @@
   <macro name="locators">
     <choose>
       <if type="article-journal">
-        <group prefix=" " delimiter=":">
-          <text variable="volume"/>
-          <text variable="page"/>
-        </group>
+        <choose>
+          <if match="none" variable="volume page">
+            <text variable="DOI" prefix=" https://doi.org/"/>
+          </if>
+          <else>
+            <group prefix=" " delimiter=":">
+              <text variable="volume"/>
+              <text variable="page"/>
+            </group>
+          </else>
+        </choose>
       </if>
     </choose>
   </macro>
