@@ -32,7 +32,7 @@
     <category citation-format="author-date"/>
     <category field="psychology"/>
     <category field="generic-base"/>
-    <updated>2020-08-04T18:13:41+00:00</updated>
+    <updated>2020-08-07T02:45:06+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="en">
@@ -1409,20 +1409,24 @@
               <text variable="references"/>
             </if>
             <else>
-              <group delimiter=" ">
-                <text macro="original-published"/>
-                <choose>
-                  <if is-uncertain-date="original-date">
-                    <group prefix="[" suffix="]" delimiter=" ">
-                      <text term="circa" form="short"/>
-                      <text macro="original-date"/>
-                    </group>
-                  </if>
-                  <else>
-                    <text macro="original-date"/>
-                  </else>
-                </choose>
-              </group>
+              <choose>
+                <if variable="original-date">
+                  <group delimiter=" ">
+                    <text macro="original-published"/>
+                    <choose>
+                      <if is-uncertain-date="original-date">
+                        <group prefix="[" suffix="]" delimiter=" ">
+                          <text term="circa" form="short"/>
+                          <text macro="original-date"/>
+                        </group>
+                      </if>
+                      <else>
+                        <text macro="original-date"/>
+                      </else>
+                    </choose>
+                  </group>
+                </if>
+              </choose>
             </else>
           </choose>
         </group>
