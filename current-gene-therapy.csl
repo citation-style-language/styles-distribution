@@ -4,7 +4,7 @@
     <title>Current Gene Therapy</title>
     <id>http://www.zotero.org/styles/current-gene-therapy</id>
     <link href="http://www.zotero.org/styles/current-gene-therapy" rel="self"/>
-    <link href="http://www.zotero.org/styles/university-college-lillebaelt-vancouver" rel="template"/>
+    <link href="http://www.zotero.org/styles/ucl-university-college-vancouver" rel="template"/>
     <link href="http://benthamscience.com/journals/current-gene-therapy/author-guidelines/#top" rel="documentation"/>
     <author>
       <name>Patrick O'Brien, PhD</name>
@@ -13,7 +13,7 @@
     <category citation-format="numeric"/>
     <issn>1566-5232</issn>
     <eissn>1875-5631</eissn>
-    <updated>2018-03-28T23:10:24+00:00</updated>
+    <updated>2020-08-20T12:14:42+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="en">
