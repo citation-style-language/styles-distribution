@@ -17,7 +17,7 @@
     <category field="humanities"/>
     <category field="social_science"/>
     <summary>ISNAD Citation Style author date format.</summary>
-    <updated>2020-04-15T01:42:53+00:00</updated>
+    <updated>2020-08-24T04:10:04+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <!--
@@ -269,7 +269,7 @@
           </if>
         </choose>
       </if>
-      <else-if type="book graphic manuscript report map personal_communication" match="any">
+      <else-if type="book thesis graphic manuscript report map personal_communication" match="any">
         <text variable="title" text-case="title" font-style="italic"/>
         <text variable="version" prefix=" "/>
       </else-if>
