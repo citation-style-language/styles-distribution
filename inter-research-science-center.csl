@@ -5,7 +5,7 @@
     <title-short>IRSC</title-short>
     <id>http://www.zotero.org/styles/inter-research-science-center</id>
     <link href="http://www.zotero.org/styles/inter-research-science-center" rel="self"/>
-    <link href="http://www.zotero.org/styles/addiction-biology" rel="template"/>
+    <link href="http://www.zotero.org/styles/american-medical-association" rel="template"/>
     <link href="https://www.int-res.com/journals/guidelines-for-authors/guidelines-authors/" rel="documentation"/>
     <author>
       <name>Stefania M Gorgopa</name>
@@ -16,7 +16,7 @@
     </contributor>
     <category citation-format="author-date"/>
     <category field="biology"/>
-    <updated>2019-06-04T16:16:47+00:00</updated>
+    <updated>2020-09-21T00:14:02+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <macro name="editor">
