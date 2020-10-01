@@ -19,7 +19,7 @@
     <category field="history"/>
     <category field="anthropology"/>
     <summary>Author-date style for Inrap reports</summary>
-    <updated>2020-09-29T03:54:56+00:00</updated>
+    <updated>2020-10-01T22:47:43+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="fr-FR">
@@ -238,7 +238,7 @@
       <key variable="issued"/>
     </sort>
     <layout suffix=".">
-      <group font-weight="bold" delimiter=" " suffix="&#xD;">
+      <group font-weight="bold" delimiter=" " suffix="&#13;">
         <text macro="author-short"/>
         <text macro="year-date"/>
       </group>

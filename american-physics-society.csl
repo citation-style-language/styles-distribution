@@ -18,7 +18,7 @@
     <category citation-format="numeric"/>
     <category field="physics"/>
     <summary>Common style use by APS publications.</summary>
-    <updated>2020-08-20T12:34:00+00:00</updated>
+    <updated>2020-10-01T22:47:43+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <macro name="author">
@@ -166,7 +166,7 @@
               <else>
                 <text variable="number"/>
               </else>
-            </choose>          
+            </choose>
           </group>
         </else-if>
         <else-if type="dataset interview manuscript pamphlet personal_communication post post-weblog speech webpage">
@@ -187,7 +187,7 @@
             </choose>
           </group>
         </else-if>
-        <else> 
+        <else>
           <!--article-journal article-magazine article-newspaper review review-book-->
           <group delimiter=", ">
             <text variable="title" text-case="title" font-style="italic"/>
