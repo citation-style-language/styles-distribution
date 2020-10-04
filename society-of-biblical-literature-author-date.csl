@@ -14,12 +14,16 @@
     <category citation-format="author-date"/>
     <category field="theology"/>
     <summary>Society of Biblical Literature format, author-date style</summary>
-    <updated>2020-07-07T03:11:31+00:00</updated>
+    <updated>2020-10-04T03:49:53+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="en">
     <terms>
       <term name="editor" form="verb-short">ed.</term>
+      <term name="section" form="short">
+        <single>§</single>
+        <multiple>§§</multiple>
+      </term>
       <term name="translator" form="verb-short">trans.</term>
       <term name="translator" form="short">trans.</term>
       <term name="editortranslator" form="verb-short">ed. and trans.</term>

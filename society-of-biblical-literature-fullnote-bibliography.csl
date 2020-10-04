@@ -27,12 +27,16 @@
     <category citation-format="note"/>
     <category field="theology"/>
     <summary>Society of Biblical Literature format with full notes and bibliography</summary>
-    <updated>2020-07-07T03:11:31+00:00</updated>
+    <updated>2020-10-04T03:49:53+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="en-US">
     <terms>
       <term name="editor" form="verb-short">ed.</term>
+      <term name="section" form="short">
+        <single>§</single>
+        <multiple>§§</multiple>
+      </term>
       <term name="translator" form="verb-short">trans.</term>
       <term name="translator" form="short">trans.</term>
       <term name="editortranslator" form="verb-short">ed. and trans.</term>
@@ -498,7 +502,7 @@
                     <text value=" of"/>
                   </group>
                 </if>
-                <else-if type="chapter" variable="container-title" match="all">
+                <else-if type="chapter" variable="collection-title" match="all">
                   <!--SBL 6.2.23-->
                   <group>
                     <text term="volume" form="short" suffix=" "/>
@@ -549,7 +553,7 @@
                     <text value=" of"/>
                   </group>
                 </if>
-                <else-if type="chapter" variable="container-title" match="all">
+                <else-if type="chapter" variable="collection-title" match="all">
                   <!--SBL 6.2.23-->
                   <group>
                     <text term="volume" form="short" text-case="capitalize-first" suffix=" "/>
