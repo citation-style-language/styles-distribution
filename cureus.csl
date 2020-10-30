@@ -14,7 +14,7 @@
     <category field="medicine"/>
     <eissn>2168-8184</eissn>
     <summary>Vancouver style adapted for Cureus online journal (adapted from BMJ)</summary>
-    <updated>2020-09-30T03:30:46+00:00</updated>
+    <updated>2020-10-30T12:57:26+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <macro name="author">
@@ -137,7 +137,7 @@
       <text variable="citation-number"/>
     </layout>
   </citation>
-  <bibliography et-al-min="4" et-al-use-first="3" second-field-align="flush">
+  <bibliography et-al-min="8" et-al-use-first="3" second-field-align="flush">
     <layout>
       <text variable="citation-number" suffix="."/>
       <text macro="author"/>
