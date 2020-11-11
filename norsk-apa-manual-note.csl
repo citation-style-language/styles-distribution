@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <style xmlns="http://purl.org/net/xbiblio/csl" class="note" version="1.0" demote-non-dropping-particle="never" page-range-format="expanded">
   <info>
-    <title>Norsk APA-manual (note)</title>
+    <title>Norsk APA-manual - APA 7th edition (note)</title>
     <id>http://www.zotero.org/styles/norsk-apa-manual-note</id>
     <link href="http://www.zotero.org/styles/norsk-apa-manual-note" rel="self"/>
     <link href="http://www.zotero.org/styles/apa" rel="template"/>
@@ -12,7 +12,7 @@
     </author>
     <category citation-format="note"/>
     <category field="generic-base"/>
-    <updated>2020-11-09T02:03:55+00:00</updated>
+    <updated>2020-11-11T17:54:38+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="nb">
