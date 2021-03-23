@@ -2,7 +2,7 @@
 <style xmlns="http://purl.org/net/xbiblio/csl" class="note" version="1.0" page-range-format="expanded" default-locale="fr-FR">
   <!-- This style was edited with the Visual CSL Editor (http://editor.citationstyles.org/visualEditor/) -->
   <info>
-    <title>Séminaire Saint-Sulpice - Ecole Théologie (French)</title>
+    <title>Séminaire Saint-Sulpice - Ecole Théologie (French)V4.1-03-2021</title>
     <title-short>SSSET</title-short>
     <id>http://www.zotero.org/styles/seminaire-saint-sulpice-ecole-theologie</id>
     <link href="http://www.zotero.org/styles/seminaire-saint-sulpice-ecole-theologie" rel="self"/>
@@ -14,7 +14,7 @@
     <category citation-format="note"/>
     <category field="theology"/>
     <category field="humanities"/>
-    <updated>2019-11-27T04:06:19+00:00</updated>
+    <updated>2021-03-223T15:06:19+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="fr">
@@ -27,6 +27,9 @@
         <single>p.</single>
         <multiple>pp.</multiple>
       </term>
+      <term name="line" >l.</term>
+      <term name="number" >n°</term>
+
       <term name="editor" form="short">
         <single>éd.</single>
         <multiple>éds.</multiple>
@@ -338,7 +341,7 @@
       <if type="motion_picture map entry-dictionary entry-encyclopedia book speech paper-conference chapter" match="any">
         <group prefix=", ">
           <group delimiter="">
-            <text variable="collection-title"/>
+            <text variable="collection-title" quotes="true" prefix="coll.&#160;"/>
             <text variable="collection-number" prefix=" n°"/>
           </group>
         </group>
@@ -488,7 +491,7 @@
       <text variable="URL" text-decoration="none" prefix=", disponible sur&#160;&lt;" suffix="&gt;"/>
     </group>
     <group delimiter=" " font-style="normal">
-      <text value="[consulté le" prefix=", "/>
+      <text value="consulté le" prefix=", ["/>
       <date form="text" variable="accessed" suffix="]">
         <date-part name="day"/>
         <date-part name="month"/>
