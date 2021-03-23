@@ -14,7 +14,7 @@
     <category citation-format="author-date"/>
     <category field="generic-base"/>
     <summary>Style to work with Zotero's RTF Scan feature</summary>
-    <updated>2014-08-28T01:36:46+00:00</updated>
+    <updated>2017-07-03T03:48:18+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <macro name="author-short">
@@ -44,7 +44,7 @@
       </else>
     </choose>
   </macro>
-  <citation et-al-min="1" et-al-use-first="1" disambiguate-add-year-suffix="true" disambiguate-add-names="true" disambiguate-add-givenname="true">
+  <citation et-al-min="2" et-al-use-first="1" disambiguate-add-year-suffix="true" disambiguate-add-names="true" disambiguate-add-givenname="true">
     <sort>
       <key macro="author-short"/>
       <key macro="title"/>
@@ -58,7 +58,7 @@
       </group>
     </layout>
   </citation>
-  <bibliography hanging-indent="true" et-al-min="1" et-al-use-first="1">
+  <bibliography hanging-indent="true" et-al-min="2" et-al-use-first="1">
     <sort>
       <key macro="author-short"/>
       <key macro="year-date"/>

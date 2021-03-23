@@ -12,7 +12,7 @@
     <category citation-format="note"/>
     <category field="history"/>
     <summary>Chicago format with full notes and bibliography</summary>
-    <updated>2014-10-17T00:26:43+00:00</updated>
+    <updated>2018-05-22T00:59:23+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="en">
@@ -20,14 +20,8 @@
       <term name="edition" form="short">edn.</term>
       <term name="editor" form="verb-short">ed.</term>
       <term name="translator" form="verb-short">trans.</term>
-      <term name="editortranslator" form="verb-short">
-        <single>ed. and trans.</single>
-        <multiple>ed. and trans.</multiple>
-      </term>
-      <term name="editortranslator" form="verb">
-        <single>Edited and translated by</single>
-        <multiple>Edited and translated by</multiple>
-      </term>
+      <term name="editortranslator" form="verb-short">ed. and trans.</term>
+      <term name="editortranslator" form="verb">Edited and translated by</term>
       <term name="translator" form="short">trans.</term>
     </terms>
   </locale>

@@ -12,7 +12,7 @@
     <category citation-format="note"/>
     <category field="law"/>
     <summary>Style for a series of Thomson Reuters law publications for Australia</summary>
-    <updated>2014-08-28T01:36:46+00:00</updated>
+    <updated>2018-03-31T04:01:14+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale>
@@ -165,7 +165,7 @@
   </macro>
   <macro name="date-parenthesis">
     <choose>
-      <if type="legal_case " match="any">
+      <if type="legal_case" match="any">
         <choose>
           <if variable="volume">
             <text macro="issued-year" prefix="(" suffix=")"/>

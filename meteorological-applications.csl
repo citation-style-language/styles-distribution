@@ -17,7 +17,7 @@
     <issn>1350-4827</issn>
     <eissn>1469-8080</eissn>
     <summary>Style for the Meteorological Applications. This style is almost entirely copied from peerj.csl, whose author is Burnmeister (sybrandvs@yahoo.com).</summary>
-    <updated>2015-08-09T02:13:24+00:00</updated>
+    <updated>2016-09-16T04:08:24+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <macro name="author">
@@ -33,7 +33,7 @@
   </macro>
   <macro name="author-short">
     <names variable="author">
-      <name form="short" and="symbol" et-al-min="3" initialize-with=". "/>
+      <name form="short" and="symbol" initialize-with=". "/>
       <et-al font-style="italic"/>
       <substitute>
         <names variable="editor"/>

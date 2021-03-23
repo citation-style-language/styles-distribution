@@ -6,12 +6,15 @@
     <link href="http://www.zotero.org/styles/journal-of-natural-history" rel="self"/>
     <link href="http://www.zotero.org/styles/taylor-and-francis-council-of-science-editors-author-date" rel="template"/>
     <link href="http://www.tandfonline.com/action/authorSubmission?journalCode=TNAH20&amp;page=instructions" rel="documentation"/>
+    <author>
+      <name>Sebastian Karcher</name>
+    </author>
     <category citation-format="author-date"/>
     <category field="biology"/>
     <issn>0022-2933</issn>
     <eissn>1464-5262</eissn>
     <summary>The Council of Science Editors style for T&amp;F  with and=text</summary>
-    <updated>2016-05-09T02:05:04+00:00</updated>
+    <updated>2016-12-21T05:18:06+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <macro name="editor-translator">

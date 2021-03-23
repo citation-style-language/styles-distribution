@@ -5,7 +5,7 @@
     <title>Plant Pathology</title>
     <id>http://www.zotero.org/styles/plant-pathology</id>
     <link href="http://www.zotero.org/styles/plant-pathology" rel="self"/>
-    <link href="http://www.zotero.org/styles/molecular-ecology" rel="template"/>
+    <link href="http://www.zotero.org/styles/ecology-letters" rel="template"/>
     <link href="http://onlinelibrary.wiley.com/journal/10.1111/%28ISSN%291365-3059/homepage/ForAuthors.html" rel="documentation"/>
     <author>
       <name>phyto</name>
@@ -14,7 +14,7 @@
     <category field="biology"/>
     <eissn>1365-3059</eissn>
     <summary>style for the journal Plant Pathology</summary>
-    <updated>2014-09-10T06:18:55+00:00</updated>
+    <updated>2017-07-19T03:15:28+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <macro name="editor-translator">

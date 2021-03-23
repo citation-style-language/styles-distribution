@@ -5,7 +5,7 @@
     <title-short>SLAS</title-short>
     <id>http://www.zotero.org/styles/society-for-laboratory-automation-and-screening</id>
     <link href="http://www.zotero.org/styles/society-for-laboratory-automation-and-screening" rel="self"/>
-    <link href="http://www.zotero.org/styles/american-chemical-society-with-titles" rel="template"/>
+    <link href="http://www.zotero.org/styles/american-chemical-society" rel="template"/>
     <link href="http://www.slas.org/publications/scientific-journals/author-instructions/" rel="documentation"/>
     <link href="http://pubs.acs.org/doi/pdf/10.1021/bk-2006-STYG.ch014" rel="documentation"/>
     <author>
@@ -14,7 +14,7 @@
     <category citation-format="numeric"/>
     <category field="chemistry"/>
     <summary>The ACS style with 4/3 et-al</summary>
-    <updated>2015-03-19T06:02:46+00:00</updated>
+    <updated>2018-02-05T04:57:25+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <macro name="editor">

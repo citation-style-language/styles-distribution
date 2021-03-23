@@ -15,7 +15,7 @@
     </contributor>
     <category citation-format="numeric"/>
     <category field="medicine"/>
-    <updated>2014-11-30T18:46:46+00:00</updated>
+    <updated>2016-09-16T04:08:24+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="en">
@@ -32,7 +32,7 @@
   <macro name="author">
     <group suffix=" ">
       <names variable="author">
-        <name delimiter-precedes-last="always" et-al-use-first="5" initialize-with="" name-as-sort-order="all" sort-separator=" "/>
+        <name delimiter-precedes-last="always" initialize-with="" name-as-sort-order="all" sort-separator=" "/>
         <label form="short" prefix=", "/>
         <substitute>
           <names variable="editor"/>
@@ -82,7 +82,7 @@
       </group>
     </layout>
   </citation>
-  <bibliography hanging-indent="false" et-al-min="7" et-al-use-first="3" second-field-align="flush">
+  <bibliography hanging-indent="false" et-al-min="6" et-al-use-first="5" second-field-align="flush">
     <layout>
       <text variable="citation-number" suffix=". "/>
       <text macro="author"/>

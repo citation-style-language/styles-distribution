@@ -15,7 +15,7 @@
     <issn>0022-3042</issn>
     <eissn>1471-4159</eissn>
     <summary>Bibliographic style for Journal of Neurochemistry</summary>
-    <updated>2015-01-28T03:04:50+00:00</updated>
+    <updated>2018-05-22T00:59:23+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="en">
@@ -47,10 +47,7 @@
         <single>ed</single>
         <multiple>eds</multiple>
       </term>
-      <term name="translator" form="short">
-        <single>trans.</single>
-        <multiple>trans.</multiple>
-      </term>
+      <term name="translator" form="short">trans.</term>
       <!--DATE-->
       <term name="month-01">january</term>
       <term name="month-02">february</term>

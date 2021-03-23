@@ -13,7 +13,7 @@
     <category citation-format="note"/>
     <category field="theology"/>
     <summary>The Pontifical Biblical Institute (Pontificio Istituto Biblico) style</summary>
-    <updated>2014-05-29T23:47:59+00:00</updated>
+    <updated>2018-05-22T00:59:23+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale>
@@ -21,14 +21,8 @@
     <terms>
       <term name="et-al">et al.</term>
       <term name="ibid">ibidem</term>
-      <term name="editor" form="short">
-        <single>ed.</single>
-        <multiple>ed.</multiple>
-      </term>
-      <term name="collection-editor" form="short">
-        <single>ed.</single>
-        <multiple>ed.</multiple>
-      </term>
+      <term name="editor" form="short">ed.</term>
+      <term name="collection-editor" form="short">ed.</term>
       <term name="page-range-delimiter">-</term>
     </terms>
   </locale>

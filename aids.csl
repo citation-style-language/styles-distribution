@@ -21,7 +21,7 @@
     <issn>0269-9370</issn>
     <eissn>1473-5571</eissn>
     <summary>Vancouver style adapted for AIDS</summary>
-    <updated>2013-09-08T00:04:27+00:00</updated>
+    <updated>2019-08-29T17:57:01+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <macro name="author">
@@ -123,6 +123,9 @@
       <if type="book thesis" match="any">
         <text variable="title" font-style="italic"/>
       </if>
+      <else-if type="article-journal">
+        <text variable="title" font-weight="bold"/>
+      </else-if>
       <else>
         <text variable="title"/>
       </else>

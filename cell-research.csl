@@ -4,7 +4,7 @@
     <title>Cell Research</title>
     <id>http://www.zotero.org/styles/cell-research</id>
     <link href="http://www.zotero.org/styles/cell-research" rel="self"/>
-    <link href="http://www.zotero.org/styles/kidney-international" rel="template"/>
+    <link href="http://www.zotero.org/styles/american-medical-association" rel="template"/>
     <link href="http://mts-cr.nature.com/cgi-bin/main.plex?form_type=display_auth_instructions" rel="documentation"/>
     <author>
       <name>Sebastian Karcher</name>
@@ -13,7 +13,7 @@
     <category field="medicine"/>
     <issn>1001-0602</issn>
     <eissn>1748-7838</eissn>
-    <updated>2014-08-30T16:59:28+00:00</updated>
+    <updated>2019-12-18T15:00:21+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <macro name="editor">

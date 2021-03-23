@@ -13,7 +13,7 @@
     <category field="anthropology"/>
     <issn>1047-482X</issn>
     <eissn>1099-1212</eissn>
-    <updated>2015-08-09T02:13:24+00:00</updated>
+    <updated>2018-03-28T23:10:24+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <macro name="editor">
@@ -69,7 +69,7 @@
   </macro>
   <macro name="title">
     <choose>
-      <if type="book thesis">
+      <if type="book thesis" match="any">
         <text variable="title" font-style="italic"/>
       </if>
       <else>

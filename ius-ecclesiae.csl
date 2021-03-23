@@ -5,8 +5,8 @@
     <title-short>IusEcc</title-short>
     <id>http://www.zotero.org/styles/ius-ecclesiae</id>
     <link href="http://www.zotero.org/styles/ius-ecclesiae" rel="self"/>
-    <link href="http://iusecclesiae.pusc.it" rel="documentation"/>
     <link href="http://www.zotero.org/styles/acta-philosophica" rel="template"/>
+    <link href="http://iusecclesiae.pusc.it" rel="documentation"/>
     <author>
       <name>Thierry Sol</name>
       <email>t.sol@pusc.it</email>
@@ -17,27 +17,15 @@
     <eissn>1972-5671</eissn>
     <summary>Ius Ecclesiae journal’s citation style: footnotes citation style plus full bibliography (available customized locales:it,en,es,fr,de)</summary>
     <published>2016-05-30T00:00:00+00:00</published>
-    <updated>2016-05-31T13:37:28+00:00</updated>
+    <updated>2018-05-22T00:59:23+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="it">
     <terms>
-      <term name="editor" form="verb">
-        <single>curato da</single>
-        <multiple>curato da</multiple>
-      </term>
-      <term name="editor" form="short">
-        <single>a cura di</single>
-        <multiple>a cura di</multiple>
-      </term>
-      <term name="collection-editor" form="verb">
-        <single>curato da</single>
-        <multiple>curato da</multiple>
-      </term>
-      <term name="collection-editor" form="short">
-        <single>a cura di</single>
-        <multiple>a cura di</multiple>
-      </term>
+      <term name="editor" form="verb">curato da</term>
+      <term name="editor" form="short">a cura di</term>
+      <term name="collection-editor" form="verb">curato da</term>
+      <term name="collection-editor" form="short">a cura di</term>
       <term name="translator" form="short">
         <single>trad.</single>
         <multiple>tradd.</multiple>
@@ -62,18 +50,12 @@
   </locale>
   <locale xml:lang="en">
     <terms>
-      <term name="collection-editor" form="verb">
-        <single>edited by</single>
-        <multiple>edited by</multiple>
-      </term>
+      <term name="collection-editor" form="verb">edited by</term>
       <term name="collection-editor" form="short">
         <single>ed.</single>
         <multiple>eds.</multiple>
       </term>
-      <term name="editor" form="verb">
-        <single>edited by</single>
-        <multiple>edited by</multiple>
-      </term>
+      <term name="editor" form="verb">edited by</term>
       <term name="editor" form="short">
         <single>ed.</single>
         <multiple>eds.</multiple>
@@ -92,18 +74,12 @@
   </locale>
   <locale xml:lang="es">
     <terms>
-      <term name="collection-editor" form="verb">
-        <single>edición a cargo de</single>
-        <multiple>edición a cargo de</multiple>
-      </term>
+      <term name="collection-editor" form="verb">edición a cargo de</term>
       <term name="collection-editor" form="short">
         <single>ed.</single>
         <multiple>eds.</multiple>
       </term>
-      <term name="editor" form="verb">
-        <single>edición a cargo de</single>
-        <multiple>edición a cargo de</multiple>
-      </term>
+      <term name="editor" form="verb">edición a cargo de</term>
       <term name="editor" form="short">
         <single>ed.</single>
         <multiple>eds.</multiple>
@@ -132,38 +108,14 @@
   </locale>
   <locale xml:lang="fr">
     <terms>
-      <term name="editor" form="verb">
-        <single>édité par</single>
-        <multiple>édité par</multiple>
-      </term>
-      <term name="editor" form="short">
-        <single>éd.</single>
-        <multiple>éd.</multiple>
-      </term>
-      <term name="collection-editor" form="verb">
-        <single>dirigé par</single>
-        <multiple>dirigé par</multiple>
-      </term>
-      <term name="collection-editor" form="short">
-        <single>dir.</single>
-        <multiple>dir.</multiple>
-      </term>
-      <term name="translator" form="short">
-        <single>trad.</single>
-        <multiple>trad.</multiple>
-      </term>
-      <term name="volume" form="short">
-        <single>Vol.</single>
-        <multiple>Vol.</multiple>
-      </term>
-      <term name="page" form="short">
-        <single>p.</single>
-        <multiple>p.</multiple>
-      </term>
-      <term name="paragraph" form="short">
-        <single>§</single>
-        <multiple>§</multiple>
-      </term>
+      <term name="editor" form="verb">édité par</term>
+      <term name="editor" form="short">éd.</term>
+      <term name="collection-editor" form="verb">dirigé par</term>
+      <term name="collection-editor" form="short">dir.</term>
+      <term name="translator" form="short">trad.</term>
+      <term name="volume" form="short">Vol.</term>
+      <term name="page" form="short">p.</term>
+      <term name="paragraph" form="short">§</term>
       <term name="in">dans</term>
       <term name="cited" form="short">op. cit.</term>
       <term name="accessed" form="long">consulté le</term>
@@ -172,34 +124,19 @@
   </locale>
   <locale xml:lang="de">
     <terms>
-      <term name="editor" form="verb">
-        <single>herausgegeben von</single>
-        <multiple>herausgegeben von</multiple>
-      </term>
+      <term name="editor" form="verb">herausgegeben von</term>
       <term name="editor" form="short">
         <single>Hg.</single>
         <multiple>Hgg.</multiple>
       </term>
-      <term name="collection-editor" form="verb">
-        <single>herausgegeben von</single>
-        <multiple>herausgegeben von</multiple>
-      </term>
+      <term name="collection-editor" form="verb">herausgegeben von</term>
       <term name="collection-editor" form="short">
         <single>Hg.</single>
         <multiple>Hgg.</multiple>
       </term>
-      <term name="translator" form="short">
-        <single>Übers.</single>
-        <multiple>Übers.</multiple>
-      </term>
-      <term name="volume" form="short">
-        <single>Bd.</single>
-        <multiple>Bd.</multiple>
-      </term>
-      <term name="page" form="short">
-        <single>S.</single>
-        <multiple>S.</multiple>
-      </term>
+      <term name="translator" form="short">Übers.</term>
+      <term name="volume" form="short">Bd.</term>
+      <term name="page" form="short">S.</term>
       <term name="paragraph" form="short">
         <single>§</single>
         <multiple>§§</multiple>
@@ -226,7 +163,7 @@
       <substitute>
         <names variable="editor"/>
       </substitute>
-     </names>
+    </names>
   </macro>
   <macro name="editor">
     <names variable="editor">
@@ -534,7 +471,7 @@
       </choose>
     </layout>
   </citation>
-  <bibliography hanging-indent="true" subsequent-author-substitute="———" entry-spacing="0">
+  <bibliography hanging-indent="true" subsequent-author-substitute="&#8212;&#8212;&#8212;" entry-spacing="0">
     <sort>
       <key macro="author-sort"/>
       <key variable="issued"/>
@@ -599,7 +536,7 @@
         </else-if>
         <else-if type="chapter">
           <text macro="title"/>
-          <group delimiter=" " prefix=", " >
+          <group delimiter=" " prefix=", ">
             <text macro="editor-container-title"/>
             <text macro="series-title"/>
           </group>
@@ -632,7 +569,7 @@
           </choose>
           <choose>
             <if variable="page">
-               <text macro="pages"/>
+              <text macro="pages"/>
             </if>
           </choose>
           <text macro="urlref"/>

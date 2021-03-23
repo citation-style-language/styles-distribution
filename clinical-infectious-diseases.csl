@@ -21,7 +21,7 @@
     <issn>1058-4838</issn>
     <eissn>1537-6591</eissn>
     <summary>Style for the Oxford Journal Clinical Infectious Diseases. Followed Journal practice rather than styleguide.</summary>
-    <updated>2015-01-01T17:31:53+00:00</updated>
+    <updated>2018-02-23T13:51:33+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <macro name="author">
@@ -71,7 +71,7 @@
     <choose>
       <if type="article-journal article-magazine" match="any">
         <group suffix=" ">
-          <text variable="container-title" form="short"/>
+          <text variable="container-title" form="short" strip-periods="true"/>
         </group>
       </if>
       <else>

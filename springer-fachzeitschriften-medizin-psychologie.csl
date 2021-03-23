@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <style xmlns="http://purl.org/net/xbiblio/csl" class="in-text" version="1.0" demote-non-dropping-particle="sort-only" default-locale="de-DE">
   <info>
-    <title>Springer Fachzeitschriften Medizin Psychologie (German)</title>
+    <title>Springer - Fachzeitschriften Medizin Psychologie (German)</title>
     <id>http://www.zotero.org/styles/springer-fachzeitschriften-medizin-psychologie</id>
     <link href="http://www.zotero.org/styles/springer-fachzeitschriften-medizin-psychologie" rel="self"/>
     <link href="http://www.zotero.org/styles/springer-basic-brackets-no-et-al-alphabetical" rel="template"/>
@@ -15,7 +15,7 @@
     <category field="medicine"/>
     <category field="psychology"/>
     <summary>Springer Basic style (German, numeric, brackets, alphabetical) for Springer journals in medicine and psychology.</summary>
-    <updated>2015-06-09T06:27:43+00:00</updated>
+    <updated>2019-10-01T00:21:45+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="de">
@@ -112,10 +112,10 @@
             </if>
             <else>
               <group>
-                <text variable="container-title" suffix=" " form="short" strip-periods="true"/>
-                <text variable="volume" suffix=":"/>
-                <text variable="page" suffix="."/>
-                <text prefix=" doi: " variable="DOI"/>
+                <text variable="container-title" form="short" strip-periods="true"/>
+                <text variable="volume" prefix=" "/>
+                <text variable="page" prefix=":"/>
+                <text prefix=". https://doi.org/" variable="DOI"/>
               </group>
             </else>
           </choose>
@@ -123,7 +123,7 @@
         <else-if variable="DOI">
           <group delimiter=". ">
             <text variable="container-title" form="short" strip-periods="true"/>
-            <text prefix="doi: " variable="DOI"/>
+            <text prefix="https://doi.org/" variable="DOI"/>
           </group>
         </else-if>
         <else-if type="bill book graphic legal_case legislation motion_picture report song" match="any">

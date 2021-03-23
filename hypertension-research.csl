@@ -6,12 +6,15 @@
     <link href="http://www.zotero.org/styles/hypertension-research" rel="self"/>
     <link href="http://www.zotero.org/styles/journal-of-hypertension" rel="template"/>
     <link href="http://mc.manuscriptcentral.com/societyimages/htr/HR_GTA.pdf" rel="documentation"/>
+    <author>
+      <name>Sebastian Karcher</name>
+    </author>
     <category citation-format="numeric"/>
     <category field="biology"/>
     <category field="medicine"/>
     <issn>0916-9636</issn>
     <eissn>1348-4214</eissn>
-    <updated>2014-12-05T04:18:39+00:00</updated>
+    <updated>2016-12-21T05:18:06+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <macro name="author">

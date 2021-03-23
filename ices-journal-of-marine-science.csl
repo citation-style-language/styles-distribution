@@ -14,7 +14,7 @@
     <category field="biology"/>
     <issn>1054-3139</issn>
     <eissn>1095-9289</eissn>
-    <updated>2014-09-06T22:02:33+00:00</updated>
+    <updated>2016-11-04T12:44:59+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale>
@@ -192,8 +192,8 @@
   </macro>
   <citation et-al-min="3" et-al-use-first="1" disambiguate-add-year-suffix="true" collapse="year">
     <sort>
+      <key macro="issued-year"/>
       <key macro="author"/>
-      <key variable="issued"/>
     </sort>
     <layout prefix="(" suffix=")" delimiter="; ">
       <group delimiter=", ">
@@ -203,9 +203,9 @@
       </group>
     </layout>
   </citation>
-  <bibliography hanging-indent="true" et-al-min="7" et-al-use-first="7" entry-spacing="0">
+  <bibliography hanging-indent="true" et-al-min="8" et-al-use-first="7" entry-spacing="0">
     <sort>
-      <key macro="author"/>
+      <key macro="author" names-min="1" names-use-first="1"/>
       <key variable="issued"/>
     </sort>
     <layout suffix=".">

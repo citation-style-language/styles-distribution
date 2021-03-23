@@ -4,7 +4,6 @@
     <title>Veterinary Record</title>
     <id>http://www.zotero.org/styles/veterinary-record</id>
     <link href="http://www.zotero.org/styles/veterinary-record" rel="self"/>
-    <link href="http://www.zotero.org/styles/fish-and-fisheries" rel="template"/>
     <link href="http://veterinaryrecord.bmj.com/" rel="documentation"/>
     <author>
       <name>Sebastian Karcher</name>
@@ -13,7 +12,7 @@
     <category field="medicine"/>
     <issn>2042-7670</issn>
     <summary>Style for the BMJ Veterinary Record journals</summary>
-    <updated>2014-08-30T16:59:28+00:00</updated>
+    <updated>2018-12-28T14:46:46+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <macro name="editor">

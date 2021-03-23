@@ -5,14 +5,17 @@
     <id>http://www.zotero.org/styles/the-geological-society-of-london</id>
     <link href="http://www.zotero.org/styles/the-geological-society-of-london" rel="self"/>
     <link href="http://www.zotero.org/styles/antarctic-science" rel="template"/>
-    <link href="http://www.geolsoc.org.uk/Publications/Instructions-for-Authors/Text#Ref%20List" rel="documentation"/>
+    <link href="https://www.geolsoc.org.uk/~/media/Files/GSL/shared/pdfs/Publications/AuthorInfo_Text.pdf" rel="documentation"/>
     <author>
       <name>Sebastian Karcher</name>
     </author>
+    <contributor>
+      <name>Maxine Smith</name>
+    </contributor>
     <category citation-format="author-date"/>
-    <category field="geography"/>
-    <summary>Parent style for the Journals published by The Geological Society (London)</summary>
-    <updated>2014-08-28T01:36:46+00:00</updated>
+    <category field="geology"/>
+    <summary>Parent style for the Journals and Books published by The Geological Society (London); details provided by publisher</summary>
+    <updated>2020-05-01T04:32:28+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="en-GB">
@@ -25,17 +28,13 @@
   </locale>
   <macro name="editor">
     <names variable="editor" delimiter=", ">
-      <name and="symbol" initialize-with=". " delimiter=", " sort-separator=", " name-as-sort-order="all" delimiter-precedes-last="never"/>
+      <name and="text" initialize-with=". " delimiter=", " sort-separator=", " name-as-sort-order="all" delimiter-precedes-last="never"/>
       <label form="short" prefix=" (" suffix=")"/>
     </names>
   </macro>
   <macro name="author">
     <names variable="author">
-      <name name-as-sort-order="all" and="symbol" sort-separator=", " initialize-with="." delimiter-precedes-last="never" delimiter=", ">
-        <name-part name="family" font-variant="small-caps"/>
-        <name-part name="given" font-variant="small-caps"/>
-      </name>
-      <et-al font-variant="small-caps"/>
+      <name name-as-sort-order="all" and="text" sort-separator=", " initialize-with="." delimiter-precedes-last="never" delimiter=", "/>
       <label form="short" prefix=" (" suffix=")"/>
       <substitute>
         <names variable="editor"/>
@@ -54,7 +53,7 @@
   </macro>
   <macro name="author-short">
     <names variable="author">
-      <name form="short" and="symbol" delimiter=", " delimiter-precedes-last="never"/>
+      <name form="short" and="text" delimiter=", " delimiter-precedes-last="never"/>
       <et-al font-style="italic"/>
       <substitute>
         <names variable="editor"/>
@@ -66,10 +65,10 @@
   <macro name="access">
     <choose>
       <if variable="DOI" match="any">
-        <text variable="DOI" prefix=", doi: "/>
+        <text variable="DOI" prefix=", https://doi.org/"/>
       </if>
       <else-if variable="URL" type="webpage" match="all">
-        <text variable="URL" prefix=". World Wide Web Address: "/>
+        <text variable="URL"/>
       </else-if>
     </choose>
   </macro>
@@ -86,16 +85,12 @@
   <macro name="publisher">
     <choose>
       <if type="thesis" match="none">
-        <group delimiter=", ">
-          <text variable="publisher-place"/>
-          <text variable="publisher"/>
-          <group delimiter=" ">
-            <text variable="genre"/>
-            <text variable="number" font-weight="bold"/>
-          </group>
-          <text variable="collection-title"/>
-          <text variable="collection-number" font-weight="bold"/>
+        <group delimiter=" ">
+          <text variable="genre"/>
+          <text variable="number" font-weight="bold"/>
         </group>
+        <text variable="collection-title"/>
+        <text variable="collection-number" font-weight="bold"/>
       </if>
     </choose>
   </macro>
@@ -145,8 +140,12 @@
       </else>
     </choose>
   </macro>
-  <citation et-al-min="3" et-al-use-first="1" disambiguate-add-year-suffix="true" disambiguate-add-givenname="true">
-    <layout prefix="(" suffix=")" delimiter=", ">
+  <citation et-al-min="3" et-al-use-first="1" disambiguate-add-year-suffix="true" collapse="year-suffix" cite-group-delimiter=", ">
+    <sort>
+      <key macro="year-date"/>
+      <key macro="author-short"/>
+    </sort>
+    <layout prefix="(" suffix=")" delimiter="; ">
       <group delimiter=", ">
         <group delimiter=" ">
           <text macro="author-short"/>

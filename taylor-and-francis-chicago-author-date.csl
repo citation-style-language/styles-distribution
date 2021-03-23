@@ -11,7 +11,7 @@
     </author>
     <category citation-format="author-date"/>
     <category field="generic-base"/>
-    <updated>2015-08-27T17:00:17+00:00</updated>
+    <updated>2018-05-22T00:59:23+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="en">
@@ -19,10 +19,7 @@
       <term name="editor" form="verb-short">ed.</term>
       <term name="container-author" form="verb">by</term>
       <term name="translator" form="verb-short">trans.</term>
-      <term name="editortranslator" form="verb">
-        <single>edited and translated by</single>
-        <multiple>edited and translated by</multiple>
-      </term>
+      <term name="editortranslator" form="verb">edited and translated by</term>
       <term name="translator" form="short">trans.</term>
     </terms>
   </locale>

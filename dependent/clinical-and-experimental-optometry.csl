@@ -4,13 +4,13 @@
     <title>Clinical and Experimental Optometry</title>
     <id>http://www.zotero.org/styles/clinical-and-experimental-optometry</id>
     <link href="http://www.zotero.org/styles/clinical-and-experimental-optometry" rel="self"/>
-    <link href="http://www.zotero.org/styles/vancouver-superscript" rel="independent-parent"/>
-    <link href="http://www.blackwellpublishing.com/pdf/CXO_Author_Guidelines.pdf" rel="documentation"/>
+    <link href="http://www.zotero.org/styles/sage-vancouver" rel="independent-parent"/>
+    <link href="https://onlinelibrary.wiley.com/page/journal/14440938/homepage/ForAuthors.html" rel="documentation"/>
     <category citation-format="numeric"/>
     <category field="medicine"/>
     <issn>0816-4622</issn>
     <eissn>1444-0938</eissn>
-    <updated>2013-03-29T23:50:45+00:00</updated>
+    <updated>2020-02-01T02:06:29+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
 </style>

@@ -16,7 +16,7 @@
     <issn>1042-3680</issn>
     <eissn>1558-1349</eissn>
     <summary>A style for some Elsevier journals, resembles Vancouver style</summary>
-    <updated>2015-03-19T02:36:13+00:00</updated>
+    <updated>2016-10-01T16:33:54+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <macro name="access">
@@ -116,8 +116,8 @@
     <sort>
       <key variable="citation-number" sort="ascending"/>
     </sort>
-    <layout delimiter=",">
-      <text variable="citation-number" vertical-align="sup"/>
+    <layout delimiter="," vertical-align="sup">
+      <text variable="citation-number"/>
     </layout>
   </citation>
   <bibliography entry-spacing="0" second-field-align="flush" et-al-min="4" et-al-use-first="3">

@@ -16,17 +16,14 @@
     <category field="sociology"/>
     <issn>0340-918X</issn>
     <eissn>1862-2550</eissn>
-    <updated>2014-09-13T22:01:31+00:00</updated>
+    <updated>2018-05-22T00:59:23+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="de">
     <terms>
       <term name="et-al">et al.</term>
       <term name="and">und</term>
-      <term name="editor" form="short">
-        <single>hg.</single>
-        <multiple>hg.</multiple>
-      </term>
+      <term name="editor" form="short">hg.</term>
     </terms>
   </locale>
   <macro name="container-contributors">

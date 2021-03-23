@@ -21,7 +21,7 @@
     <category field="anthropology"/>
     <category field="history"/>
     <summary>Estilo de citas de la Escuela Nacional de Antropología e Historia -- variante nota corta</summary>
-    <updated>2016-05-01T18:00:47+00:00</updated>
+    <updated>2018-03-31T04:01:14+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <!--  Colaboradores secundarios (editor, coord., o traductor)-->
@@ -310,7 +310,7 @@
   <!-- Título del contenedor -->
   <macro name="container-title">
     <choose>
-      <if type="chapter paper-conference">
+      <if type="chapter paper-conference" match="any">
         <text term="in" text-case="lowercase" prefix=", " suffix=" "/>
       </if>
     </choose>
@@ -487,12 +487,12 @@
               <if disambiguate="true">
                 <text macro="title-short" prefix=". "/>
                 <choose>
-                  <if type="article-journal article-magazine article-newspaper " match="none">
+                  <if type="article-journal article-magazine article-newspaper" match="none">
                     <text macro="locators-title" suffix=""/>
                   </if>
                 </choose>
                 <choose>
-                  <if type="article-journal article-magazine article-newspaper " match="any">
+                  <if type="article-journal article-magazine article-newspaper" match="any">
                     <text value="art.&#160;cit." prefix=", "/>
                   </if>
                   <else>
@@ -502,7 +502,7 @@
               </if>
               <else>
                 <choose>
-                  <if type="article-journal article-magazine article-newspaper " match="any">
+                  <if type="article-journal article-magazine article-newspaper" match="any">
                     <text value="art.&#160;cit." prefix=", "/>
                   </if>
                   <else>

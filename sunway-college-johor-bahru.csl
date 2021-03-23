@@ -28,7 +28,7 @@ TO DO
 
 -->
   <info>
-    <title>Sunway College Johor Bahru (Harvard)</title>
+    <title>Sunway College Johor Bahru - Harvard</title>
     <title-short>SYCJB</title-short>
     <id>http://www.zotero.org/styles/sunway-college-johor-bahru</id>
     <link href="http://www.zotero.org/styles/sunway-college-johor-bahru" rel="self"/>
@@ -40,7 +40,7 @@ TO DO
     <category citation-format="author-date"/>
     <category field="generic-base"/>
     <summary>Sunway College Johor Bahru style based on the May 2015 version of the style guide titled Harvard referencing guide SCJB</summary>
-    <updated>2015-12-16T02:35:11+00:00</updated>
+    <updated>2017-07-03T03:48:18+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="en">
@@ -306,7 +306,7 @@ TO DO
       </group>
     </layout>
   </citation>
-  <bibliography et-al-min="99" et-al-use-first="99" hanging-indent="false" entry-spacing="1" line-spacing="1" subsequent-author-substitute="―" subsequent-author-substitute-rule="complete-all">
+  <bibliography et-al-min="99" et-al-use-first="98" hanging-indent="false" entry-spacing="1" line-spacing="1" subsequent-author-substitute="―" subsequent-author-substitute-rule="complete-all">
     <sort>
       <key macro="author"/>
       <key macro="year-date"/>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <style xmlns="http://purl.org/net/xbiblio/csl" class="in-text" version="1.0" demote-non-dropping-particle="never">
   <info>
-    <title>Springer SocPsych (author-date)</title>
+    <title>Springer - SocPsych (author-date)</title>
     <id>http://www.zotero.org/styles/springer-socpsych-author-date</id>
     <link href="http://www.zotero.org/styles/springer-socpsych-author-date" rel="self"/>
     <link href="http://www.zotero.org/styles/apa" rel="template"/>
@@ -18,7 +18,7 @@
     <category field="psychology"/>
     <category field="generic-base"/>
     <summary>This style corresponds to 'Springer SocPsych' in the pdf document 'Key Style Points' at this url</summary>
-    <updated>2015-07-25T10:57:36+00:00</updated>
+    <updated>2019-10-01T00:21:45+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="en">
@@ -32,16 +32,13 @@
         <single>ed. &amp; trans.</single>
         <multiple>eds. &amp; trans.</multiple>
       </term>
-      <term name="translator" form="short">
-        <single>trans.</single>
-        <multiple>trans.</multiple>
-      </term>
+      <term name="translator" form="short">trans.</term>
     </terms>
   </locale>
   <locale xml:lang="de">
     <terms>
-      <term name="et-al">et al</term>
-      <term name="accessed" form="long">Zugegriffen:</term>
+      <term name="et-al">et al.</term>
+      <term name="accessed" form="long">zugegriffen:</term>
     </terms>
   </locale>
   <macro name="container-contributors">
@@ -128,7 +125,7 @@
       <else>
         <choose>
           <if variable="DOI">
-            <text variable="DOI" prefix="doi:"/>
+            <text variable="DOI" prefix="https://doi.org/"/>
           </if>
           <else>
             <group delimiter=". ">

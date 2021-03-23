@@ -15,24 +15,15 @@
     <issn>0963-9462</issn>
     <eissn>1468-0254</eissn>
     <summary>Style for the journal Early Medieval Europe.  There is an issue with page-range format in the locator, which can be fixed but breaks validation for CSL 1.0.  Until the CSL schema is updated, you can fix it yourself by following the instructions here: http://forums.zotero.org/discussion/22752/#Comment_122034.</summary>
-    <updated>2014-09-14T13:59:27+00:00</updated>
+    <updated>2018-05-22T00:59:23+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="en">
     <style-options punctuation-in-quote="false"/>
     <terms>
-      <term name="translator" form="short">
-        <single>trans.</single>
-        <multiple>trans.</multiple>
-      </term>
-      <term name="editortranslator" form="short">
-        <single>ed. and trans.</single>
-        <multiple>ed. and trans.</multiple>
-      </term>
-      <term name="chapter" form="short">
-        <single>c.</single>
-        <multiple>c.</multiple>
-      </term>
+      <term name="translator" form="short">trans.</term>
+      <term name="editortranslator" form="short">ed. and trans.</term>
+      <term name="chapter" form="short">c.</term>
       <term name="open-quote">‘</term>
       <term name="close-quote">’</term>
       <term name="open-inner-quote">“</term>

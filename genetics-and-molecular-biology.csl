@@ -15,7 +15,7 @@
     <issn>1415-4757</issn>
     <eissn>1678-4685</eissn>
     <summary>Genetics and Molecular Biology (formerly named Revista Brasileira de Genética/Brazilian Journal of Genetics - ISSN 0100-8455) is published by the Sociedade Brasileira de Genética (Brazilian Society of Genetics).</summary>
-    <updated>2014-08-21T15:40:50+00:00</updated>
+    <updated>2017-07-03T03:48:18+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <macro name="author-short">
@@ -91,7 +91,7 @@
       </group>
     </layout>
   </citation>
-  <bibliography et-al-min="10" et-al-use-first="10">
+  <bibliography et-al-min="11" et-al-use-first="10">
     <sort>
       <key macro="author"/>
       <key variable="author" sort="ascending"/>

@@ -14,7 +14,7 @@
     </author>
     <category citation-format="note"/>
     <category field="social_science"/>
-    <updated>2014-08-30T16:59:28+00:00</updated>
+    <updated>2018-05-22T00:59:23+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="de">
@@ -24,14 +24,8 @@
       <term name="retrieved">zugegriffen am</term>
       <term name="accessed">Zugriff:</term>
       <term name="ibid">ebenda</term>
-      <term name="page" form="short">
-        <single>S.</single>
-        <multiple>S.</multiple>
-      </term>
-      <term name="section" form="short">
-        <single>Abs.</single>
-        <multiple>Abs.</multiple>
-      </term>
+      <term name="page" form="short">S.</term>
+      <term name="section" form="short">Abs.</term>
     </terms>
   </locale>
   <!--
@@ -176,7 +170,7 @@
       </choose>
     </layout>
   </citation>
-  <bibliography et-al-min="3" et-al-use-first="20" hanging-indent="true">
+  <bibliography hanging-indent="true">
     <sort>
       <key macro="author"/>
       <key macro="date"/>

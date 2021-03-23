@@ -12,7 +12,7 @@
     </author>
     <category citation-format="note"/>
     <category field="law"/>
-    <updated>2015-08-09T02:13:24+00:00</updated>
+    <updated>2017-07-03T03:48:18+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale>
@@ -286,7 +286,7 @@
       </choose>
     </layout>
   </citation>
-  <bibliography hanging-indent="true" et-al-min="6" et-al-use-first="6">
+  <bibliography hanging-indent="true" et-al-min="7" et-al-use-first="6">
     <sort>
       <key macro="author-bibliography"/>
       <key variable="title"/>

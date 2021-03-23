@@ -21,7 +21,7 @@
     <category citation-format="note"/>
     <category field="theology"/>
     <summary>Moore Theological College format with full notes and bibliography</summary>
-    <updated>2015-01-01T23:37:43+00:00</updated>
+    <updated>2017-07-03T03:48:18+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale>
@@ -677,7 +677,7 @@
       </choose>
     </layout>
   </citation>
-  <bibliography hanging-indent="true" et-al-min="6" et-al-use-first="6" subsequent-author-substitute="_____" entry-spacing="0">
+  <bibliography hanging-indent="true" et-al-min="7" et-al-use-first="6" subsequent-author-substitute="_____" entry-spacing="0">
     <sort>
       <key macro="sort-key"/>
     </sort>

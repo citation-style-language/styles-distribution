@@ -5,7 +5,7 @@
     <id>http://www.zotero.org/styles/radiology</id>
     <link href="http://www.zotero.org/styles/radiology" rel="self"/>
     <link href="http://www.zotero.org/styles/vancouver" rel="template"/>
-    <link href="http://radiology.rsna.org/site/pia/manprep12.xhtml" rel="documentation"/>
+    <link href="https://pubs.rsna.org/page/radiology/author-instructions#references" rel="documentation"/>
     <author>
       <name>Adam Tunis</name>
       <email>atunis@gmail.com</email>
@@ -14,7 +14,7 @@
     <category field="medicine"/>
     <issn>0033-8419</issn>
     <eissn>1527-1315</eissn>
-    <updated>2016-06-03T19:56:53+00:00</updated>
+    <updated>2020-11-23T14:58:38+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="en">
@@ -60,12 +60,15 @@
   </macro>
   <macro name="access">
     <choose>
-      <if variable="URL">
+      <if variable="DOI">
+        <text variable="DOI" prefix="doi: "/>
+      </if>
+      <else-if variable="URL">
         <group delimiter=". ">
           <text variable="URL"/>
           <text macro="accessed-date"/>
         </group>
-      </if>
+      </else-if>
     </choose>
   </macro>
   <macro name="accessed-date">
@@ -206,18 +209,20 @@
         <text macro="author"/>
         <text macro="title"/>
       </group>
-      <group delimiter=". " suffix=". ">
+      <group delimiter=". ">
         <text macro="editor"/>
         <text macro="container-title"/>
         <text macro="publisher"/>
+        <group>
+          <text macro="date"/>
+          <text macro="journal-location"/>
+          <text macro="pages"/>
+        </group>
       </group>
-      <group>
-        <text macro="date"/>
-        <text macro="journal-location"/>
-        <text macro="pages"/>
+      <group prefix=". " delimiter=". ">
+        <text macro="report-details"/>
+        <text macro="access"/>
       </group>
-      <text macro="report-details" suffix=". "/>
-      <text macro="access"/>
     </layout>
   </bibliography>
 </style>
