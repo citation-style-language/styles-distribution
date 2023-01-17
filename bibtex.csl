@@ -143,7 +143,7 @@
       <text macro="zotero2bibtexType" prefix=" @"/>
       <group prefix="{" suffix=" }" delimiter=", ">
         <text macro="citeKey"/>
-        <text variable="publisher-place" prefix=" place={" suffix="}"/>
+        <text variable="publisher-place" prefix=" address={" suffix="}"/>
         <!--Fix This-->
         <text variable="chapter-number" prefix=" chapter={" suffix="}"/>
         <!--Fix This-->
